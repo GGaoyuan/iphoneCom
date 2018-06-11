@@ -15,6 +15,8 @@
 		309C314A20B7F28A00E57420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309C314920B7F28A00E57420 /* main.m */; };
 		309C315420B7F28A00E57420 /* iphoneComTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309C315320B7F28A00E57420 /* iphoneComTests.m */; };
 		309C315F20B7F28A00E57420 /* iphoneComUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309C315E20B7F28A00E57420 /* iphoneComUITests.m */; };
+		309C316F20BBBC4800E57420 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 309C316E20BBBC4800E57420 /* YDAlertView.m */; };
+		309C317220BBBC7A00E57420 /* YDAlertChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309C317120BBBC7A00E57420 /* YDAlertChainController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		309C315A20B7F28A00E57420 /* iphoneComUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iphoneComUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		309C315E20B7F28A00E57420 /* iphoneComUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iphoneComUITests.m; sourceTree = "<group>"; };
 		309C316020B7F28A00E57420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309C316D20BBBC4800E57420 /* YDAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertView.h; sourceTree = "<group>"; };
+		309C316E20BBBC4800E57420 /* YDAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
+		309C317020BBBC7A00E57420 /* YDAlertChainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAlertChainController.h; sourceTree = "<group>"; };
+		309C317120BBBC7A00E57420 /* YDAlertChainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAlertChainController.m; sourceTree = "<group>"; };
+		30F6E0FE20CE4E5000DD89FE /* YDMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,7 @@
 		309C313920B7F28700E57420 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
+				309C316C20BBBBFB00E57420 /* YDTools */,
 				309C313A20B7F28700E57420 /* AppDelegate.h */,
 				309C313B20B7F28700E57420 /* AppDelegate.m */,
 				309C313D20B7F28700E57420 /* ViewController.h */,
@@ -130,6 +138,26 @@
 				309C316020B7F28A00E57420 /* Info.plist */,
 			);
 			path = iphoneComUITests;
+			sourceTree = "<group>";
+		};
+		309C316C20BBBBFB00E57420 /* YDTools */ = {
+			isa = PBXGroup;
+			children = (
+				30F6E0FC20CE4CD000DD89FE /* YDAlertView */,
+				30F6E0FE20CE4E5000DD89FE /* YDMacro.h */,
+			);
+			path = YDTools;
+			sourceTree = "<group>";
+		};
+		30F6E0FC20CE4CD000DD89FE /* YDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				309C316D20BBBC4800E57420 /* YDAlertView.h */,
+				309C316E20BBBC4800E57420 /* YDAlertView.m */,
+				309C317020BBBC7A00E57420 /* YDAlertChainController.h */,
+				309C317120BBBC7A00E57420 /* YDAlertChainController.m */,
+			);
+			path = YDAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309C316F20BBBC4800E57420 /* YDAlertView.m in Sources */,
 				309C313F20B7F28700E57420 /* ViewController.m in Sources */,
 				309C314A20B7F28A00E57420 /* main.m in Sources */,
+				309C317220BBBC7A00E57420 /* YDAlertChainController.m in Sources */,
 				309C313C20B7F28700E57420 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
