@@ -2,17 +2,13 @@
 //  ViewController.m
 //  iphoneCom
 //
-//  Created by gaoyuan on 2018/5/25.
+//  Created by gaoyuan on 2018/6/20.
 //  Copyright © 2018年 gaoyuan. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "YDAlertChainController.h"
-#import "YDMacro.h"
 
 @interface ViewController ()
-
-@property (nonatomic, strong) UIButton *button;
 
 @end
 
@@ -20,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    // Do any additional setup after loading the view, typically from a nib.
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 
