@@ -1,22 +1,24 @@
 //
-//  AlgorithmEntrance.m
+//  RootNavigationController.m
 //  iphoneCom
 //
 //  Created by gaoyuan on 2018/6/25.
 //  Copyright © 2018年 gaoyuan. All rights reserved.
 //
 
-#import "AlgorithmEntrance.h"
+#import "BaseNavigationController.h"
 
-@interface AlgorithmEntrance ()
+@interface BaseNavigationController ()
 
 @end
 
-@implementation AlgorithmEntrance
+@implementation BaseNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"4TH";
+    
+    
+    
 }
 
 @end

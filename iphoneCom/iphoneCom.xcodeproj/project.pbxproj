@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA96920DA358900C58F34 /* AppDelegate.m */; };
-		30BAA96D20DA358900C58F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA96C20DA358900C58F34 /* ViewController.m */; };
-		30BAA97020DA358900C58F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA96E20DA358900C58F34 /* Main.storyboard */; };
 		30BAA97220DA358C00C58F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97120DA358C00C58F34 /* Assets.xcassets */; };
 		30BAA97520DA358C00C58F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97320DA358C00C58F34 /* LaunchScreen.storyboard */; };
 		30BAA97820DA358C00C58F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA97720DA358C00C58F34 /* main.m */; };
@@ -19,6 +17,8 @@
 		30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A720E0C8750071A9B8 /* YDAlertView.m */; };
 		30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */; };
 		30FB38B520E0E9F70071A9B8 /* AlgMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B420E0E9F70071A9B8 /* AlgMergeSort.m */; };
+		30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B820E0EAD10071A9B8 /* BaseNavigationController.m */; };
+		30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38BC20E0EB5D0071A9B8 /* YDHomeViewController.m */; };
 		E8A678AEEF79E1AB5FEE0F8B /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130F2C758C6E4D64F882CF40 /* libPods-iphoneCom.a */; };
 /* End PBXBuildFile section */
 
@@ -46,9 +46,6 @@
 		30BAA96520DA358900C58F34 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA96820DA358900C58F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30BAA96920DA358900C58F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30BAA96B20DA358900C58F34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		30BAA96C20DA358900C58F34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		30BAA96F20DA358900C58F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30BAA97120DA358C00C58F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30BAA97420DA358C00C58F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30BAA97620DA358C00C58F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +65,10 @@
 		30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmEntrance.m; sourceTree = "<group>"; };
 		30FB38B320E0E9F70071A9B8 /* AlgMergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgMergeSort.h; sourceTree = "<group>"; };
 		30FB38B420E0E9F70071A9B8 /* AlgMergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgMergeSort.m; sourceTree = "<group>"; };
+		30FB38B720E0EAD10071A9B8 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		30FB38B820E0EAD10071A9B8 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		30FB38BB20E0EB5D0071A9B8 /* YDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHomeViewController.h; sourceTree = "<group>"; };
+		30FB38BC20E0EB5D0071A9B8 /* YDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,12 +131,11 @@
 			isa = PBXGroup;
 			children = (
 				30FB38AD20E0E9430071A9B8 /* Algorithm */,
+				30FB38B620E0EAB70071A9B8 /* Base */,
+				30FB38BA20E0EB370071A9B8 /* Home */,
 				30FB38A420E0C8750071A9B8 /* YDTools */,
 				30BAA96820DA358900C58F34 /* AppDelegate.h */,
 				30BAA96920DA358900C58F34 /* AppDelegate.m */,
-				30BAA96B20DA358900C58F34 /* ViewController.h */,
-				30BAA96C20DA358900C58F34 /* ViewController.m */,
-				30BAA96E20DA358900C58F34 /* Main.storyboard */,
 				30BAA97120DA358C00C58F34 /* Assets.xcassets */,
 				30BAA97320DA358C00C58F34 /* LaunchScreen.storyboard */,
 				30BAA97620DA358C00C58F34 /* Info.plist */,
@@ -207,6 +207,24 @@
 			children = (
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		30FB38B620E0EAB70071A9B8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				30FB38B720E0EAD10071A9B8 /* BaseNavigationController.h */,
+				30FB38B820E0EAD10071A9B8 /* BaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		30FB38BA20E0EB370071A9B8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30FB38BB20E0EB5D0071A9B8 /* YDHomeViewController.h */,
+				30FB38BC20E0EB5D0071A9B8 /* YDHomeViewController.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		4302274D7821BB6AC463D22B /* Pods */ = {
@@ -324,7 +342,6 @@
 			files = (
 				30BAA97520DA358C00C58F34 /* LaunchScreen.storyboard in Resources */,
 				30BAA97220DA358C00C58F34 /* Assets.xcassets in Resources */,
-				30BAA97020DA358900C58F34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,12 +387,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30BAA96D20DA358900C58F34 /* ViewController.m in Sources */,
 				30BAA97820DA358C00C58F34 /* main.m in Sources */,
 				30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */,
 				30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */,
 				30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */,
+				30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */,
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
+				30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */,
 				30FB38B520E0E9F70071A9B8 /* AlgMergeSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,14 +430,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		30BAA96E20DA358900C58F34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30BAA96F20DA358900C58F34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30BAA97320DA358C00C58F34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

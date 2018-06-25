@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BaseNavigationController.h"
+#import "YDHomeViewController.h"
+#import "AlgorithmEntrance.h"
 @interface AppDelegate ()
 
 @end
@@ -16,9 +18,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    [self initHomeViewController];
+    [self initAlgorithmController];
     return YES;
 }
+
+- (void)initHomeViewController {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    YDHomeViewController *homeViewController = [[YDHomeViewController alloc] init];
+    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:homeViewController];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];
+    
+}
+
+- (void)initAlgorithmController {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    AlgorithmEntrance *algorithmEntrance = [[AlgorithmEntrance alloc] init];
+    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:algorithmEntrance];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];
+}
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
