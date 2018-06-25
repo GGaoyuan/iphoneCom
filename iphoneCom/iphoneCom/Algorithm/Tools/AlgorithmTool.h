@@ -12,5 +12,6 @@
 
 + (void)calculateAlgorithmTime:(void(^)(void))algorithm;
 
++ (void)show:(NSArray *)array;
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "AlgorithmEntrance.h"
-#import "AlgorithmTool.h"
+#import "AlgMergeSort.h"
 
 @interface AlgorithmEntrance ()
 
@@ -19,14 +19,9 @@
     [super viewDidLoad];
     self.title = @"4TH";
     
-    
-    [AlgorithmTool calculateAlgorithmTime:^{
-        for (NSInteger i = 0; i < 1000000000; i ++) {
-            int i = 0;
-            i = i + 1;
-        }
-    }];
-    
+//    NSMutableArray *datas = @[@(2),@(5),@(1),@(3),@(0),@(6),@(4),@(9),@(7),@(10),@(8)].mutableCopy;
+    NSMutableArray *datas = @[@"M",@"E",@"R",@"G",@"E",@"S",@"O",@"R",@"T",@"E",@"X",@"A",@"M",@"P",@"L",@"E"].mutableCopy;
+    [AlgMergeSort sort:datas];
 }
 
 @end

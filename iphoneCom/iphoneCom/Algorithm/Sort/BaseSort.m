@@ -1,5 +1,5 @@
 //
-//  AlgMergeSort.h
+//  BaseSort.m
 //  iphoneCom
 //
 //  Created by gaoyuan on 2018/6/25.
@@ -8,8 +8,6 @@
 
 #import "BaseSort.h"
 
-@interface AlgMergeSort : BaseSort
-
-+ (void)sort:(NSMutableArray *)array;
+@implementation BaseSort
 
 @end

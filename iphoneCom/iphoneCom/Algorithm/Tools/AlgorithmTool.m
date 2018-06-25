@@ -19,4 +19,20 @@
     NSLog(@"Algorithm Spend Time %f ms", linkTime *1000.0);
 }
 
++ (void)show:(NSArray *)array {
+    NSString *result = @"";
+    for (NSInteger i = 0; i < array.count; i++) {
+        if ([array[i] isKindOfClass:[NSString class]]) {
+            result = [result stringByAppendingString:array[i]];
+            result = [result stringByAppendingString:@","];
+        }
+        else {
+            NSString *temp = [array[i] stringValue];
+            result = [result stringByAppendingString:temp];
+            result = [result stringByAppendingString:@","];
+        }
+    }
+    NSLog(@"%@",result);
+}
+
 @end
