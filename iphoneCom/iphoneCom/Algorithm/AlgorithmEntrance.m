@@ -7,6 +7,7 @@
 //
 
 #import "AlgorithmEntrance.h"
+#import "AlgorithmTool.h"
 
 @interface AlgorithmEntrance ()
 
@@ -17,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"4TH";
+    
+    
+    [AlgorithmTool calculateAlgorithmTime:^{
+        for (NSInteger i = 0; i < 1000000000; i ++) {
+            int i = 0;
+            i = i + 1;
+        }
+    }];
+    
 }
 
 @end
