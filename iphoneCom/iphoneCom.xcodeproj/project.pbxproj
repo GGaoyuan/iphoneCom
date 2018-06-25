@@ -15,6 +15,11 @@
 		30BAA97820DA358C00C58F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA97720DA358C00C58F34 /* main.m */; };
 		30BAA98220DA358C00C58F34 /* iphoneComTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA98120DA358C00C58F34 /* iphoneComTests.m */; };
 		30BAA98D20DA358C00C58F34 /* iphoneComUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA98C20DA358C00C58F34 /* iphoneComUITests.m */; };
+		30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */; };
+		30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A720E0C8750071A9B8 /* YDAlertView.m */; };
+		30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */; };
+		30FB38B520E0E9F70071A9B8 /* AlgMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B420E0E9F70071A9B8 /* AlgMergeSort.m */; };
+		E8A678AEEF79E1AB5FEE0F8B /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130F2C758C6E4D64F882CF40 /* libPods-iphoneCom.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C2BFE9A5E1A5D6DABB37D3 /* Pods-iphoneCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.release.xcconfig"; path = "Pods/Target Support Files/Pods-iphoneCom/Pods-iphoneCom.release.xcconfig"; sourceTree = "<group>"; };
+		130F2C758C6E4D64F882CF40 /* libPods-iphoneCom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iphoneCom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE16C920D5F07391E62A248 /* Pods-iphoneCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iphoneCom/Pods-iphoneCom.debug.xcconfig"; sourceTree = "<group>"; };
 		30BAA96520DA358900C58F34 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA96820DA358900C58F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30BAA96920DA358900C58F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,15 @@
 		30BAA98820DA358C00C58F34 /* iphoneComUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iphoneComUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA98C20DA358C00C58F34 /* iphoneComUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iphoneComUITests.m; sourceTree = "<group>"; };
 		30BAA98E20DA358D00C58F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertChainController.m; sourceTree = "<group>"; };
+		30FB38A720E0C8750071A9B8 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
+		30FB38A820E0C8750071A9B8 /* YDAlertChainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertChainController.h; sourceTree = "<group>"; };
+		30FB38A920E0C8750071A9B8 /* YDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertView.h; sourceTree = "<group>"; };
+		30FB38AA20E0C8750071A9B8 /* YDMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMacro.h; sourceTree = "<group>"; };
+		30FB38B020E0E99D0071A9B8 /* AlgorithmEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmEntrance.h; sourceTree = "<group>"; };
+		30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmEntrance.m; sourceTree = "<group>"; };
+		30FB38B320E0E9F70071A9B8 /* AlgMergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgMergeSort.h; sourceTree = "<group>"; };
+		30FB38B420E0E9F70071A9B8 /* AlgMergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgMergeSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A678AEEF79E1AB5FEE0F8B /* libPods-iphoneCom.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29DF82A830221E363DD85D86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				130F2C758C6E4D64F882CF40 /* libPods-iphoneCom.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		30BAA95C20DA358900C58F34 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				30BAA98020DA358C00C58F34 /* iphoneComTests */,
 				30BAA98B20DA358C00C58F34 /* iphoneComUITests */,
 				30BAA96620DA358900C58F34 /* Products */,
+				4302274D7821BB6AC463D22B /* Pods */,
+				29DF82A830221E363DD85D86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +129,8 @@
 		30BAA96720DA358900C58F34 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
+				30FB38AD20E0E9430071A9B8 /* Algorithm */,
+				30FB38A420E0C8750071A9B8 /* YDTools */,
 				30BAA96820DA358900C58F34 /* AppDelegate.h */,
 				30BAA96920DA358900C58F34 /* AppDelegate.m */,
 				30BAA96B20DA358900C58F34 /* ViewController.h */,
@@ -132,6 +162,62 @@
 			path = iphoneComUITests;
 			sourceTree = "<group>";
 		};
+		30FB38A420E0C8750071A9B8 /* YDTools */ = {
+			isa = PBXGroup;
+			children = (
+				30FB38A520E0C8750071A9B8 /* YDAlertView */,
+				30FB38AA20E0C8750071A9B8 /* YDMacro.h */,
+			);
+			path = YDTools;
+			sourceTree = "<group>";
+		};
+		30FB38A520E0C8750071A9B8 /* YDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */,
+				30FB38A720E0C8750071A9B8 /* YDAlertView.m */,
+				30FB38A820E0C8750071A9B8 /* YDAlertChainController.h */,
+				30FB38A920E0C8750071A9B8 /* YDAlertView.h */,
+			);
+			path = YDAlertView;
+			sourceTree = "<group>";
+		};
+		30FB38AD20E0E9430071A9B8 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				30FB38AF20E0E9710071A9B8 /* Tools */,
+				30FB38AE20E0E9520071A9B8 /* Sort */,
+				30FB38B020E0E99D0071A9B8 /* AlgorithmEntrance.h */,
+				30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		30FB38AE20E0E9520071A9B8 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				30FB38B320E0E9F70071A9B8 /* AlgMergeSort.h */,
+				30FB38B420E0E9F70071A9B8 /* AlgMergeSort.m */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		30FB38AF20E0E9710071A9B8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4302274D7821BB6AC463D22B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FE16C920D5F07391E62A248 /* Pods-iphoneCom.debug.xcconfig */,
+				03C2BFE9A5E1A5D6DABB37D3 /* Pods-iphoneCom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30BAA99120DA358D00C58F34 /* Build configuration list for PBXNativeTarget "iphoneCom" */;
 			buildPhases = (
+				47C72A7C4201B5EB8740CDAB /* [CP] Check Pods Manifest.lock */,
 				30BAA96120DA358900C58F34 /* Sources */,
 				30BAA96220DA358900C58F34 /* Frameworks */,
 				30BAA96320DA358900C58F34 /* Resources */,
@@ -257,6 +344,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47C72A7C4201B5EB8740CDAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iphoneCom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30BAA96120DA358900C58F34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +373,10 @@
 				30BAA96D20DA358900C58F34 /* ViewController.m in Sources */,
 				30BAA97820DA358C00C58F34 /* main.m in Sources */,
 				30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */,
+				30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */,
+				30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */,
+				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
+				30FB38B520E0E9F70071A9B8 /* AlgMergeSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +543,7 @@
 		};
 		30BAA99220DA358D00C58F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE16C920D5F07391E62A248 /* Pods-iphoneCom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +560,7 @@
 		};
 		30BAA99320DA358D00C58F34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C2BFE9A5E1A5D6DABB37D3 /* Pods-iphoneCom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
