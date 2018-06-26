@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AlgorithmTool.h"
 
 @interface BaseSort : NSObject
 

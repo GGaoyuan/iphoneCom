@@ -21,6 +21,7 @@
 		30FB38C020E0EEA50071A9B8 /* AlgorithmTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38BF20E0EEA50071A9B8 /* AlgorithmTool.m */; };
 		30FB38C320E0F91E0071A9B8 /* BaseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38C220E0F91E0071A9B8 /* BaseSort.m */; };
 		30FB38C620E0F9390071A9B8 /* AlgMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38C520E0F9390071A9B8 /* AlgMergeSort.m */; };
+		30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38C820E2148C0071A9B8 /* AlgQuickSort.m */; };
 		E8A678AEEF79E1AB5FEE0F8B /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130F2C758C6E4D64F882CF40 /* libPods-iphoneCom.a */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,8 @@
 		30FB38C220E0F91E0071A9B8 /* BaseSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseSort.m; sourceTree = "<group>"; };
 		30FB38C420E0F9390071A9B8 /* AlgMergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgMergeSort.h; sourceTree = "<group>"; };
 		30FB38C520E0F9390071A9B8 /* AlgMergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgMergeSort.m; sourceTree = "<group>"; };
+		30FB38C720E2148C0071A9B8 /* AlgQuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgQuickSort.h; sourceTree = "<group>"; };
+		30FB38C820E2148C0071A9B8 /* AlgQuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgQuickSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +209,8 @@
 				30FB38C220E0F91E0071A9B8 /* BaseSort.m */,
 				30FB38C420E0F9390071A9B8 /* AlgMergeSort.h */,
 				30FB38C520E0F9390071A9B8 /* AlgMergeSort.m */,
+				30FB38C720E2148C0071A9B8 /* AlgQuickSort.h */,
+				30FB38C820E2148C0071A9B8 /* AlgQuickSort.m */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -407,6 +412,7 @@
 				30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */,
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
 				30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */,
+				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
