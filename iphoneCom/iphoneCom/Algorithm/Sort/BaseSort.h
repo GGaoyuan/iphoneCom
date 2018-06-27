@@ -11,4 +11,6 @@
 
 @interface BaseSort : NSObject
 
++ (void)sort:(NSMutableArray *)array;
+
 @end

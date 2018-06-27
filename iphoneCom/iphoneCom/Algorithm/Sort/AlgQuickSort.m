@@ -13,10 +13,12 @@
 + (void)sort:(NSMutableArray *)array {
     [AlgorithmTool show:array];
     [AlgQuickSort quickSort:array lowIdx:0 highIdx:array.count - 1];
+//    [AlgorithmTool show:array];
 }
 
 
 + (void)quickSort:(NSMutableArray *)array lowIdx:(NSInteger)lo highIdx:(NSInteger)hi {
+//    NSLog(@"quickSort ---- lo = %ld     hi = %ld",lo, hi);
     if (hi <= lo) return;
     NSInteger j = [AlgQuickSort partition:array lowIdx:lo highIdx:hi];
     [AlgQuickSort quickSort:array lowIdx:lo highIdx:j - 1];
@@ -27,6 +29,7 @@
     NSInteger i = lo;
     NSInteger j = hi + 1;
     NSInteger v = [array[lo] integerValue];
+//    NSLog(@"partition **** lo = %ld     hi = %ld",lo, hi);
     while (true) {
         while ([array[++i] integerValue] < v) {
             if (i == hi) {
@@ -43,11 +46,9 @@
         }
         [array exchangeObjectAtIndex:i withObjectAtIndex:j];
         [AlgorithmTool show:array];
-//        NSLog(@"---------------------");
     }
     [array exchangeObjectAtIndex:lo withObjectAtIndex:j];
     [AlgorithmTool show:array];
-//    NSLog(@"+++++++++++++++++++++");
     return j;
 }
 

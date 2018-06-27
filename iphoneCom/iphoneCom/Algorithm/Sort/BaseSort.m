@@ -10,4 +10,8 @@
 
 @implementation BaseSort
 
++ (void)sort:(NSMutableArray *)array {
+    
+}
+
 @end

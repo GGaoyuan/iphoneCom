@@ -35,4 +35,13 @@
     NSLog(@"%@",result);
 }
 
++ (NSMutableArray *)fetchRandomNumber:(NSInteger)min max:(NSInteger)max number:(NSInteger)num {
+    NSMutableArray *numbers = [NSMutableArray arrayWithCapacity:num];
+    for (int i = 0; i < num; i++) {
+        NSInteger value = (min + (arc4random() % (max - min + 1)));
+        [numbers addObject:@(value)];
+    }
+    return numbers;
+}
+
 @end

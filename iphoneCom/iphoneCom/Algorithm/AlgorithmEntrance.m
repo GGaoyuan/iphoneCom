@@ -9,6 +9,7 @@
 #import "AlgorithmEntrance.h"
 #import "AlgMergeSort.h"
 #import "AlgQuickSort.h"
+#import "AlgInsertSort.h"
 
 @interface AlgorithmEntrance ()
 
@@ -26,8 +27,23 @@
     
     //太难了  完不成
 //    [AlgMergeSort sort:datas];
+    
     //快排序
-    [AlgQuickSort sort:datas];
+//    [AlgQuickSort sort:datas];
+
+    //插入排序
+//    [AlgInsertSort sort:datas];
+    
+    
+//    NSMutableArray *test = [AlgorithmTool fetchRandomNumber:0 max:1000000 number:2000];
+    [AlgorithmTool calculateAlgorithmTime:^{
+        [AlgQuickSort sort:datas];
+    }];
+//    [AlgorithmTool calculateAlgorithmTime:^{
+//        [AlgInsertSort sort:test];
+//    }];
+    
+    
     
     
 }
