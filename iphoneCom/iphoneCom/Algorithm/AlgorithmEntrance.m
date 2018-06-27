@@ -35,13 +35,13 @@
 //    [AlgInsertSort sort:datas];
     
     
-//    NSMutableArray *test = [AlgorithmTool fetchRandomNumber:0 max:1000000 number:2000];
+    NSMutableArray *test = [AlgorithmTool fetchRandomNumber:0 max:100000000 number:20000];
     [AlgorithmTool calculateAlgorithmTime:^{
-        [AlgQuickSort sort:datas];
+        [AlgQuickSort sort:test];
     }];
-//    [AlgorithmTool calculateAlgorithmTime:^{
-//        [AlgInsertSort sort:test];
-//    }];
+    [AlgorithmTool calculateAlgorithmTime:^{
+        [AlgInsertSort sort:test];
+    }];
     
     
     

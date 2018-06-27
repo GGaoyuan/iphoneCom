@@ -11,7 +11,7 @@
 @implementation AlgQuickSort
 
 + (void)sort:(NSMutableArray *)array {
-    [AlgorithmTool show:array];
+//    [AlgorithmTool show:array];
     [AlgQuickSort quickSort:array lowIdx:0 highIdx:array.count - 1];
 //    [AlgorithmTool show:array];
 }
@@ -45,10 +45,10 @@
             break;
         }
         [array exchangeObjectAtIndex:i withObjectAtIndex:j];
-        [AlgorithmTool show:array];
+//        [AlgorithmTool show:array];
     }
     [array exchangeObjectAtIndex:lo withObjectAtIndex:j];
-    [AlgorithmTool show:array];
+//    [AlgorithmTool show:array];
     return j;
 }
 
