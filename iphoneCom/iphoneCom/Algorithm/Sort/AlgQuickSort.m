@@ -12,75 +12,43 @@
 
 + (void)sort:(NSMutableArray *)array {
     [AlgorithmTool show:array];
-    
-    NSInteger i = 0;
-    NSInteger j = array.count - 1;
-    [AlgQuickSort quickSort:array lowIdx:i highIdx:j];
+    [AlgQuickSort quickSort:array lowIdx:0 highIdx:array.count - 1];
 }
 
 
-+ (void)quickSort:(NSMutableArray *)array lowIdx:(NSInteger)i highIdx:(NSInteger)j {
-//    if (i >= j) {
-//        [AlgorithmTool show:array];
-//        return;
-//    }
-    NSInteger k = [AlgQuickSort partition:array lowIdx:i highIdx:j];
-    [AlgorithmTool show:array];
++ (void)quickSort:(NSMutableArray *)array lowIdx:(NSInteger)lo highIdx:(NSInteger)hi {
+    if (hi <= lo) return;
+    NSInteger j = [AlgQuickSort partition:array lowIdx:lo highIdx:hi];
+    [AlgQuickSort quickSort:array lowIdx:lo highIdx:j - 1];
+    [AlgQuickSort quickSort:array lowIdx:j + 1 highIdx:hi];
 }
 
-
-/**
- 返回最后的索引j
- */
 + (NSInteger)partition:(NSMutableArray *)array lowIdx:(NSInteger)lo highIdx:(NSInteger)hi {
-    //取第一个元素为分割数
-    NSInteger p = [array[lo] integerValue];
-    NSInteger index = lo;
-    NSInteger i = hi;
-    NSInteger j = lo;
-    while (i > 0) {
-        if ([array[i] integerValue] < p) {
-            [array exchangeObjectAtIndex:index withObjectAtIndex:i];
-            hi = i;
-            index = i;
-//            break;
-            while (j < array.count - 1) {
-                if ([array[j] integerValue] >= p) {
-                    [array exchangeObjectAtIndex:index withObjectAtIndex:j];
-                    lo = j;
-                    index = j;
-                    break;
-                }
-                j++;
+    NSInteger i = lo;
+    NSInteger j = hi + 1;
+    NSInteger v = [array[lo] integerValue];
+    while (true) {
+        while ([array[++i] integerValue] < v) {
+            if (i == hi) {
+                break;
             }
         }
-        i--;
-        if (j == i) {
-            <#statements#>
+        while (v < [array[--j] integerValue] ) {
+            if (j == lo) {
+                break;
+            }
         }
+        if (i >= j) {
+            break;
+        }
+        [array exchangeObjectAtIndex:i withObjectAtIndex:j];
+        [AlgorithmTool show:array];
+//        NSLog(@"---------------------");
     }
-    
-    
-    
-    return 0;
+    [array exchangeObjectAtIndex:lo withObjectAtIndex:j];
+    [AlgorithmTool show:array];
+//    NSLog(@"+++++++++++++++++++++");
+    return j;
 }
 
-
 @end
-
-//    for (NSInteger i = hi; i > 0; i--) {
-//        if ([array[i] integerValue] < p) {
-//            [array exchangeObjectAtIndex:index withObjectAtIndex:i];
-//            hi = i;
-//            index = i;
-//            break;
-//        }
-//    }
-//    for (NSInteger i = lo; i < array.count - 1; i++) {
-//        if ([array[i] integerValue] >= p) {
-//            [array exchangeObjectAtIndex:index withObjectAtIndex:i];
-//            lo = i;
-//            index = i;
-//            break;
-//        }
-//    }
