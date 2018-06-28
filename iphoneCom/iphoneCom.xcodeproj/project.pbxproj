@@ -23,6 +23,8 @@
 		30FB38C620E0F9390071A9B8 /* AlgMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38C520E0F9390071A9B8 /* AlgMergeSort.m */; };
 		30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38C820E2148C0071A9B8 /* AlgQuickSort.m */; };
 		30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38CB20E397240071A9B8 /* AlgInsertSort.m */; };
+		30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38D220E4B57F0071A9B8 /* PriorityQueueEntrance.m */; };
+		30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38D820E4B7340071A9B8 /* AlgPriorityQueue.m */; };
 		E8A678AEEF79E1AB5FEE0F8B /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130F2C758C6E4D64F882CF40 /* libPods-iphoneCom.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,10 @@
 		30FB38C820E2148C0071A9B8 /* AlgQuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgQuickSort.m; sourceTree = "<group>"; };
 		30FB38CA20E397240071A9B8 /* AlgInsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgInsertSort.h; sourceTree = "<group>"; };
 		30FB38CB20E397240071A9B8 /* AlgInsertSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgInsertSort.m; sourceTree = "<group>"; };
+		30FB38D120E4B57F0071A9B8 /* PriorityQueueEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueueEntrance.h; sourceTree = "<group>"; };
+		30FB38D220E4B57F0071A9B8 /* PriorityQueueEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityQueueEntrance.m; sourceTree = "<group>"; };
+		30FB38D720E4B7340071A9B8 /* AlgPriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgPriorityQueue.h; sourceTree = "<group>"; };
+		30FB38D820E4B7340071A9B8 /* AlgPriorityQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgPriorityQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +205,7 @@
 			children = (
 				30FB38AF20E0E9710071A9B8 /* Tools */,
 				30FB38AE20E0E9520071A9B8 /* Sort */,
+				30FB38CD20E4B5190071A9B8 /* PriorityQueue */,
 				30FB38B020E0E99D0071A9B8 /* AlgorithmEntrance.h */,
 				30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */,
 			);
@@ -245,6 +252,17 @@
 				30FB38BC20E0EB5D0071A9B8 /* YDHomeViewController.m */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		30FB38CD20E4B5190071A9B8 /* PriorityQueue */ = {
+			isa = PBXGroup;
+			children = (
+				30FB38D120E4B57F0071A9B8 /* PriorityQueueEntrance.h */,
+				30FB38D220E4B57F0071A9B8 /* PriorityQueueEntrance.m */,
+				30FB38D720E4B7340071A9B8 /* AlgPriorityQueue.h */,
+				30FB38D820E4B7340071A9B8 /* AlgPriorityQueue.m */,
+			);
+			path = PriorityQueue;
 			sourceTree = "<group>";
 		};
 		4302274D7821BB6AC463D22B /* Pods */ = {
@@ -417,6 +435,8 @@
 				30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */,
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
 				30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */,
+				30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */,
+				30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */,
 				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
 				30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */,
 			);
