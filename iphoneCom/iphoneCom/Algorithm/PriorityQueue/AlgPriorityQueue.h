@@ -19,24 +19,19 @@
 + (AlgPriorityQueue *)priorityQueue;
 
 /**
- 创建最大容量为max的优先队列
- */
-+ (AlgPriorityQueue *)priorityQueue:(NSInteger)max;
-
-/**
  插入一个元素
  */
-- (void)insert:(NSObject *)obj;
+- (void)insert:(NSInteger)integer;
 
 /**
  返回优先队列中的最大元素
  */
-- (NSObject *)max;
+- (NSInteger)max;
 
 /**
  删除并且返回最大元素
  */
-- (NSObject *)delMax;
+- (NSInteger)delMax;
 
 /**
  队列是否为空

@@ -27,6 +27,11 @@
             result = [result stringByAppendingString:@","];
         }
         else {
+            if ([array[i] isKindOfClass:[NSObject class]]) {
+                if (![array[i] isKindOfClass:[NSNumber class]]) {
+                    continue;
+                }
+            }
             NSString *temp = [array[i] stringValue];
             result = [result stringByAppendingString:temp];
             result = [result stringByAppendingString:@","];
