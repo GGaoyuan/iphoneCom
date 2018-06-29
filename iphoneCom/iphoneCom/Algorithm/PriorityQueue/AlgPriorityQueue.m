@@ -52,6 +52,7 @@
     NSInteger retValue = [self.array[1] integerValue];
     [self.array replaceObjectAtIndex:1 withObject:[self.array lastObject]];
     [self.array removeLastObject];
+    [AlgorithmTool show:self.array];
     [self sink:1];
     
     [AlgorithmTool show:self.array];
@@ -76,8 +77,10 @@
  上浮
  */
 - (void)swim:(NSInteger)index {
-    while (index > 1 && self.array[index] < self.array[index / 2]) {
+    NSLog(@"index---%ld",index);
+    while (index > 1 && ![self less:index index:index / 2]) {
         [self.array exchangeObjectAtIndex:index withObjectAtIndex:index/2];
+        index = index / 2;
     }
 }
 
@@ -86,17 +89,24 @@
  下潜
  */
 - (void)sink:(NSInteger)index {
-    while (index * 2 <= self.count) {
-        NSInteger j = index * 2;
-        if (j < self.count && self.array[j] < self.array[j+1]) {
+    while (index * 2 < self.count) {
+        NSInteger j = 2 * index;
+        if (j < self.count && [self less:j index:j+1]) {
             j++;
         }
-        if (!(self.array[index] < self.array[j])) {
+        if (![self less:index index:j]) {
             break;
         }
-        [self.array exchangeObjectAtIndex:index withObjectAtIndex:index/2];
+        [self.array exchangeObjectAtIndex:index withObjectAtIndex:j];
         index = j;
     }
-    
 }
+
+- (BOOL)less:(NSInteger)i index:(NSInteger)j {
+    if (self.array[i] < self.array[j]) {
+        return YES;
+    }
+    return NO;
+}
+
 @end
