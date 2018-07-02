@@ -16,8 +16,8 @@
 @implementation SortEntrance
 
 - (void)sort {
-        NSMutableArray *datas = @[@(2),@(5),@(1),@(3),@(0),@(6),@(4),@(9),@(7),@(8)].mutableCopy;
-    //    NSMutableArray *datas = @[@(2),@(5),@(1),@(3),@(0),@(6),@(4),@(9),@(7),@(10),@(8)].mutableCopy;
+    //    NSMutableArray *datas = @[@(2),@(5),@(1),@(3),@(0),@(6),@(4),@(9),@(7),@(8)].mutableCopy;
+        NSMutableArray *datas = @[@(2),@(5),@(1),@(3),@(0),@(6),@(4),@(9),@(7),@(10),@(8)].mutableCopy;
     //    NSMutableArray *datas = @[@"M",@"E",@"R",@"G",@"E",@"S",@"O",@"R",@"T",@"E",@"X",@"A",@"M",@"P",@"L",@"E"].mutableCopy;
     //太难了  完不成
     //    [AlgMergeSort sort:datas];
