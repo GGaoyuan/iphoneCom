@@ -8,8 +8,8 @@
 
 #import "AlgorithmEntrance.h"
 
-
 #import "PriorityQueueEntrance.h"
+#import "AlgSearchEntrance.h"
 #import "SortEntrance.h"
 
 @interface AlgorithmEntrance ()
@@ -24,8 +24,11 @@
 //    PriorityQueueEntrance *pq = [PriorityQueueEntrance new];
 //    [pq priorityQueue];
 
-    SortEntrance *sort = [SortEntrance new];
-    [sort sort];
+//    SortEntrance *sort = [SortEntrance new];
+//    [sort sort];
+    
+    AlgSearchEntrance *search = [AlgSearchEntrance new];
+    [search search];
     
 }
 

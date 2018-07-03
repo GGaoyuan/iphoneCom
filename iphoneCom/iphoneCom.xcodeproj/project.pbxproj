@@ -27,6 +27,7 @@
 		30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38D820E4B7340071A9B8 /* AlgPriorityQueue.m */; };
 		30FB38E120E645C70071A9B8 /* AlgHeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38E020E645C70071A9B8 /* AlgHeapSort.m */; };
 		30FB38E420E645E20071A9B8 /* SortEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38E320E645E20071A9B8 /* SortEntrance.m */; };
+		30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38FB20EB25B40071A9B8 /* AlgSearchEntrance.m */; };
 		E8A678AEEF79E1AB5FEE0F8B /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130F2C758C6E4D64F882CF40 /* libPods-iphoneCom.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +94,8 @@
 		30FB38E020E645C70071A9B8 /* AlgHeapSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgHeapSort.m; sourceTree = "<group>"; };
 		30FB38E220E645E20071A9B8 /* SortEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortEntrance.h; sourceTree = "<group>"; };
 		30FB38E320E645E20071A9B8 /* SortEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortEntrance.m; sourceTree = "<group>"; };
+		30FB38FA20EB25B40071A9B8 /* AlgSearchEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgSearchEntrance.h; sourceTree = "<group>"; };
+		30FB38FB20EB25B40071A9B8 /* AlgSearchEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgSearchEntrance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,7 @@
 		30BAA96720DA358900C58F34 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
+				30FB38E520EA2C8C0071A9B8 /* HttpRequest */,
 				30FB38AD20E0E9430071A9B8 /* Algorithm */,
 				30FB38B620E0EAB70071A9B8 /* Base */,
 				30FB38BA20E0EB370071A9B8 /* Home */,
@@ -198,10 +202,10 @@
 		30FB38A520E0C8750071A9B8 /* YDAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */,
-				30FB38A720E0C8750071A9B8 /* YDAlertView.m */,
 				30FB38A820E0C8750071A9B8 /* YDAlertChainController.h */,
+				30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */,
 				30FB38A920E0C8750071A9B8 /* YDAlertView.h */,
+				30FB38A720E0C8750071A9B8 /* YDAlertView.m */,
 			);
 			path = YDAlertView;
 			sourceTree = "<group>";
@@ -210,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				30FB38AF20E0E9710071A9B8 /* Tools */,
+				30FB38F920EB25960071A9B8 /* Search */,
 				30FB38AE20E0E9520071A9B8 /* Sort */,
 				30FB38CD20E4B5190071A9B8 /* PriorityQueue */,
 				30FB38B020E0E99D0071A9B8 /* AlgorithmEntrance.h */,
@@ -273,6 +278,22 @@
 				30FB38D820E4B7340071A9B8 /* AlgPriorityQueue.m */,
 			);
 			path = PriorityQueue;
+			sourceTree = "<group>";
+		};
+		30FB38E520EA2C8C0071A9B8 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+		30FB38F920EB25960071A9B8 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				30FB38FA20EB25B40071A9B8 /* AlgSearchEntrance.h */,
+				30FB38FB20EB25B40071A9B8 /* AlgSearchEntrance.m */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		4302274D7821BB6AC463D22B /* Pods */ = {
@@ -447,6 +468,7 @@
 				30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */,
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
 				30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */,
+				30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */,
 				30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */,
 				30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */,
 				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
