@@ -11,12 +11,24 @@
 #import "PriorityQueueEntrance.h"
 #import "AlgSearchEntrance.h"
 #import "SortEntrance.h"
+#import "AlgBinarySearchTree.h"
+#import "AlgNodeView.h"
+#import "YDMacro.h"
 
 @interface AlgorithmEntrance ()
 
 @end
 
 @implementation AlgorithmEntrance
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        //搜索二叉树
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(binarySearchTreeShow:) name:@"binarySearchTreeShow" object:nil];
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -29,7 +41,17 @@
     
     AlgSearchEntrance *search = [AlgSearchEntrance new];
     [search search];
-    
+}
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+#pragma mark - ---------- Show ----------
+- (void)binarySearchTreeShow:(NSNotification *)notify {
+    AlgBinarySearchTree *tree = (AlgBinarySearchTree *)notify.object;
+    [tree show:self.view];
+
 }
 
 @end

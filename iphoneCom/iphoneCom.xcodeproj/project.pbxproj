@@ -28,6 +28,9 @@
 		30FB38E120E645C70071A9B8 /* AlgHeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38E020E645C70071A9B8 /* AlgHeapSort.m */; };
 		30FB38E420E645E20071A9B8 /* SortEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38E320E645E20071A9B8 /* SortEntrance.m */; };
 		30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38FB20EB25B40071A9B8 /* AlgSearchEntrance.m */; };
+		30FB38FF20EB87E40071A9B8 /* AlgSearchNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38FE20EB87E40071A9B8 /* AlgSearchNode.m */; };
+		30FB390220EB88100071A9B8 /* AlgBinarySearchTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB390120EB88100071A9B8 /* AlgBinarySearchTree.m */; };
+		30FB390620EC7EC70071A9B8 /* AlgNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB390520EC7EC70071A9B8 /* AlgNodeView.m */; };
 		E8A678AEEF79E1AB5FEE0F8B /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130F2C758C6E4D64F882CF40 /* libPods-iphoneCom.a */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +99,12 @@
 		30FB38E320E645E20071A9B8 /* SortEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortEntrance.m; sourceTree = "<group>"; };
 		30FB38FA20EB25B40071A9B8 /* AlgSearchEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgSearchEntrance.h; sourceTree = "<group>"; };
 		30FB38FB20EB25B40071A9B8 /* AlgSearchEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgSearchEntrance.m; sourceTree = "<group>"; };
+		30FB38FD20EB87E40071A9B8 /* AlgSearchNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgSearchNode.h; sourceTree = "<group>"; };
+		30FB38FE20EB87E40071A9B8 /* AlgSearchNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgSearchNode.m; sourceTree = "<group>"; };
+		30FB390020EB88100071A9B8 /* AlgBinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgBinarySearchTree.h; sourceTree = "<group>"; };
+		30FB390120EB88100071A9B8 /* AlgBinarySearchTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgBinarySearchTree.m; sourceTree = "<group>"; };
+		30FB390420EC7EC70071A9B8 /* AlgNodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgNodeView.h; sourceTree = "<group>"; };
+		30FB390520EC7EC70071A9B8 /* AlgNodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgNodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +254,7 @@
 		30FB38AF20E0E9710071A9B8 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				30FB390320EC7EB40071A9B8 /* Views */,
 				30FB38BE20E0EEA50071A9B8 /* AlgorithmTool.h */,
 				30FB38BF20E0EEA50071A9B8 /* AlgorithmTool.m */,
 			);
@@ -292,8 +302,21 @@
 			children = (
 				30FB38FA20EB25B40071A9B8 /* AlgSearchEntrance.h */,
 				30FB38FB20EB25B40071A9B8 /* AlgSearchEntrance.m */,
+				30FB38FD20EB87E40071A9B8 /* AlgSearchNode.h */,
+				30FB38FE20EB87E40071A9B8 /* AlgSearchNode.m */,
+				30FB390020EB88100071A9B8 /* AlgBinarySearchTree.h */,
+				30FB390120EB88100071A9B8 /* AlgBinarySearchTree.m */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		30FB390320EC7EB40071A9B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30FB390420EC7EC70071A9B8 /* AlgNodeView.h */,
+				30FB390520EC7EC70071A9B8 /* AlgNodeView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		4302274D7821BB6AC463D22B /* Pods */ = {
@@ -456,6 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FB390220EB88100071A9B8 /* AlgBinarySearchTree.m in Sources */,
 				30BAA97820DA358C00C58F34 /* main.m in Sources */,
 				30FB38E420E645E20071A9B8 /* SortEntrance.m in Sources */,
 				30FB38C620E0F9390071A9B8 /* AlgMergeSort.m in Sources */,
@@ -464,6 +488,7 @@
 				30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */,
 				30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */,
 				30FB38E120E645C70071A9B8 /* AlgHeapSort.m in Sources */,
+				30FB38FF20EB87E40071A9B8 /* AlgSearchNode.m in Sources */,
 				30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */,
 				30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */,
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
@@ -471,6 +496,7 @@
 				30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */,
 				30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */,
 				30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */,
+				30FB390620EC7EC70071A9B8 /* AlgNodeView.m in Sources */,
 				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
 				30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */,
 			);
