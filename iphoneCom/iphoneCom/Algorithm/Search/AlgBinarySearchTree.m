@@ -48,9 +48,17 @@ typedef enum : NSUInteger {
     self.count++;
 }
 
-- (id<NSObject>)getValueByKey:(NSString *)key {
-    
-    return nil;
+- (AlgBinarySearchTreeNode *)getValueByKey:(NSString *)key {
+    AlgBinarySearchTreeNode *returnNode = [self getValueByKey:self.firstNode key:key];
+    return returnNode;
+}
+
+- (AlgBinarySearchTreeNode *)getMaxNode {
+    return [self getMaxNode:self.firstNode];
+}
+
+- (AlgBinarySearchTreeNode *)getMinNode {
+    return [self getMinNode:self.firstNode];
 }
 
 - (void)show {
@@ -59,8 +67,52 @@ typedef enum : NSUInteger {
 
 #pragma mark - ---------- Private ----------
 
+- (AlgBinarySearchTreeNode *)getMaxNode:(AlgBinarySearchTreeNode *)node {
+    if (self.firstNode == nil) {
+        return nil;
+    }
+    NSLog(@"最大---当前key ------ %@",node.key);
+    if (node.leftNode) {
+        return [self getMaxNode:node.leftNode];
+    }
+    else {
+        return node;
+    }
+}
+
+- (AlgBinarySearchTreeNode *)getMinNode:(AlgBinarySearchTreeNode *)node {
+    if (self.firstNode == nil) {
+        return nil;
+    }
+    NSLog(@"最小---当前key ------ %@",node.key);
+    if (node.rightNode) {
+        return [self getMaxNode:node.rightNode];
+    }
+    else {
+        return node;
+    }
+}
+
+- (AlgBinarySearchTreeNode *)getValueByKey:(AlgBinarySearchTreeNode *)node key:(NSString *)key {
+    if (node == nil) {
+        NSLog(@"查找---当前node为空------返回nil");
+        return nil;
+    }
+    NSLog(@"查找---当前key ------ %@",node.key);
+    AlgBinarySearchTreeNodeCompareStatus status = [self compareNode:node.key newNode:key];
+    if (status == NodeLarger) {
+        return [self getValueByKey:node.rightNode key:key];
+    }
+    else if (status == NodeSmaller) {
+        return [self getValueByKey:node.leftNode key:key];
+    }
+    else {
+        return node;
+    }
+}
+
 - (void)addNode:(AlgBinarySearchTreeNode *)newNode {
-    AlgBinarySearchTreeNodeCompareStatus status = [self compareNode:self.headNode newNode:newNode];
+    AlgBinarySearchTreeNodeCompareStatus status = [self compareNode:self.headNode.key newNode:newNode.key];
     if (status == NodeLarger) {
         if (self.headNode.rightNode) {
             self.headNode = self.headNode.rightNode;
@@ -85,12 +137,12 @@ typedef enum : NSUInteger {
     
 }
 
-- (AlgBinarySearchTreeNodeCompareStatus)compareNode:(AlgBinarySearchTreeNode *)node newNode:(AlgBinarySearchTreeNode *)newNode {
+- (AlgBinarySearchTreeNodeCompareStatus)compareNode:(NSString *)nodeKey newNode:(NSString *)newNodeKey {
     AlgBinarySearchTreeNodeCompareStatus status;
-    if ([node.key compare:newNode.key] == NSOrderedAscending) {
+    if ([nodeKey compare:newNodeKey] == NSOrderedAscending) {
         status = NodeLarger;
     }
-    else if ([node.key compare:newNode.key] == NSOrderedDescending) {
+    else if ([nodeKey compare:newNodeKey] == NSOrderedDescending) {
         status = NodeSmaller;
     }
     else {
