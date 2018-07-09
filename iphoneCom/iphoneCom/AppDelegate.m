@@ -10,6 +10,7 @@
 #import "BaseNavigationController.h"
 #import "YDHomeViewController.h"
 #import "AlgorithmEntrance.h"
+#import "GCDEntrance.h"
 @interface AppDelegate ()
 
 @end
@@ -19,7 +20,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    [self initHomeViewController];
-    [self initAlgorithmController];
+//    [self initAlgorithmController];
+    [self initGCDController];
     return YES;
 }
 
@@ -42,6 +44,14 @@
     [self.window makeKeyAndVisible];
 }
 
+- (void)initGCDController {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    GCDEntrance *gcdEntrance = [[GCDEntrance alloc] init];
+    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:gcdEntrance];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];
+}
 
 
 

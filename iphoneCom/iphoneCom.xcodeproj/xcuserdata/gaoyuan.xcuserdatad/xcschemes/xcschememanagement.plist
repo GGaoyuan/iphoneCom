@@ -7,7 +7,25 @@
 		<key>iphoneCom.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>30BAA96420DA358900C58F34</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30BAA97C20DA358C00C58F34</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30BAA98720DA358C00C58F34</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
