@@ -1,4 +1,5 @@
 platform :ios, '8.0'
 target "iphoneCom" do
 pod 'AFNetworking'
+pod 'FMDB'
 end
