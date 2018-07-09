@@ -29,4 +29,6 @@
 
 - (void)show:(UIView *)view;
 
+- (void)deleteWithKey:(NSString *)key;
+
 @end
