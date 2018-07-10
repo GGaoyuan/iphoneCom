@@ -133,6 +133,8 @@ typedef enum : NSUInteger {
 //    deleteNode = rightMinNode;
     if (originLastNode) {
         if ([originLastNode.leftNode isEqual:orginNode]) {
+            targetNode.leftNode = orginNode.leftNode;
+            targetNode.rightNode = orginNode.rightNode;
             
         }
         else {
