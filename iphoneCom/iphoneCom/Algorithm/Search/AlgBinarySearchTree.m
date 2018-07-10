@@ -77,9 +77,7 @@ typedef enum : NSUInteger {
     }
     //交换节点，并且删除
     [self exchangeNode:deleteNode target:rightMinNode];
-    rightMinNode = nil;
-//    [self deleteLayLayerSubNode:rightMinNode];
-    self.count -- ;
+    
     NSLog(@"");
 }
 
@@ -126,22 +124,23 @@ typedef enum : NSUInteger {
     return nil;
 }
 
-#warning TODO 脑仁疼，不想写了
 - (void)exchangeNode:(AlgBinarySearchTreeNode *)orginNode target:(AlgBinarySearchTreeNode *)targetNode {
     //要删除的节点的上一个节点
     AlgBinarySearchTreeNode *originLastNode = [self getLastNode:self.firstNode findNode:orginNode];
-//    deleteNode = rightMinNode;
+    AlgBinarySearchTreeNode *targetLastNode = [self getLastNode:self.firstNode findNode:targetNode];
     if (originLastNode) {
         if ([originLastNode.leftNode isEqual:orginNode]) {
             targetNode.leftNode = orginNode.leftNode;
             targetNode.rightNode = orginNode.rightNode;
-            
+            originLastNode.leftNode = targetNode;
         }
         else {
             targetNode.leftNode = orginNode.leftNode;
             targetNode.rightNode = orginNode.rightNode;
             originLastNode.rightNode = targetNode;
         }
+        targetLastNode.leftNode = NULL;
+        self.count -- ;
     }
     else {
         self.firstNode = targetNode;
