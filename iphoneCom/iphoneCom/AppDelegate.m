@@ -11,6 +11,8 @@
 #import "YDHomeViewController.h"
 #import "AlgorithmEntrance.h"
 #import "GCDEntrance.h"
+#import "BlockEntrance.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,8 +22,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    [self initHomeViewController];
-    [self initAlgorithmController];
+//    [self initAlgorithmController];
 //    [self initGCDController];
+    [self initBlockController];
     return YES;
 }
 
@@ -53,6 +56,14 @@
     [self.window makeKeyAndVisible];
 }
 
+- (void)initBlockController {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    BlockEntrance *blockEntrance = [[BlockEntrance alloc] init];
+    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:blockEntrance];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];
+}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
