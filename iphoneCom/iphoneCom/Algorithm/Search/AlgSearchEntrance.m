@@ -31,8 +31,9 @@
 //    AlgBinarySearchTreeNode *result = [binarySearchTree getValueByKey:@"20"];
 //    [binarySearchTree getMinNode];
 //    [binarySearchTree getMaxNode];
-    [binarySearchTree deleteWithKey:@"3"];
+//    [binarySearchTree deleteWithKey:@"3"];
     
+    [binarySearchTree midEnum];
     
     [[NSNotificationCenter defaultCenter] postNotificationName:@"binarySearchTreeShow" object:binarySearchTree];
     

@@ -78,7 +78,11 @@ typedef enum : NSUInteger {
     //交换节点，并且删除
     [self exchangeNode:deleteNode target:rightMinNode];
     
-    NSLog(@"");
+}
+
+- (void)midEnum {
+    [self midEnumWithNode:self.firstNode];
+    NSLog(@"done~~");
 }
 
 - (void)show {
@@ -86,6 +90,24 @@ typedef enum : NSUInteger {
 }
 
 #pragma mark - ---------- Private ----------
+
+- (void)midEnumWithNode:(AlgBinarySearchTreeNode *)node {
+    if (node.leftNode) {
+        [self midEnumWithNode:node.leftNode];
+        NSLog(@"中序遍历Node --- %@", node.key);
+        if (node.rightNode) {
+            [self midEnumWithNode:node.rightNode];
+        }
+    }
+    else {
+        NSLog(@"中序遍历Node --- %@", node.key);
+        if (node.rightNode) {
+            [self midEnumWithNode:node.rightNode];
+        }
+        return;
+    }
+}
+
 
 - (AlgBinarySearchTreeNode *)getLastNode:(AlgBinarySearchTreeNode *)node findNode:(AlgBinarySearchTreeNode *)findNode {
     if (node == nil) {
@@ -143,6 +165,7 @@ typedef enum : NSUInteger {
         self.count -- ;
     }
     else {
+        //这个逻辑没有试过，上面的逻辑是通的，先这样了
         self.firstNode = targetNode;
     }
 }

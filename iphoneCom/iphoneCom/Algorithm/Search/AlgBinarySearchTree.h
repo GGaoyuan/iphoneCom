@@ -31,4 +31,10 @@
 
 - (void)deleteWithKey:(NSString *)key;
 
+
+/**
+ 中序遍历
+ */
+- (void)midEnum;
+
 @end
