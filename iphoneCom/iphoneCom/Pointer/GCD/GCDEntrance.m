@@ -14,12 +14,18 @@
 
 @implementation GCDEntrance
 
+- (void)foo:(NSString *)format, ... {
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     NSLog(@"%@",[NSThread currentThread]);
     
-    [self sync_c];
+    [self foo:@"1", @"2", 3];
+    
+    [self sync_s];
 }
 
 - (void)async_s {
