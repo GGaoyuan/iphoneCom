@@ -23,8 +23,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    [self initHomeViewController];
 //    [self initAlgorithmController];
-    [self initGCDController];
-//    [self initBlockController];
+//    [self initGCDController];
+    [self initBlockController];
     return YES;
 }
 

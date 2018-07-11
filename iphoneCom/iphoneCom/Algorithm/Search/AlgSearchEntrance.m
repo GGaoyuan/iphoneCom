@@ -9,11 +9,19 @@
 #import "AlgSearchEntrance.h"
 
 #import "AlgBinarySearchTree.h"
+#import "AlgRedBlackTree.h"
 
 @implementation AlgSearchEntrance
 
 - (void)search {
+    AlgRedBlackTree *rbTree = [[AlgRedBlackTree alloc] init];
+//    [rbTree putKey:@"" value:@""];
     
+    
+    
+}
+
+- (void)binarySearchTreeTest {
     NSLog(@"二叉搜索树");
     
     AlgBinarySearchTree *binarySearchTree = [AlgBinarySearchTree new];
@@ -28,15 +36,12 @@
     [binarySearchTree putKey:@"2" value:@[@"2"]];
     [binarySearchTree putKey:@"4" value:@[@"4"]];
     [binarySearchTree putKey:@"6" value:@[@"6"]];
-//    AlgBinarySearchTreeNode *result = [binarySearchTree getValueByKey:@"20"];
-//    [binarySearchTree getMinNode];
-//    [binarySearchTree getMaxNode];
-//    [binarySearchTree deleteWithKey:@"3"];
+    //    AlgBinarySearchTreeNode *result = [binarySearchTree getValueByKey:@"20"];
+    //    [binarySearchTree getMinNode];
+    //    [binarySearchTree getMaxNode];
+    //    [binarySearchTree deleteWithKey:@"3"];
     
     [binarySearchTree midEnum];
-    
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"binarySearchTreeShow" object:binarySearchTree];
-    
 }
 
 @end
