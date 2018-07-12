@@ -18,6 +18,12 @@
 		30EB353320F5AAC9006345BC /* AlgRedBlackTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB353220F5AAC9006345BC /* AlgRedBlackTree.m */; };
 		30EB353A20F6161D006345BC /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB353920F6161D006345BC /* TestObject.m */; };
 		30EB353E20F7018C006345BC /* NetWorkEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB353D20F7018C006345BC /* NetWorkEntrance.m */; };
+		30EB354220F7049A006345BC /* YDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354120F7049A006345BC /* YDRequest.m */; };
+		30EB354520F70510006345BC /* YDRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354420F70510006345BC /* YDRequestTest.m */; };
+		30EB354820F7053D006345BC /* YDRequestGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354720F7053D006345BC /* YDRequestGroup.m */; };
+		30EB354B20F705DE006345BC /* YDRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354A20F705DE006345BC /* YDRequestConfig.m */; };
+		30EB354F20F709EA006345BC /* YDRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354E20F709EA006345BC /* YDRequestAgent.m */; };
+		30EB355220F70E1A006345BC /* YDRequestMiddleWare.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */; };
 		30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */; };
 		30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A720E0C8750071A9B8 /* YDAlertView.m */; };
 		30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */; };
@@ -83,6 +89,18 @@
 		30EB353920F6161D006345BC /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		30EB353C20F7018C006345BC /* NetWorkEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkEntrance.h; sourceTree = "<group>"; };
 		30EB353D20F7018C006345BC /* NetWorkEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkEntrance.m; sourceTree = "<group>"; };
+		30EB354020F7049A006345BC /* YDRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequest.h; sourceTree = "<group>"; };
+		30EB354120F7049A006345BC /* YDRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequest.m; sourceTree = "<group>"; };
+		30EB354320F70510006345BC /* YDRequestTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestTest.h; sourceTree = "<group>"; };
+		30EB354420F70510006345BC /* YDRequestTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestTest.m; sourceTree = "<group>"; };
+		30EB354620F7053D006345BC /* YDRequestGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestGroup.h; sourceTree = "<group>"; };
+		30EB354720F7053D006345BC /* YDRequestGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestGroup.m; sourceTree = "<group>"; };
+		30EB354920F705DE006345BC /* YDRequestConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestConfig.h; sourceTree = "<group>"; };
+		30EB354A20F705DE006345BC /* YDRequestConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestConfig.m; sourceTree = "<group>"; };
+		30EB354D20F709EA006345BC /* YDRequestAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestAgent.h; sourceTree = "<group>"; };
+		30EB354E20F709EA006345BC /* YDRequestAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestAgent.m; sourceTree = "<group>"; };
+		30EB355020F70E1A006345BC /* YDRequestMiddleWare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestMiddleWare.h; sourceTree = "<group>"; };
+		30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestMiddleWare.m; sourceTree = "<group>"; };
 		30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertChainController.m; sourceTree = "<group>"; };
 		30FB38A720E0C8750071A9B8 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
 		30FB38A820E0C8750071A9B8 /* YDAlertChainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertChainController.h; sourceTree = "<group>"; };
@@ -247,10 +265,38 @@
 		30EB353B20F70172006345BC /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				30EB353F20F7047A006345BC /* Request */,
 				30EB353C20F7018C006345BC /* NetWorkEntrance.h */,
 				30EB353D20F7018C006345BC /* NetWorkEntrance.m */,
+				30EB354320F70510006345BC /* YDRequestTest.h */,
+				30EB354420F70510006345BC /* YDRequestTest.m */,
 			);
 			path = NetWork;
+			sourceTree = "<group>";
+		};
+		30EB353F20F7047A006345BC /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				30EB354C20F709D4006345BC /* Setup */,
+				30EB354020F7049A006345BC /* YDRequest.h */,
+				30EB354120F7049A006345BC /* YDRequest.m */,
+				30EB354620F7053D006345BC /* YDRequestGroup.h */,
+				30EB354720F7053D006345BC /* YDRequestGroup.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		30EB354C20F709D4006345BC /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				30EB354920F705DE006345BC /* YDRequestConfig.h */,
+				30EB354A20F705DE006345BC /* YDRequestConfig.m */,
+				30EB354D20F709EA006345BC /* YDRequestAgent.h */,
+				30EB354E20F709EA006345BC /* YDRequestAgent.m */,
+				30EB355020F70E1A006345BC /* YDRequestMiddleWare.h */,
+				30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */,
+			);
+			path = Setup;
 			sourceTree = "<group>";
 		};
 		30FB38A420E0C8750071A9B8 /* YDTools */ = {
@@ -528,12 +574,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30EB354220F7049A006345BC /* YDRequest.m in Sources */,
 				30FB390220EB88100071A9B8 /* AlgBinarySearchTree.m in Sources */,
+				30EB355220F70E1A006345BC /* YDRequestMiddleWare.m in Sources */,
 				30BAA97820DA358C00C58F34 /* main.m in Sources */,
 				30FB38E420E645E20071A9B8 /* SortEntrance.m in Sources */,
 				30FB38C620E0F9390071A9B8 /* AlgMergeSort.m in Sources */,
 				30FB38C020E0EEA50071A9B8 /* AlgorithmTool.m in Sources */,
 				30EB353320F5AAC9006345BC /* AlgRedBlackTree.m in Sources */,
+				30EB354B20F705DE006345BC /* YDRequestConfig.m in Sources */,
 				30FB38C320E0F91E0071A9B8 /* BaseSort.m in Sources */,
 				30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */,
 				30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */,
@@ -543,9 +592,12 @@
 				30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */,
 				30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */,
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
+				30EB354520F70510006345BC /* YDRequestTest.m in Sources */,
 				30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */,
+				30EB354820F7053D006345BC /* YDRequestGroup.m in Sources */,
 				30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */,
 				30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */,
+				30EB354F20F709EA006345BC /* YDRequestAgent.m in Sources */,
 				30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */,
 				30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */,
 				30FB390620EC7EC70071A9B8 /* AlgNodeView.m in Sources */,
