@@ -25,8 +25,8 @@
 //    [self initHomeViewController];
 //    [self initAlgorithmController];
 //    [self initGCDController];
-//    [self initBlockController];
-    [self initNetWorkViewController];
+    [self initBlockController];
+//    [self initNetWorkViewController];
     return YES;
 }
 
