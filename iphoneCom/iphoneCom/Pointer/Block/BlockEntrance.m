@@ -23,17 +23,21 @@ typedef void(^callBack)(int);
     [super viewDidLoad];
     NSLog(@"block");
     
-    
-    
-    __block int a = 10;
-    void (^blk)(void) = ^void (void) {
-        NSLog(@"%d",a);
-    };
-    a = 20;
-    NSLog(@"%d",a);
-    blk();
+    NSString *a = @"1";
+    [self test:a];
+    NSLog(@"%@",a);
+//    __block int a = 10;
+//    void (^blk)(void) = ^void (void) {
+//        NSLog(@"%d",a);
+//    };
+//    a = 20;
+//    NSLog(@"%d",a);
+//    blk();
 }
 
+- (void)test:(NSString *)test {
+    test = @"2";
+}
 
 
 
