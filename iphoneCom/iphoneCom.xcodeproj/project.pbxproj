@@ -16,6 +16,8 @@
 		30BAA98D20DA358C00C58F34 /* iphoneComUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA98C20DA358C00C58F34 /* iphoneComUITests.m */; };
 		30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB352C20F4C77A006345BC /* BlockEntrance.m */; };
 		30EB353320F5AAC9006345BC /* AlgRedBlackTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB353220F5AAC9006345BC /* AlgRedBlackTree.m */; };
+		30EB353A20F6161D006345BC /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB353920F6161D006345BC /* TestObject.m */; };
+		30EB353E20F7018C006345BC /* NetWorkEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB353D20F7018C006345BC /* NetWorkEntrance.m */; };
 		30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */; };
 		30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A720E0C8750071A9B8 /* YDAlertView.m */; };
 		30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */; };
@@ -77,6 +79,10 @@
 		30EB352C20F4C77A006345BC /* BlockEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockEntrance.m; sourceTree = "<group>"; };
 		30EB353120F5AAC9006345BC /* AlgRedBlackTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgRedBlackTree.h; sourceTree = "<group>"; };
 		30EB353220F5AAC9006345BC /* AlgRedBlackTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgRedBlackTree.m; sourceTree = "<group>"; };
+		30EB353820F6161D006345BC /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		30EB353920F6161D006345BC /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		30EB353C20F7018C006345BC /* NetWorkEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkEntrance.h; sourceTree = "<group>"; };
+		30EB353D20F7018C006345BC /* NetWorkEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkEntrance.m; sourceTree = "<group>"; };
 		30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertChainController.m; sourceTree = "<group>"; };
 		30FB38A720E0C8750071A9B8 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
 		30FB38A820E0C8750071A9B8 /* YDAlertChainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertChainController.h; sourceTree = "<group>"; };
@@ -220,6 +226,7 @@
 		30EB352920F4C760006345BC /* Pointer */ = {
 			isa = PBXGroup;
 			children = (
+				30EB353B20F70172006345BC /* NetWork */,
 				308FA94920F3D1D500A8E420 /* GCD */,
 				30EB352A20F4C760006345BC /* Block */,
 			);
@@ -231,8 +238,19 @@
 			children = (
 				30EB352B20F4C77A006345BC /* BlockEntrance.h */,
 				30EB352C20F4C77A006345BC /* BlockEntrance.m */,
+				30EB353820F6161D006345BC /* TestObject.h */,
+				30EB353920F6161D006345BC /* TestObject.m */,
 			);
 			path = Block;
+			sourceTree = "<group>";
+		};
+		30EB353B20F70172006345BC /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				30EB353C20F7018C006345BC /* NetWorkEntrance.h */,
+				30EB353D20F7018C006345BC /* NetWorkEntrance.m */,
+			);
+			path = NetWork;
 			sourceTree = "<group>";
 		};
 		30FB38A420E0C8750071A9B8 /* YDTools */ = {
@@ -531,7 +549,9 @@
 				30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */,
 				30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */,
 				30FB390620EC7EC70071A9B8 /* AlgNodeView.m in Sources */,
+				30EB353E20F7018C006345BC /* NetWorkEntrance.m in Sources */,
 				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
+				30EB353A20F6161D006345BC /* TestObject.m in Sources */,
 				30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

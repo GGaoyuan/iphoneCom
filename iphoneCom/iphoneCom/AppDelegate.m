@@ -12,6 +12,7 @@
 #import "AlgorithmEntrance.h"
 #import "GCDEntrance.h"
 #import "BlockEntrance.h"
+#import "NetWorkEntrance.h"
 
 @interface AppDelegate ()
 
@@ -24,8 +25,18 @@
 //    [self initHomeViewController];
 //    [self initAlgorithmController];
 //    [self initGCDController];
-    [self initBlockController];
+//    [self initBlockController];
+    [self initNetWorkViewController];
     return YES;
+}
+
+- (void)initNetWorkViewController {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    NetWorkEntrance *netWorkEntrance = [[NetWorkEntrance alloc] init];
+    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:netWorkEntrance];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];
 }
 
 - (void)initHomeViewController {
@@ -35,7 +46,6 @@
     BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:homeViewController];
     self.window.rootViewController = rootNav;
     [self.window makeKeyAndVisible];
-    
 }
 
 - (void)initAlgorithmController {
