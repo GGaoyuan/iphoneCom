@@ -10,7 +10,7 @@
 #import "TestObject.h"
 #import <objc/runtime.h>
 
-typedef void(^callBack)(int);
+typedef void(^test)(void);
 
 @interface BlockEntrance ()
 
@@ -18,27 +18,30 @@ typedef void(^callBack)(int);
 
 @implementation BlockEntrance
 
+int (^blk)(int) = ^int(int a) {
+    a = a * 2;
+    NSLog(@"block --- %d",a);
+    return a;
+};
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"block");
     
-    NSString *a = @"1";
-    [self test:a];
-    NSLog(@"%@",a);
-//    __block int a = 10;
-//    void (^blk)(void) = ^void (void) {
-//        NSLog(@"%d",a);
-//    };
-//    a = 20;
-//    NSLog(@"%d",a);
-//    blk();
+    int a = 10;
+    
+    
+    NSLog(@"%d",blk(a));
+    NSLog(@"%d",a);
 }
 
 - (void)test:(NSString *)test {
     test = @"2";
 }
 
+- (void)kkk:(NSDictionary *)obj {
+    [obj setValue:@"2" forKey:@"2"];
+}
 
 
 @end

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^test)(void);
+
 @interface TestObject : NSObject
 
 @property (nonatomic, copy) NSString *string;
