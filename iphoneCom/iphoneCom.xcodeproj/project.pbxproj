@@ -24,6 +24,8 @@
 		30EB354B20F705DE006345BC /* YDRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354A20F705DE006345BC /* YDRequestConfig.m */; };
 		30EB354F20F709EA006345BC /* YDRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354E20F709EA006345BC /* YDRequestAgent.m */; };
 		30EB355220F70E1A006345BC /* YDRequestMiddleWare.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */; };
+		30EB355620F8BDAF006345BC /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB355520F8BDAF006345BC /* TestObj.m */; };
+		30EB355920F8BDCE006345BC /* TestObk.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB355820F8BDCE006345BC /* TestObk.m */; };
 		30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */; };
 		30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A720E0C8750071A9B8 /* YDAlertView.m */; };
 		30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */; };
@@ -101,6 +103,11 @@
 		30EB354E20F709EA006345BC /* YDRequestAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestAgent.m; sourceTree = "<group>"; };
 		30EB355020F70E1A006345BC /* YDRequestMiddleWare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestMiddleWare.h; sourceTree = "<group>"; };
 		30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestMiddleWare.m; sourceTree = "<group>"; };
+		30EB355320F8BD8C006345BC /* TestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocol.h; sourceTree = "<group>"; };
+		30EB355420F8BDAF006345BC /* TestObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		30EB355520F8BDAF006345BC /* TestObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+		30EB355720F8BDCE006345BC /* TestObk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObk.h; sourceTree = "<group>"; };
+		30EB355820F8BDCE006345BC /* TestObk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObk.m; sourceTree = "<group>"; };
 		30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertChainController.m; sourceTree = "<group>"; };
 		30FB38A720E0C8750071A9B8 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
 		30FB38A820E0C8750071A9B8 /* YDAlertChainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertChainController.h; sourceTree = "<group>"; };
@@ -258,6 +265,11 @@
 				30EB352C20F4C77A006345BC /* BlockEntrance.m */,
 				30EB353820F6161D006345BC /* TestObject.h */,
 				30EB353920F6161D006345BC /* TestObject.m */,
+				30EB355320F8BD8C006345BC /* TestProtocol.h */,
+				30EB355420F8BDAF006345BC /* TestObj.h */,
+				30EB355520F8BDAF006345BC /* TestObj.m */,
+				30EB355720F8BDCE006345BC /* TestObk.h */,
+				30EB355820F8BDCE006345BC /* TestObk.m */,
 			);
 			path = Block;
 			sourceTree = "<group>";
@@ -592,6 +604,7 @@
 				30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */,
 				30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */,
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
+				30EB355920F8BDCE006345BC /* TestObk.m in Sources */,
 				30EB354520F70510006345BC /* YDRequestTest.m in Sources */,
 				30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */,
 				30EB354820F7053D006345BC /* YDRequestGroup.m in Sources */,
@@ -605,6 +618,7 @@
 				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
 				30EB353A20F6161D006345BC /* TestObject.m in Sources */,
 				30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */,
+				30EB355620F8BDAF006345BC /* TestObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

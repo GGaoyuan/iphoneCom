@@ -10,38 +10,26 @@
 #import "TestObject.h"
 #import <objc/runtime.h>
 
-typedef void(^test)(void);
-
+typedef void(^blk)(void);
 @interface BlockEntrance ()
 
 @end
 
 @implementation BlockEntrance
 
-int (^blk)(int) = ^int(int a) {
-    a = a * 2;
-    NSLog(@"block --- %d",a);
-    return a;
-};
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"block");
     
-    int a = 10;
-    
-    
-    NSLog(@"%d",blk(a));
-    NSLog(@"%d",a);
+    id obj = [self getBlockArray];
+    blk b = [obj objectAtIndex:0];
+    b();
 }
 
-- (void)test:(NSString *)test {
-    test = @"2";
+- (id)getBlockArray {
+    int val = 10;
+    return @[^{NSLog(@"1");}, ^{NSLog(@"2");}];
 }
 
-- (void)kkk:(NSDictionary *)obj {
-    [obj setValue:@"2" forKey:@"2"];
-}
 
 
 @end
