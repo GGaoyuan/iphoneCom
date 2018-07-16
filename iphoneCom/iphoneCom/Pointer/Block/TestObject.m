@@ -8,7 +8,6 @@
 
 #import "TestObject.h"
 
-
 @implementation TestObject
 
 - (void)protocolTest {

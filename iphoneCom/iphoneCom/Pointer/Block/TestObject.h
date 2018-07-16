@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TestProtocol.h"
 
-@interface TestObject : NSObject<TestProtocol2>
+@interface TestObject : NSObject
 
 @property (nonatomic, copy) NSString *string;
 

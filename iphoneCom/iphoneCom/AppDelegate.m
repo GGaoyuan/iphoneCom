@@ -22,10 +22,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//    [self initHomeViewController];
+    [self initHomeViewController];
 //    [self initAlgorithmController];
 //    [self initGCDController];
-    [self initBlockController];
+//    [self initBlockController];
 //    [self initNetWorkViewController];
     return YES;
 }

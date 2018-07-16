@@ -7,6 +7,8 @@
 //
 
 #import "YDHomeViewController.h"
+#import "YDDatabaseTool.h"
+#import "TestObject.h"
 
 @interface YDHomeViewController ()
 
@@ -21,11 +23,14 @@
     self.title = @"home";
     self.view.backgroundColor = [UIColor redColor];
     
+    TestObject *test = [TestObject new];
+    test.integer = 1;
+    test.string = @"string";
+    test.number = @(3);
     
+    NSDictionary *dic = [YDDatabaseTool formatQueryModel:test blackList:nil maper:nil];
+//    NSLog(@"%@",dic);
     
-//    printf("retain count = %ld\n",CFGetRetainCount((__bridge CFTypeRef)(self.test)));
-    [self request];
-//    printf("retain count = %ld\n",CFGetRetainCount((__bridge CFTypeRef)(self.test)));
 }
 
 
