@@ -14,6 +14,11 @@
 #import "BlockEntrance.h"
 #import "NetWorkEntrance.h"
 
+#import "AFNetworking.h"
+#import "YDReachabilityManager.h"
+#import "MobClick.h"
+#import "MobClickHelper.h"
+
 @interface AppDelegate ()
 
 @end
@@ -22,6 +27,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self lisenNetStatus];
+    
     [self initHomeViewController];
 //    [self initAlgorithmController];
 //    [self initGCDController];
@@ -75,6 +82,36 @@
     [self.window makeKeyAndVisible];
 }
 
+- (void)lisenNetStatus {
+    AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
+    [manager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        switch (status) {
+            case AFNetworkReachabilityStatusReachableViaWWAN:
+            case AFNetworkReachabilityStatusReachableViaWiFi: {
+                [self sendSavedMobClick];
+            }
+                break;
+            default:
+                break;
+        }
+    }];
+    [manager startMonitoring];
+}
+
+
+- (void)sendSavedMobClick {
+    NSArray *archieveArray = [NSKeyedUnarchiver unarchiveObjectWithFile:YDMobClickFilePath];;
+    if (0 == archieveArray.count) {
+        return;
+    }
+    NSMutableArray *array = [NSMutableArray arrayWithArray:archieveArray];
+    [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [MobClick event:array[idx]];
+    }];
+    [array removeAllObjects];
+    [NSKeyedArchiver archiveRootObject:array toFile:YDMobClickFilePath];
+    NSLog(@"********");
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

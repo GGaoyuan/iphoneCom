@@ -11,65 +11,73 @@
 
 @implementation YDDatabaseTool
 
-+ (NSDictionary *)formatQueryModel:(id)model blackList:(NSArray<NSString *> *)blackList maper:(NSDictionary<NSString *,NSString *> *)maper {
++ (NSDictionary *)formatQueryModel:(id)model blackList:(NSArray<NSString *> *)blackList maper:(NSDictionary<NSString *,NSString *> *)mapper {
     if (model == nil) {
         return nil;
     }
-    NSMutableDictionary *dic = [YDDatabaseTool modelToKeyValueDic:model].mutableCopy;
-    NSMutableArray *keyArray = dic[@"key"];
-    NSMutableArray *valueArray = dic[@"value"];
-    
+    NSMutableDictionary *dic = [YDDatabaseTool modelToDictionary:model];
+    NSMutableArray *keys = [NSMutableArray array];
+    NSMutableArray *values = [NSMutableArray array];
     if (blackList.count) {
-        
+        [blackList enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            NSString *blackName = blackList[idx];
+            [dic removeObjectForKey:blackName];
+        }];
     }
-    
+    if (mapper) {
+        NSArray *mapperKeys = mapper.allKeys;
+        NSArray *dicKeys = dic.allKeys;
+        [mapperKeys enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            NSString *mapKey = mapperKeys[idx];
+            if ([dicKeys containsObject:mapKey]) {
+                id value = dic[mapKey];
+                [dic removeObjectForKey:mapKey];
+                [dic addEntriesFromDictionary:@{mapper[mapKey]:value}];
+            }
+        }];
+    }
+    [[dic allKeys] enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSString *key = [dic allKeys][idx];
+        id value = [dic objectForKey:key];
+        [keys addObject:key];
+        [values addObject:value];
+    }];
+    [dic removeAllObjects];
+    [dic setObject:keys forKey:@"key"];
+    [dic setObject:values forKey:@"value"];
     return dic;
 }
 
 
 #pragma mark - Private
 
-+ (NSDictionary *)modelToKeyValueDic:(id)obj {
-    NSMutableArray *keyArray = [NSMutableArray array];
-    NSMutableArray *valueArray = [NSMutableArray array];
-    unsigned int outCount, i;
-    objc_property_t *properties = class_copyPropertyList([obj class], &outCount);
-    for (i = 0; i < outCount; i++) {
-        const char* propertyName = property_getName(properties[i]);
-        NSString *propertyStr = [NSString stringWithUTF8String:propertyName];
-        id propertyValue = [obj valueForKey:(NSString *)propertyStr];
-        if (propertyValue) {
-            [keyArray addObject:propertyStr];
-            [valueArray addObject:propertyValue];
-        }
-    }
-    free(properties);
-    return @{@"key":keyArray, @"value":valueArray};
-}
+/**
+ 目前只支持对象属性为NSString，NSNumber的转换
 
-- (NSDictionary *)dicFromObject:(id)object {
+ @param obj 传入的模型
+ @return 字典
+ */
++ (NSMutableDictionary *)modelToDictionary:(id)obj {
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     unsigned int count;
-    objc_property_t *propertyList = class_copyPropertyList([object class], &count);
+    objc_property_t *propertyList = class_copyPropertyList([obj class], &count);
     for (int i = 0; i < count; i++) {
         objc_property_t property = propertyList[i];
         const char *cName = property_getName(property);
         NSString *name = [NSString stringWithUTF8String:cName];
-        NSObject *value = [object valueForKey:name];//valueForKey返回的数字和字符串都是对象
+        NSObject *value = [obj valueForKey:name];
+        //通常类型有：自定义对象，NSArray，NSDictionary，NSInteger,BOOL,CGFloat, NSNumber,NSString,
         if ([value isKindOfClass:[NSString class]] || [value isKindOfClass:[NSNumber class]]) {
-            //string , bool, int ,NSinteger
             [dic setObject:value forKey:name];
-        } else if ([value isKindOfClass:[NSArray class]] || [value isKindOfClass:[NSDictionary class]]) {
-            //字典或字典
-            [dic setObject:[self arrayOrDicWithObject:(NSArray*)value] forKey:name];
-        } else if (value == nil) {
-            //null
-            //[dic setObject:[NSNull null] forKey:name];//这行可以注释掉?????
-        } else {
-            //model
-            [dic setObject:[self dicFromObject:value] forKey:name];
+        }
+        else if (value == nil || [value isKindOfClass:[NSArray class]] || [value isKindOfClass:[NSDictionary class]]) {
+            
+        }
+        else {
+            
         }
     }
-    return [dic copy];
+    return dic;
 }
+
 @end

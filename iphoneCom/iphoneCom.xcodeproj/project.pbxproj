@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		308FA95220F3D23F00A8E420 /* GCDEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 308FA95120F3D23F00A8E420 /* GCDEntrance.m */; };
+		30B82005210854CC002E7FF5 /* MobClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B82004210854CC002E7FF5 /* MobClick.m */; };
+		30B8201421085CFB002E7FF5 /* MobClickHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B8201321085CFB002E7FF5 /* MobClickHelper.m */; };
+		30B8201E21089153002E7FF5 /* YDReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B8201D21089153002E7FF5 /* YDReachabilityManager.m */; };
 		30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA96920DA358900C58F34 /* AppDelegate.m */; };
 		30BAA97220DA358C00C58F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97120DA358C00C58F34 /* Assets.xcassets */; };
 		30BAA97520DA358C00C58F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97320DA358C00C58F34 /* LaunchScreen.storyboard */; };
@@ -69,6 +72,12 @@
 		1FE16C920D5F07391E62A248 /* Pods-iphoneCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iphoneCom/Pods-iphoneCom.debug.xcconfig"; sourceTree = "<group>"; };
 		308FA95020F3D23F00A8E420 /* GCDEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDEntrance.h; sourceTree = "<group>"; };
 		308FA95120F3D23F00A8E420 /* GCDEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDEntrance.m; sourceTree = "<group>"; };
+		30B82003210854CC002E7FF5 /* MobClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		30B82004210854CC002E7FF5 /* MobClick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobClick.m; sourceTree = "<group>"; };
+		30B8201221085CFB002E7FF5 /* MobClickHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClickHelper.h; sourceTree = "<group>"; };
+		30B8201321085CFB002E7FF5 /* MobClickHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobClickHelper.m; sourceTree = "<group>"; };
+		30B8201C21089153002E7FF5 /* YDReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDReachabilityManager.h; sourceTree = "<group>"; };
+		30B8201D21089153002E7FF5 /* YDReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDReachabilityManager.m; sourceTree = "<group>"; };
 		30BAA96520DA358900C58F34 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA96820DA358900C58F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30BAA96920DA358900C58F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -184,6 +193,17 @@
 				308FA95120F3D23F00A8E420 /* GCDEntrance.m */,
 			);
 			path = GCD;
+			sourceTree = "<group>";
+		};
+		30B81FFF2108549C002E7FF5 /* UMengHelper */ = {
+			isa = PBXGroup;
+			children = (
+				30B82003210854CC002E7FF5 /* MobClick.h */,
+				30B82004210854CC002E7FF5 /* MobClick.m */,
+				30B8201221085CFB002E7FF5 /* MobClickHelper.h */,
+				30B8201321085CFB002E7FF5 /* MobClickHelper.m */,
+			);
+			path = UMengHelper;
 			sourceTree = "<group>";
 		};
 		30BAA95C20DA358900C58F34 = {
@@ -305,10 +325,13 @@
 		30FB38A420E0C8750071A9B8 /* YDTools */ = {
 			isa = PBXGroup;
 			children = (
+				30B81FFF2108549C002E7FF5 /* UMengHelper */,
 				30FB38A520E0C8750071A9B8 /* YDAlertView */,
 				30FB38AA20E0C8750071A9B8 /* YDMacro.h */,
 				30EB356F20FCB4B5006345BC /* YDDatabaseTool.h */,
 				30EB357020FCB4B5006345BC /* YDDatabaseTool.m */,
+				30B8201C21089153002E7FF5 /* YDReachabilityManager.h */,
+				30B8201D21089153002E7FF5 /* YDReachabilityManager.m */,
 			);
 			path = YDTools;
 			sourceTree = "<group>";
@@ -590,6 +613,7 @@
 				30EB354B20F705DE006345BC /* YDRequestConfig.m in Sources */,
 				30EB357120FCB4B5006345BC /* YDDatabaseTool.m in Sources */,
 				30FB38C320E0F91E0071A9B8 /* BaseSort.m in Sources */,
+				30B8201E21089153002E7FF5 /* YDReachabilityManager.m in Sources */,
 				30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */,
 				30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */,
 				308FA95220F3D23F00A8E420 /* GCDEntrance.m in Sources */,
@@ -600,6 +624,7 @@
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
 				30EB354520F70510006345BC /* YDRequestTest.m in Sources */,
 				30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */,
+				30B8201421085CFB002E7FF5 /* MobClickHelper.m in Sources */,
 				30EB354820F7053D006345BC /* YDRequestGroup.m in Sources */,
 				30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */,
 				30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */,
@@ -611,6 +636,7 @@
 				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
 				30EB353A20F6161D006345BC /* TestObject.m in Sources */,
 				30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */,
+				30B82005210854CC002E7FF5 /* MobClick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,14 +799,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZSW5D827N7;
+				DEVELOPMENT_TEAM = 7YFGM3N5TQ;
 				INFOPLIST_FILE = iphoneCom/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyuan.iphoneCom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyuan.iphoneCo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -792,14 +818,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZSW5D827N7;
+				DEVELOPMENT_TEAM = 7YFGM3N5TQ;
 				INFOPLIST_FILE = iphoneCom/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyuan.iphoneCom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyuan.iphoneCo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
