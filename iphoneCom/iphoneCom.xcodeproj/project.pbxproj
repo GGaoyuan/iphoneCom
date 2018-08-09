@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		308FA95220F3D23F00A8E420 /* GCDEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 308FA95120F3D23F00A8E420 /* GCDEntrance.m */; };
+		30B4ED3D211BF16100EB24E7 /* YDHomeViewController+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B4ED3C211BF16100EB24E7 /* YDHomeViewController+Test.m */; };
 		30B82005210854CC002E7FF5 /* MobClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B82004210854CC002E7FF5 /* MobClick.m */; };
 		30B8201421085CFB002E7FF5 /* MobClickHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B8201321085CFB002E7FF5 /* MobClickHelper.m */; };
 		30B8201E21089153002E7FF5 /* YDReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B8201D21089153002E7FF5 /* YDReachabilityManager.m */; };
@@ -72,6 +73,8 @@
 		1FE16C920D5F07391E62A248 /* Pods-iphoneCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iphoneCom/Pods-iphoneCom.debug.xcconfig"; sourceTree = "<group>"; };
 		308FA95020F3D23F00A8E420 /* GCDEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDEntrance.h; sourceTree = "<group>"; };
 		308FA95120F3D23F00A8E420 /* GCDEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDEntrance.m; sourceTree = "<group>"; };
+		30B4ED3B211BF16100EB24E7 /* YDHomeViewController+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDHomeViewController+Test.h"; sourceTree = "<group>"; };
+		30B4ED3C211BF16100EB24E7 /* YDHomeViewController+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YDHomeViewController+Test.m"; sourceTree = "<group>"; };
 		30B82003210854CC002E7FF5 /* MobClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
 		30B82004210854CC002E7FF5 /* MobClick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobClick.m; sourceTree = "<group>"; };
 		30B8201221085CFB002E7FF5 /* MobClickHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClickHelper.h; sourceTree = "<group>"; };
@@ -403,6 +406,8 @@
 			children = (
 				30FB38BB20E0EB5D0071A9B8 /* YDHomeViewController.h */,
 				30FB38BC20E0EB5D0071A9B8 /* YDHomeViewController.m */,
+				30B4ED3B211BF16100EB24E7 /* YDHomeViewController+Test.h */,
+				30B4ED3C211BF16100EB24E7 /* YDHomeViewController+Test.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -620,6 +625,7 @@
 				30FB38E120E645C70071A9B8 /* AlgHeapSort.m in Sources */,
 				30FB38FF20EB87E40071A9B8 /* AlgSearchNode.m in Sources */,
 				30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */,
+				30B4ED3D211BF16100EB24E7 /* YDHomeViewController+Test.m in Sources */,
 				30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */,
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
 				30EB354520F70510006345BC /* YDRequestTest.m in Sources */,
