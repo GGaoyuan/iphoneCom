@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3074A9EC212134670070FCA3 /* DesignPatternsEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3074A9EB212134670070FCA3 /* DesignPatternsEntrance.m */; };
 		308FA95220F3D23F00A8E420 /* GCDEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 308FA95120F3D23F00A8E420 /* GCDEntrance.m */; };
 		30B4ED3D211BF16100EB24E7 /* YDHomeViewController+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B4ED3C211BF16100EB24E7 /* YDHomeViewController+Test.m */; };
 		30B82005210854CC002E7FF5 /* MobClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B82004210854CC002E7FF5 /* MobClick.m */; };
@@ -71,6 +72,8 @@
 		03C2BFE9A5E1A5D6DABB37D3 /* Pods-iphoneCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.release.xcconfig"; path = "Pods/Target Support Files/Pods-iphoneCom/Pods-iphoneCom.release.xcconfig"; sourceTree = "<group>"; };
 		130F2C758C6E4D64F882CF40 /* libPods-iphoneCom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iphoneCom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE16C920D5F07391E62A248 /* Pods-iphoneCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iphoneCom/Pods-iphoneCom.debug.xcconfig"; sourceTree = "<group>"; };
+		3074A9EA212134670070FCA3 /* DesignPatternsEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatternsEntrance.h; sourceTree = "<group>"; };
+		3074A9EB212134670070FCA3 /* DesignPatternsEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsEntrance.m; sourceTree = "<group>"; };
 		308FA95020F3D23F00A8E420 /* GCDEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDEntrance.h; sourceTree = "<group>"; };
 		308FA95120F3D23F00A8E420 /* GCDEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDEntrance.m; sourceTree = "<group>"; };
 		30B4ED3B211BF16100EB24E7 /* YDHomeViewController+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDHomeViewController+Test.h"; sourceTree = "<group>"; };
@@ -189,6 +192,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3074A9E9212134320070FCA3 /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				3074A9EA212134670070FCA3 /* DesignPatternsEntrance.h */,
+				3074A9EB212134670070FCA3 /* DesignPatternsEntrance.m */,
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
 		308FA94920F3D1D500A8E420 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +282,7 @@
 		30EB352920F4C760006345BC /* Pointer */ = {
 			isa = PBXGroup;
 			children = (
+				3074A9E9212134320070FCA3 /* 设计模式 */,
 				30EB353B20F70172006345BC /* NetWork */,
 				308FA94920F3D1D500A8E420 /* GCD */,
 				30EB352A20F4C760006345BC /* Block */,
@@ -641,6 +654,7 @@
 				30EB353E20F7018C006345BC /* NetWorkEntrance.m in Sources */,
 				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
 				30EB353A20F6161D006345BC /* TestObject.m in Sources */,
+				3074A9EC212134670070FCA3 /* DesignPatternsEntrance.m in Sources */,
 				30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */,
 				30B82005210854CC002E7FF5 /* MobClick.m in Sources */,
 			);

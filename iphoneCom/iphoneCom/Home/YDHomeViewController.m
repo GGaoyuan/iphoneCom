@@ -19,7 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
     [self yoyo];
+    
+    [self test];
+    
+}
+
+- (void)test {
+    NSLog(@"origin");
 }
 
 

@@ -18,6 +18,7 @@
 #import "YDReachabilityManager.h"
 #import "MobClick.h"
 #import "MobClickHelper.h"
+#import "DesignPatternsEntrance.h"
 
 @interface AppDelegate ()
 
@@ -27,14 +28,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [self lisenNetStatus];
+//    [self lisenNetStatus];
     
-    [self initHomeViewController];
+    [self initDesignPatternsController];
+//    [self initHomeViewController];
 //    [self initAlgorithmController];
 //    [self initGCDController];
 //    [self initBlockController];
 //    [self initNetWorkViewController];
     return YES;
+}
+
+- (void)initDesignPatternsController {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    DesignPatternsEntrance *designPatternsEntrance = [[DesignPatternsEntrance alloc] init];
+    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:designPatternsEntrance];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];
 }
 
 - (void)initNetWorkViewController {
