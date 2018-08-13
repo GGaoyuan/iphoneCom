@@ -10,9 +10,6 @@
 		3074A9EC212134670070FCA3 /* DesignPatternsEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3074A9EB212134670070FCA3 /* DesignPatternsEntrance.m */; };
 		308FA95220F3D23F00A8E420 /* GCDEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 308FA95120F3D23F00A8E420 /* GCDEntrance.m */; };
 		30B4ED3D211BF16100EB24E7 /* YDHomeViewController+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B4ED3C211BF16100EB24E7 /* YDHomeViewController+Test.m */; };
-		30B82005210854CC002E7FF5 /* MobClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B82004210854CC002E7FF5 /* MobClick.m */; };
-		30B8201421085CFB002E7FF5 /* MobClickHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B8201321085CFB002E7FF5 /* MobClickHelper.m */; };
-		30B8201E21089153002E7FF5 /* YDReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B8201D21089153002E7FF5 /* YDReachabilityManager.m */; };
 		30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA96920DA358900C58F34 /* AppDelegate.m */; };
 		30BAA97220DA358C00C58F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97120DA358C00C58F34 /* Assets.xcassets */; };
 		30BAA97520DA358C00C58F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97320DA358C00C58F34 /* LaunchScreen.storyboard */; };
@@ -29,7 +26,6 @@
 		30EB354B20F705DE006345BC /* YDRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354A20F705DE006345BC /* YDRequestConfig.m */; };
 		30EB354F20F709EA006345BC /* YDRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354E20F709EA006345BC /* YDRequestAgent.m */; };
 		30EB355220F70E1A006345BC /* YDRequestMiddleWare.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */; };
-		30EB357120FCB4B5006345BC /* YDDatabaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB357020FCB4B5006345BC /* YDDatabaseTool.m */; };
 		30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */; };
 		30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A720E0C8750071A9B8 /* YDAlertView.m */; };
 		30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */; };
@@ -78,12 +74,6 @@
 		308FA95120F3D23F00A8E420 /* GCDEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDEntrance.m; sourceTree = "<group>"; };
 		30B4ED3B211BF16100EB24E7 /* YDHomeViewController+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDHomeViewController+Test.h"; sourceTree = "<group>"; };
 		30B4ED3C211BF16100EB24E7 /* YDHomeViewController+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YDHomeViewController+Test.m"; sourceTree = "<group>"; };
-		30B82003210854CC002E7FF5 /* MobClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
-		30B82004210854CC002E7FF5 /* MobClick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobClick.m; sourceTree = "<group>"; };
-		30B8201221085CFB002E7FF5 /* MobClickHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobClickHelper.h; sourceTree = "<group>"; };
-		30B8201321085CFB002E7FF5 /* MobClickHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobClickHelper.m; sourceTree = "<group>"; };
-		30B8201C21089153002E7FF5 /* YDReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDReachabilityManager.h; sourceTree = "<group>"; };
-		30B8201D21089153002E7FF5 /* YDReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDReachabilityManager.m; sourceTree = "<group>"; };
 		30BAA96520DA358900C58F34 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA96820DA358900C58F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30BAA96920DA358900C58F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,8 +107,6 @@
 		30EB354E20F709EA006345BC /* YDRequestAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestAgent.m; sourceTree = "<group>"; };
 		30EB355020F70E1A006345BC /* YDRequestMiddleWare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestMiddleWare.h; sourceTree = "<group>"; };
 		30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestMiddleWare.m; sourceTree = "<group>"; };
-		30EB356F20FCB4B5006345BC /* YDDatabaseTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDDatabaseTool.h; sourceTree = "<group>"; };
-		30EB357020FCB4B5006345BC /* YDDatabaseTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDDatabaseTool.m; sourceTree = "<group>"; };
 		30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertChainController.m; sourceTree = "<group>"; };
 		30FB38A720E0C8750071A9B8 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
 		30FB38A820E0C8750071A9B8 /* YDAlertChainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertChainController.h; sourceTree = "<group>"; };
@@ -210,17 +198,6 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
-		30B81FFF2108549C002E7FF5 /* UMengHelper */ = {
-			isa = PBXGroup;
-			children = (
-				30B82003210854CC002E7FF5 /* MobClick.h */,
-				30B82004210854CC002E7FF5 /* MobClick.m */,
-				30B8201221085CFB002E7FF5 /* MobClickHelper.h */,
-				30B8201321085CFB002E7FF5 /* MobClickHelper.m */,
-			);
-			path = UMengHelper;
-			sourceTree = "<group>";
-		};
 		30BAA95C20DA358900C58F34 = {
 			isa = PBXGroup;
 			children = (
@@ -247,7 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				30EB352920F4C760006345BC /* Pointer */,
-				30FB38AD20E0E9430071A9B8 /* Algorithm */,
 				30FB38B620E0EAB70071A9B8 /* Base */,
 				30FB38BA20E0EB370071A9B8 /* Home */,
 				30FB38A420E0C8750071A9B8 /* YDTools */,
@@ -279,9 +255,17 @@
 			path = iphoneComUITests;
 			sourceTree = "<group>";
 		};
+		30E533012121837700A66927 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		30EB352920F4C760006345BC /* Pointer */ = {
 			isa = PBXGroup;
 			children = (
+				30FB38AD20E0E9430071A9B8 /* Algorithm */,
 				3074A9E9212134320070FCA3 /* 设计模式 */,
 				30EB353B20F70172006345BC /* NetWork */,
 				308FA94920F3D1D500A8E420 /* GCD */,
@@ -341,13 +325,9 @@
 		30FB38A420E0C8750071A9B8 /* YDTools */ = {
 			isa = PBXGroup;
 			children = (
-				30B81FFF2108549C002E7FF5 /* UMengHelper */,
+				30E533012121837700A66927 /* Category */,
 				30FB38A520E0C8750071A9B8 /* YDAlertView */,
 				30FB38AA20E0C8750071A9B8 /* YDMacro.h */,
-				30EB356F20FCB4B5006345BC /* YDDatabaseTool.h */,
-				30EB357020FCB4B5006345BC /* YDDatabaseTool.m */,
-				30B8201C21089153002E7FF5 /* YDReachabilityManager.h */,
-				30B8201D21089153002E7FF5 /* YDReachabilityManager.m */,
 			);
 			path = YDTools;
 			sourceTree = "<group>";
@@ -629,9 +609,7 @@
 				30FB38C020E0EEA50071A9B8 /* AlgorithmTool.m in Sources */,
 				30EB353320F5AAC9006345BC /* AlgRedBlackTree.m in Sources */,
 				30EB354B20F705DE006345BC /* YDRequestConfig.m in Sources */,
-				30EB357120FCB4B5006345BC /* YDDatabaseTool.m in Sources */,
 				30FB38C320E0F91E0071A9B8 /* BaseSort.m in Sources */,
-				30B8201E21089153002E7FF5 /* YDReachabilityManager.m in Sources */,
 				30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */,
 				30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */,
 				308FA95220F3D23F00A8E420 /* GCDEntrance.m in Sources */,
@@ -643,7 +621,6 @@
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
 				30EB354520F70510006345BC /* YDRequestTest.m in Sources */,
 				30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */,
-				30B8201421085CFB002E7FF5 /* MobClickHelper.m in Sources */,
 				30EB354820F7053D006345BC /* YDRequestGroup.m in Sources */,
 				30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */,
 				30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */,
@@ -656,7 +633,6 @@
 				30EB353A20F6161D006345BC /* TestObject.m in Sources */,
 				3074A9EC212134670070FCA3 /* DesignPatternsEntrance.m in Sources */,
 				30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */,
-				30B82005210854CC002E7FF5 /* MobClick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
