@@ -1,19 +1,15 @@
 //
-//  AlgMapEntrance.m
+//  AlgMapEntrance.h
 //  iphoneCom
 //
 //  Created by gaoyuan on 2018/8/14.
 //  Copyright © 2018年 gaoyuan. All rights reserved.
 //
 
-#import "AlgMapEntrance.h"
+#import <Foundation/Foundation.h>
 
-@implementation AlgMapEntrance
+@interface AlgGraphEntrance : NSObject
 
-- (void)entrance {
-    
-    
-    
-}
+- (void)entrance;
 
 @end

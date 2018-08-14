@@ -14,7 +14,7 @@
 #import "AlgBinarySearchTree.h"
 #import "AlgNodeView.h"
 #import "YDMacro.h"
-#import "AlgMapEntrance.h"
+#import "AlgGraphEntrance.h"
 
 @interface AlgorithmEntrance ()
 
@@ -43,8 +43,8 @@
 //    AlgSearchEntrance *search = [AlgSearchEntrance new];
 //    [search search];
     
-    AlgMapEntrance *map = [AlgMapEntrance new];
-    [map entrance];
+    AlgGraphEntrance *graph = [AlgGraphEntrance new];
+    [graph entrance];
     
 }
 
