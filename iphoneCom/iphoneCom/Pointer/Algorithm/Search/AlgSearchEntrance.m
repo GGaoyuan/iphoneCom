@@ -10,15 +10,38 @@
 
 #import "AlgBinarySearchTree.h"
 #import "AlgRedBlackTree.h"
+#import "AlgHashTable.h"
 
 @implementation AlgSearchEntrance
 
 - (void)search {
-    AlgRedBlackTree *rbTree = [[AlgRedBlackTree alloc] init];
+//    AlgRedBlackTree *rbTree = [[AlgRedBlackTree alloc] init];
 //    [rbTree putKey:@"" value:@""];
     
+    AlgHashTable *hashTable = [AlgHashTable new];
+    NSLog(@"%@",hashTable);
     
+    NSObject *obj1 = [NSObject new];
+    NSObject *obj2 = [NSObject new];
+    NSObject *obj3 = [NSObject new];
+    NSObject *obj4 = [NSObject new];
+    NSObject *obj5 = [NSObject new];
     
+    NSLog(@"%@ ----- %ld",obj1, obj1.hash);
+    NSLog(@"%@ ----- %ld",obj2, obj2.hash);
+    NSLog(@"%@ ----- %ld",obj3, obj3.hash);
+    NSLog(@"%@ ----- %ld",obj4, obj4.hash);
+    NSLog(@"%@ ----- %ld",obj5, obj5.hash);
+    
+    NSLog(@"---------");
+    
+    NSString *test1 = @"123";
+    NSString *test2 = @"1234";
+    NSString *test3 = @"1235";
+    NSLog(@"%@ ----- %ld",test1, test1.hash);
+    NSLog(@"%@ ----- %ld",test2, test2.hash);
+    NSLog(@"%@ ----- %ld",test3, test3.hash);
+    NSLog(@"%@ ----- %ld",test1, test1.hash);
 }
 
 - (void)binarySearchTreeTest {

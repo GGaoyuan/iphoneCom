@@ -14,6 +14,7 @@
 #import "AlgBinarySearchTree.h"
 #import "AlgNodeView.h"
 #import "YDMacro.h"
+#import "AlgMapEntrance.h"
 
 @interface AlgorithmEntrance ()
 
@@ -39,8 +40,12 @@
 //    SortEntrance *sort = [SortEntrance new];
 //    [sort sort];
     
-    AlgSearchEntrance *search = [AlgSearchEntrance new];
-    [search search];
+//    AlgSearchEntrance *search = [AlgSearchEntrance new];
+//    [search search];
+    
+    AlgMapEntrance *map = [AlgMapEntrance new];
+    [map entrance];
+    
 }
 
 - (void)dealloc {
