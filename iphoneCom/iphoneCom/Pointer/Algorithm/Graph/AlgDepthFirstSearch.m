@@ -18,7 +18,7 @@
 //要处理的图
 @property (nonatomic, strong) AlgGraph *graph;
 
-@property (nonatomic, strong) Stack *currentPath;
+@property (nonatomic, strong) NSMutableArray *currentPath;
 
 @end
 
@@ -42,26 +42,7 @@
         NSLog(@"                %@",vertext);
     }
     
-    NSInteger visitVertexCount = 0;
-    for (NSNumber *vertext in nearbyVertexs) {
-        if ([vertext integerValue] == [self.destination integerValue]) {
-            [self.currentPath push:vertext];
-            [self fetchCurrentPath];
-            return;
-        }
-        if ([vertext integerValue] == [self.origin integerValue]) {
-            visitVertexCount++;
-            if (visitVertexCount == nearbyVertexs.count) {
-                NSLog(@"****倒退");
-                return;
-            }
-            else {
-                self.origin = vertext;
-                [self searchPath];
-                continue;
-            }
-        }
-    }
+    
     
     [self fetchCurrentPath];
 }

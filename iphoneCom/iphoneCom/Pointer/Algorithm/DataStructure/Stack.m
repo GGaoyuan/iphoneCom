@@ -43,11 +43,9 @@
 
 - (void)popFrom:(id)obj {
     if ([self.array containsObject:obj]) {
-        for (NSInteger i = self.array.count - 1; i > 0; i--) {
-            if (![self.array[i] isEqual:obj]) {
-                
-            }
-        }
+        NSInteger index = [self.array indexOfObject:obj];
+        NSRange range = NSMakeRange(index, self.count - index);
+        [self.array removeObjectsInRange:range];
     }
 }
 
