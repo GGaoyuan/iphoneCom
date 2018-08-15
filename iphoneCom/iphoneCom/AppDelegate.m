@@ -16,6 +16,7 @@
 
 #import "AFNetworking.h"
 #import "DesignPatternsEntrance.h"
+#import "MemeryEntrance.h"
 
 @interface AppDelegate ()
 
@@ -25,14 +26,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-//    [self initDesignPatternsController];
 //    [self initHomeViewController];
-    [self initAlgorithmController];
+    
+    [self initMemeryController];
+//    [self initDesignPatternsController];
+//    [self initAlgorithmController];
 //    [self initGCDController];
 //    [self initBlockController];
 //    [self initNetWorkViewController];
     return YES;
+}
+
+- (void)initMemeryController {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    MemeryEntrance *memeryEntrance = [[MemeryEntrance alloc] init];
+    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:memeryEntrance];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];
 }
 
 - (void)initDesignPatternsController {

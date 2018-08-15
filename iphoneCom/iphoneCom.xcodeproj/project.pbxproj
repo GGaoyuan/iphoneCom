@@ -18,6 +18,7 @@
 		30BAA98D20DA358C00C58F34 /* iphoneComUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA98C20DA358C00C58F34 /* iphoneComUITests.m */; };
 		30CDB04E2122F59600542C7E /* AlgDepthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB04D2122F59600542C7E /* AlgDepthFirstSearch.m */; };
 		30CDB05221241AB500542C7E /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05121241AB500542C7E /* Stack.m */; };
+		30CDB05921242E5F00542C7E /* MemeryEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05821242E5F00542C7E /* MemeryEntrance.m */; };
 		30E5330421219ADF00A66927 /* AlgHashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E5330321219ADF00A66927 /* AlgHashTable.m */; };
 		30E5330B21227DCF00A66927 /* AlgGraphEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E5330A21227DCF00A66927 /* AlgGraphEntrance.m */; };
 		30E5330E21228BD100A66927 /* AlgGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E5330D21228BD100A66927 /* AlgGraph.m */; };
@@ -96,6 +97,8 @@
 		30CDB04D2122F59600542C7E /* AlgDepthFirstSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgDepthFirstSearch.m; sourceTree = "<group>"; };
 		30CDB05021241AB500542C7E /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		30CDB05121241AB500542C7E /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		30CDB05721242E5F00542C7E /* MemeryEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemeryEntrance.h; sourceTree = "<group>"; };
+		30CDB05821242E5F00542C7E /* MemeryEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemeryEntrance.m; sourceTree = "<group>"; };
 		30E5330221219ADF00A66927 /* AlgHashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgHashTable.h; sourceTree = "<group>"; };
 		30E5330321219ADF00A66927 /* AlgHashTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgHashTable.m; sourceTree = "<group>"; };
 		30E5330921227DCF00A66927 /* AlgGraphEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgGraphEntrance.h; sourceTree = "<group>"; };
@@ -279,6 +282,15 @@
 			path = DataStructure;
 			sourceTree = "<group>";
 		};
+		30CDB05321242E1100542C7E /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				30CDB05721242E5F00542C7E /* MemeryEntrance.h */,
+				30CDB05821242E5F00542C7E /* MemeryEntrance.m */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
 		30E533012121837700A66927 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +314,7 @@
 		30EB352920F4C760006345BC /* Pointer */ = {
 			isa = PBXGroup;
 			children = (
+				30CDB05321242E1100542C7E /* Memory */,
 				30FB38AD20E0E9430071A9B8 /* Algorithm */,
 				3074A9E9212134320070FCA3 /* 设计模式 */,
 				30EB353B20F70172006345BC /* NetWork */,
@@ -663,6 +676,7 @@
 				30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */,
 				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
 				30EB354520F70510006345BC /* YDRequestTest.m in Sources */,
+				30CDB05921242E5F00542C7E /* MemeryEntrance.m in Sources */,
 				30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */,
 				30EB354820F7053D006345BC /* YDRequestGroup.m in Sources */,
 				30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */,
