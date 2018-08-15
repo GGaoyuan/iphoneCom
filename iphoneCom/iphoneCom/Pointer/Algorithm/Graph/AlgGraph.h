@@ -18,6 +18,6 @@
 
 - (void)addEdgeWithStartVertext:(NSInteger)startVertext endVertex:(NSInteger)endVertext;
 
-- (NSArray *)allNearbyVertext:(NSInteger)vertext;
+- (NSArray *)nearbyVertext:(NSInteger)vertext;
 
 @end

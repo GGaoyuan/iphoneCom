@@ -8,6 +8,7 @@
 
 #import "AlgGraph.h"
 
+
 @interface AlgGraph()
 
 @property (nonatomic, assign) NSInteger vertexCount;
@@ -38,17 +39,19 @@
 }
 
 - (NSInteger)edgeCount {
-    return _edgeCount;
+    return _edgeCount / 2;
 }
 
 - (void)addEdgeWithStartVertext:(NSInteger)startVertext endVertex:(NSInteger)endVertext {
     [self.adj[startVertext] addObject:@(endVertext)];
-//    [self.adj[endVertext] addObject:@(startVertext)];
     self.edgeCount++;
 }
 
-- (NSArray *)allNearbyVertext:(NSInteger)vertext {
-    return self.adj[vertext];
+- (NSArray *)nearbyVertext:(NSInteger)vertext {
+    if (vertext <= self.vertexCount) {
+        return self.adj[vertext];
+    }
+    return nil;
 }
 
 

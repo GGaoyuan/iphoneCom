@@ -14,15 +14,11 @@
  深度优先算法是将访问的顶点标记为已访问
  递归的访问他的左右没有被标记过的邻居顶点
  */
+
 @interface AlgDepthFirstSearch : NSObject
 
-//找到和source顶点所有联通的顶点
-- (instancetype)initWithGraph:(AlgGraph *)graph source:(NSInteger)source;
+- (instancetype)initWithGraph:(AlgGraph *)graph origin:(NSNumber *)origin destination:(NSNumber *)destination;
 
-//vertex和source顶点是联通的吗
-- (BOOL)marked:(NSInteger)vertext;
-
-//与source顶点联通的个数
-- (NSInteger)count;
+- (void)searchPath;
 
 @end

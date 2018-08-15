@@ -13,6 +13,40 @@
 @implementation AlgGraphEntrance
 
 - (void)entrance {
+    [self depthFirstTest];
+}
+
+- (void)depthFirstTest {
+    AlgGraph *graph = [[AlgGraph alloc] initWithVertexCount:6];
+    
+    [graph addEdgeWithStartVertext:0 endVertex:2];
+    [graph addEdgeWithStartVertext:0 endVertex:1];
+    [graph addEdgeWithStartVertext:0 endVertex:5];
+    
+    [graph addEdgeWithStartVertext:1 endVertex:0];
+    [graph addEdgeWithStartVertext:1 endVertex:2];
+    
+    [graph addEdgeWithStartVertext:2 endVertex:0];
+    [graph addEdgeWithStartVertext:2 endVertex:1];
+    [graph addEdgeWithStartVertext:2 endVertex:3];
+    [graph addEdgeWithStartVertext:2 endVertex:4];
+    
+    [graph addEdgeWithStartVertext:3 endVertex:5];
+    [graph addEdgeWithStartVertext:3 endVertex:4];
+    [graph addEdgeWithStartVertext:3 endVertex:2];
+    
+    [graph addEdgeWithStartVertext:4 endVertex:3];
+    [graph addEdgeWithStartVertext:4 endVertex:2];
+    
+    [graph addEdgeWithStartVertext:5 endVertex:3];
+    [graph addEdgeWithStartVertext:5 endVertex:0];
+    
+    AlgDepthFirstSearch *search = [[AlgDepthFirstSearch alloc] initWithGraph:graph origin:@(0) destination:@(4)];
+    [search searchPath];
+}
+
+
+- (void)initNewGraph {
     //图4.19的例子，造一个一样的
     AlgGraph *graph = [[AlgGraph alloc] initWithVertexCount:13];
     //////////////////////// 0~6是一个闭环的图
@@ -61,8 +95,8 @@
     NSLog(@"%@",graph);
     NSLog(@"%ld",[graph vertextCount]);
     NSLog(@"%ld",[graph edgeCount]);
-    NSLog(@"%@",[graph allNearbyVertext:12]);
-}
+    NSLog(@"%@",[graph nearbyVertext:12]);
 
+}
 
 @end

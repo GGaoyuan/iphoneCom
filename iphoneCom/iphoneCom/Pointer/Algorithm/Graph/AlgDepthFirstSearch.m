@@ -7,41 +7,90 @@
 //
 
 #import "AlgDepthFirstSearch.h"
+#import "Stack.h"
 
 @interface AlgDepthFirstSearch()
 
-@property (nonatomic, strong) NSMutableArray<NSNumber *> *marked;
+//入口
+@property (nonatomic, assign) NSNumber *origin;
+//终点
+@property (nonatomic, assign) NSNumber *destination;
+//要处理的图
+@property (nonatomic, strong) AlgGraph *graph;
 
-@property (nonatomic, assign) NSInteger count;
+@property (nonatomic, strong) Stack *currentPath;
 
 @end
 
 @implementation AlgDepthFirstSearch
 
-//找到和source顶点所有联通的顶点
-- (instancetype)initWithGraph:(AlgGraph *)graph source:(NSInteger)source {
+- (instancetype)initWithGraph:(AlgGraph *)graph origin:(NSNumber *)origin destination:(NSNumber *)destination {
     self = [super init];
     if (self) {
-        
+        self.origin = origin;
+        self.destination = destination;
+        self.graph = graph;
     }
     return self;
 }
 
-//vertex和source顶点是联通的吗
-- (BOOL)marked:(NSInteger)vertext {
-    return [self.marked[vertext] boolValue];
-}
-
-//与source顶点联通的个数
-- (NSInteger)count {
-    return 10;
-}
-
-- (NSMutableArray<NSNumber *> *)marked {
-    if (!_marked) {
-        _marked = [NSMutableArray array];
+- (void)searchPath {
+    NSArray *nearbyVertexs = [self.graph nearbyVertext:[self.origin integerValue]];
+    
+    NSLog(@"当前要找路径的vertex --- %@", self.origin);
+    for (NSNumber *vertext in nearbyVertexs) {
+        NSLog(@"                %@",vertext);
     }
-    return _marked;
+    
+    NSInteger visitVertexCount = 0;
+    for (NSNumber *vertext in nearbyVertexs) {
+        if ([vertext integerValue] == [self.destination integerValue]) {
+            [self.currentPath push:vertext];
+            [self fetchCurrentPath];
+            return;
+        }
+        if ([vertext integerValue] == [self.origin integerValue]) {
+            visitVertexCount++;
+            if (visitVertexCount == nearbyVertexs.count) {
+                NSLog(@"****倒退");
+                return;
+            }
+            else {
+                self.origin = vertext;
+                [self searchPath];
+                continue;
+            }
+        }
+    }
+    
+    [self fetchCurrentPath];
+}
+
+- (void)fetchCurrentPath {
+    if (self.currentPath.count == 0) {
+        NSLog(@"当前路径:空");
+        return;
+    }
+    NSString *string = @"当前路径:";
+    for (int i = 0; i < self.currentPath.count; i++) {
+        NSNumber *vertext = self.currentPath[i];
+        if (i == 0) {
+            string = [NSString stringWithFormat:@"%@%@", string, vertext];
+        }
+        else {
+            string = [NSString stringWithFormat:@"%@ ---> %@", string, vertext];
+        }
+    }
+    NSLog(@"%@",string);
+}
+
+#pragma mark - ---------- Private ----------
+
+- (NSMutableArray *)currentPath {
+    if (!_currentPath) {
+        _currentPath = [NSMutableArray array];
+    }
+    return _currentPath;
 }
 
 @end
