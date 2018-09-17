@@ -7,8 +7,11 @@
 //
 
 #import "MemeryEntrance.h"
+#import "RetainCountObject.h"
 
 @interface MemeryEntrance ()
+
+@property (nonatomic, strong) RetainCountObject *obj;
 
 @end
 
@@ -16,8 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"123123123");
+    
+    
+    RetainCountObject *obj = [RetainCountObject new];
+//    obj = nil;
+    [obj testMethod];
+//    NSLog(@"234");
 }
 
+- (void)test {
+
+}
 
 @end

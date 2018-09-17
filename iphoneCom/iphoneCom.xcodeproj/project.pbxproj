@@ -19,6 +19,7 @@
 		30CDB04E2122F59600542C7E /* AlgDepthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB04D2122F59600542C7E /* AlgDepthFirstSearch.m */; };
 		30CDB05221241AB500542C7E /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05121241AB500542C7E /* Stack.m */; };
 		30CDB05921242E5F00542C7E /* MemeryEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05821242E5F00542C7E /* MemeryEntrance.m */; };
+		30CDB05C2125357900542C7E /* RetainCountObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05B2125357900542C7E /* RetainCountObject.m */; };
 		30E5330421219ADF00A66927 /* AlgHashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E5330321219ADF00A66927 /* AlgHashTable.m */; };
 		30E5330B21227DCF00A66927 /* AlgGraphEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E5330A21227DCF00A66927 /* AlgGraphEntrance.m */; };
 		30E5330E21228BD100A66927 /* AlgGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E5330D21228BD100A66927 /* AlgGraph.m */; };
@@ -99,6 +100,8 @@
 		30CDB05121241AB500542C7E /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 		30CDB05721242E5F00542C7E /* MemeryEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemeryEntrance.h; sourceTree = "<group>"; };
 		30CDB05821242E5F00542C7E /* MemeryEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemeryEntrance.m; sourceTree = "<group>"; };
+		30CDB05A2125357900542C7E /* RetainCountObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetainCountObject.h; sourceTree = "<group>"; };
+		30CDB05B2125357900542C7E /* RetainCountObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetainCountObject.m; sourceTree = "<group>"; };
 		30E5330221219ADF00A66927 /* AlgHashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgHashTable.h; sourceTree = "<group>"; };
 		30E5330321219ADF00A66927 /* AlgHashTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgHashTable.m; sourceTree = "<group>"; };
 		30E5330921227DCF00A66927 /* AlgGraphEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgGraphEntrance.h; sourceTree = "<group>"; };
@@ -287,6 +290,8 @@
 			children = (
 				30CDB05721242E5F00542C7E /* MemeryEntrance.h */,
 				30CDB05821242E5F00542C7E /* MemeryEntrance.m */,
+				30CDB05A2125357900542C7E /* RetainCountObject.h */,
+				30CDB05B2125357900542C7E /* RetainCountObject.m */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -687,6 +692,7 @@
 				30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */,
 				30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */,
 				30CDB04E2122F59600542C7E /* AlgDepthFirstSearch.m in Sources */,
+				30CDB05C2125357900542C7E /* RetainCountObject.m in Sources */,
 				30FB390620EC7EC70071A9B8 /* AlgNodeView.m in Sources */,
 				30EB353E20F7018C006345BC /* NetWorkEntrance.m in Sources */,
 				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
