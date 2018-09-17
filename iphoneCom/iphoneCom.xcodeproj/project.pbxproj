@@ -33,6 +33,13 @@
 		30EB354B20F705DE006345BC /* YDRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354A20F705DE006345BC /* YDRequestConfig.m */; };
 		30EB354F20F709EA006345BC /* YDRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354E20F709EA006345BC /* YDRequestAgent.m */; };
 		30EB355220F70E1A006345BC /* YDRequestMiddleWare.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */; };
+		30ED2F0A214F94EE002A69A9 /* YDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F09214F94EE002A69A9 /* YDNavigationController.m */; };
+		30ED2F0D214F9517002A69A9 /* YDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F0C214F9517002A69A9 /* YDViewController.m */; };
+		30ED2F10214F9541002A69A9 /* YDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F0F214F9541002A69A9 /* YDTabBarController.m */; };
+		30ED2F13214F9586002A69A9 /* EntranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F12214F9586002A69A9 /* EntranceViewController.m */; };
+		30ED2F1A214F9722002A69A9 /* CRLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F19214F9722002A69A9 /* CRLHomeViewController.m */; };
+		30ED2F1D214F973C002A69A9 /* EMCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F1C214F973C002A69A9 /* EMCHomeViewController.m */; };
+		30ED2F20214F974C002A69A9 /* PointerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F1F214F974C002A69A9 /* PointerViewController.m */; };
 		30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */; };
 		30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A720E0C8750071A9B8 /* YDAlertView.m */; };
 		30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */; };
@@ -128,6 +135,20 @@
 		30EB354E20F709EA006345BC /* YDRequestAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestAgent.m; sourceTree = "<group>"; };
 		30EB355020F70E1A006345BC /* YDRequestMiddleWare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestMiddleWare.h; sourceTree = "<group>"; };
 		30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestMiddleWare.m; sourceTree = "<group>"; };
+		30ED2F08214F94EE002A69A9 /* YDNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNavigationController.h; sourceTree = "<group>"; };
+		30ED2F09214F94EE002A69A9 /* YDNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNavigationController.m; sourceTree = "<group>"; };
+		30ED2F0B214F9517002A69A9 /* YDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDViewController.h; sourceTree = "<group>"; };
+		30ED2F0C214F9517002A69A9 /* YDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDViewController.m; sourceTree = "<group>"; };
+		30ED2F0E214F9541002A69A9 /* YDTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTabBarController.h; sourceTree = "<group>"; };
+		30ED2F0F214F9541002A69A9 /* YDTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTabBarController.m; sourceTree = "<group>"; };
+		30ED2F11214F9586002A69A9 /* EntranceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntranceViewController.h; sourceTree = "<group>"; };
+		30ED2F12214F9586002A69A9 /* EntranceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntranceViewController.m; sourceTree = "<group>"; };
+		30ED2F18214F9722002A69A9 /* CRLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRLHomeViewController.h; sourceTree = "<group>"; };
+		30ED2F19214F9722002A69A9 /* CRLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRLHomeViewController.m; sourceTree = "<group>"; };
+		30ED2F1B214F973C002A69A9 /* EMCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMCHomeViewController.h; sourceTree = "<group>"; };
+		30ED2F1C214F973C002A69A9 /* EMCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMCHomeViewController.m; sourceTree = "<group>"; };
+		30ED2F1E214F974C002A69A9 /* PointerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerViewController.h; sourceTree = "<group>"; };
+		30ED2F1F214F974C002A69A9 /* PointerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointerViewController.m; sourceTree = "<group>"; };
 		30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertChainController.m; sourceTree = "<group>"; };
 		30FB38A720E0C8750071A9B8 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
 		30FB38A820E0C8750071A9B8 /* YDAlertChainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertChainController.h; sourceTree = "<group>"; };
@@ -244,12 +265,12 @@
 		30BAA96720DA358900C58F34 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
-				30EB352920F4C760006345BC /* Pointer */,
-				30FB38B620E0EAB70071A9B8 /* Base */,
-				30FB38BA20E0EB370071A9B8 /* Home */,
-				30FB38A420E0C8750071A9B8 /* YDTools */,
-				30BAA96820DA358900C58F34 /* AppDelegate.h */,
-				30BAA96920DA358900C58F34 /* AppDelegate.m */,
+				30ED2F01214F90A6002A69A9 /* AbandonModule */,
+				30ED2F00214F9084002A69A9 /* YDModule */,
+				30ED2F02214F9410002A69A9 /* CrawlerModule */,
+				30ED2EFE214F9030002A69A9 /* EmergencyModule */,
+				30ED2EFF214F9069002A69A9 /* PointerModule */,
+				30ED2E43214F8AEB002A69A9 /* Classes */,
 				30BAA97120DA358C00C58F34 /* Assets.xcassets */,
 				30BAA97320DA358C00C58F34 /* LaunchScreen.storyboard */,
 				30BAA97620DA358C00C58F34 /* Info.plist */,
@@ -375,6 +396,92 @@
 				30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */,
 			);
 			path = Setup;
+			sourceTree = "<group>";
+		};
+		30ED2E43214F8AEB002A69A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30FB38B620E0EAB70071A9B8 /* Base */,
+				30FB38BA20E0EB370071A9B8 /* Home */,
+				30FB38A420E0C8750071A9B8 /* YDTools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		30ED2EFE214F9030002A69A9 /* EmergencyModule */ = {
+			isa = PBXGroup;
+			children = (
+				30ED2F1B214F973C002A69A9 /* EMCHomeViewController.h */,
+				30ED2F1C214F973C002A69A9 /* EMCHomeViewController.m */,
+			);
+			path = EmergencyModule;
+			sourceTree = "<group>";
+		};
+		30ED2EFF214F9069002A69A9 /* PointerModule */ = {
+			isa = PBXGroup;
+			children = (
+				30ED2F1E214F974C002A69A9 /* PointerViewController.h */,
+				30ED2F1F214F974C002A69A9 /* PointerViewController.m */,
+			);
+			path = PointerModule;
+			sourceTree = "<group>";
+		};
+		30ED2F00214F9084002A69A9 /* YDModule */ = {
+			isa = PBXGroup;
+			children = (
+				30BAA96820DA358900C58F34 /* AppDelegate.h */,
+				30BAA96920DA358900C58F34 /* AppDelegate.m */,
+				30ED2F17214F9620002A69A9 /* ModuleManager */,
+				30ED2F07214F94D4002A69A9 /* YDController */,
+				30ED2F03214F948C002A69A9 /* Entrance */,
+			);
+			path = YDModule;
+			sourceTree = "<group>";
+		};
+		30ED2F01214F90A6002A69A9 /* AbandonModule */ = {
+			isa = PBXGroup;
+			children = (
+				30EB352920F4C760006345BC /* Pointer */,
+			);
+			path = AbandonModule;
+			sourceTree = "<group>";
+		};
+		30ED2F02214F9410002A69A9 /* CrawlerModule */ = {
+			isa = PBXGroup;
+			children = (
+				30ED2F18214F9722002A69A9 /* CRLHomeViewController.h */,
+				30ED2F19214F9722002A69A9 /* CRLHomeViewController.m */,
+			);
+			path = CrawlerModule;
+			sourceTree = "<group>";
+		};
+		30ED2F03214F948C002A69A9 /* Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				30ED2F11214F9586002A69A9 /* EntranceViewController.h */,
+				30ED2F12214F9586002A69A9 /* EntranceViewController.m */,
+			);
+			path = Entrance;
+			sourceTree = "<group>";
+		};
+		30ED2F07214F94D4002A69A9 /* YDController */ = {
+			isa = PBXGroup;
+			children = (
+				30ED2F08214F94EE002A69A9 /* YDNavigationController.h */,
+				30ED2F09214F94EE002A69A9 /* YDNavigationController.m */,
+				30ED2F0B214F9517002A69A9 /* YDViewController.h */,
+				30ED2F0C214F9517002A69A9 /* YDViewController.m */,
+				30ED2F0E214F9541002A69A9 /* YDTabBarController.h */,
+				30ED2F0F214F9541002A69A9 /* YDTabBarController.m */,
+			);
+			path = YDController;
+			sourceTree = "<group>";
+		};
+		30ED2F17214F9620002A69A9 /* ModuleManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModuleManager;
 			sourceTree = "<group>";
 		};
 		30FB38A420E0C8750071A9B8 /* YDTools */ = {
@@ -660,7 +767,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				30EB354220F7049A006345BC /* YDRequest.m in Sources */,
+				30ED2F0D214F9517002A69A9 /* YDViewController.m in Sources */,
 				30FB390220EB88100071A9B8 /* AlgBinarySearchTree.m in Sources */,
+				30ED2F1A214F9722002A69A9 /* CRLHomeViewController.m in Sources */,
+				30ED2F0A214F94EE002A69A9 /* YDNavigationController.m in Sources */,
 				30EB355220F70E1A006345BC /* YDRequestMiddleWare.m in Sources */,
 				30BAA97820DA358C00C58F34 /* main.m in Sources */,
 				30FB38E420E645E20071A9B8 /* SortEntrance.m in Sources */,
@@ -669,6 +779,8 @@
 				30E5330E21228BD100A66927 /* AlgGraph.m in Sources */,
 				30EB353320F5AAC9006345BC /* AlgRedBlackTree.m in Sources */,
 				30EB354B20F705DE006345BC /* YDRequestConfig.m in Sources */,
+				30ED2F10214F9541002A69A9 /* YDTabBarController.m in Sources */,
+				30ED2F13214F9586002A69A9 /* EntranceViewController.m in Sources */,
 				30FB38C320E0F91E0071A9B8 /* BaseSort.m in Sources */,
 				30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */,
 				30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */,
@@ -687,12 +799,14 @@
 				30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */,
 				30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */,
 				30EB354F20F709EA006345BC /* YDRequestAgent.m in Sources */,
+				30ED2F20214F974C002A69A9 /* PointerViewController.m in Sources */,
 				30E5330421219ADF00A66927 /* AlgHashTable.m in Sources */,
 				30CDB05221241AB500542C7E /* Stack.m in Sources */,
 				30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */,
 				30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */,
 				30CDB04E2122F59600542C7E /* AlgDepthFirstSearch.m in Sources */,
 				30CDB05C2125357900542C7E /* RetainCountObject.m in Sources */,
+				30ED2F1D214F973C002A69A9 /* EMCHomeViewController.m in Sources */,
 				30FB390620EC7EC70071A9B8 /* AlgNodeView.m in Sources */,
 				30EB353E20F7018C006345BC /* NetWorkEntrance.m in Sources */,
 				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
