@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		3074A9EC212134670070FCA3 /* DesignPatternsEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3074A9EB212134670070FCA3 /* DesignPatternsEntrance.m */; };
 		308FA95220F3D23F00A8E420 /* GCDEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 308FA95120F3D23F00A8E420 /* GCDEntrance.m */; };
-		30B4ED3D211BF16100EB24E7 /* YDHomeViewController+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B4ED3C211BF16100EB24E7 /* YDHomeViewController+Test.m */; };
 		30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA96920DA358900C58F34 /* AppDelegate.m */; };
 		30BAA97220DA358C00C58F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97120DA358C00C58F34 /* Assets.xcassets */; };
 		30BAA97520DA358C00C58F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97320DA358C00C58F34 /* LaunchScreen.storyboard */; };
 		30BAA97820DA358C00C58F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA97720DA358C00C58F34 /* main.m */; };
 		30BAA98220DA358C00C58F34 /* iphoneComTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA98120DA358C00C58F34 /* iphoneComTests.m */; };
 		30BAA98D20DA358C00C58F34 /* iphoneComUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA98C20DA358C00C58F34 /* iphoneComUITests.m */; };
+		30C95F482227963E0015B043 /* IGYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C95F472227963E0015B043 /* IGYMainViewController.m */; };
 		30CDB04E2122F59600542C7E /* AlgDepthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB04D2122F59600542C7E /* AlgDepthFirstSearch.m */; };
 		30CDB05221241AB500542C7E /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05121241AB500542C7E /* Stack.m */; };
 		30CDB05921242E5F00542C7E /* MemeryEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05821242E5F00542C7E /* MemeryEntrance.m */; };
@@ -26,28 +26,7 @@
 		30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB352C20F4C77A006345BC /* BlockEntrance.m */; };
 		30EB353320F5AAC9006345BC /* AlgRedBlackTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB353220F5AAC9006345BC /* AlgRedBlackTree.m */; };
 		30EB353A20F6161D006345BC /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB353920F6161D006345BC /* TestObject.m */; };
-		30EB353E20F7018C006345BC /* NetWorkEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB353D20F7018C006345BC /* NetWorkEntrance.m */; };
-		30EB354220F7049A006345BC /* YDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354120F7049A006345BC /* YDRequest.m */; };
-		30EB354520F70510006345BC /* YDRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354420F70510006345BC /* YDRequestTest.m */; };
-		30EB354820F7053D006345BC /* YDRequestGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354720F7053D006345BC /* YDRequestGroup.m */; };
-		30EB354B20F705DE006345BC /* YDRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354A20F705DE006345BC /* YDRequestConfig.m */; };
-		30EB354F20F709EA006345BC /* YDRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB354E20F709EA006345BC /* YDRequestAgent.m */; };
-		30EB355220F70E1A006345BC /* YDRequestMiddleWare.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */; };
-		30ED2F0A214F94EE002A69A9 /* YDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F09214F94EE002A69A9 /* YDNavigationController.m */; };
-		30ED2F0D214F9517002A69A9 /* YDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F0C214F9517002A69A9 /* YDViewController.m */; };
-		30ED2F10214F9541002A69A9 /* YDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F0F214F9541002A69A9 /* YDTabBarController.m */; };
-		30ED2F13214F9586002A69A9 /* EntranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F12214F9586002A69A9 /* EntranceViewController.m */; };
-		30ED2F1A214F9722002A69A9 /* CRLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F19214F9722002A69A9 /* CRLHomeViewController.m */; };
-		30ED2F1D214F973C002A69A9 /* EMCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F1C214F973C002A69A9 /* EMCHomeViewController.m */; };
-		30ED2F20214F974C002A69A9 /* PointerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F1F214F974C002A69A9 /* PointerViewController.m */; };
-		30ED2F26214FA10C002A69A9 /* UIView+YDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F25214FA10C002A69A9 /* UIView+YDAdd.m */; };
-		30ED2F2B214FA6FB002A69A9 /* EntranceCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F2A214FA6FB002A69A9 /* EntranceCardView.m */; };
-		30ED2F2E214FA76D002A69A9 /* EntranceScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ED2F2D214FA76D002A69A9 /* EntranceScrollView.m */; };
-		30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */; };
-		30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38A720E0C8750071A9B8 /* YDAlertView.m */; };
 		30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */; };
-		30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B820E0EAD10071A9B8 /* BaseNavigationController.m */; };
-		30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38BC20E0EB5D0071A9B8 /* YDHomeViewController.m */; };
 		30FB38C020E0EEA50071A9B8 /* AlgorithmTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38BF20E0EEA50071A9B8 /* AlgorithmTool.m */; };
 		30FB38C320E0F91E0071A9B8 /* BaseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38C220E0F91E0071A9B8 /* BaseSort.m */; };
 		30FB38C620E0F9390071A9B8 /* AlgMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38C520E0F9390071A9B8 /* AlgMergeSort.m */; };
@@ -89,8 +68,6 @@
 		3074A9EB212134670070FCA3 /* DesignPatternsEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsEntrance.m; sourceTree = "<group>"; };
 		308FA95020F3D23F00A8E420 /* GCDEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDEntrance.h; sourceTree = "<group>"; };
 		308FA95120F3D23F00A8E420 /* GCDEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDEntrance.m; sourceTree = "<group>"; };
-		30B4ED3B211BF16100EB24E7 /* YDHomeViewController+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDHomeViewController+Test.h"; sourceTree = "<group>"; };
-		30B4ED3C211BF16100EB24E7 /* YDHomeViewController+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YDHomeViewController+Test.m"; sourceTree = "<group>"; };
 		30BAA96520DA358900C58F34 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA96820DA358900C58F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30BAA96920DA358900C58F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +81,10 @@
 		30BAA98820DA358C00C58F34 /* iphoneComUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iphoneComUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA98C20DA358C00C58F34 /* iphoneComUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iphoneComUITests.m; sourceTree = "<group>"; };
 		30BAA98E20DA358D00C58F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C95F462227963E0015B043 /* IGYMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGYMainViewController.h; sourceTree = "<group>"; };
+		30C95F472227963E0015B043 /* IGYMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGYMainViewController.m; sourceTree = "<group>"; };
+		30C95F49222797010015B043 /* IGYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGYPrefixHeader.pch; sourceTree = "<group>"; };
+		30C95F4A222797D10015B043 /* IGYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGYMacro.h; sourceTree = "<group>"; };
 		30CDB04C2122F59600542C7E /* AlgDepthFirstSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgDepthFirstSearch.h; sourceTree = "<group>"; };
 		30CDB04D2122F59600542C7E /* AlgDepthFirstSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgDepthFirstSearch.m; sourceTree = "<group>"; };
 		30CDB05021241AB500542C7E /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
@@ -124,52 +105,8 @@
 		30EB353220F5AAC9006345BC /* AlgRedBlackTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgRedBlackTree.m; sourceTree = "<group>"; };
 		30EB353820F6161D006345BC /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		30EB353920F6161D006345BC /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
-		30EB353C20F7018C006345BC /* NetWorkEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkEntrance.h; sourceTree = "<group>"; };
-		30EB353D20F7018C006345BC /* NetWorkEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkEntrance.m; sourceTree = "<group>"; };
-		30EB354020F7049A006345BC /* YDRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequest.h; sourceTree = "<group>"; };
-		30EB354120F7049A006345BC /* YDRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequest.m; sourceTree = "<group>"; };
-		30EB354320F70510006345BC /* YDRequestTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestTest.h; sourceTree = "<group>"; };
-		30EB354420F70510006345BC /* YDRequestTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestTest.m; sourceTree = "<group>"; };
-		30EB354620F7053D006345BC /* YDRequestGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestGroup.h; sourceTree = "<group>"; };
-		30EB354720F7053D006345BC /* YDRequestGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestGroup.m; sourceTree = "<group>"; };
-		30EB354920F705DE006345BC /* YDRequestConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestConfig.h; sourceTree = "<group>"; };
-		30EB354A20F705DE006345BC /* YDRequestConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestConfig.m; sourceTree = "<group>"; };
-		30EB354D20F709EA006345BC /* YDRequestAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestAgent.h; sourceTree = "<group>"; };
-		30EB354E20F709EA006345BC /* YDRequestAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestAgent.m; sourceTree = "<group>"; };
-		30EB355020F70E1A006345BC /* YDRequestMiddleWare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRequestMiddleWare.h; sourceTree = "<group>"; };
-		30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRequestMiddleWare.m; sourceTree = "<group>"; };
-		30ED2F08214F94EE002A69A9 /* YDNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNavigationController.h; sourceTree = "<group>"; };
-		30ED2F09214F94EE002A69A9 /* YDNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNavigationController.m; sourceTree = "<group>"; };
-		30ED2F0B214F9517002A69A9 /* YDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDViewController.h; sourceTree = "<group>"; };
-		30ED2F0C214F9517002A69A9 /* YDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDViewController.m; sourceTree = "<group>"; };
-		30ED2F0E214F9541002A69A9 /* YDTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTabBarController.h; sourceTree = "<group>"; };
-		30ED2F0F214F9541002A69A9 /* YDTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTabBarController.m; sourceTree = "<group>"; };
-		30ED2F11214F9586002A69A9 /* EntranceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntranceViewController.h; sourceTree = "<group>"; };
-		30ED2F12214F9586002A69A9 /* EntranceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntranceViewController.m; sourceTree = "<group>"; };
-		30ED2F18214F9722002A69A9 /* CRLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRLHomeViewController.h; sourceTree = "<group>"; };
-		30ED2F19214F9722002A69A9 /* CRLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRLHomeViewController.m; sourceTree = "<group>"; };
-		30ED2F1B214F973C002A69A9 /* EMCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMCHomeViewController.h; sourceTree = "<group>"; };
-		30ED2F1C214F973C002A69A9 /* EMCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMCHomeViewController.m; sourceTree = "<group>"; };
-		30ED2F1E214F974C002A69A9 /* PointerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerViewController.h; sourceTree = "<group>"; };
-		30ED2F1F214F974C002A69A9 /* PointerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointerViewController.m; sourceTree = "<group>"; };
-		30ED2F24214FA10C002A69A9 /* UIView+YDAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YDAdd.h"; sourceTree = "<group>"; };
-		30ED2F25214FA10C002A69A9 /* UIView+YDAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDAdd.m"; sourceTree = "<group>"; };
-		30ED2F29214FA6FB002A69A9 /* EntranceCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntranceCardView.h; sourceTree = "<group>"; };
-		30ED2F2A214FA6FB002A69A9 /* EntranceCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntranceCardView.m; sourceTree = "<group>"; };
-		30ED2F2C214FA76D002A69A9 /* EntranceScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntranceScrollView.h; sourceTree = "<group>"; };
-		30ED2F2D214FA76D002A69A9 /* EntranceScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntranceScrollView.m; sourceTree = "<group>"; };
-		30ED2F2F214FA796002A69A9 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertChainController.m; sourceTree = "<group>"; };
-		30FB38A720E0C8750071A9B8 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
-		30FB38A820E0C8750071A9B8 /* YDAlertChainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertChainController.h; sourceTree = "<group>"; };
-		30FB38A920E0C8750071A9B8 /* YDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertView.h; sourceTree = "<group>"; };
-		30FB38AA20E0C8750071A9B8 /* YDMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMacro.h; sourceTree = "<group>"; };
 		30FB38B020E0E99D0071A9B8 /* AlgorithmEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmEntrance.h; sourceTree = "<group>"; };
 		30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmEntrance.m; sourceTree = "<group>"; };
-		30FB38B720E0EAD10071A9B8 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		30FB38B820E0EAD10071A9B8 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		30FB38BB20E0EB5D0071A9B8 /* YDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHomeViewController.h; sourceTree = "<group>"; };
-		30FB38BC20E0EB5D0071A9B8 /* YDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHomeViewController.m; sourceTree = "<group>"; };
 		30FB38BE20E0EEA50071A9B8 /* AlgorithmTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmTool.h; sourceTree = "<group>"; };
 		30FB38BF20E0EEA50071A9B8 /* AlgorithmTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmTool.m; sourceTree = "<group>"; };
 		30FB38C120E0F91E0071A9B8 /* BaseSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSort.h; sourceTree = "<group>"; };
@@ -275,13 +212,12 @@
 		30BAA96720DA358900C58F34 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
-				30ED2F01214F90A6002A69A9 /* AbandonModule */,
-				30ED2F00214F9084002A69A9 /* YDModule */,
-				30ED2F02214F9410002A69A9 /* CrawlerModule */,
-				30ED2EFE214F9030002A69A9 /* EmergencyModule */,
-				30ED2EFF214F9069002A69A9 /* PointerModule */,
+				30C95F44222794340015B043 /* Modules */,
 				30ED2E43214F8AEB002A69A9 /* Classes */,
 				30BAA97120DA358C00C58F34 /* Assets.xcassets */,
+				30BAA96820DA358900C58F34 /* AppDelegate.h */,
+				30BAA96920DA358900C58F34 /* AppDelegate.m */,
+				30C95F49222797010015B043 /* IGYPrefixHeader.pch */,
 				30BAA97320DA358C00C58F34 /* LaunchScreen.storyboard */,
 				30BAA97620DA358C00C58F34 /* Info.plist */,
 				30BAA97720DA358C00C58F34 /* main.m */,
@@ -307,6 +243,26 @@
 			path = iphoneComUITests;
 			sourceTree = "<group>";
 		};
+		30C95F44222794340015B043 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				30ED2F01214F90A6002A69A9 /* AbandonModule */,
+				30ED2F02214F9410002A69A9 /* CrawlerModule */,
+				30ED2EFE214F9030002A69A9 /* EmergencyModule */,
+				30ED2EFF214F9069002A69A9 /* PointerModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		30C95F45222795E30015B043 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				30C95F4A222797D10015B043 /* IGYMacro.h */,
+				30FB38B620E0EAB70071A9B8 /* Root */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		30CDB04F21241AA300542C7E /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
@@ -325,15 +281,6 @@
 				30CDB05B2125357900542C7E /* RetainCountObject.m */,
 			);
 			path = Memory;
-			sourceTree = "<group>";
-		};
-		30E533012121837700A66927 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				30ED2F24214FA10C002A69A9 /* UIView+YDAdd.h */,
-				30ED2F25214FA10C002A69A9 /* UIView+YDAdd.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		30E5330521227D3300A66927 /* Graph */ = {
@@ -355,7 +302,6 @@
 				30CDB05321242E1100542C7E /* Memory */,
 				30FB38AD20E0E9430071A9B8 /* Algorithm */,
 				3074A9E9212134320070FCA3 /* 设计模式 */,
-				30EB353B20F70172006345BC /* NetWork */,
 				308FA94920F3D1D500A8E420 /* GCD */,
 				30EB352A20F4C760006345BC /* Block */,
 			);
@@ -373,48 +319,11 @@
 			path = Block;
 			sourceTree = "<group>";
 		};
-		30EB353B20F70172006345BC /* NetWork */ = {
-			isa = PBXGroup;
-			children = (
-				30EB353F20F7047A006345BC /* Request */,
-				30EB353C20F7018C006345BC /* NetWorkEntrance.h */,
-				30EB353D20F7018C006345BC /* NetWorkEntrance.m */,
-				30EB354320F70510006345BC /* YDRequestTest.h */,
-				30EB354420F70510006345BC /* YDRequestTest.m */,
-			);
-			path = NetWork;
-			sourceTree = "<group>";
-		};
-		30EB353F20F7047A006345BC /* Request */ = {
-			isa = PBXGroup;
-			children = (
-				30EB354C20F709D4006345BC /* Setup */,
-				30EB354020F7049A006345BC /* YDRequest.h */,
-				30EB354120F7049A006345BC /* YDRequest.m */,
-				30EB354620F7053D006345BC /* YDRequestGroup.h */,
-				30EB354720F7053D006345BC /* YDRequestGroup.m */,
-			);
-			path = Request;
-			sourceTree = "<group>";
-		};
-		30EB354C20F709D4006345BC /* Setup */ = {
-			isa = PBXGroup;
-			children = (
-				30EB354920F705DE006345BC /* YDRequestConfig.h */,
-				30EB354A20F705DE006345BC /* YDRequestConfig.m */,
-				30EB354D20F709EA006345BC /* YDRequestAgent.h */,
-				30EB354E20F709EA006345BC /* YDRequestAgent.m */,
-				30EB355020F70E1A006345BC /* YDRequestMiddleWare.h */,
-				30EB355120F70E1A006345BC /* YDRequestMiddleWare.m */,
-			);
-			path = Setup;
-			sourceTree = "<group>";
-		};
 		30ED2E43214F8AEB002A69A9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				30FB38B620E0EAB70071A9B8 /* Base */,
-				30FB38BA20E0EB370071A9B8 /* Home */,
+				30C95F45222795E30015B043 /* Utils */,
+				30FB38BA20E0EB370071A9B8 /* Main */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -422,8 +331,6 @@
 		30ED2EFE214F9030002A69A9 /* EmergencyModule */ = {
 			isa = PBXGroup;
 			children = (
-				30ED2F1B214F973C002A69A9 /* EMCHomeViewController.h */,
-				30ED2F1C214F973C002A69A9 /* EMCHomeViewController.m */,
 			);
 			path = EmergencyModule;
 			sourceTree = "<group>";
@@ -431,23 +338,8 @@
 		30ED2EFF214F9069002A69A9 /* PointerModule */ = {
 			isa = PBXGroup;
 			children = (
-				30ED2F1E214F974C002A69A9 /* PointerViewController.h */,
-				30ED2F1F214F974C002A69A9 /* PointerViewController.m */,
 			);
 			path = PointerModule;
-			sourceTree = "<group>";
-		};
-		30ED2F00214F9084002A69A9 /* YDModule */ = {
-			isa = PBXGroup;
-			children = (
-				30BAA96820DA358900C58F34 /* AppDelegate.h */,
-				30BAA96920DA358900C58F34 /* AppDelegate.m */,
-				30FB38A420E0C8750071A9B8 /* YDTools */,
-				30ED2F17214F9620002A69A9 /* ModuleManager */,
-				30ED2F07214F94D4002A69A9 /* YDController */,
-				30ED2F03214F948C002A69A9 /* Entrance */,
-			);
-			path = YDModule;
 			sourceTree = "<group>";
 		};
 		30ED2F01214F90A6002A69A9 /* AbandonModule */ = {
@@ -461,81 +353,8 @@
 		30ED2F02214F9410002A69A9 /* CrawlerModule */ = {
 			isa = PBXGroup;
 			children = (
-				30ED2F18214F9722002A69A9 /* CRLHomeViewController.h */,
-				30ED2F19214F9722002A69A9 /* CRLHomeViewController.m */,
 			);
 			path = CrawlerModule;
-			sourceTree = "<group>";
-		};
-		30ED2F03214F948C002A69A9 /* Entrance */ = {
-			isa = PBXGroup;
-			children = (
-				30ED2F28214FA6DB002A69A9 /* Controller */,
-				30ED2F27214FA6DB002A69A9 /* View */,
-			);
-			path = Entrance;
-			sourceTree = "<group>";
-		};
-		30ED2F07214F94D4002A69A9 /* YDController */ = {
-			isa = PBXGroup;
-			children = (
-				30ED2F08214F94EE002A69A9 /* YDNavigationController.h */,
-				30ED2F09214F94EE002A69A9 /* YDNavigationController.m */,
-				30ED2F0B214F9517002A69A9 /* YDViewController.h */,
-				30ED2F0C214F9517002A69A9 /* YDViewController.m */,
-				30ED2F0E214F9541002A69A9 /* YDTabBarController.h */,
-				30ED2F0F214F9541002A69A9 /* YDTabBarController.m */,
-			);
-			path = YDController;
-			sourceTree = "<group>";
-		};
-		30ED2F17214F9620002A69A9 /* ModuleManager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ModuleManager;
-			sourceTree = "<group>";
-		};
-		30ED2F27214FA6DB002A69A9 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				30ED2F2C214FA76D002A69A9 /* EntranceScrollView.h */,
-				30ED2F2D214FA76D002A69A9 /* EntranceScrollView.m */,
-				30ED2F29214FA6FB002A69A9 /* EntranceCardView.h */,
-				30ED2F2A214FA6FB002A69A9 /* EntranceCardView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		30ED2F28214FA6DB002A69A9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				30ED2F11214F9586002A69A9 /* EntranceViewController.h */,
-				30ED2F12214F9586002A69A9 /* EntranceViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		30FB38A420E0C8750071A9B8 /* YDTools */ = {
-			isa = PBXGroup;
-			children = (
-				30E533012121837700A66927 /* Category */,
-				30FB38A520E0C8750071A9B8 /* YDAlertView */,
-				30FB38AA20E0C8750071A9B8 /* YDMacro.h */,
-				30ED2F2F214FA796002A69A9 /* Prefix.pch */,
-			);
-			path = YDTools;
-			sourceTree = "<group>";
-		};
-		30FB38A520E0C8750071A9B8 /* YDAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				30FB38A820E0C8750071A9B8 /* YDAlertChainController.h */,
-				30FB38A620E0C8750071A9B8 /* YDAlertChainController.m */,
-				30FB38A920E0C8750071A9B8 /* YDAlertView.h */,
-				30FB38A720E0C8750071A9B8 /* YDAlertView.m */,
-			);
-			path = YDAlertView;
 			sourceTree = "<group>";
 		};
 		30FB38AD20E0E9430071A9B8 /* Algorithm */ = {
@@ -582,24 +401,20 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		30FB38B620E0EAB70071A9B8 /* Base */ = {
+		30FB38B620E0EAB70071A9B8 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				30FB38B720E0EAD10071A9B8 /* BaseNavigationController.h */,
-				30FB38B820E0EAD10071A9B8 /* BaseNavigationController.m */,
 			);
-			path = Base;
+			path = Root;
 			sourceTree = "<group>";
 		};
-		30FB38BA20E0EB370071A9B8 /* Home */ = {
+		30FB38BA20E0EB370071A9B8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				30FB38BB20E0EB5D0071A9B8 /* YDHomeViewController.h */,
-				30FB38BC20E0EB5D0071A9B8 /* YDHomeViewController.m */,
-				30B4ED3B211BF16100EB24E7 /* YDHomeViewController+Test.h */,
-				30B4ED3C211BF16100EB24E7 /* YDHomeViewController+Test.m */,
+				30C95F462227963E0015B043 /* IGYMainViewController.h */,
+				30C95F472227963E0015B043 /* IGYMainViewController.m */,
 			);
-			path = Home;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		30FB38CD20E4B5190071A9B8 /* PriorityQueue */ = {
@@ -799,23 +614,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30EB354220F7049A006345BC /* YDRequest.m in Sources */,
-				30ED2F0D214F9517002A69A9 /* YDViewController.m in Sources */,
 				30FB390220EB88100071A9B8 /* AlgBinarySearchTree.m in Sources */,
-				30ED2F1A214F9722002A69A9 /* CRLHomeViewController.m in Sources */,
-				30ED2F0A214F94EE002A69A9 /* YDNavigationController.m in Sources */,
-				30EB355220F70E1A006345BC /* YDRequestMiddleWare.m in Sources */,
 				30BAA97820DA358C00C58F34 /* main.m in Sources */,
 				30FB38E420E645E20071A9B8 /* SortEntrance.m in Sources */,
 				30FB38C620E0F9390071A9B8 /* AlgMergeSort.m in Sources */,
 				30FB38C020E0EEA50071A9B8 /* AlgorithmTool.m in Sources */,
 				30E5330E21228BD100A66927 /* AlgGraph.m in Sources */,
 				30EB353320F5AAC9006345BC /* AlgRedBlackTree.m in Sources */,
-				30EB354B20F705DE006345BC /* YDRequestConfig.m in Sources */,
-				30ED2F10214F9541002A69A9 /* YDTabBarController.m in Sources */,
-				30ED2F13214F9586002A69A9 /* EntranceViewController.m in Sources */,
-				30ED2F2E214FA76D002A69A9 /* EntranceScrollView.m in Sources */,
-				30ED2F26214FA10C002A69A9 /* UIView+YDAdd.m in Sources */,
 				30FB38C320E0F91E0071A9B8 /* BaseSort.m in Sources */,
 				30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */,
 				30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */,
@@ -823,32 +628,21 @@
 				308FA95220F3D23F00A8E420 /* GCDEntrance.m in Sources */,
 				30FB38E120E645C70071A9B8 /* AlgHeapSort.m in Sources */,
 				30FB38FF20EB87E40071A9B8 /* AlgSearchNode.m in Sources */,
-				30FB38AB20E0C8750071A9B8 /* YDAlertChainController.m in Sources */,
-				30B4ED3D211BF16100EB24E7 /* YDHomeViewController+Test.m in Sources */,
-				30FB38B920E0EAD10071A9B8 /* BaseNavigationController.m in Sources */,
-				30FB38AC20E0C8750071A9B8 /* YDAlertView.m in Sources */,
-				30EB354520F70510006345BC /* YDRequestTest.m in Sources */,
 				30CDB05921242E5F00542C7E /* MemeryEntrance.m in Sources */,
-				30FB38BD20E0EB5D0071A9B8 /* YDHomeViewController.m in Sources */,
-				30EB354820F7053D006345BC /* YDRequestGroup.m in Sources */,
 				30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */,
 				30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */,
-				30EB354F20F709EA006345BC /* YDRequestAgent.m in Sources */,
-				30ED2F20214F974C002A69A9 /* PointerViewController.m in Sources */,
 				30E5330421219ADF00A66927 /* AlgHashTable.m in Sources */,
 				30CDB05221241AB500542C7E /* Stack.m in Sources */,
 				30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */,
 				30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */,
 				30CDB04E2122F59600542C7E /* AlgDepthFirstSearch.m in Sources */,
 				30CDB05C2125357900542C7E /* RetainCountObject.m in Sources */,
-				30ED2F1D214F973C002A69A9 /* EMCHomeViewController.m in Sources */,
 				30FB390620EC7EC70071A9B8 /* AlgNodeView.m in Sources */,
-				30EB353E20F7018C006345BC /* NetWorkEntrance.m in Sources */,
 				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
 				30EB353A20F6161D006345BC /* TestObject.m in Sources */,
 				3074A9EC212134670070FCA3 /* DesignPatternsEntrance.m in Sources */,
+				30C95F482227963E0015B043 /* IGYMainViewController.m in Sources */,
 				30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */,
-				30ED2F2B214FA6FB002A69A9 /* EntranceCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,7 +807,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YFGM3N5TQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/YDModule/YDTools/Prefix.pch;
+				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/IGYPrefixHeader.pch;
 				INFOPLIST_FILE = iphoneCom/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1034,7 +828,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YFGM3N5TQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/YDModule/YDTools/Prefix.pch;
+				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/IGYPrefixHeader.pch;
 				INFOPLIST_FILE = iphoneCom/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
