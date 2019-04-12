@@ -37,6 +37,7 @@ return NO;     \
  */
 #define rgb(r, g, b)      [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 #define rgba(r, g, b, a)  [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define rgbGlobal         [UIColor colorWithRed:1/255.0 green:1/255.0 blue:b/255.0 alpha:1.0]
 
 /**
  Width && Height
@@ -45,7 +46,6 @@ return NO;     \
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 #define ViewWidth(V) V.frame.size.width
 #define ViewHeight(V) V.frame.size.height
-
 
 //NSUserDefaults
 #define USERDEFAULT [NSUserDefaults standardUserDefaults]
@@ -56,12 +56,12 @@ return NO;     \
 //防止字符串异常
 #define STR(S) ((S == nil || [S isKindOfClass:[NSNull class]]) ? @"" : S)
 
-#define YDImageNamed(imageName) [UIImage imageNamed:imageName]
+//UIImageNamed
+#define IGYImageNamed(imageName) [UIImage imageNamed:imageName]
 
-//6.沙盒的Document路径
-#define YDDocumentPath NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0]
-#define YDCachesPath NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0]
-
+//沙盒的Document路径
+#define IGYDocumentPath NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0]
+#define IGYCachesPath NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0]
 
 /**
  BarHeight
