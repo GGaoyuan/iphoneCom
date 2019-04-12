@@ -7,7 +7,6 @@
 //
 
 #import "BlockEntrance.h"
-#import "TestObject.h"
 #import <objc/runtime.h>
 
 typedef void(^blk)(void);
@@ -20,15 +19,15 @@ typedef void(^blk)(void);
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    id obj = [self getBlockArray];
-    blk b = [obj objectAtIndex:0];
-    b();
+//    id obj = [self getBlockArray];
+//    blk b = [obj objectAtIndex:0];
+//    b();
 }
 
-- (id)getBlockArray {
-    int val = 10;
-    return @[^{NSLog(@"1");}, ^{NSLog(@"2");}];
-}
+//- (id)getBlockArray {
+//    int val = 10;
+//    return @[^{NSLog(@"1");}, ^{NSLog(@"2");}];
+//}
 
 
 

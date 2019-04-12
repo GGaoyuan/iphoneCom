@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "IGYMainViewController.h"
+#import "IGYHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    IGYMainViewController *mainViewController = [[IGYMainViewController alloc] init];
+    IGYHomeViewController *mainViewController = [[IGYHomeViewController alloc] init];
     self.window.rootViewController = mainViewController;
     [self.window makeKeyAndVisible];
     return YES;
