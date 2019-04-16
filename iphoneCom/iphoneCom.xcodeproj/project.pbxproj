@@ -17,6 +17,9 @@
 		30BAA97820DA358C00C58F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA97720DA358C00C58F34 /* main.m */; };
 		30BAA98220DA358C00C58F34 /* iphoneComTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA98120DA358C00C58F34 /* iphoneComTests.m */; };
 		30BAA98D20DA358C00C58F34 /* iphoneComUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA98C20DA358C00C58F34 /* iphoneComUITests.m */; };
+		30C93F482265BE920079CA97 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C93F472265BE920079CA97 /* Test1.m */; };
+		30C93F4B2265BE9E0079CA97 /* Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C93F4A2265BE9E0079CA97 /* Test2.m */; };
+		30C93F4E2265BEA90079CA97 /* Test3.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C93F4D2265BEA90079CA97 /* Test3.m */; };
 		30CDB04E2122F59600542C7E /* AlgDepthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB04D2122F59600542C7E /* AlgDepthFirstSearch.m */; };
 		30CDB05221241AB500542C7E /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05121241AB500542C7E /* Stack.m */; };
 		30CDB05921242E5F00542C7E /* MemeryEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05821242E5F00542C7E /* MemeryEntrance.m */; };
@@ -84,6 +87,12 @@
 		30BAA98820DA358C00C58F34 /* iphoneComUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iphoneComUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA98C20DA358C00C58F34 /* iphoneComUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iphoneComUITests.m; sourceTree = "<group>"; };
 		30BAA98E20DA358D00C58F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C93F462265BE920079CA97 /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		30C93F472265BE920079CA97 /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
+		30C93F492265BE9E0079CA97 /* Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
+		30C93F4A2265BE9E0079CA97 /* Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2.m; sourceTree = "<group>"; };
+		30C93F4C2265BEA90079CA97 /* Test3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3.h; sourceTree = "<group>"; };
+		30C93F4D2265BEA90079CA97 /* Test3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3.m; sourceTree = "<group>"; };
 		30C95F49222797010015B043 /* IGYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGYPrefixHeader.pch; sourceTree = "<group>"; };
 		30C95F4A222797D10015B043 /* IGYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGYMacro.h; sourceTree = "<group>"; };
 		30CDB04C2122F59600542C7E /* AlgDepthFirstSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgDepthFirstSearch.h; sourceTree = "<group>"; };
@@ -182,6 +191,12 @@
 		303C32FA2264572900E95BDC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				30C93F462265BE920079CA97 /* Test1.h */,
+				30C93F472265BE920079CA97 /* Test1.m */,
+				30C93F492265BE9E0079CA97 /* Test2.h */,
+				30C93F4A2265BE9E0079CA97 /* Test2.m */,
+				30C93F4C2265BEA90079CA97 /* Test3.h */,
+				30C93F4D2265BEA90079CA97 /* Test3.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -653,8 +668,11 @@
 				30FB38FF20EB87E40071A9B8 /* AlgSearchNode.m in Sources */,
 				30CDB05921242E5F00542C7E /* MemeryEntrance.m in Sources */,
 				30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */,
+				30C93F482265BE920079CA97 /* Test1.m in Sources */,
 				30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */,
+				30C93F4B2265BE9E0079CA97 /* Test2.m in Sources */,
 				30E5330421219ADF00A66927 /* AlgHashTable.m in Sources */,
+				30C93F4E2265BEA90079CA97 /* Test3.m in Sources */,
 				30CDB05221241AB500542C7E /* Stack.m in Sources */,
 				30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */,
 				303C32F42260993B00E95BDC /* IGYHomeViewController.m in Sources */,

@@ -7,7 +7,9 @@
 //
 
 #import "IGYHomeViewController.h"
-
+#import "Test1.h"
+#import "Test2.h"
+#import "Test3.h"
 @interface IGYHomeViewController ()
 
 @end
