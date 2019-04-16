@@ -179,6 +179,13 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		303C32FA2264572900E95BDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3074A9E9212134320070FCA3 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +251,13 @@
 				30BAA98E20DA358D00C58F34 /* Info.plist */,
 			);
 			path = iphoneComUITests;
+			sourceTree = "<group>";
+		};
+		30C93F4222658EB00079CA97 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		30C95F44222794340015B043 /* Modules */ = {
@@ -323,6 +337,7 @@
 		30ED2E43214F8AEB002A69A9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				30C93F4222658EB00079CA97 /* Category */,
 				30C95F45222795E30015B043 /* Utils */,
 				30FB38BA20E0EB370071A9B8 /* Home */,
 				30BAA97120DA358C00C58F34 /* Assets.xcassets */,
@@ -417,6 +432,7 @@
 		30FB38BA20E0EB370071A9B8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				303C32FA2264572900E95BDC /* View */,
 				303C32F22260993B00E95BDC /* IGYHomeViewController.h */,
 				303C32F32260993B00E95BDC /* IGYHomeViewController.m */,
 			);
@@ -802,7 +818,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YFGM3N5TQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/IGYPrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/Classes/IGYPrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/iphoneCom/Classes/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -823,7 +839,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YFGM3N5TQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/IGYPrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/Classes/IGYPrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/iphoneCom/Classes/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

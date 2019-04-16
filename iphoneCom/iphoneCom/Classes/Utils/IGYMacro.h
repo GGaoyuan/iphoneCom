@@ -32,6 +32,13 @@ return NO;     \
 #define NSLog(FORMAT, ...) nil
 #endif
 
+
+/**
+ 屏幕长宽
+ */
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
 /**
  rgb颜色
  */
