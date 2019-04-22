@@ -8,6 +8,10 @@
 
 #import "IGYUserInfo.h"
 
+@interface IGYUserInfo()
+
+@end
+
 @implementation IGYUserInfo
 
 + (instancetype)shareInstance {
