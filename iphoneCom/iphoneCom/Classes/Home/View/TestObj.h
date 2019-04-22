@@ -1,8 +1,8 @@
 //
-//  Test1.h
+//  TestObj.h
 //  iphoneCom
 //
-//  Created by gaoyuan on 2019/4/16.
+//  Created by gaoyuan on 2019/4/22.
 //  Copyright © 2019 gaoyuan. All rights reserved.
 //
 
@@ -10,7 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Test1 : NSObject
+@interface TestObj : NSObject
+
++ (void)test;
 
 @end
 
