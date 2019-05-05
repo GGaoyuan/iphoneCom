@@ -348,7 +348,6 @@
 				30BAA97120DA358C00C58F34 /* Assets.xcassets */,
 				30BAA96820DA358900C58F34 /* AppDelegate.h */,
 				30BAA96920DA358900C58F34 /* AppDelegate.m */,
-				30C95F49222797010015B043 /* IGYPrefixHeader.pch */,
 				303C32F72260B36700E95BDC /* Supporting Files */,
 			);
 			path = Classes;
@@ -387,6 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				30C95F4A222797D10015B043 /* IGYMacro.h */,
+				30C95F49222797010015B043 /* IGYPrefixHeader.pch */,
 				30FA1A96226DA5AE007F9393 /* UserInfo */,
 				30FB38B620E0EAB70071A9B8 /* Root */,
 				30C93F4222658EB00079CA97 /* Category */,

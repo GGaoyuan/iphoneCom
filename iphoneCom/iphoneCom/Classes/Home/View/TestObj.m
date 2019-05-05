@@ -30,6 +30,10 @@
             dispatch_semaphore_signal(sem);
         });
     }
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        
+    });
 }
 
 @end

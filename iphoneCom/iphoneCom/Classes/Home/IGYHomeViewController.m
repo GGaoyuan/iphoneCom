@@ -50,7 +50,21 @@
     NSLog(@"end");
 }
 
-- (void)click {
+- (void)testButtonInitialize {
+    UIButton *button = ({
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        [button setTitle:@"TestButton" forState:UIControlStateNormal];
+        button.backgroundColor = [UIColor redColor];
+        button.titleLabel.font = [UIFont systemFontOfSize:11];
+        [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [button addTarget:self action:@selector(testButtonClick) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:button];
+        button;
+    });
+    
+}
+
+- (void)testButtonClick {
     NSLog(@"click");
 }
 

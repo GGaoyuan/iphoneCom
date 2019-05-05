@@ -10,6 +10,8 @@
 
 @interface IGYUserInfo()
 
+//@property (nonatomic, assign) dispatch_once_t onceToken;
+
 @end
 
 @implementation IGYUserInfo

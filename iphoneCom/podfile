@@ -6,4 +6,7 @@ target "iphoneCom" do
 pod 'AFNetworking'
 pod 'FMDB'
 pod 'YYModel'
+pod 'SDWebImage'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'Masonry'
 end

@@ -10,6 +10,17 @@
 #define IGYMacro_h
 
 /**
+ 型号判断
+ */
+#define IPHONE_5     ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IPHONE_6     ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IPHONE_6PLUS ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IPHONE_X     ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IPHONE_XR    ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IPHONE_XSMAX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
+#define SystemVersion [UIDevice currentDevice].systemVersion.floatValue
+
+/**
  判断宏
  */
 #define RETURN_IF_CONFORMITY(exp)    \
@@ -32,13 +43,6 @@ return NO;     \
 #define NSLog(FORMAT, ...) nil
 #endif
 
-
-/**
- 屏幕长宽
- */
-#define ScreenWidth [UIScreen mainScreen].bounds.size.width
-#define ScreenHeight [UIScreen mainScreen].bounds.size.height
-
 /**
  rgb颜色
  */
@@ -53,12 +57,6 @@ return NO;     \
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 #define ViewWidth(V) V.frame.size.width
 #define ViewHeight(V) V.frame.size.height
-
-//NSUserDefaults
-#define USERDEFAULT [NSUserDefaults standardUserDefaults]
-
-//NSNotificationCenter
-#define NOTIFICATION_CENTER [NSNotificationCenter defaultCenter]
 
 //防止字符串异常
 #define STR(S) ((S == nil || [S isKindOfClass:[NSNull class]]) ? @"" : S)
