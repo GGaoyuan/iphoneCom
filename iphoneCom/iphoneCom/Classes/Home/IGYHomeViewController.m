@@ -19,7 +19,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [TestObj test];
-    [self threadSafe];
+//    [self threadSafe];
 }
 
 - (void)threadSafe {

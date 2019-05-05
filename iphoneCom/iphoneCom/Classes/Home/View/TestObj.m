@@ -17,15 +17,17 @@
 
 + (void)threadSafe {
     IGYUserInfo *userInfo = [IGYUserInfo shareInstance];
-    NSLock *lock = [NSLock new];
+    //value表示有几个资源可以访问,正常的使用顺序是先降低然后再提高(先wait再signal)，这两个函数通常成对使用
+    dispatch_semaphore_t sem = dispatch_semaphore_create(3);
     for (NSInteger index = 0; index < 20; index++) {
         dispatch_async(dispatch_get_global_queue(0, 0), ^{
-            [lock lock];
+            dispatch_semaphore_wait(sem, DISPATCH_TIME_FOREVER);
             userInfo.age++;
-            NSLog(@"TestObj total: %ld", userInfo.age);
+            NSLog(@"thread: %@ --- Total: %ld", [NSThread currentThread], userInfo.age);
             userInfo.age--;
-            NSLog(@"TestObj total: %ld", userInfo.age);
-            [lock unlock];
+            NSLog(@"thread: %@ --- Total: %ld", [NSThread currentThread], userInfo.age);
+            NSLog(@"thread: %@ --- Complete ", [NSThread currentThread]);
+            dispatch_semaphore_signal(sem);
         });
     }
 }
