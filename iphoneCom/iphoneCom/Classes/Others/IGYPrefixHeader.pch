@@ -10,6 +10,6 @@
 #define IGYPrefixHeader_pch
 
 #import "IGYMacro.h"
-#import ""
+#import "Masonry.h"
 
 #endif /* IGYPrefixHeader_pch */

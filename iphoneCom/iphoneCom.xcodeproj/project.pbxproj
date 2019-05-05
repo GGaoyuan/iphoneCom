@@ -846,7 +846,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YFGM3N5TQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/Classes/IGYPrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/Classes/Others/IGYPrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/iphoneCom/Classes/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -867,7 +867,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YFGM3N5TQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/Classes/IGYPrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/Classes/Others/IGYPrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/iphoneCom/Classes/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

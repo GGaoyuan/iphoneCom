@@ -18,7 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    [TestObj test];
+    
+    [self testButtonInitialize];
+//    [TestObj test];
 //    [self threadSafe];
 }
 
@@ -61,7 +63,11 @@
         [self.view addSubview:button];
         button;
     });
-    
+    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(100, 100));
+        make.left.mas_equalTo(0);
+        make.top.mas_equalTo(100);
+    }];
 }
 
 - (void)testButtonClick {
