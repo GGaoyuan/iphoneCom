@@ -9,7 +9,7 @@
 #import "IGYHomeViewController.h"
 #import "IGYUserInfo.h"
 #import "TestObj.h"
-#import "Common.h"
+#import "GYCommon.h"
 @interface IGYHomeViewController ()
 
 @end
@@ -20,11 +20,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [Common Common];
+    [GYCommon gyCommon];
     
     [self testButtonInitialize];
-    //    [TestObj test];
-    //    [self threadSafe];
 }
 
 - (void)threadSafe {
@@ -40,19 +38,6 @@
             [lock unlock];
         });
     }
-}
-
-- (void)lock2 {
-    dispatch_semaphore_t semaphone = dispatch_semaphore_create(0);
-    NSLog(@"start");
-    
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        NSLog(@"async");
-        sleep(5);
-        dispatch_semaphore_signal(semaphone);
-    });
-    dispatch_semaphore_wait(semaphone, DISPATCH_TIME_FOREVER);
-    NSLog(@"end");
 }
 
 - (void)testButtonInitialize {
@@ -73,44 +58,7 @@
     }];
 }
 
-- (void)testButtonClick {
-    NSString *searchText = @"1111$先锋电子(SZ002767)$asd$(b)$5555$z()$2222$33$555$ddd$swsx33$西山煤电(SZ000983)$4444$美思德(SH603041)$";
-    
-//    NSString *regex = @"\\$([\u4e00-\u9fa5a-zA-Z0-9]+?)\\(([\u4e00-\u9fa5a-zA-Z0-9]+?)\\)\\$";
-//    NSError *error;
-//    NSRegularExpression *regular = [NSRegularExpression regularExpressionWithPattern:regex options:NSRegularExpressionCaseInsensitive error:&error];
-//    if (error) return;
-//
-//    [regular enumerateMatchesInString:searchText options:NSMatchingReportCompletion range:NSMakeRange(0, searchText.length) usingBlock:^(NSTextCheckingResult * _Nullable result, NSMatchingFlags flags, BOOL * _Nonnull stop) {
-//        NSRange matchRange = result.range;
-//        //        NSLog(@"range:%@",NSStringFromRange(matchRange));
-//        NSString *str = [searchText substringWithRange:matchRange];
-//        NSLog(@"%@",str);
-//    }];
-    
-        NSArray<NSString *> *parts = [self validateStocks:searchText];
-    
-    
-    
-    
-        NSLog(@"%@", parts);
-}
 
-- (NSArray<NSString *> *)validateStocks:(NSString *)text {
-        NSString *regex = @"\\$([\u4e00-\u9fa5a-zA-Z0-9]+?)\\(([\u4e00-\u9fa5a-zA-Z0-9]+?)\\)\\$";
-        NSError *error;
-        NSRegularExpression *regular = [NSRegularExpression regularExpressionWithPattern:regex options:NSRegularExpressionCaseInsensitive error:&error];
-        if (error) nil;
-        __block NSMutableArray *strArray = [NSMutableArray array];
-        [regular enumerateMatchesInString:text options:NSMatchingReportCompletion range:NSMakeRange(0, text.length) usingBlock:^(NSTextCheckingResult * _Nullable result, NSMatchingFlags flags, BOOL * _Nonnull stop) {
-            NSRange matchRange = result.range;
-            [strArray addObject:[NSValue valueWithRange:matchRange]];
-//            NSString *str = [text substringWithRange:matchRange];
-//            NSLog(@"range:%@",NSStringFromRange(matchRange));
-//            NSLog(@"%@",str);
-        }];
-    return strArray.copy;
-}
 
 
 @end
