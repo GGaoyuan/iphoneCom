@@ -7,10 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "IGYHomeViewController.h"
 
-#import "TestClass.h"
-#import "GYRequest.h"
+#import "GYViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,13 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    IGYHomeViewController *mainViewController = [[IGYHomeViewController alloc] init];
-    self.window.rootViewController = mainViewController;
-    
-    [TestClass test];
-    
-    [GYRequest gyRequest];
-    
+    GYViewController *viewController = [[GYViewController alloc] init];
+    self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

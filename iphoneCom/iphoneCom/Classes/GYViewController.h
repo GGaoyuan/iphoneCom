@@ -1,8 +1,8 @@
 //
-//  IGYHomeViewController.h
+//  GYViewController.h
 //  iphoneCom
 //
-//  Created by gaoyuan on 2019/4/12.
+//  Created by gaoyuan on 2019/5/23.
 //  Copyright © 2019 gaoyuan. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface IGYHomeViewController : UIViewController
+@interface GYViewController : UIViewController
 
 @end
 
