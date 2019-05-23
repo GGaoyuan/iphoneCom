@@ -9,6 +9,7 @@
 #import "IGYHomeViewController.h"
 #import "IGYUserInfo.h"
 #import "TestObj.h"
+#import "Common.h"
 @interface IGYHomeViewController ()
 
 @end
@@ -18,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    [Common Common];
     
     [self testButtonInitialize];
     //    [TestObj test];

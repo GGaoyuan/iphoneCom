@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		308147A72296AABB0091A6D9 /* GYRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 308147A62296AABB0091A6D9 /* GYRequest.m */; };
-		308147A82296AABB0091A6D9 /* GYRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 308147A52296AABB0091A6D9 /* GYRequest.h */; };
+		308147C32296B6010091A6D9 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 308147C22296B6010091A6D9 /* Common.m */; };
+		308147C42296B6010091A6D9 /* Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 308147C12296B6010091A6D9 /* Common.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		308147A02296AABB0091A6D9 /* CopyFiles */ = {
+		308147BC2296B6010091A6D9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				308147A82296AABB0091A6D9 /* GYRequest.h in CopyFiles */,
+				308147C42296B6010091A6D9 /* Common.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		308147A22296AABB0091A6D9 /* libGYRequest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGYRequest.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		308147A52296AABB0091A6D9 /* GYRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYRequest.h; sourceTree = "<group>"; };
-		308147A62296AABB0091A6D9 /* GYRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYRequest.m; sourceTree = "<group>"; };
+		308147BE2296B6010091A6D9 /* libCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		308147C12296B6010091A6D9 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		308147C22296B6010091A6D9 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3081479F2296AABB0091A6D9 /* Frameworks */ = {
+		308147BB2296B6010091A6D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,95 +41,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		308147992296AABB0091A6D9 = {
+		308147B52296B6010091A6D9 = {
 			isa = PBXGroup;
 			children = (
-				308147A42296AABB0091A6D9 /* GYRequest */,
-				308147A32296AABB0091A6D9 /* Products */,
+				308147C02296B6010091A6D9 /* Common */,
+				308147BF2296B6010091A6D9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		308147A32296AABB0091A6D9 /* Products */ = {
+		308147BF2296B6010091A6D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				308147A22296AABB0091A6D9 /* libGYRequest.a */,
+				308147BE2296B6010091A6D9 /* libCommon.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		308147A42296AABB0091A6D9 /* GYRequest */ = {
+		308147C02296B6010091A6D9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				308147A52296AABB0091A6D9 /* GYRequest.h */,
-				308147A62296AABB0091A6D9 /* GYRequest.m */,
+				308147C12296B6010091A6D9 /* Common.h */,
+				308147C22296B6010091A6D9 /* Common.m */,
 			);
-			path = GYRequest;
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		308147A12296AABB0091A6D9 /* GYRequest */ = {
+		308147BD2296B6010091A6D9 /* Common */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 308147AB2296AABB0091A6D9 /* Build configuration list for PBXNativeTarget "GYRequest" */;
+			buildConfigurationList = 308147C72296B6010091A6D9 /* Build configuration list for PBXNativeTarget "Common" */;
 			buildPhases = (
-				3081479E2296AABB0091A6D9 /* Sources */,
-				3081479F2296AABB0091A6D9 /* Frameworks */,
-				308147A02296AABB0091A6D9 /* CopyFiles */,
+				308147BA2296B6010091A6D9 /* Sources */,
+				308147BB2296B6010091A6D9 /* Frameworks */,
+				308147BC2296B6010091A6D9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GYRequest;
-			productName = GYRequest;
-			productReference = 308147A22296AABB0091A6D9 /* libGYRequest.a */;
+			name = Common;
+			productName = Common;
+			productReference = 308147BE2296B6010091A6D9 /* libCommon.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3081479A2296AABB0091A6D9 /* Project object */ = {
+		308147B62296B6010091A6D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = gaoyuan;
 				TargetAttributes = {
-					308147A12296AABB0091A6D9 = {
+					308147BD2296B6010091A6D9 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 3081479D2296AABB0091A6D9 /* Build configuration list for PBXProject "GYRequest" */;
+			buildConfigurationList = 308147B92296B6010091A6D9 /* Build configuration list for PBXProject "Common" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 308147992296AABB0091A6D9;
-			productRefGroup = 308147A32296AABB0091A6D9 /* Products */;
+			mainGroup = 308147B52296B6010091A6D9;
+			productRefGroup = 308147BF2296B6010091A6D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				308147A12296AABB0091A6D9 /* GYRequest */,
+				308147BD2296B6010091A6D9 /* Common */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3081479E2296AABB0091A6D9 /* Sources */ = {
+		308147BA2296B6010091A6D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308147A72296AABB0091A6D9 /* GYRequest.m in Sources */,
+				308147C32296B6010091A6D9 /* Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		308147A92296AABB0091A6D9 /* Debug */ = {
+		308147C52296B6010091A6D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		308147AA2296AABB0091A6D9 /* Release */ = {
+		308147C62296B6010091A6D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,11 +241,10 @@
 			};
 			name = Release;
 		};
-		308147AC2296AABB0091A6D9 /* Debug */ = {
+		308147C82296B6010091A6D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -253,11 +252,10 @@
 			};
 			name = Debug;
 		};
-		308147AD2296AABB0091A6D9 /* Release */ = {
+		308147C92296B6010091A6D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -268,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3081479D2296AABB0091A6D9 /* Build configuration list for PBXProject "GYRequest" */ = {
+		308147B92296B6010091A6D9 /* Build configuration list for PBXProject "Common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				308147A92296AABB0091A6D9 /* Debug */,
-				308147AA2296AABB0091A6D9 /* Release */,
+				308147C52296B6010091A6D9 /* Debug */,
+				308147C62296B6010091A6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		308147AB2296AABB0091A6D9 /* Build configuration list for PBXNativeTarget "GYRequest" */ = {
+		308147C72296B6010091A6D9 /* Build configuration list for PBXNativeTarget "Common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				308147AC2296AABB0091A6D9 /* Debug */,
-				308147AD2296AABB0091A6D9 /* Release */,
+				308147C82296B6010091A6D9 /* Debug */,
+				308147C92296B6010091A6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3081479A2296AABB0091A6D9 /* Project object */;
+	rootObject = 308147B62296B6010091A6D9 /* Project object */;
 }

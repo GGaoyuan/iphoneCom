@@ -12,6 +12,7 @@
 		303C32F92260B39700E95BDC /* LaunchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 303C32F82260B39700E95BDC /* LaunchImage.jpg */; };
 		30814789229680B20091A6D9 /* libLearningCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3081478522967E0B0091A6D9 /* libLearningCode.a */; };
 		308147B42296AB0A0091A6D9 /* libGYRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308147B32296AACE0091A6D9 /* libGYRequest.a */; };
+		308147D02296B6890091A6D9 /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308147CF2296B6250091A6D9 /* libCommon.a */; };
 		30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA96920DA358900C58F34 /* AppDelegate.m */; };
 		30BAA97220DA358C00C58F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97120DA358C00C58F34 /* Assets.xcassets */; };
 		30BAA97820DA358C00C58F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA97720DA358C00C58F34 /* main.m */; };
@@ -36,6 +37,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 308147A22296AABB0091A6D9;
 			remoteInfo = GYRequest;
+		};
+		308147CE2296B6250091A6D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308147CA2296B6250091A6D9 /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 308147BE2296B6010091A6D9;
+			remoteInfo = Common;
 		};
 		30BAA97E20DA358C00C58F34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -63,6 +71,7 @@
 		303C32F82260B39700E95BDC /* LaunchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchImage.jpg; sourceTree = "<group>"; };
 		3081478022967E0A0091A6D9 /* LearningCode.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LearningCode.xcodeproj; path = Module/LearningCode/LearningCode.xcodeproj; sourceTree = "<group>"; };
 		308147AE2296AACE0091A6D9 /* GYRequest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GYRequest.xcodeproj; path = Module/GYRequest/GYRequest.xcodeproj; sourceTree = "<group>"; };
+		308147CA2296B6250091A6D9 /* Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Common.xcodeproj; path = Module/Common/Common.xcodeproj; sourceTree = "<group>"; };
 		30BAA96520DA358900C58F34 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA96820DA358900C58F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30BAA96920DA358900C58F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308147D02296B6890091A6D9 /* libCommon.a in Frameworks */,
 				308147B42296AB0A0091A6D9 /* libGYRequest.a in Frameworks */,
 				30814789229680B20091A6D9 /* libLearningCode.a in Frameworks */,
 				E8A678AEEF79E1AB5FEE0F8B /* libPods-iphoneCom.a in Frameworks */,
@@ -155,11 +165,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		308147CB2296B6250091A6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				308147CF2296B6250091A6D9 /* libCommon.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		30BAA95C20DA358900C58F34 = {
 			isa = PBXGroup;
 			children = (
-				308147AE2296AACE0091A6D9 /* GYRequest.xcodeproj */,
 				3081478022967E0A0091A6D9 /* LearningCode.xcodeproj */,
+				308147CA2296B6250091A6D9 /* Common.xcodeproj */,
+				308147AE2296AACE0091A6D9 /* GYRequest.xcodeproj */,
 				30BAA96720DA358900C58F34 /* iphoneCom */,
 				30BAA98020DA358C00C58F34 /* iphoneComTests */,
 				30BAA98B20DA358C00C58F34 /* iphoneComUITests */,
@@ -372,6 +391,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 308147CB2296B6250091A6D9 /* Products */;
+					ProjectRef = 308147CA2296B6250091A6D9 /* Common.xcodeproj */;
+				},
+				{
 					ProductGroup = 308147AF2296AACE0091A6D9 /* Products */;
 					ProjectRef = 308147AE2296AACE0091A6D9 /* GYRequest.xcodeproj */;
 				},
@@ -402,6 +425,13 @@
 			fileType = archive.ar;
 			path = libGYRequest.a;
 			remoteRef = 308147B22296AACE0091A6D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		308147CF2296B6250091A6D9 /* libCommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCommon.a;
+			remoteRef = 308147CE2296B6250091A6D9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -627,6 +657,7 @@
 					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
 					"\"${PODS_ROOT}/Headers/Public/UITableView+FDTemplateLayoutCell\"",
 					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"$(SRCROOT)/Module/Common/Common\"",
 					"\"$(SRCROOT)/Module/GYRequest/GYRequest\"",
 					"\"$(SRCROOT)/Module/LearningCode/LearningCode\"",
 				);
@@ -669,6 +700,7 @@
 					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
 					"\"${PODS_ROOT}/Headers/Public/UITableView+FDTemplateLayoutCell\"",
 					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"$(SRCROOT)/Module/Common/Common\"",
 					"\"$(SRCROOT)/Module/GYRequest/GYRequest\"",
 					"\"$(SRCROOT)/Module/LearningCode/LearningCode\"",
 				);
