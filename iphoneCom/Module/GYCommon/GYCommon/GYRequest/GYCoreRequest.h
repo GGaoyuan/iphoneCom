@@ -1,6 +1,6 @@
 //
-//  GYRequest.h
-//  GYRequest
+//  GYCoreRequest.h
+//  GYCommon
 //
 //  Created by gaoyuan on 2019/5/23.
 //  Copyright © 2019 gaoyuan. All rights reserved.
@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GYRequest : NSObject
+NS_ASSUME_NONNULL_BEGIN
 
-+ (void)gyRequest;
+@interface GYCoreRequest : NSObject
 
 @end
+
+NS_ASSUME_NONNULL_END

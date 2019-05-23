@@ -1,13 +1,13 @@
 //
-//  IGYMacro.h
-//  iphoneCom
+//  GYMacro.h
+//  GYCommon
 //
-//  Created by gaoyuan on 2019/2/28.
+//  Created by gaoyuan on 2019/5/23.
 //  Copyright © 2019 gaoyuan. All rights reserved.
 //
 
-#ifndef IGYMacro_h
-#define IGYMacro_h
+#ifndef GYMacro_h
+#define GYMacro_h
 
 /**
  型号判断
@@ -71,4 +71,5 @@
 #define NavigationBarHeight (YXStatusBarHeight + 44)
 
 
-#endif /* IGYMacro_h */
+
+#endif /* GYMacro_h */

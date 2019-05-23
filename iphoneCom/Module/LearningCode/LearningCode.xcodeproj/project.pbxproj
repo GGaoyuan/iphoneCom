@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		308147F22296BA4B0091A6D9 /* LearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308147F12296BA4B0091A6D9 /* LearningViewController.m */; };
-		308147F52296BC170091A6D9 /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308147F42296BC170091A6D9 /* libPods-iphoneCom.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,7 +34,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308147F52296BC170091A6D9 /* libPods-iphoneCom.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

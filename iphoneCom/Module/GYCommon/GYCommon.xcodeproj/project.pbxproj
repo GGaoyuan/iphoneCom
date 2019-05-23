@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		308147DF2296B7BA0091A6D9 /* GYCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 308147DE2296B7BA0091A6D9 /* GYCommon.m */; };
 		308147E02296B7BA0091A6D9 /* GYCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 308147DD2296B7BA0091A6D9 /* GYCommon.h */; };
+		308147F92296BDD40091A6D9 /* GYCoreRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 308147F82296BDD40091A6D9 /* GYCoreRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		308147DA2296B7BA0091A6D9 /* libGYCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGYCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		308147DD2296B7BA0091A6D9 /* GYCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYCommon.h; sourceTree = "<group>"; };
 		308147DE2296B7BA0091A6D9 /* GYCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYCommon.m; sourceTree = "<group>"; };
+		308147F72296BDD40091A6D9 /* GYCoreRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYCoreRequest.h; sourceTree = "<group>"; };
+		308147F82296BDD40091A6D9 /* GYCoreRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYCoreRequest.m; sourceTree = "<group>"; };
+		308147FC2296BE9F0091A6D9 /* GYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +64,37 @@
 		308147DC2296B7BA0091A6D9 /* GYCommon */ = {
 			isa = PBXGroup;
 			children = (
+				308147FB2296BE240091A6D9 /* Macro */,
+				308147FA2296BDE30091A6D9 /* Category */,
+				308147F62296BDAB0091A6D9 /* GYRequest */,
 				308147DD2296B7BA0091A6D9 /* GYCommon.h */,
 				308147DE2296B7BA0091A6D9 /* GYCommon.m */,
 			);
 			path = GYCommon;
+			sourceTree = "<group>";
+		};
+		308147F62296BDAB0091A6D9 /* GYRequest */ = {
+			isa = PBXGroup;
+			children = (
+				308147F72296BDD40091A6D9 /* GYCoreRequest.h */,
+				308147F82296BDD40091A6D9 /* GYCoreRequest.m */,
+			);
+			path = GYRequest;
+			sourceTree = "<group>";
+		};
+		308147FA2296BDE30091A6D9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		308147FB2296BE240091A6D9 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				308147FC2296BE9F0091A6D9 /* GYMacro.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308147F92296BDD40091A6D9 /* GYCoreRequest.m in Sources */,
 				308147DF2296B7BA0091A6D9 /* GYCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

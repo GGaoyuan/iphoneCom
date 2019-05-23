@@ -9,7 +9,6 @@
 #ifndef IGYPrefixHeader_pch
 #define IGYPrefixHeader_pch
 
-#import "IGYMacro.h"
 #import "Masonry.h"
 
 #endif /* IGYPrefixHeader_pch */
