@@ -46,6 +46,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3081478422967E0B0091A6D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3081478022967E0A0091A6D9 /* LearningCode.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3081477422967DF10091A6D9;
+			remoteInfo = LearningCode;
+		};
 		30BAA97E20DA358C00C58F34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 30BAA95D20DA358900C58F34 /* Project object */;
@@ -72,6 +79,7 @@
 		303C32F82260B39700E95BDC /* LaunchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchImage.jpg; sourceTree = "<group>"; };
 		3074A9EA212134670070FCA3 /* DesignPatternsEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatternsEntrance.h; sourceTree = "<group>"; };
 		3074A9EB212134670070FCA3 /* DesignPatternsEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsEntrance.m; sourceTree = "<group>"; };
+		3081478022967E0A0091A6D9 /* LearningCode.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LearningCode.xcodeproj; path = Module/LearningCode/LearningCode.xcodeproj; sourceTree = "<group>"; };
 		308FA95020F3D23F00A8E420 /* GCDEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDEntrance.h; sourceTree = "<group>"; };
 		308FA95120F3D23F00A8E420 /* GCDEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDEntrance.m; sourceTree = "<group>"; };
 		30BAA96520DA358900C58F34 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +211,14 @@
 			path = "设计模式";
 			sourceTree = "<group>";
 		};
+		3081478122967E0A0091A6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3081478522967E0B0091A6D9 /* libLearningCode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		308FA94920F3D1D500A8E420 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +231,7 @@
 		30BAA95C20DA358900C58F34 = {
 			isa = PBXGroup;
 			children = (
+				3081478022967E0A0091A6D9 /* LearningCode.xcodeproj */,
 				30BAA96720DA358900C58F34 /* iphoneCom */,
 				30BAA98020DA358C00C58F34 /* iphoneComTests */,
 				30BAA98B20DA358C00C58F34 /* iphoneComUITests */,
@@ -601,6 +618,12 @@
 			mainGroup = 30BAA95C20DA358900C58F34;
 			productRefGroup = 30BAA96620DA358900C58F34 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3081478122967E0A0091A6D9 /* Products */;
+					ProjectRef = 3081478022967E0A0091A6D9 /* LearningCode.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				30BAA96420DA358900C58F34 /* iphoneCom */,
@@ -609,6 +632,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3081478522967E0B0091A6D9 /* libLearningCode.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLearningCode.a;
+			remoteRef = 3081478422967E0B0091A6D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		30BAA96320DA358900C58F34 /* Resources */ = {
