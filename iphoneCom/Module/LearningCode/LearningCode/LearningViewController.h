@@ -1,18 +1,16 @@
 //
-//  TestClass.h
+//  LearningViewController.h
 //  LearningCode
 //
 //  Created by gaoyuan on 2019/5/23.
 //  Copyright © 2019 gaoyuan. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TestClass : NSObject
-
-+ (void)test;
+@interface LearningViewController : UIViewController
 
 @end
 

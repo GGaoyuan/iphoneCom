@@ -1,23 +1,24 @@
 //
-//  GYViewController.m
-//  iphoneCom
+//  LearningViewController.m
+//  LearningCode
 //
 //  Created by gaoyuan on 2019/5/23.
 //  Copyright © 2019 gaoyuan. All rights reserved.
 //
 
-#import "GYViewController.h"
+#import "LearningViewController.h"
 
-@interface GYViewController ()
+@interface LearningViewController ()
 
 @end
 
-@implementation GYViewController
+@implementation LearningViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    NSLog(@"LearningViewController");
 }
 
 @end

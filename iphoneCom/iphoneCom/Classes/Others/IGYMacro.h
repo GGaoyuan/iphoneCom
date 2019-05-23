@@ -18,15 +18,11 @@
 #define IPHONE_X     ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 #define IPHONE_XR    ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
 #define IPHONE_XSMAX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
-#define SystemVersion [UIDevice currentDevice].systemVersion.floatValue
 
 /**
- 判断宏
+ 系统判断
  */
-#define RETURN_IF_CONFORMITY(exp)    \
-if((exp)) {        \
-return NO;     \
-}
+#define SystemVersion [UIDevice currentDevice].systemVersion.floatValue
 
 /**
  键盘弹出通知宏

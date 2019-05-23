@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30814792229686560091A6D9 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 30814791229686560091A6D9 /* TestClass.m */; };
-		30814793229686670091A6D9 /* TestClass.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 30814790229686560091A6D9 /* TestClass.h */; };
+		308147F22296BA4B0091A6D9 /* LearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308147F12296BA4B0091A6D9 /* LearningViewController.m */; };
+		308147F52296BC170091A6D9 /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308147F42296BC170091A6D9 /* libPods-iphoneCom.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +18,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				30814793229686670091A6D9 /* TestClass.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +25,9 @@
 
 /* Begin PBXFileReference section */
 		3081477422967DF10091A6D9 /* libLearningCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLearningCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		30814790229686560091A6D9 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
-		30814791229686560091A6D9 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		308147F02296BA4B0091A6D9 /* LearningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearningViewController.h; sourceTree = "<group>"; };
+		308147F12296BA4B0091A6D9 /* LearningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningViewController.m; sourceTree = "<group>"; };
+		308147F42296BC170091A6D9 /* libPods-iphoneCom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-iphoneCom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308147F52296BC170091A6D9 /* libPods-iphoneCom.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +47,7 @@
 			children = (
 				3081477622967DF10091A6D9 /* LearningCode */,
 				3081477522967DF10091A6D9 /* Products */,
+				308147F32296BC170091A6D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +62,18 @@
 		3081477622967DF10091A6D9 /* LearningCode */ = {
 			isa = PBXGroup;
 			children = (
-				30814790229686560091A6D9 /* TestClass.h */,
-				30814791229686560091A6D9 /* TestClass.m */,
+				308147F02296BA4B0091A6D9 /* LearningViewController.h */,
+				308147F12296BA4B0091A6D9 /* LearningViewController.m */,
 			);
 			path = LearningCode;
+			sourceTree = "<group>";
+		};
+		308147F32296BC170091A6D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				308147F42296BC170091A6D9 /* libPods-iphoneCom.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30814792229686560091A6D9 /* TestClass.m in Sources */,
+				308147F22296BA4B0091A6D9 /* LearningViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

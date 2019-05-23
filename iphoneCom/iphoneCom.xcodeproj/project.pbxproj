@@ -12,7 +12,6 @@
 		30814789229680B20091A6D9 /* libLearningCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3081478522967E0B0091A6D9 /* libLearningCode.a */; };
 		308147B42296AB0A0091A6D9 /* libGYRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308147B32296AACE0091A6D9 /* libGYRequest.a */; };
 		308147EC2296B7F30091A6D9 /* libGYCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308147EB2296B7CD0091A6D9 /* libGYCommon.a */; };
-		308147EF2296B8D70091A6D9 /* GYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308147EE2296B8D60091A6D9 /* GYViewController.m */; };
 		30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA96920DA358900C58F34 /* AppDelegate.m */; };
 		30BAA97220DA358C00C58F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97120DA358C00C58F34 /* Assets.xcassets */; };
 		30BAA97820DA358C00C58F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA97720DA358C00C58F34 /* main.m */; };
@@ -68,8 +67,6 @@
 		3081478022967E0A0091A6D9 /* LearningCode.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LearningCode.xcodeproj; path = Module/LearningCode/LearningCode.xcodeproj; sourceTree = "<group>"; };
 		308147AE2296AACE0091A6D9 /* GYRequest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GYRequest.xcodeproj; path = Module/GYRequest/GYRequest.xcodeproj; sourceTree = "<group>"; };
 		308147E62296B7CD0091A6D9 /* GYCommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GYCommon.xcodeproj; path = Module/GYCommon/GYCommon.xcodeproj; sourceTree = "<group>"; };
-		308147ED2296B8D60091A6D9 /* GYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYViewController.h; sourceTree = "<group>"; };
-		308147EE2296B8D60091A6D9 /* GYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYViewController.m; sourceTree = "<group>"; };
 		30BAA96520DA358900C58F34 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA96820DA358900C58F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30BAA96920DA358900C58F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -226,8 +223,6 @@
 		30ED2E43214F8AEB002A69A9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				308147ED2296B8D60091A6D9 /* GYViewController.h */,
-				308147EE2296B8D60091A6D9 /* GYViewController.m */,
 				30FA1A95226DA58B007F9393 /* Others */,
 				30BAA97120DA358C00C58F34 /* Assets.xcassets */,
 				30BAA96820DA358900C58F34 /* AppDelegate.h */,
@@ -455,7 +450,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308147EF2296B8D70091A6D9 /* GYViewController.m in Sources */,
 				30BAA97820DA358C00C58F34 /* main.m in Sources */,
 				30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */,
 			);

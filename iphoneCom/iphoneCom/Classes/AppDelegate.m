@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "GYViewController.h"
+#import "LearningViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    GYViewController *viewController = [[GYViewController alloc] init];
+    LearningViewController *viewController = [[LearningViewController alloc] init];
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     return YES;
