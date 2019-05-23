@@ -10,38 +10,15 @@
 		303C32F42260993B00E95BDC /* IGYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C32F32260993B00E95BDC /* IGYHomeViewController.m */; };
 		303C32F62260B30F00E95BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303C32F52260B30E00E95BDC /* LaunchScreen.storyboard */; };
 		303C32F92260B39700E95BDC /* LaunchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 303C32F82260B39700E95BDC /* LaunchImage.jpg */; };
-		3074A9EC212134670070FCA3 /* DesignPatternsEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3074A9EB212134670070FCA3 /* DesignPatternsEntrance.m */; };
-		308FA95220F3D23F00A8E420 /* GCDEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 308FA95120F3D23F00A8E420 /* GCDEntrance.m */; };
+		30814789229680B20091A6D9 /* libLearningCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3081478522967E0B0091A6D9 /* libLearningCode.a */; };
+		308147B42296AB0A0091A6D9 /* libGYRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308147B32296AACE0091A6D9 /* libGYRequest.a */; };
 		30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA96920DA358900C58F34 /* AppDelegate.m */; };
 		30BAA97220DA358C00C58F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BAA97120DA358C00C58F34 /* Assets.xcassets */; };
 		30BAA97820DA358C00C58F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA97720DA358C00C58F34 /* main.m */; };
 		30BAA98220DA358C00C58F34 /* iphoneComTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA98120DA358C00C58F34 /* iphoneComTests.m */; };
 		30BAA98D20DA358C00C58F34 /* iphoneComUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAA98C20DA358C00C58F34 /* iphoneComUITests.m */; };
-		30CDB04E2122F59600542C7E /* AlgDepthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB04D2122F59600542C7E /* AlgDepthFirstSearch.m */; };
-		30CDB05221241AB500542C7E /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05121241AB500542C7E /* Stack.m */; };
-		30CDB05921242E5F00542C7E /* MemeryEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05821242E5F00542C7E /* MemeryEntrance.m */; };
-		30CDB05C2125357900542C7E /* RetainCountObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CDB05B2125357900542C7E /* RetainCountObject.m */; };
-		30E5330421219ADF00A66927 /* AlgHashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E5330321219ADF00A66927 /* AlgHashTable.m */; };
-		30E5330B21227DCF00A66927 /* AlgGraphEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E5330A21227DCF00A66927 /* AlgGraphEntrance.m */; };
-		30E5330E21228BD100A66927 /* AlgGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E5330D21228BD100A66927 /* AlgGraph.m */; };
-		30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB352C20F4C77A006345BC /* BlockEntrance.m */; };
-		30EB353320F5AAC9006345BC /* AlgRedBlackTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB353220F5AAC9006345BC /* AlgRedBlackTree.m */; };
 		30FA1A91226DA33A007F9393 /* IGYUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA1A90226DA33A007F9393 /* IGYUserInfo.m */; };
 		30FA1A94226DA566007F9393 /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA1A93226DA566007F9393 /* TestObj.m */; };
-		30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */; };
-		30FB38C020E0EEA50071A9B8 /* AlgorithmTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38BF20E0EEA50071A9B8 /* AlgorithmTool.m */; };
-		30FB38C320E0F91E0071A9B8 /* BaseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38C220E0F91E0071A9B8 /* BaseSort.m */; };
-		30FB38C620E0F9390071A9B8 /* AlgMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38C520E0F9390071A9B8 /* AlgMergeSort.m */; };
-		30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38C820E2148C0071A9B8 /* AlgQuickSort.m */; };
-		30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38CB20E397240071A9B8 /* AlgInsertSort.m */; };
-		30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38D220E4B57F0071A9B8 /* PriorityQueueEntrance.m */; };
-		30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38D820E4B7340071A9B8 /* AlgPriorityQueue.m */; };
-		30FB38E120E645C70071A9B8 /* AlgHeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38E020E645C70071A9B8 /* AlgHeapSort.m */; };
-		30FB38E420E645E20071A9B8 /* SortEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38E320E645E20071A9B8 /* SortEntrance.m */; };
-		30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38FB20EB25B40071A9B8 /* AlgSearchEntrance.m */; };
-		30FB38FF20EB87E40071A9B8 /* AlgSearchNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB38FE20EB87E40071A9B8 /* AlgSearchNode.m */; };
-		30FB390220EB88100071A9B8 /* AlgBinarySearchTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB390120EB88100071A9B8 /* AlgBinarySearchTree.m */; };
-		30FB390620EC7EC70071A9B8 /* AlgNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB390520EC7EC70071A9B8 /* AlgNodeView.m */; };
 		E8A678AEEF79E1AB5FEE0F8B /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130F2C758C6E4D64F882CF40 /* libPods-iphoneCom.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +29,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 3081477422967DF10091A6D9;
 			remoteInfo = LearningCode;
+		};
+		308147B22296AACE0091A6D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308147AE2296AACE0091A6D9 /* GYRequest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 308147A22296AABB0091A6D9;
+			remoteInfo = GYRequest;
 		};
 		30BAA97E20DA358C00C58F34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -77,11 +61,8 @@
 		303C32F32260993B00E95BDC /* IGYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGYHomeViewController.m; sourceTree = "<group>"; };
 		303C32F52260B30E00E95BDC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		303C32F82260B39700E95BDC /* LaunchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchImage.jpg; sourceTree = "<group>"; };
-		3074A9EA212134670070FCA3 /* DesignPatternsEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatternsEntrance.h; sourceTree = "<group>"; };
-		3074A9EB212134670070FCA3 /* DesignPatternsEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsEntrance.m; sourceTree = "<group>"; };
 		3081478022967E0A0091A6D9 /* LearningCode.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LearningCode.xcodeproj; path = Module/LearningCode/LearningCode.xcodeproj; sourceTree = "<group>"; };
-		308FA95020F3D23F00A8E420 /* GCDEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDEntrance.h; sourceTree = "<group>"; };
-		308FA95120F3D23F00A8E420 /* GCDEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDEntrance.m; sourceTree = "<group>"; };
+		308147AE2296AACE0091A6D9 /* GYRequest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GYRequest.xcodeproj; path = Module/GYRequest/GYRequest.xcodeproj; sourceTree = "<group>"; };
 		30BAA96520DA358900C58F34 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BAA96820DA358900C58F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30BAA96920DA358900C58F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,56 +77,10 @@
 		30BAA98E20DA358D00C58F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30C95F49222797010015B043 /* IGYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGYPrefixHeader.pch; sourceTree = "<group>"; };
 		30C95F4A222797D10015B043 /* IGYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGYMacro.h; sourceTree = "<group>"; };
-		30CDB04C2122F59600542C7E /* AlgDepthFirstSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgDepthFirstSearch.h; sourceTree = "<group>"; };
-		30CDB04D2122F59600542C7E /* AlgDepthFirstSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgDepthFirstSearch.m; sourceTree = "<group>"; };
-		30CDB05021241AB500542C7E /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
-		30CDB05121241AB500542C7E /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
-		30CDB05721242E5F00542C7E /* MemeryEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemeryEntrance.h; sourceTree = "<group>"; };
-		30CDB05821242E5F00542C7E /* MemeryEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemeryEntrance.m; sourceTree = "<group>"; };
-		30CDB05A2125357900542C7E /* RetainCountObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetainCountObject.h; sourceTree = "<group>"; };
-		30CDB05B2125357900542C7E /* RetainCountObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetainCountObject.m; sourceTree = "<group>"; };
-		30E5330221219ADF00A66927 /* AlgHashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgHashTable.h; sourceTree = "<group>"; };
-		30E5330321219ADF00A66927 /* AlgHashTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgHashTable.m; sourceTree = "<group>"; };
-		30E5330921227DCF00A66927 /* AlgGraphEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgGraphEntrance.h; sourceTree = "<group>"; };
-		30E5330A21227DCF00A66927 /* AlgGraphEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgGraphEntrance.m; sourceTree = "<group>"; };
-		30E5330C21228BD100A66927 /* AlgGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgGraph.h; sourceTree = "<group>"; };
-		30E5330D21228BD100A66927 /* AlgGraph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgGraph.m; sourceTree = "<group>"; };
-		30EB352B20F4C77A006345BC /* BlockEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockEntrance.h; sourceTree = "<group>"; };
-		30EB352C20F4C77A006345BC /* BlockEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockEntrance.m; sourceTree = "<group>"; };
-		30EB353120F5AAC9006345BC /* AlgRedBlackTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgRedBlackTree.h; sourceTree = "<group>"; };
-		30EB353220F5AAC9006345BC /* AlgRedBlackTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgRedBlackTree.m; sourceTree = "<group>"; };
 		30FA1A8F226DA33A007F9393 /* IGYUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGYUserInfo.h; sourceTree = "<group>"; };
 		30FA1A90226DA33A007F9393 /* IGYUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGYUserInfo.m; sourceTree = "<group>"; };
 		30FA1A92226DA566007F9393 /* TestObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
 		30FA1A93226DA566007F9393 /* TestObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
-		30FB38B020E0E99D0071A9B8 /* AlgorithmEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmEntrance.h; sourceTree = "<group>"; };
-		30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmEntrance.m; sourceTree = "<group>"; };
-		30FB38BE20E0EEA50071A9B8 /* AlgorithmTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmTool.h; sourceTree = "<group>"; };
-		30FB38BF20E0EEA50071A9B8 /* AlgorithmTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmTool.m; sourceTree = "<group>"; };
-		30FB38C120E0F91E0071A9B8 /* BaseSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSort.h; sourceTree = "<group>"; };
-		30FB38C220E0F91E0071A9B8 /* BaseSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseSort.m; sourceTree = "<group>"; };
-		30FB38C420E0F9390071A9B8 /* AlgMergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgMergeSort.h; sourceTree = "<group>"; };
-		30FB38C520E0F9390071A9B8 /* AlgMergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgMergeSort.m; sourceTree = "<group>"; };
-		30FB38C720E2148C0071A9B8 /* AlgQuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgQuickSort.h; sourceTree = "<group>"; };
-		30FB38C820E2148C0071A9B8 /* AlgQuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgQuickSort.m; sourceTree = "<group>"; };
-		30FB38CA20E397240071A9B8 /* AlgInsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgInsertSort.h; sourceTree = "<group>"; };
-		30FB38CB20E397240071A9B8 /* AlgInsertSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgInsertSort.m; sourceTree = "<group>"; };
-		30FB38D120E4B57F0071A9B8 /* PriorityQueueEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueueEntrance.h; sourceTree = "<group>"; };
-		30FB38D220E4B57F0071A9B8 /* PriorityQueueEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityQueueEntrance.m; sourceTree = "<group>"; };
-		30FB38D720E4B7340071A9B8 /* AlgPriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgPriorityQueue.h; sourceTree = "<group>"; };
-		30FB38D820E4B7340071A9B8 /* AlgPriorityQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgPriorityQueue.m; sourceTree = "<group>"; };
-		30FB38DF20E645C70071A9B8 /* AlgHeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgHeapSort.h; sourceTree = "<group>"; };
-		30FB38E020E645C70071A9B8 /* AlgHeapSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgHeapSort.m; sourceTree = "<group>"; };
-		30FB38E220E645E20071A9B8 /* SortEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortEntrance.h; sourceTree = "<group>"; };
-		30FB38E320E645E20071A9B8 /* SortEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortEntrance.m; sourceTree = "<group>"; };
-		30FB38FA20EB25B40071A9B8 /* AlgSearchEntrance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgSearchEntrance.h; sourceTree = "<group>"; };
-		30FB38FB20EB25B40071A9B8 /* AlgSearchEntrance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgSearchEntrance.m; sourceTree = "<group>"; };
-		30FB38FD20EB87E40071A9B8 /* AlgSearchNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgSearchNode.h; sourceTree = "<group>"; };
-		30FB38FE20EB87E40071A9B8 /* AlgSearchNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgSearchNode.m; sourceTree = "<group>"; };
-		30FB390020EB88100071A9B8 /* AlgBinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgBinarySearchTree.h; sourceTree = "<group>"; };
-		30FB390120EB88100071A9B8 /* AlgBinarySearchTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgBinarySearchTree.m; sourceTree = "<group>"; };
-		30FB390420EC7EC70071A9B8 /* AlgNodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgNodeView.h; sourceTree = "<group>"; };
-		30FB390520EC7EC70071A9B8 /* AlgNodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgNodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308147B42296AB0A0091A6D9 /* libGYRequest.a in Frameworks */,
+				30814789229680B20091A6D9 /* libLearningCode.a in Frameworks */,
 				E8A678AEEF79E1AB5FEE0F8B /* libPods-iphoneCom.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,15 +139,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		3074A9E9212134320070FCA3 /* 设计模式 */ = {
-			isa = PBXGroup;
-			children = (
-				3074A9EA212134670070FCA3 /* DesignPatternsEntrance.h */,
-				3074A9EB212134670070FCA3 /* DesignPatternsEntrance.m */,
-			);
-			path = "设计模式";
-			sourceTree = "<group>";
-		};
 		3081478122967E0A0091A6D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,18 +147,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		308FA94920F3D1D500A8E420 /* GCD */ = {
+		308147AF2296AACE0091A6D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				308FA95020F3D23F00A8E420 /* GCDEntrance.h */,
-				308FA95120F3D23F00A8E420 /* GCDEntrance.m */,
+				308147B32296AACE0091A6D9 /* libGYRequest.a */,
 			);
-			path = GCD;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		30BAA95C20DA358900C58F34 = {
 			isa = PBXGroup;
 			children = (
+				308147AE2296AACE0091A6D9 /* GYRequest.xcodeproj */,
 				3081478022967E0A0091A6D9 /* LearningCode.xcodeproj */,
 				30BAA96720DA358900C58F34 /* iphoneCom */,
 				30BAA98020DA358C00C58F34 /* iphoneComTests */,
@@ -254,7 +182,6 @@
 		30BAA96720DA358900C58F34 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
-				30C95F44222794340015B043 /* Modules */,
 				30ED2E43214F8AEB002A69A9 /* Classes */,
 			);
 			path = iphoneCom;
@@ -285,76 +212,11 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		30C95F44222794340015B043 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				30ED2F01214F90A6002A69A9 /* AbandonModule */,
-				30ED2F02214F9410002A69A9 /* CrawlerModule */,
-				30ED2EFE214F9030002A69A9 /* EmergencyModule */,
-				30ED2EFF214F9069002A69A9 /* PointerModule */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
 		30C95F45222795E30015B043 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		30CDB04F21241AA300542C7E /* DataStructure */ = {
-			isa = PBXGroup;
-			children = (
-				30CDB05021241AB500542C7E /* Stack.h */,
-				30CDB05121241AB500542C7E /* Stack.m */,
-			);
-			path = DataStructure;
-			sourceTree = "<group>";
-		};
-		30CDB05321242E1100542C7E /* Memory */ = {
-			isa = PBXGroup;
-			children = (
-				30CDB05721242E5F00542C7E /* MemeryEntrance.h */,
-				30CDB05821242E5F00542C7E /* MemeryEntrance.m */,
-				30CDB05A2125357900542C7E /* RetainCountObject.h */,
-				30CDB05B2125357900542C7E /* RetainCountObject.m */,
-			);
-			path = Memory;
-			sourceTree = "<group>";
-		};
-		30E5330521227D3300A66927 /* Graph */ = {
-			isa = PBXGroup;
-			children = (
-				30E5330921227DCF00A66927 /* AlgGraphEntrance.h */,
-				30E5330A21227DCF00A66927 /* AlgGraphEntrance.m */,
-				30E5330C21228BD100A66927 /* AlgGraph.h */,
-				30E5330D21228BD100A66927 /* AlgGraph.m */,
-				30CDB04C2122F59600542C7E /* AlgDepthFirstSearch.h */,
-				30CDB04D2122F59600542C7E /* AlgDepthFirstSearch.m */,
-			);
-			path = Graph;
-			sourceTree = "<group>";
-		};
-		30EB352920F4C760006345BC /* Pointer */ = {
-			isa = PBXGroup;
-			children = (
-				30CDB05321242E1100542C7E /* Memory */,
-				30FB38AD20E0E9430071A9B8 /* Algorithm */,
-				3074A9E9212134320070FCA3 /* 设计模式 */,
-				308FA94920F3D1D500A8E420 /* GCD */,
-				30EB352A20F4C760006345BC /* Block */,
-			);
-			path = Pointer;
-			sourceTree = "<group>";
-		};
-		30EB352A20F4C760006345BC /* Block */ = {
-			isa = PBXGroup;
-			children = (
-				30EB352B20F4C77A006345BC /* BlockEntrance.h */,
-				30EB352C20F4C77A006345BC /* BlockEntrance.m */,
-			);
-			path = Block;
 			sourceTree = "<group>";
 		};
 		30ED2E43214F8AEB002A69A9 /* Classes */ = {
@@ -368,35 +230,6 @@
 				303C32F72260B36700E95BDC /* Supporting Files */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		30ED2EFE214F9030002A69A9 /* EmergencyModule */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = EmergencyModule;
-			sourceTree = "<group>";
-		};
-		30ED2EFF214F9069002A69A9 /* PointerModule */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PointerModule;
-			sourceTree = "<group>";
-		};
-		30ED2F01214F90A6002A69A9 /* AbandonModule */ = {
-			isa = PBXGroup;
-			children = (
-				30EB352920F4C760006345BC /* Pointer */,
-			);
-			path = AbandonModule;
-			sourceTree = "<group>";
-		};
-		30ED2F02214F9410002A69A9 /* CrawlerModule */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CrawlerModule;
 			sourceTree = "<group>";
 		};
 		30FA1A95226DA58B007F9393 /* Others */ = {
@@ -421,50 +254,6 @@
 			path = UserInfo;
 			sourceTree = "<group>";
 		};
-		30FB38AD20E0E9430071A9B8 /* Algorithm */ = {
-			isa = PBXGroup;
-			children = (
-				30CDB04F21241AA300542C7E /* DataStructure */,
-				30E5330521227D3300A66927 /* Graph */,
-				30FB38AF20E0E9710071A9B8 /* Tools */,
-				30FB38F920EB25960071A9B8 /* Search */,
-				30FB38AE20E0E9520071A9B8 /* Sort */,
-				30FB38CD20E4B5190071A9B8 /* PriorityQueue */,
-				30FB38B020E0E99D0071A9B8 /* AlgorithmEntrance.h */,
-				30FB38B120E0E99D0071A9B8 /* AlgorithmEntrance.m */,
-			);
-			path = Algorithm;
-			sourceTree = "<group>";
-		};
-		30FB38AE20E0E9520071A9B8 /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-				30FB38C120E0F91E0071A9B8 /* BaseSort.h */,
-				30FB38C220E0F91E0071A9B8 /* BaseSort.m */,
-				30FB38E220E645E20071A9B8 /* SortEntrance.h */,
-				30FB38E320E645E20071A9B8 /* SortEntrance.m */,
-				30FB38C420E0F9390071A9B8 /* AlgMergeSort.h */,
-				30FB38C520E0F9390071A9B8 /* AlgMergeSort.m */,
-				30FB38C720E2148C0071A9B8 /* AlgQuickSort.h */,
-				30FB38C820E2148C0071A9B8 /* AlgQuickSort.m */,
-				30FB38CA20E397240071A9B8 /* AlgInsertSort.h */,
-				30FB38CB20E397240071A9B8 /* AlgInsertSort.m */,
-				30FB38DF20E645C70071A9B8 /* AlgHeapSort.h */,
-				30FB38E020E645C70071A9B8 /* AlgHeapSort.m */,
-			);
-			path = Sort;
-			sourceTree = "<group>";
-		};
-		30FB38AF20E0E9710071A9B8 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				30FB390320EC7EB40071A9B8 /* Views */,
-				30FB38BE20E0EEA50071A9B8 /* AlgorithmTool.h */,
-				30FB38BF20E0EEA50071A9B8 /* AlgorithmTool.m */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
 		30FB38B620E0EAB70071A9B8 /* Root */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,43 +269,6 @@
 				303C32F32260993B00E95BDC /* IGYHomeViewController.m */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		30FB38CD20E4B5190071A9B8 /* PriorityQueue */ = {
-			isa = PBXGroup;
-			children = (
-				30FB38D120E4B57F0071A9B8 /* PriorityQueueEntrance.h */,
-				30FB38D220E4B57F0071A9B8 /* PriorityQueueEntrance.m */,
-				30FB38D720E4B7340071A9B8 /* AlgPriorityQueue.h */,
-				30FB38D820E4B7340071A9B8 /* AlgPriorityQueue.m */,
-			);
-			path = PriorityQueue;
-			sourceTree = "<group>";
-		};
-		30FB38F920EB25960071A9B8 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				30FB38FA20EB25B40071A9B8 /* AlgSearchEntrance.h */,
-				30FB38FB20EB25B40071A9B8 /* AlgSearchEntrance.m */,
-				30FB38FD20EB87E40071A9B8 /* AlgSearchNode.h */,
-				30FB38FE20EB87E40071A9B8 /* AlgSearchNode.m */,
-				30FB390020EB88100071A9B8 /* AlgBinarySearchTree.h */,
-				30FB390120EB88100071A9B8 /* AlgBinarySearchTree.m */,
-				30EB353120F5AAC9006345BC /* AlgRedBlackTree.h */,
-				30EB353220F5AAC9006345BC /* AlgRedBlackTree.m */,
-				30E5330221219ADF00A66927 /* AlgHashTable.h */,
-				30E5330321219ADF00A66927 /* AlgHashTable.m */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		30FB390320EC7EB40071A9B8 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				30FB390420EC7EC70071A9B8 /* AlgNodeView.h */,
-				30FB390520EC7EC70071A9B8 /* AlgNodeView.m */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		4302274D7821BB6AC463D22B /* Pods */ = {
@@ -620,6 +372,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 308147AF2296AACE0091A6D9 /* Products */;
+					ProjectRef = 308147AE2296AACE0091A6D9 /* GYRequest.xcodeproj */;
+				},
+				{
 					ProductGroup = 3081478122967E0A0091A6D9 /* Products */;
 					ProjectRef = 3081478022967E0A0091A6D9 /* LearningCode.xcodeproj */;
 				},
@@ -639,6 +395,13 @@
 			fileType = archive.ar;
 			path = libLearningCode.a;
 			remoteRef = 3081478422967E0B0091A6D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		308147B32296AACE0091A6D9 /* libGYRequest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGYRequest.a;
+			remoteRef = 308147B22296AACE0091A6D9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -696,36 +459,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FB390220EB88100071A9B8 /* AlgBinarySearchTree.m in Sources */,
 				30FA1A91226DA33A007F9393 /* IGYUserInfo.m in Sources */,
 				30BAA97820DA358C00C58F34 /* main.m in Sources */,
-				30FB38E420E645E20071A9B8 /* SortEntrance.m in Sources */,
-				30FB38C620E0F9390071A9B8 /* AlgMergeSort.m in Sources */,
-				30FB38C020E0EEA50071A9B8 /* AlgorithmTool.m in Sources */,
-				30E5330E21228BD100A66927 /* AlgGraph.m in Sources */,
-				30EB353320F5AAC9006345BC /* AlgRedBlackTree.m in Sources */,
-				30FB38C320E0F91E0071A9B8 /* BaseSort.m in Sources */,
 				30BAA96A20DA358900C58F34 /* AppDelegate.m in Sources */,
-				30FB38B220E0E99D0071A9B8 /* AlgorithmEntrance.m in Sources */,
-				30E5330B21227DCF00A66927 /* AlgGraphEntrance.m in Sources */,
-				308FA95220F3D23F00A8E420 /* GCDEntrance.m in Sources */,
-				30FB38E120E645C70071A9B8 /* AlgHeapSort.m in Sources */,
-				30FB38FF20EB87E40071A9B8 /* AlgSearchNode.m in Sources */,
 				30FA1A94226DA566007F9393 /* TestObj.m in Sources */,
-				30CDB05921242E5F00542C7E /* MemeryEntrance.m in Sources */,
-				30EB352D20F4C77A006345BC /* BlockEntrance.m in Sources */,
-				30FB38FC20EB25B40071A9B8 /* AlgSearchEntrance.m in Sources */,
-				30E5330421219ADF00A66927 /* AlgHashTable.m in Sources */,
-				30CDB05221241AB500542C7E /* Stack.m in Sources */,
-				30FB38D920E4B7340071A9B8 /* AlgPriorityQueue.m in Sources */,
 				303C32F42260993B00E95BDC /* IGYHomeViewController.m in Sources */,
-				30FB38D320E4B57F0071A9B8 /* PriorityQueueEntrance.m in Sources */,
-				30CDB04E2122F59600542C7E /* AlgDepthFirstSearch.m in Sources */,
-				30CDB05C2125357900542C7E /* RetainCountObject.m in Sources */,
-				30FB390620EC7EC70071A9B8 /* AlgNodeView.m in Sources */,
-				30FB38C920E2148C0071A9B8 /* AlgQuickSort.m in Sources */,
-				3074A9EC212134670070FCA3 /* DesignPatternsEntrance.m in Sources */,
-				30FB38CC20E397240071A9B8 /* AlgInsertSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,11 +618,32 @@
 				DEVELOPMENT_TEAM = 7YFGM3N5TQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/Classes/Others/IGYPrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/UITableView+FDTemplateLayoutCell\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"$(SRCROOT)/Module/GYRequest/GYRequest\"",
+					"\"$(SRCROOT)/Module/LearningCode/LearningCode\"",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/iphoneCom/Classes/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FMDB\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UITableView+FDTemplateLayoutCell\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYModel\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyuan.iphoneCo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -901,11 +660,32 @@
 				DEVELOPMENT_TEAM = 7YFGM3N5TQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/songjiabin/Desktop/git/iOS/iphoneCom/iphoneCom/iphoneCom/Classes/Others/IGYPrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/UITableView+FDTemplateLayoutCell\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"$(SRCROOT)/Module/GYRequest/GYRequest\"",
+					"\"$(SRCROOT)/Module/LearningCode/LearningCode\"",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/iphoneCom/Classes/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FMDB\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UITableView+FDTemplateLayoutCell\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYModel\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyuan.iphoneCo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

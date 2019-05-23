@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "IGYHomeViewController.h"
 
+#import "TestClass.h"
+#import "GYRequest.h"
+
 @interface AppDelegate ()
 
 @end
@@ -21,72 +24,14 @@
     self.window.backgroundColor = [UIColor whiteColor];
     IGYHomeViewController *mainViewController = [[IGYHomeViewController alloc] init];
     self.window.rootViewController = mainViewController;
+    
+    [TestClass test];
+    
+    [GYRequest gyRequest];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
-
-//- (void)initMemeryController {
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    MemeryEntrance *memeryEntrance = [[MemeryEntrance alloc] init];
-//    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:memeryEntrance];
-//    self.window.rootViewController = rootNav;
-//    [self.window makeKeyAndVisible];
-//}
-//
-//- (void)initDesignPatternsController {
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    DesignPatternsEntrance *designPatternsEntrance = [[DesignPatternsEntrance alloc] init];
-//    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:designPatternsEntrance];
-//    self.window.rootViewController = rootNav;
-//    [self.window makeKeyAndVisible];
-//}
-//
-//- (void)initNetWorkViewController {
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    NetWorkEntrance *netWorkEntrance = [[NetWorkEntrance alloc] init];
-//    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:netWorkEntrance];
-//    self.window.rootViewController = rootNav;
-//    [self.window makeKeyAndVisible];
-//}
-//
-//- (void)initHomeViewController {
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    YDHomeViewController *homeViewController = [[YDHomeViewController alloc] init];
-//    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:homeViewController];
-//    self.window.rootViewController = rootNav;
-//    [self.window makeKeyAndVisible];
-//}
-//
-//- (void)initAlgorithmController {
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    AlgorithmEntrance *algorithmEntrance = [[AlgorithmEntrance alloc] init];
-//    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:algorithmEntrance];
-//    self.window.rootViewController = rootNav;
-//    [self.window makeKeyAndVisible];
-//}
-//
-//- (void)initGCDController {
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    GCDEntrance *gcdEntrance = [[GCDEntrance alloc] init];
-//    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:gcdEntrance];
-//    self.window.rootViewController = rootNav;
-//    [self.window makeKeyAndVisible];
-//}
-//
-//- (void)initBlockController {
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    BlockEntrance *blockEntrance = [[BlockEntrance alloc] init];
-//    BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:blockEntrance];
-//    self.window.rootViewController = rootNav;
-//    [self.window makeKeyAndVisible];
-//}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
