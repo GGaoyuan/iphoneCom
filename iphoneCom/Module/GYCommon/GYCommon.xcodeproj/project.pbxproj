@@ -32,6 +32,7 @@
 		308147F72296BDD40091A6D9 /* GYCoreRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYCoreRequest.h; sourceTree = "<group>"; };
 		308147F82296BDD40091A6D9 /* GYCoreRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYCoreRequest.m; sourceTree = "<group>"; };
 		308147FC2296BE9F0091A6D9 /* GYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYMacro.h; sourceTree = "<group>"; };
+		30C848CA2297A80D0007F0C8 /* LearningPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearningPrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		308147D12296B7BA0091A6D9 = {
 			isa = PBXGroup;
 			children = (
+				30C848CA2297A80D0007F0C8 /* LearningPrefixHeader.pch */,
 				308147DC2296B7BA0091A6D9 /* GYCommon */,
 				308147DB2296B7BA0091A6D9 /* Products */,
 			);
@@ -137,6 +139,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 308147D12296B7BA0091A6D9;
 			productRefGroup = 308147DB2296B7BA0091A6D9 /* Products */;
@@ -202,6 +205,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -212,6 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -259,12 +264,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

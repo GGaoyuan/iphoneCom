@@ -7,6 +7,7 @@
 //
 
 #import "LearningViewController.h"
+//#import "GYCommon.h"
 
 @interface LearningViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+//    [GYCommon gyCommon];
+    
     
     NSLog(@"LearningViewController");
 }

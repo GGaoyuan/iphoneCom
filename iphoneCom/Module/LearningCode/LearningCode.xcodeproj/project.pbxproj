@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		308147F22296BA4B0091A6D9 /* LearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308147F12296BA4B0091A6D9 /* LearningViewController.m */; };
+		30BD74982297CBD100E73264 /* libGYCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BD74972297CBD100E73264 /* libGYCommon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +27,7 @@
 		3081477422967DF10091A6D9 /* libLearningCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLearningCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		308147F02296BA4B0091A6D9 /* LearningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearningViewController.h; sourceTree = "<group>"; };
 		308147F12296BA4B0091A6D9 /* LearningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningViewController.m; sourceTree = "<group>"; };
-		308147F42296BC170091A6D9 /* libPods-iphoneCom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-iphoneCom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BD74972297CBD100E73264 /* libGYCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGYCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BD74982297CBD100E73264 /* libGYCommon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +47,7 @@
 			children = (
 				3081477622967DF10091A6D9 /* LearningCode */,
 				3081477522967DF10091A6D9 /* Products */,
-				308147F32296BC170091A6D9 /* Frameworks */,
+				30C848CB2297C8960007F0C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,10 +68,10 @@
 			path = LearningCode;
 			sourceTree = "<group>";
 		};
-		308147F32296BC170091A6D9 /* Frameworks */ = {
+		30C848CB2297C8960007F0C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				308147F42296BC170091A6D9 /* libPods-iphoneCom.a */,
+				30BD74972297CBD100E73264 /* libGYCommon.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -253,6 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -264,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
