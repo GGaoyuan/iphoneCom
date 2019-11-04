@@ -14,6 +14,9 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     
     var crossView: HomeCrossView!
     
+    
+    
+    
     var btn: UIButton!
     
     override func viewDidLoad() {
