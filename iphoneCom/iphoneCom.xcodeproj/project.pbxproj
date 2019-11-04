@@ -16,6 +16,9 @@
 		30B5E533231F537000DAE2AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5E532231F537000DAE2AF /* HomeViewController.swift */; };
 		30B5E535231F575300DAE2AF /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B5E534231F575300DAE2AF /* launch.png */; };
 		30B5E56A231FA16800DAE2AF /* HomeCrossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5E569231FA16800DAE2AF /* HomeCrossView.swift */; };
+		30EB3D6C237018A500DC3729 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3D6B237018A500DC3729 /* Storage.swift */; };
+		30EB3D70237018FD00DC3729 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3D6F237018FD00DC3729 /* GlobalConst.swift */; };
+		30EB3D722370191E00DC3729 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3D712370191E00DC3729 /* UIView.swift */; };
 		5C9842418C1531AEE617D055 /* Pods_iphoneComUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDC53397C2D1D356A9EDCF9 /* Pods_iphoneComUITests.framework */; };
 		94A1F3296BE9C3D180654D14 /* Pods_iphoneCom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDD5CBD88A73F0636A65F6A /* Pods_iphoneCom.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +60,9 @@
 		30B5E534231F575300DAE2AF /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		30B5E569231FA16800DAE2AF /* HomeCrossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCrossView.swift; sourceTree = "<group>"; };
 		30E58CB7232913170037BAAA /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EB3D6B237018A500DC3729 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		30EB3D6F237018FD00DC3729 /* GlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		30EB3D712370191E00DC3729 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		3E5DC2671E503A938676B743 /* Pods-iphoneComUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneComUITests.release.xcconfig"; path = "Target Support Files/Pods-iphoneComUITests/Pods-iphoneComUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3EBE89AB963C92D49377DEA6 /* Pods-iphoneCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.release.xcconfig"; path = "Target Support Files/Pods-iphoneCom/Pods-iphoneCom.release.xcconfig"; sourceTree = "<group>"; };
 		4FDD5CBD88A73F0636A65F6A /* Pods_iphoneCom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iphoneCom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +125,7 @@
 		3089CEE522F4240B009E3D16 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
+				30EB3D692370188500DC3729 /* Platypus */,
 				30B5E531231F536300DAE2AF /* Home */,
 				3089CEE622F4240B009E3D16 /* AppDelegate.swift */,
 				3089CEED22F4240B009E3D16 /* Assets.xcassets */,
@@ -178,6 +185,40 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		30EB3D692370188500DC3729 /* Platypus */ = {
+			isa = PBXGroup;
+			children = (
+				30EB3D6E237018C400DC3729 /* Extentions */,
+				30EB3D6D237018B700DC3729 /* Global */,
+				30EB3D6A2370189100DC3729 /* Kit */,
+			);
+			path = Platypus;
+			sourceTree = "<group>";
+		};
+		30EB3D6A2370189100DC3729 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				30EB3D6B237018A500DC3729 /* Storage.swift */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		30EB3D6D237018B700DC3729 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				30EB3D6F237018FD00DC3729 /* GlobalConst.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		30EB3D6E237018C400DC3729 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				30EB3D712370191E00DC3729 /* UIView.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 		33EBA3F08D1C8923D389E40A /* Pods */ = {
@@ -409,8 +450,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30EB3D70237018FD00DC3729 /* GlobalConst.swift in Sources */,
 				30B5E56A231FA16800DAE2AF /* HomeCrossView.swift in Sources */,
+				30EB3D6C237018A500DC3729 /* Storage.swift in Sources */,
 				30B5E533231F537000DAE2AF /* HomeViewController.swift in Sources */,
+				30EB3D722370191E00DC3729 /* UIView.swift in Sources */,
 				3089CEE722F4240B009E3D16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

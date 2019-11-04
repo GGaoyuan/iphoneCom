@@ -19,15 +19,12 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-//        self.setupSubviews()a
         
         btn = UIButton(type: .custom)
         btn.backgroundColor = .red
         view.addSubview(btn)
         btn.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
         btn.addTarget(self, action: #selector(testMethod), for: .touchUpInside)
-//        self.perform(#selector(yiyayiya), with: self, afterDelay: 1)
-//        crossView.topView.addSubview(self.setupImageView(controller: GymHomeViewController()))
     }
     
     
