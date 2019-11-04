@@ -19,7 +19,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-//        self.setupSubviews()
+//        self.setupSubviews()a
         
         btn = UIButton(type: .custom)
         btn.backgroundColor = .red
