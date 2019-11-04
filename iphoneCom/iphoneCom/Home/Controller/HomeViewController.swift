@@ -6,9 +6,9 @@
 //  Copyright © 2019 高源. All rights reserved.
 //
 //https://www.jianshu.com/p/ae581ea8a011
-import UIKit
 
-import Platypus
+import UIKit
+import Algorithm
 
 class HomeViewController: UIViewController, UIScrollViewDelegate {
     
@@ -31,11 +31,13 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     
     
     @objc func testMethod() {
+//        TestClass.test
+        Algorithm.testMethod()
 //        [[self class] cancelPreviousPerformRequestsWithTarget:self selector:@selector(viewEvent:) object:view];
 //        [self performSelector:@selector(viewEvent:) withObject:view afterDelay:2];
-        print("testMethod")
-        NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(yiyayiya), object: btn)
-        self.perform(#selector(yiyayiya), with: btn, afterDelay: 1)
+//        print("testMethod")
+//        NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(yiyayiya), object: btn)
+//        self.perform(#selector(yiyayiya), with: btn, afterDelay: 1)
     }
     
     @objc func yiyayiya() {

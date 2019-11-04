@@ -19,6 +19,7 @@
 		30EB3D6C237018A500DC3729 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3D6B237018A500DC3729 /* Storage.swift */; };
 		30EB3D70237018FD00DC3729 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3D6F237018FD00DC3729 /* GlobalConst.swift */; };
 		30EB3D722370191E00DC3729 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3D712370191E00DC3729 /* UIView.swift */; };
+		30EB3DA523701B3A00DC3729 /* Algorithm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EB3DA423701B3A00DC3729 /* Algorithm.framework */; };
 		5C9842418C1531AEE617D055 /* Pods_iphoneComUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDC53397C2D1D356A9EDCF9 /* Pods_iphoneComUITests.framework */; };
 		94A1F3296BE9C3D180654D14 /* Pods_iphoneCom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDD5CBD88A73F0636A65F6A /* Pods_iphoneCom.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 		30EB3D6B237018A500DC3729 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		30EB3D6F237018FD00DC3729 /* GlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
 		30EB3D712370191E00DC3729 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		30EB3DA423701B3A00DC3729 /* Algorithm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Algorithm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5DC2671E503A938676B743 /* Pods-iphoneComUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneComUITests.release.xcconfig"; path = "Target Support Files/Pods-iphoneComUITests/Pods-iphoneComUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3EBE89AB963C92D49377DEA6 /* Pods-iphoneCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.release.xcconfig"; path = "Target Support Files/Pods-iphoneCom/Pods-iphoneCom.release.xcconfig"; sourceTree = "<group>"; };
 		4FDD5CBD88A73F0636A65F6A /* Pods_iphoneCom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iphoneCom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30EB3DA523701B3A00DC3729 /* Algorithm.framework in Frameworks */,
 				94A1F3296BE9C3D180654D14 /* Pods_iphoneCom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +240,7 @@
 		4BB35995284E84FAAB8E2642 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30EB3DA423701B3A00DC3729 /* Algorithm.framework */,
 				30E58CB7232913170037BAAA /* Router.framework */,
 				3058738023280CE8008A8024 /* Platypus.framework */,
 				3058732F23280784008A8024 /* Gym.framework */,

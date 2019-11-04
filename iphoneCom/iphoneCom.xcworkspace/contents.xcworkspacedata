@@ -5,6 +5,9 @@
       location = "group:iphoneCom.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Modules/Algorithm/Algorithm.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
