@@ -31,6 +31,8 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     }
     
     
+    
+    
     @objc func testMethod() {
 //        [[self class] cancelPreviousPerformRequestsWithTarget:self selector:@selector(viewEvent:) object:view];
 //        [self performSelector:@selector(viewEvent:) withObject:view afterDelay:2];
