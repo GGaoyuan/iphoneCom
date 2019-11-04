@@ -9,6 +9,7 @@
 
 import UIKit
 import Algorithm
+import DesignPatterns
 
 class HomeViewController: UIViewController, UIScrollViewDelegate {
     
@@ -32,6 +33,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     
     @objc func testMethod() {
 //        TestClass.test
+        DesignPatterns.testDesignPatterns()
         Algorithm.testMethod()
 //        [[self class] cancelPreviousPerformRequestsWithTarget:self selector:@selector(viewEvent:) object:view];
 //        [self performSelector:@selector(viewEvent:) withObject:view afterDelay:2];
