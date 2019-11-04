@@ -17,6 +17,8 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     
     
     
+    
+    
     var btn: UIButton!
     
     override func viewDidLoad() {
