@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3058731F23280717008A8024 /* Gym.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3058731523280717008A8024 /* Gym.framework */; };
+		3058732423280717008A8024 /* GymTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3058732323280717008A8024 /* GymTests.swift */; };
+		30E58CAA23290FC80037BAAA /* Platypus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E58CA923290FC80037BAAA /* Platypus.framework */; };
+		30E58CAC23290FCD0037BAAA /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E58CAB23290FCD0037BAAA /* Router.framework */; };
+		30E58CB4232910B60037BAAA /* GymRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E58CB3232910B60037BAAA /* GymRouter.swift */; };
+		30E58CB6232911310037BAAA /* GymHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E58CB5232911310037BAAA /* GymHomeViewController.swift */; };
+		30E58CC023291C040037BAAA /* GymAppdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E58CBF23291C040037BAAA /* GymAppdelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3058732023280717008A8024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3058730C23280717008A8024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3058731423280717008A8024;
+			remoteInfo = Gym;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3058731523280717008A8024 /* Gym.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gym.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3058731923280717008A8024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3058731E23280717008A8024 /* GymTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3058732323280717008A8024 /* GymTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymTests.swift; sourceTree = "<group>"; };
+		3058732523280717008A8024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E58CA923290FC80037BAAA /* Platypus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Platypus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E58CAB23290FCD0037BAAA /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E58CB3232910B60037BAAA /* GymRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRouter.swift; sourceTree = "<group>"; };
+		30E58CB5232911310037BAAA /* GymHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymHomeViewController.swift; sourceTree = "<group>"; };
+		30E58CBF23291C040037BAAA /* GymAppdelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppdelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3058731223280717008A8024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E58CAC23290FCD0037BAAA /* Router.framework in Frameworks */,
+				30E58CAA23290FC80037BAAA /* Platypus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3058731B23280717008A8024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3058731F23280717008A8024 /* Gym.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3058730B23280717008A8024 = {
+			isa = PBXGroup;
+			children = (
+				3058731723280717008A8024 /* Gym */,
+				3058732223280717008A8024 /* GymTests */,
+				3058731623280717008A8024 /* Products */,
+				30E58CA823290FC80037BAAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3058731623280717008A8024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3058731523280717008A8024 /* Gym.framework */,
+				3058731E23280717008A8024 /* GymTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3058731723280717008A8024 /* Gym */ = {
+			isa = PBXGroup;
+			children = (
+				30E58CAD232910070037BAAA /* Classes */,
+				3058731923280717008A8024 /* Info.plist */,
+				30E58CBF23291C040037BAAA /* GymAppdelegate.swift */,
+			);
+			path = Gym;
+			sourceTree = "<group>";
+		};
+		3058732223280717008A8024 /* GymTests */ = {
+			isa = PBXGroup;
+			children = (
+				3058732323280717008A8024 /* GymTests.swift */,
+				3058732523280717008A8024 /* Info.plist */,
+			);
+			path = GymTests;
+			sourceTree = "<group>";
+		};
+		30E58CA823290FC80037BAAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30E58CAB23290FCD0037BAAA /* Router.framework */,
+				30E58CA923290FC80037BAAA /* Platypus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30E58CAD232910070037BAAA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30E58CB2232910A30037BAAA /* Router */,
+				30E58CAE232910250037BAAA /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		30E58CAE232910250037BAAA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30E58CB12329104A0037BAAA /* Controller */,
+				30E58CAF2329104A0037BAAA /* Model */,
+				30E58CB02329104A0037BAAA /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30E58CAF2329104A0037BAAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30E58CB02329104A0037BAAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30E58CB12329104A0037BAAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30E58CB5232911310037BAAA /* GymHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30E58CB2232910A30037BAAA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				30E58CB3232910B60037BAAA /* GymRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3058731023280717008A8024 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3058731423280717008A8024 /* Gym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3058732923280717008A8024 /* Build configuration list for PBXNativeTarget "Gym" */;
+			buildPhases = (
+				3058731023280717008A8024 /* Headers */,
+				3058731123280717008A8024 /* Sources */,
+				3058731223280717008A8024 /* Frameworks */,
+				3058731323280717008A8024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gym;
+			productName = Gym;
+			productReference = 3058731523280717008A8024 /* Gym.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3058731D23280717008A8024 /* GymTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3058732C23280717008A8024 /* Build configuration list for PBXNativeTarget "GymTests" */;
+			buildPhases = (
+				3058731A23280717008A8024 /* Sources */,
+				3058731B23280717008A8024 /* Frameworks */,
+				3058731C23280717008A8024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3058732123280717008A8024 /* PBXTargetDependency */,
+			);
+			name = GymTests;
+			productName = GymTests;
+			productReference = 3058731E23280717008A8024 /* GymTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3058730C23280717008A8024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = gaoyuan;
+				TargetAttributes = {
+					3058731423280717008A8024 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					3058731D23280717008A8024 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 3058730F23280717008A8024 /* Build configuration list for PBXProject "Gym" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3058730B23280717008A8024;
+			productRefGroup = 3058731623280717008A8024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3058731423280717008A8024 /* Gym */,
+				3058731D23280717008A8024 /* GymTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3058731323280717008A8024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3058731C23280717008A8024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3058731123280717008A8024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E58CB4232910B60037BAAA /* GymRouter.swift in Sources */,
+				30E58CC023291C040037BAAA /* GymAppdelegate.swift in Sources */,
+				30E58CB6232911310037BAAA /* GymHomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3058731A23280717008A8024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3058732423280717008A8024 /* GymTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3058732123280717008A8024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3058731423280717008A8024 /* Gym */;
+			targetProxy = 3058732023280717008A8024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3058732723280717008A8024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3058732823280717008A8024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3058732A23280717008A8024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Gym/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = gaoyuan.Gym;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3058732B23280717008A8024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Gym/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = gaoyuan.Gym;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3058732D23280717008A8024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GymTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gaoyuan.GymTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3058732E23280717008A8024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GymTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gaoyuan.GymTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3058730F23280717008A8024 /* Build configuration list for PBXProject "Gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3058732723280717008A8024 /* Debug */,
+				3058732823280717008A8024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3058732923280717008A8024 /* Build configuration list for PBXNativeTarget "Gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3058732A23280717008A8024 /* Debug */,
+				3058732B23280717008A8024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3058732C23280717008A8024 /* Build configuration list for PBXNativeTarget "GymTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3058732D23280717008A8024 /* Debug */,
+				3058732E23280717008A8024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3058730C23280717008A8024 /* Project object */;
+}

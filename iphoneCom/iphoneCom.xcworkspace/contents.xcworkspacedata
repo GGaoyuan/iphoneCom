@@ -5,6 +5,18 @@
       location = "group:iphoneCom.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Modules/Router/Router.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules/Gym/Gym.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules/Work/Work.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules/Platypus/Platypus.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
