@@ -28,22 +28,9 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
         btn.addTarget(self, action: #selector(testMethod), for: .touchUpInside)
     }
     
-    
-    
-    
     @objc func testMethod() {
-//        TestClass.test
         DesignPatterns.testDesignPatterns()
         Algorithm.testMethod()
-//        [[self class] cancelPreviousPerformRequestsWithTarget:self selector:@selector(viewEvent:) object:view];
-//        [self performSelector:@selector(viewEvent:) withObject:view afterDelay:2];
-//        print("testMethod")
-//        NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(yiyayiya), object: btn)
-//        self.perform(#selector(yiyayiya), with: btn, afterDelay: 1)
-    }
-    
-    @objc func yiyayiya() {
-        print("yiyayiya")
     }
     
     private func setupImageView(controller: UIViewController) -> UIImageView {
