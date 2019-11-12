@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		29D00E2B8402351B4BF70E42 /* Pods_iphoneComTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6D15D33385CDA5FE4E764F /* Pods_iphoneComTests.framework */; };
+		3030318B237A98FC009D1C2F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030318A237A98FC009D1C2F /* BaseViewController.swift */; };
+		3030318D237A9924009D1C2F /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030318C237A9924009D1C2F /* BaseNavigationController.swift */; };
+		30335277237A50CF003B8E3B /* TimeManagementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30335276237A50CF003B8E3B /* TimeManagementController.swift */; };
+		3033527C237A574B003B8E3B /* Jumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033527B237A574B003B8E3B /* Jumper.swift */; };
 		3089CEE722F4240B009E3D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089CEE622F4240B009E3D16 /* AppDelegate.swift */; };
 		3089CEEE22F4240B009E3D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3089CEED22F4240B009E3D16 /* Assets.xcassets */; };
 		3089CEFC22F4240B009E3D16 /* iphoneComTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089CEFB22F4240B009E3D16 /* iphoneComTests.swift */; };
@@ -45,6 +49,10 @@
 /* Begin PBXFileReference section */
 		043C11EBFF980CDA525EA904 /* Pods-iphoneCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.debug.xcconfig"; path = "Target Support Files/Pods-iphoneCom/Pods-iphoneCom.debug.xcconfig"; sourceTree = "<group>"; };
 		0A50C31AA439E20AEC4E065A /* Pods-iphoneComTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneComTests.debug.xcconfig"; path = "Target Support Files/Pods-iphoneComTests/Pods-iphoneComTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3030318A237A98FC009D1C2F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3030318C237A9924009D1C2F /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		30335276237A50CF003B8E3B /* TimeManagementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManagementController.swift; sourceTree = "<group>"; };
+		3033527B237A574B003B8E3B /* Jumper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumper.swift; sourceTree = "<group>"; };
 		3058732F23280784008A8024 /* Gym.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Gym.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3058738023280CE8008A8024 /* Platypus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Platypus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3089CEE322F4240B009E3D16 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +114,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30303189237A98F1009D1C2F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3030318A237A98FC009D1C2F /* BaseViewController.swift */,
+				3030318C237A9924009D1C2F /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		30335275237A4AC5003B8E3B /* TimeManagement */ = {
+			isa = PBXGroup;
+			children = (
+				30E813A2237AB726005528C9 /* Controller */,
+				30E813A1237AB726005528C9 /* View */,
+				30E813A0237AB726005528C9 /* Model */,
+			);
+			path = TimeManagement;
+			sourceTree = "<group>";
+		};
+		3033527A237A5743003B8E3B /* Jumper */ = {
+			isa = PBXGroup;
+			children = (
+				3033527B237A574B003B8E3B /* Jumper.swift */,
+			);
+			path = Jumper;
+			sourceTree = "<group>";
+		};
 		3089CEDA22F4240B009E3D16 = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +166,9 @@
 		3089CEE522F4240B009E3D16 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
+				3033527A237A5743003B8E3B /* Jumper */,
 				30EB3D692370188500DC3729 /* Platypus */,
+				30335275237A4AC5003B8E3B /* TimeManagement */,
 				30B5E531231F536300DAE2AF /* Home */,
 				3089CEE622F4240B009E3D16 /* AppDelegate.swift */,
 				3089CEED22F4240B009E3D16 /* Assets.xcassets */,
@@ -193,10 +230,33 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		30E813A0237AB726005528C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30E813A1237AB726005528C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30E813A2237AB726005528C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30335276237A50CF003B8E3B /* TimeManagementController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		30EB3D692370188500DC3729 /* Platypus */ = {
 			isa = PBXGroup;
 			children = (
-				30EB3D6E237018C400DC3729 /* Extentions */,
+				30303189237A98F1009D1C2F /* Base */,
+				30EB3D6E237018C400DC3729 /* Extension */,
 				30EB3D6D237018B700DC3729 /* Global */,
 				30EB3D6A2370189100DC3729 /* Kit */,
 			);
@@ -219,12 +279,12 @@
 			path = Global;
 			sourceTree = "<group>";
 		};
-		30EB3D6E237018C400DC3729 /* Extentions */ = {
+		30EB3D6E237018C400DC3729 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				30EB3D712370191E00DC3729 /* UIView.swift */,
 			);
-			path = Extentions;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		33EBA3F08D1C8923D389E40A /* Pods */ = {
@@ -266,6 +326,7 @@
 				3089CEDF22F4240B009E3D16 /* Sources */,
 				3089CEE022F4240B009E3D16 /* Frameworks */,
 				3089CEE122F4240B009E3D16 /* Resources */,
+				08A65BD70FA00613B53F40CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -385,6 +446,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		08A65BD70FA00613B53F40CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iphoneCom/Pods-iphoneCom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iphoneCom/Pods-iphoneCom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iphoneCom/Pods-iphoneCom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		511ED36271171A88BE43ACFF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,8 +540,12 @@
 				30B5E56A231FA16800DAE2AF /* HomeCrossView.swift in Sources */,
 				30EB3D6C237018A500DC3729 /* Storage.swift in Sources */,
 				30B5E533231F537000DAE2AF /* HomeViewController.swift in Sources */,
+				3030318B237A98FC009D1C2F /* BaseViewController.swift in Sources */,
 				30EB3D722370191E00DC3729 /* UIView.swift in Sources */,
+				3030318D237A9924009D1C2F /* BaseNavigationController.swift in Sources */,
 				3089CEE722F4240B009E3D16 /* AppDelegate.swift in Sources */,
+				30335277237A50CF003B8E3B /* TimeManagementController.swift in Sources */,
+				3033527C237A574B003B8E3B /* Jumper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

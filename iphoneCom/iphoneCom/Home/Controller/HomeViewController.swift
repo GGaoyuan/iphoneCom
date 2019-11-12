@@ -20,7 +20,6 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-        
         btn = UIButton(type: .custom)
         btn.backgroundColor = .red
         view.addSubview(btn)
@@ -29,8 +28,11 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     }
     
     @objc func testMethod() {
-        DesignPatterns.testDesignPatterns()
-        Algorithm.testMethod()
+        Jumper.jumpToTimeManagementController(self)
+        
+        
+//        DesignPatterns.testDesignPatterns()
+//        Algorithm.testMethod()
     }
     
     private func setupImageView(controller: UIViewController) -> UIImageView {

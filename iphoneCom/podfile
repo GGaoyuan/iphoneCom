@@ -7,6 +7,19 @@ def workspace_pods
 end
 
 target 'iphoneCom' do
+  pod 'Alamofire'
+  pod 'HandyJSON'
+  pod 'FMDB'  # SQLite
+  pod 'Kingfisher' # 图片加载
+  pod 'MJRefresh' # 下拉刷新
+  pod 'SVProgressHUD' # 遮罩loading
+  pod 'MarqueeLabel' # 跑马灯Label
+  pod 'SnapKit' # Swift3.x 用 3.x； Swift4.x 用4.x
+  pod 'R.swift', '~> 3.3.0' # 安全使用资源文件
+  pod 'SSZipArchive'
+  pod 'WebViewJavascriptBridge', '~> 6.0' # webview接口互调
+  pod 'YYImage'
+  
   workspace_pods
   target 'iphoneComTests' do
     inherit! :search_paths
