@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Platypus
 
 enum HomeCrossDirection {
     case center
