@@ -20,6 +20,7 @@
 		30B5E533231F537000DAE2AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5E532231F537000DAE2AF /* HomeViewController.swift */; };
 		30B5E535231F575300DAE2AF /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B5E534231F575300DAE2AF /* launch.png */; };
 		30B5E56A231FA16800DAE2AF /* HomeCrossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5E569231FA16800DAE2AF /* HomeCrossView.swift */; };
+		30E813A4237ACF21005528C9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E813A3237ACF21005528C9 /* String.swift */; };
 		30EB3D6C237018A500DC3729 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3D6B237018A500DC3729 /* Storage.swift */; };
 		30EB3D70237018FD00DC3729 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3D6F237018FD00DC3729 /* GlobalConst.swift */; };
 		30EB3D722370191E00DC3729 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3D712370191E00DC3729 /* UIView.swift */; };
@@ -70,6 +71,7 @@
 		30B5E534231F575300DAE2AF /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		30B5E569231FA16800DAE2AF /* HomeCrossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCrossView.swift; sourceTree = "<group>"; };
 		30E58CB7232913170037BAAA /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E813A3237ACF21005528C9 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		30EB3D6B237018A500DC3729 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		30EB3D6F237018FD00DC3729 /* GlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
 		30EB3D712370191E00DC3729 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
@@ -201,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				30B5E53C231F591600DAE2AF /* Controller */,
-				30B5E53D231F591600DAE2AF /* Model */,
 				30B5E53B231F591600DAE2AF /* View */,
 			);
 			path = Home;
@@ -221,13 +222,6 @@
 				30B5E532231F537000DAE2AF /* HomeViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		30B5E53D231F591600DAE2AF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		30E813A0237AB726005528C9 /* Model */ = {
@@ -283,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				30EB3D712370191E00DC3729 /* UIView.swift */,
+				30E813A3237ACF21005528C9 /* String.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -537,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30EB3D70237018FD00DC3729 /* GlobalConst.swift in Sources */,
+				30E813A4237ACF21005528C9 /* String.swift in Sources */,
 				30B5E56A231FA16800DAE2AF /* HomeCrossView.swift in Sources */,
 				30EB3D6C237018A500DC3729 /* Storage.swift in Sources */,
 				30B5E533231F537000DAE2AF /* HomeViewController.swift in Sources */,
