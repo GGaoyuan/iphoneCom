@@ -19,6 +19,11 @@ class CalendarView: UIView {
         backgroundColor = .white
         
         let header = CalendarHeaderView()
+        addSubview(header)
+        header.snp.makeConstraints { (m) in
+            m.left.top.right.equalToSuperview()
+            m.height.equalTo(100)
+        }
         
         flowLayout = UICollectionViewFlowLayout()
 //        flowLayout.headerReferenceSize = CGSize(width: kScreenW, height: 100)
@@ -30,7 +35,8 @@ class CalendarView: UIView {
         collectionView.dataSource = self
         addSubview(collectionView)
         collectionView.snp.makeConstraints { (m) in
-            m.edges.equalToSuperview()
+            m.top.equalTo(header.snp_bottom)
+            m.left.bottom.right.equalToSuperview()
         }
         collectionView.register(UINib.init(nibName: String(describing: CalendarViewCell.self), bundle: nil), forCellWithReuseIdentifier: CalendarViewCellIdentify)
     }
