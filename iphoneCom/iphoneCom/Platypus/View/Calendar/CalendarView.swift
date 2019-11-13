@@ -18,9 +18,11 @@ class CalendarView: UIView {
         self.init(frame: .zero)
         backgroundColor = .white
         
+        let header = CalendarHeaderView()
+        
         flowLayout = UICollectionViewFlowLayout()
-        flowLayout.headerReferenceSize = CGSize(width: kScreenW, height: 100)
-        flowLayout.footerReferenceSize = CGSize.zero
+//        flowLayout.headerReferenceSize = CGSize(width: kScreenW, height: 100)
+//        flowLayout.footerReferenceSize = CGSize.zero
         
         collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
         collectionView.backgroundColor = .white
@@ -31,20 +33,11 @@ class CalendarView: UIView {
             m.edges.equalToSuperview()
         }
         collectionView.register(UINib.init(nibName: String(describing: CalendarViewCell.self), bundle: nil), forCellWithReuseIdentifier: CalendarViewCellIdentify)
-        collectionView.register(UINib.init(nibName: String(describing: CalendarHeaderView.self), bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: CalendarHeaderViewIdentify)
     }
 }
 
 
 extension CalendarView: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        if kind == UICollectionView.elementKindSectionHeader {
-            let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: CalendarHeaderViewIdentify, for: indexPath)
-            return headerView
-        } else {
-            return UICollectionReusableView()
-        }
-    }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 100
