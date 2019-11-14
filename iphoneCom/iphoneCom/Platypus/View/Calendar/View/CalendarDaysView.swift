@@ -8,12 +8,13 @@
 
 import UIKit
 
-class CalendarHeaderView: UIView {
+class CalendarDaysView: UIView {
     
 //    var labels = [UILabel]()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        backgroundColor = .yellow
         
         let days = ["日", "一", "二", "三", "四", "五", "六"]
         let width = kScreenW / CGFloat(days.count)

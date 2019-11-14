@@ -11,6 +11,8 @@ import SnapKit
 
 class CalendarView: UIView {
     
+    let daysHeight: CGFloat = 50
+    
     var collectionView: UICollectionView!
     var flowLayout: UICollectionViewFlowLayout!
     
@@ -18,15 +20,20 @@ class CalendarView: UIView {
         self.init(frame: .zero)
         backgroundColor = .white
         
-        let header = CalendarHeaderView()
-        addSubview(header)
-        header.snp.makeConstraints { (m) in
+        let daysView = CalendarDaysView()
+        addSubview(daysView)
+        daysView.snp.makeConstraints { (m) in
             m.left.top.right.equalToSuperview()
-            m.height.equalTo(100)
+            m.height.equalTo(daysHeight)
         }
         
         flowLayout = UICollectionViewFlowLayout()
-//        flowLayout.headerReferenceSize = CGSize(width: kScreenW, height: 100)
+        //items
+        flowLayout.minimumLineSpacing = 0
+        flowLayout.minimumInteritemSpacing = 0
+        flowLayout.itemSize = CGSize(width: (kScreenW / 7), height: 40)
+        //header
+        flowLayout.headerReferenceSize = CGSize(width: kScreenW, height: 100)
 //        flowLayout.footerReferenceSize = CGSize.zero
         
         collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
@@ -35,15 +42,21 @@ class CalendarView: UIView {
         collectionView.dataSource = self
         addSubview(collectionView)
         collectionView.snp.makeConstraints { (m) in
-            m.top.equalTo(header.snp_bottom)
+            m.top.equalTo(daysView.snp_bottom)
             m.left.bottom.right.equalToSuperview()
         }
         collectionView.register(UINib.init(nibName: String(describing: CalendarViewCell.self), bundle: nil), forCellWithReuseIdentifier: CalendarViewCellIdentify)
+        collectionView.register(UINib.init(nibName: String(describing: CalendarViewHeader.self), bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: CalendarViewHeaderIdentify)
     }
 }
 
 
 extension CalendarView: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
+    
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        
+    }
+    
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 100
