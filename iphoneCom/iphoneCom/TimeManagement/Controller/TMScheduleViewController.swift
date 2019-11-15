@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TMScheduleViewController: BaseViewController {
+class TMScheduleViewController: TMBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

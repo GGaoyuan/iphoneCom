@@ -18,7 +18,7 @@
 		30721177237E871C00BE5672 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30721176237E871C00BE5672 /* Calendar.swift */; };
 		30721179237E88C500BE5672 /* TMCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30721178237E88C500BE5672 /* TMCalendarViewController.swift */; };
 		3072117B237E891800BE5672 /* TMScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072117A237E891800BE5672 /* TMScheduleViewController.swift */; };
-		3072117D237E8B3300BE5672 /* TMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072117C237E8B3300BE5672 /* TMNavigationController.swift */; };
+		30721181237E9F0B00BE5672 /* TMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30721180237E9F0B00BE5672 /* TMBaseViewController.swift */; };
 		3078C19F237C00F8003F7123 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3078C19E237C00F8003F7123 /* CalendarView.swift */; };
 		3078C1AD237C07DB003F7123 /* CalendarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3078C1AB237C07DB003F7123 /* CalendarViewCell.swift */; };
 		3078C1AE237C07DB003F7123 /* CalendarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3078C1AC237C07DB003F7123 /* CalendarViewCell.xib */; };
@@ -73,7 +73,7 @@
 		30721176237E871C00BE5672 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		30721178237E88C500BE5672 /* TMCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMCalendarViewController.swift; sourceTree = "<group>"; };
 		3072117A237E891800BE5672 /* TMScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMScheduleViewController.swift; sourceTree = "<group>"; };
-		3072117C237E8B3300BE5672 /* TMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMNavigationController.swift; sourceTree = "<group>"; };
+		30721180237E9F0B00BE5672 /* TMBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMBaseViewController.swift; sourceTree = "<group>"; };
 		3078C19E237C00F8003F7123 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		3078C1AB237C07DB003F7123 /* CalendarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewCell.swift; sourceTree = "<group>"; };
 		3078C1AC237C07DB003F7123 /* CalendarViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewCell.xib; sourceTree = "<group>"; };
@@ -293,9 +293,9 @@
 		30E813A2237AB726005528C9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				30721180237E9F0B00BE5672 /* TMBaseViewController.swift */,
 				30721178237E88C500BE5672 /* TMCalendarViewController.swift */,
 				3072117A237E891800BE5672 /* TMScheduleViewController.swift */,
-				3072117C237E8B3300BE5672 /* TMNavigationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -590,9 +590,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3072117D237E8B3300BE5672 /* TMNavigationController.swift in Sources */,
 				30EB3D70237018FD00DC3729 /* GlobalConst.swift in Sources */,
 				30721175237E861100BE5672 /* CalendarModel.swift in Sources */,
+				30721181237E9F0B00BE5672 /* TMBaseViewController.swift in Sources */,
 				3072116C237D72A700BE5672 /* CalendarViewHeader.swift in Sources */,
 				30E813A4237ACF21005528C9 /* String.swift in Sources */,
 				3078C19F237C00F8003F7123 /* CalendarView.swift in Sources */,

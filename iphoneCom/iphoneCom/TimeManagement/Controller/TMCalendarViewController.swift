@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-class TMCalendarViewController: BaseViewController {
+class TMCalendarViewController: TMBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +24,7 @@ class TMCalendarViewController: BaseViewController {
             let vc = TMScheduleViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
+        
         
     }
 }
