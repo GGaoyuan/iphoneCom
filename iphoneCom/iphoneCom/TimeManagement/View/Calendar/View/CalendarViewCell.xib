@@ -18,16 +18,19 @@
                 <rect key="frame" x="0.0" y="0.0" width="91" height="93"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBl-v4-vIU">
-                        <rect key="frame" x="29" y="26" width="42" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBl-v4-vIU">
+                        <rect key="frame" x="30" y="5" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
             </view>
             <color key="backgroundColor" red="0.0" green="0.69019607839999997" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="PBl-v4-vIU" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="fQx-MG-hfM"/>
+                <constraint firstItem="PBl-v4-vIU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="kn1-UP-Rsh"/>
+            </constraints>
             <size key="customSize" width="91" height="93"/>
             <point key="canvasLocation" x="167.39130434782609" y="167.07589285714286"/>
         </collectionViewCell>

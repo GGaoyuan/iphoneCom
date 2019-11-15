@@ -13,7 +13,7 @@ class TimeManagementController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let calendarView = CalendarView(begin: "2018-1-10", end: "2020-1-10")
+        let calendarView = CalendarView(begin: "2019-1-10", end: "2022-1-10")
         view.addSubview(calendarView)
         calendarView.snp.makeConstraints { (m) in
             m.edges.equalToSuperview()

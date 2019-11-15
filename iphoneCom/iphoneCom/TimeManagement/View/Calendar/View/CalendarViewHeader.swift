@@ -12,9 +12,12 @@ let CalendarViewHeaderIdentify = "CalendarViewHeaderIdentify"
 
 class CalendarViewHeader: UICollectionReusableView {
 
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        titleLabel.text = "123123"
     }
     
 }

@@ -12,6 +12,7 @@ import SnapKit
 class CalendarView: UIView {
     
     let daysHeight: CGFloat = 50
+    let headerHeight: CGFloat = 50
     
     var collectionView: UICollectionView!
     var flowLayout: UICollectionViewFlowLayout!
@@ -19,6 +20,8 @@ class CalendarView: UIView {
     convenience init(begin: String, end: String) {
         self.init(frame: .zero)
         backgroundColor = .white
+        
+        Date.dateString(timeInterval:)
         
         let daysView = CalendarDaysView()
         addSubview(daysView)
@@ -33,13 +36,14 @@ class CalendarView: UIView {
         flowLayout.minimumInteritemSpacing = 0
         flowLayout.itemSize = CGSize(width: (kScreenW / 7), height: 40)
         //header
-        flowLayout.headerReferenceSize = CGSize(width: kScreenW, height: 100)
-//        flowLayout.footerReferenceSize = CGSize.zero
+        flowLayout.headerReferenceSize = CGSize(width: kScreenW, height: headerHeight)
         
         collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
         collectionView.backgroundColor = .white
         collectionView.delegate = self
         collectionView.dataSource = self
+        collectionView.showsVerticalScrollIndicator = false
+        collectionView.showsHorizontalScrollIndicator = false
         addSubview(collectionView)
         collectionView.snp.makeConstraints { (m) in
             m.top.equalTo(daysView.snp_bottom)
@@ -54,12 +58,16 @@ class CalendarView: UIView {
 extension CalendarView: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        
+        let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: CalendarViewHeaderIdentify, for: indexPath)
+        return header
     }
     
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 10
+    }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 100
+        return 30
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
