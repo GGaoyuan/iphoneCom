@@ -10,11 +10,15 @@
 		29D00E2B8402351B4BF70E42 /* Pods_iphoneComTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6D15D33385CDA5FE4E764F /* Pods_iphoneComTests.framework */; };
 		3030318B237A98FC009D1C2F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030318A237A98FC009D1C2F /* BaseViewController.swift */; };
 		3030318D237A9924009D1C2F /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030318C237A9924009D1C2F /* BaseNavigationController.swift */; };
-		30335277237A50CF003B8E3B /* TimeManagementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30335276237A50CF003B8E3B /* TimeManagementController.swift */; };
-		3033527C237A574B003B8E3B /* Jumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033527B237A574B003B8E3B /* Jumper.swift */; };
 		3072116C237D72A700BE5672 /* CalendarViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072116A237D72A700BE5672 /* CalendarViewHeader.swift */; };
 		3072116D237D72A700BE5672 /* CalendarViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3072116B237D72A700BE5672 /* CalendarViewHeader.xib */; };
 		30721171237E51FD00BE5672 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30721170237E51FD00BE5672 /* Date.swift */; };
+		30721173237E855500BE5672 /* BaseHandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30721172237E855500BE5672 /* BaseHandyJSON.swift */; };
+		30721175237E861100BE5672 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30721174237E861100BE5672 /* CalendarModel.swift */; };
+		30721177237E871C00BE5672 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30721176237E871C00BE5672 /* Calendar.swift */; };
+		30721179237E88C500BE5672 /* TMCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30721178237E88C500BE5672 /* TMCalendarViewController.swift */; };
+		3072117B237E891800BE5672 /* TMScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072117A237E891800BE5672 /* TMScheduleViewController.swift */; };
+		3072117D237E8B3300BE5672 /* TMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072117C237E8B3300BE5672 /* TMNavigationController.swift */; };
 		3078C19F237C00F8003F7123 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3078C19E237C00F8003F7123 /* CalendarView.swift */; };
 		3078C1AD237C07DB003F7123 /* CalendarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3078C1AB237C07DB003F7123 /* CalendarViewCell.swift */; };
 		3078C1AE237C07DB003F7123 /* CalendarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3078C1AC237C07DB003F7123 /* CalendarViewCell.xib */; };
@@ -59,13 +63,17 @@
 		0A50C31AA439E20AEC4E065A /* Pods-iphoneComTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneComTests.debug.xcconfig"; path = "Target Support Files/Pods-iphoneComTests/Pods-iphoneComTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3030318A237A98FC009D1C2F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		3030318C237A9924009D1C2F /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
-		30335276237A50CF003B8E3B /* TimeManagementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManagementController.swift; sourceTree = "<group>"; };
-		3033527B237A574B003B8E3B /* Jumper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumper.swift; sourceTree = "<group>"; };
 		3058732F23280784008A8024 /* Gym.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Gym.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3058738023280CE8008A8024 /* Platypus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Platypus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3072116A237D72A700BE5672 /* CalendarViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewHeader.swift; sourceTree = "<group>"; };
 		3072116B237D72A700BE5672 /* CalendarViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewHeader.xib; sourceTree = "<group>"; };
 		30721170237E51FD00BE5672 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		30721172237E855500BE5672 /* BaseHandyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHandyJSON.swift; sourceTree = "<group>"; };
+		30721174237E861100BE5672 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		30721176237E871C00BE5672 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		30721178237E88C500BE5672 /* TMCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMCalendarViewController.swift; sourceTree = "<group>"; };
+		3072117A237E891800BE5672 /* TMScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMScheduleViewController.swift; sourceTree = "<group>"; };
+		3072117C237E8B3300BE5672 /* TMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMNavigationController.swift; sourceTree = "<group>"; };
 		3078C19E237C00F8003F7123 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		3078C1AB237C07DB003F7123 /* CalendarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewCell.swift; sourceTree = "<group>"; };
 		3078C1AC237C07DB003F7123 /* CalendarViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewCell.xib; sourceTree = "<group>"; };
@@ -135,6 +143,7 @@
 			children = (
 				3030318A237A98FC009D1C2F /* BaseViewController.swift */,
 				3030318C237A9924009D1C2F /* BaseNavigationController.swift */,
+				30721172237E855500BE5672 /* BaseHandyJSON.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -147,14 +156,6 @@
 				30E813A0237AB726005528C9 /* Model */,
 			);
 			path = TimeManagement;
-			sourceTree = "<group>";
-		};
-		3033527A237A5743003B8E3B /* Jumper */ = {
-			isa = PBXGroup;
-			children = (
-				3033527B237A574B003B8E3B /* Jumper.swift */,
-			);
-			path = Jumper;
 			sourceTree = "<group>";
 		};
 		3078C19D237C00D3003F7123 /* View */ = {
@@ -177,6 +178,7 @@
 		3078C1A1237C02F3003F7123 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				30721174237E861100BE5672 /* CalendarModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -218,7 +220,6 @@
 		3089CEE522F4240B009E3D16 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
-				3033527A237A5743003B8E3B /* Jumper */,
 				30EB3D692370188500DC3729 /* Platypus */,
 				30335275237A4AC5003B8E3B /* TimeManagement */,
 				30B5E531231F536300DAE2AF /* Home */,
@@ -292,7 +293,9 @@
 		30E813A2237AB726005528C9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				30335276237A50CF003B8E3B /* TimeManagementController.swift */,
+				30721178237E88C500BE5672 /* TMCalendarViewController.swift */,
+				3072117A237E891800BE5672 /* TMScheduleViewController.swift */,
+				3072117C237E8B3300BE5672 /* TMNavigationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				30EB3D712370191E00DC3729 /* UIView.swift */,
 				30E813A3237ACF21005528C9 /* String.swift */,
 				30721170237E51FD00BE5672 /* Date.swift */,
+				30721176237E871C00BE5672 /* Calendar.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -586,7 +590,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3072117D237E8B3300BE5672 /* TMNavigationController.swift in Sources */,
 				30EB3D70237018FD00DC3729 /* GlobalConst.swift in Sources */,
+				30721175237E861100BE5672 /* CalendarModel.swift in Sources */,
 				3072116C237D72A700BE5672 /* CalendarViewHeader.swift in Sources */,
 				30E813A4237ACF21005528C9 /* String.swift in Sources */,
 				3078C19F237C00F8003F7123 /* CalendarView.swift in Sources */,
@@ -595,13 +601,15 @@
 				30721171237E51FD00BE5672 /* Date.swift in Sources */,
 				30B5E533231F537000DAE2AF /* HomeViewController.swift in Sources */,
 				3030318B237A98FC009D1C2F /* BaseViewController.swift in Sources */,
+				30721173237E855500BE5672 /* BaseHandyJSON.swift in Sources */,
 				30EB3D722370191E00DC3729 /* UIView.swift in Sources */,
 				3030318D237A9924009D1C2F /* BaseNavigationController.swift in Sources */,
 				3078C1B5237C18E0003F7123 /* CalendarDaysView.swift in Sources */,
+				3072117B237E891800BE5672 /* TMScheduleViewController.swift in Sources */,
 				3078C1AD237C07DB003F7123 /* CalendarViewCell.swift in Sources */,
 				3089CEE722F4240B009E3D16 /* AppDelegate.swift in Sources */,
-				30335277237A50CF003B8E3B /* TimeManagementController.swift in Sources */,
-				3033527C237A574B003B8E3B /* Jumper.swift in Sources */,
+				30721177237E871C00BE5672 /* Calendar.swift in Sources */,
+				30721179237E88C500BE5672 /* TMCalendarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

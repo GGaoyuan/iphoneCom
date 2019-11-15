@@ -28,11 +28,10 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     }
     
     @objc func testMethod() {
-        Jumper.jumpToTimeManagementController(self)
-        
-        
-//        DesignPatterns.testDesignPatterns()
-//        Algorithm.testMethod()
+        let vc = TMCalendarViewController()
+        let nav = BaseNavigationController()
+        nav.addChild(vc)
+        self.present(nav, animated: true, completion: nil)
     }
     
     private func setupImageView(controller: UIViewController) -> UIImageView {

@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        ModuleRouter.router.registSubModules()
         
+//        UINavigationBar.appearance().tintColor = .black
         
         window = UIWindow(frame: UIScreen.main.bounds)
         let homeVC = HomeViewController()

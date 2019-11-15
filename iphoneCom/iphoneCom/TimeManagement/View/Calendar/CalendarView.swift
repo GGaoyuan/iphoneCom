@@ -11,17 +11,26 @@ import SnapKit
 
 class CalendarView: UIView {
     
+    //layout
     let daysHeight: CGFloat = 50
     let headerHeight: CGFloat = 50
-    
+    //views
     var collectionView: UICollectionView!
     var flowLayout: UICollectionViewFlowLayout!
+    //data
+    var months: [CalendarMonthModel]!
+    //callBack
+    var clickItemBlock:(()->())?
+    
+    private func prepareForDatas() {
+        
+    }
     
     convenience init(begin: String, end: String) {
         self.init(frame: .zero)
         backgroundColor = .white
         
-        Date.dateString(timeInterval:)
+        prepareForDatas()
         
         let daysView = CalendarDaysView()
         addSubview(daysView)
@@ -67,11 +76,15 @@ extension CalendarView: UICollectionViewDelegateFlowLayout, UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 30
+        return Calendar.days(forMonth: section)
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CalendarViewCellIdentify, for: indexPath)
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        clickItemBlock?()
     }
 }

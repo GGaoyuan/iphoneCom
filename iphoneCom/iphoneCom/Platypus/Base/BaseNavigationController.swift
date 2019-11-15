@@ -16,6 +16,11 @@ class BaseNavigationController: UINavigationController {
         navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationBar.isTranslucent = false
         navigationBar.shadowImage = UIImage()
+        
+        UINavigationBar.appearance().tintColor = .black
+//        let backImage = UIImage.init(named: "nav_back")?.withRenderingMode(.alwaysOriginal)
+//        navigationBar.backIndicatorImage = backImage
+//        navigationBar.backIndicatorTransitionMaskImage = backImage
     }
 }
 
@@ -25,6 +30,14 @@ extension BaseNavigationController: UINavigationControllerDelegate, UIGestureRec
             return false
         }
         return true
+    }
+    
+    func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        let backButton = UIBarButtonItem()
+        backButton.title = ""
+//        backButton.image = UIImage.init(named: "nav_back")?.withRenderingMode(.alwaysOriginal)
+        fromVC.navigationItem.backBarButtonItem = backButton
+        return nil
     }
 }
 
