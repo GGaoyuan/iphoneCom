@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  iphoneCom
 //
-//  Created by 高源 on 2019/8/2.
-//  Copyright © 2019 高源. All rights reserved.
+//  Created by 高源 on 2020/1/16.
+//  Copyright © 2020 高源. All rights reserved.
 //
 
 import UIKit
@@ -16,14 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-//        ModuleRouter.router.registSubModules()
-        
-//        UINavigationBar.appearance().tintColor = .black
-        
         window = UIWindow(frame: UIScreen.main.bounds)
         let homeVC = HomeViewController()
         window?.rootViewController = homeVC
         window?.makeKeyAndVisible()
+        
         return true
     }
 
