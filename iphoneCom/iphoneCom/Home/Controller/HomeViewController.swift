@@ -13,8 +13,6 @@ import DesignPatterns
 
 class HomeViewController: UIViewController, UIScrollViewDelegate {
     
-    var crossView: HomeCrossView!
-    
     var btn: UIButton!
     
     override func viewDidLoad() {
@@ -28,33 +26,6 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     }
     
     @objc func testMethod() {
-        let vc = TMCalendarViewController()
-        let nav = BaseNavigationController()
-        nav.addChild(vc)
-        self.present(nav, animated: true, completion: nil)
-    }
-    
-    private func setupImageView(controller: UIViewController) -> UIImageView {
-        self.addChild(controller)
-        controller.willMove(toParent: self)
-        return UIImageView(image: controller.view.asImage())
-    }
-    
-    private func setupSubviews() {
-        crossView = HomeCrossView(frame: self.view.bounds)
-        self.view.addSubview(crossView)
-        crossView.didEndDecelerating = {(direction) in
-            if direction == .top {
-                print("top")
-            } else if direction == .bottom {
-                print("bottom")
-            } else if direction == .center {
-                print("center")
-            } else if direction == .left {
-                print("left")
-            } else if direction == .right {
-                print("right")
-            }
-        }
+        
     }
 }
