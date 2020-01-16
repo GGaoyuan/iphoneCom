@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		300B47A723D07808005F6E25 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 300B47A623D07808005F6E25 /* launch.png */; };
 		300B47AA23D078A8005F6E25 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300B47A923D078A8005F6E25 /* HomeViewController.swift */; };
-		30BECF1A23D06BF700B40195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BECF1923D06BF700B40195 /* AppDelegate.swift */; };
-		30BECF1F23D06BF700B40195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BECF1D23D06BF700B40195 /* Main.storyboard */; };
+		30BA749D23D07A4900EC3760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BECF1923D06BF700B40195 /* AppDelegate.swift */; };
 		30BECF2123D06BF700B40195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BECF2023D06BF700B40195 /* Assets.xcassets */; };
 		30BECF2423D06BF700B40195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BECF2223D06BF700B40195 /* LaunchScreen.storyboard */; };
 		61AB5CBF7354F6DEA742CABE /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D45B7DB3210CC7B2A443E73B /* libPods-iphoneCom.a */; };
@@ -21,7 +20,6 @@
 		300B47A923D078A8005F6E25 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		30BECF1623D06BF700B40195 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BECF1923D06BF700B40195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30BECF1E23D06BF700B40195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30BECF2023D06BF700B40195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30BECF2323D06BF700B40195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30BECF2523D06BF700B40195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +48,18 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		300B47AB23D079B0005F6E25 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				30BECF1923D06BF700B40195 /* AppDelegate.swift */,
+				30BECF2023D06BF700B40195 /* Assets.xcassets */,
+				30BECF2223D06BF700B40195 /* LaunchScreen.storyboard */,
+				300B47A623D07808005F6E25 /* launch.png */,
+				30BECF2523D06BF700B40195 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		30BECF0D23D06BF700B40195 = {
 			isa = PBXGroup;
 			children = (
@@ -72,12 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				300B47A823D0789B005F6E25 /* Home */,
-				30BECF1923D06BF700B40195 /* AppDelegate.swift */,
-				30BECF1D23D06BF700B40195 /* Main.storyboard */,
-				30BECF2023D06BF700B40195 /* Assets.xcassets */,
-				30BECF2223D06BF700B40195 /* LaunchScreen.storyboard */,
-				300B47A623D07808005F6E25 /* launch.png */,
-				30BECF2523D06BF700B40195 /* Info.plist */,
+				300B47AB23D079B0005F6E25 /* SupportingFiles */,
 			);
 			path = iphoneCom;
 			sourceTree = "<group>";
@@ -161,7 +166,6 @@
 				300B47A723D07808005F6E25 /* launch.png in Resources */,
 				30BECF2423D06BF700B40195 /* LaunchScreen.storyboard in Resources */,
 				30BECF2123D06BF700B40195 /* Assets.xcassets in Resources */,
-				30BECF1F23D06BF700B40195 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30BECF1A23D06BF700B40195 /* AppDelegate.swift in Sources */,
+				30BA749D23D07A4900EC3760 /* AppDelegate.swift in Sources */,
 				300B47AA23D078A8005F6E25 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,14 +209,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30BECF1D23D06BF700B40195 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30BECF1E23D06BF700B40195 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30BECF2223D06BF700B40195 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -346,7 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iphoneCom/Info.plist;
+				INFOPLIST_FILE = iphoneCom/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -365,7 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iphoneCom/Info.plist;
+				INFOPLIST_FILE = iphoneCom/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

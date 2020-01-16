@@ -24,7 +24,7 @@ class HomeViewController: UIViewController {
     }
     
     @objc func testMethod() {
-        
+        print("111")
     }
 
 
