@@ -8,8 +8,6 @@
 //https://www.jianshu.com/p/ae581ea8a011
 
 import UIKit
-import Algorithm
-import DesignPatterns
 
 class HomeViewController: UIViewController, UIScrollViewDelegate {
     

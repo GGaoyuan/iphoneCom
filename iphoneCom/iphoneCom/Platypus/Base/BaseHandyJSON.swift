@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import HandyJSON
-class BaseHandyJSON: NSObject, HandyJSON {
+
+class BaseHandyJSON: NSObject {
     required override init() {}
 
 }
