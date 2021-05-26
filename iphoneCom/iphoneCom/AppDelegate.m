@@ -16,10 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    HomeViewController *homeViewController = [[HomeViewController alloc] init];
-    self.window.rootViewController = homeViewController;
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window makeKeyAndVisible];
+    YDTabBarController *tabBarController = [[YDTabBarController alloc] init];
+    self.window.rootViewController = tabBarController;
     return YES;
 }
 

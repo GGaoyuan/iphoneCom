@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */; };
+		30776BBE265E8F40008AABFC /* YDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BBD265E8F40008AABFC /* YDTabBarController.swift */; };
+		30776BC3265E8FE2008AABFC /* YDUserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BC2265E8FE2008AABFC /* YDUserSession.swift */; };
+		30776BC8265E92A9008AABFC /* YDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BC7265E92A9008AABFC /* YDNavigationController.swift */; };
+		30776BD9265E941F008AABFC /* YDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BD8265E941F008AABFC /* YDViewController.swift */; };
+		30776BDE265E983B008AABFC /* YDHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BDD265E983B008AABFC /* YDHomeViewController.swift */; };
+		30776BE6265E9855008AABFC /* YDMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BE5265E9855008AABFC /* YDMineViewController.swift */; };
+		30776BEE265E987C008AABFC /* YDPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BED265E987C008AABFC /* YDPropertyViewController.swift */; };
 		30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77A825C1423900CEA0F6 /* YDConstant.swift */; };
 		30CD77B825C1454400CEA0F6 /* CommandEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */; };
 		30CD77BD25C1457600CEA0F6 /* DPEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */; };
@@ -25,7 +33,6 @@
 		30DA671325908094008BE5F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA671225908094008BE5F3 /* main.m */; };
 		30DA671D25908094008BE5F3 /* iphoneComTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA671C25908094008BE5F3 /* iphoneComTests.m */; };
 		30DA672825908094008BE5F3 /* iphoneComUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA672725908094008BE5F3 /* iphoneComUITests.m */; };
-		30DA6743259080B2008BE5F3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA6742259080B2008BE5F3 /* HomeViewController.swift */; };
 		30DA676725908194008BE5F3 /* TestResource_JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 30DA675925908194008BE5F3 /* TestResource_JSON.json */; };
 		30DA676825908194008BE5F3 /* MLTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30DA675D25908194008BE5F3 /* MLTestViewController.xib */; };
 		30DA676925908194008BE5F3 /* MLTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA675E25908194008BE5F3 /* MLTestView.swift */; };
@@ -56,6 +63,14 @@
 
 /* Begin PBXFileReference section */
 		2215AD3C5554281AFA44C555 /* Pods-iphoneCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.release.xcconfig"; path = "Target Support Files/Pods-iphoneCom/Pods-iphoneCom.release.xcconfig"; sourceTree = "<group>"; };
+		3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDUserInfo.swift; sourceTree = "<group>"; };
+		30776BBD265E8F40008AABFC /* YDTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDTabBarController.swift; sourceTree = "<group>"; };
+		30776BC2265E8FE2008AABFC /* YDUserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDUserSession.swift; sourceTree = "<group>"; };
+		30776BC7265E92A9008AABFC /* YDNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDNavigationController.swift; sourceTree = "<group>"; };
+		30776BD8265E941F008AABFC /* YDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDViewController.swift; sourceTree = "<group>"; };
+		30776BDD265E983B008AABFC /* YDHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDHomeViewController.swift; sourceTree = "<group>"; };
+		30776BE5265E9855008AABFC /* YDMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDMineViewController.swift; sourceTree = "<group>"; };
+		30776BED265E987C008AABFC /* YDPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDPropertyViewController.swift; sourceTree = "<group>"; };
 		30CD77A825C1423900CEA0F6 /* YDConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDConstant.swift; sourceTree = "<group>"; };
 		30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandEntrance.swift; sourceTree = "<group>"; };
 		30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEntrance.swift; sourceTree = "<group>"; };
@@ -82,7 +97,6 @@
 		30DA672725908094008BE5F3 /* iphoneComUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iphoneComUITests.m; sourceTree = "<group>"; };
 		30DA672925908094008BE5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30DA6741259080B2008BE5F3 /* iphoneCom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iphoneCom-Bridging-Header.h"; sourceTree = "<group>"; };
-		30DA6742259080B2008BE5F3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		30DA675925908194008BE5F3 /* TestResource_JSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestResource_JSON.json; sourceTree = "<group>"; };
 		30DA675D25908194008BE5F3 /* MLTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLTestViewController.xib; sourceTree = "<group>"; };
 		30DA675E25908194008BE5F3 /* MLTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLTestView.swift; sourceTree = "<group>"; };
@@ -136,6 +150,49 @@
 				30DA675825908194008BE5F3 /* TestResource */,
 			);
 			path = Learn;
+			sourceTree = "<group>";
+		};
+		30776BCF265E9326008AABFC /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				30776BED265E987C008AABFC /* YDPropertyViewController.swift */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		30776BD0265E9332008AABFC /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				30776BE5265E9855008AABFC /* YDMineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		30776BD1265E933C008AABFC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30776BDD265E983B008AABFC /* YDHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30776BD2265E9356008AABFC /* UserSession */ = {
+			isa = PBXGroup;
+			children = (
+				30776BC2265E8FE2008AABFC /* YDUserSession.swift */,
+				3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */,
+			);
+			path = UserSession;
+			sourceTree = "<group>";
+		};
+		30776BF5265E9892008AABFC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				30776BC7265E92A9008AABFC /* YDNavigationController.swift */,
+				30776BD8265E941F008AABFC /* YDViewController.swift */,
+				30776BBD265E8F40008AABFC /* YDTabBarController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		30CD77B325C144A200CEA0F6 /* Command */ = {
@@ -223,7 +280,10 @@
 		30DA6747259080DC008BE5F3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				30DA6742259080B2008BE5F3 /* HomeViewController.swift */,
+				30776BD2265E9356008AABFC /* UserSession */,
+				30776BD1265E933C008AABFC /* Home */,
+				30776BD0265E9332008AABFC /* Mine */,
+				30776BCF265E9326008AABFC /* Property */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -239,9 +299,10 @@
 		30DA675A25908194008BE5F3 /* YDFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				30DA675B25908194008BE5F3 /* Monitor */,
 				30DA676525908194008BE5F3 /* YDGlobal.swift */,
 				30CD77A825C1423900CEA0F6 /* YDConstant.swift */,
-				30DA675B25908194008BE5F3 /* Monitor */,
+				30776BF5265E9892008AABFC /* Base */,
 				30DA676225908194008BE5F3 /* Extension */,
 				30DA676625908194008BE5F3 /* Tool */,
 			);
@@ -472,7 +533,9 @@
 				30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */,
 				30DA676C25908194008BE5F3 /* UIView+Extension.swift in Sources */,
 				30CD77CF25C14C3800CEA0F6 /* CMDPageGroup.swift in Sources */,
+				30776BEE265E987C008AABFC /* YDPropertyViewController.swift in Sources */,
 				30CD77CA25C14B9800CEA0F6 /* CMDRequirementGroup.swift in Sources */,
+				30776BC8265E92A9008AABFC /* YDNavigationController.swift in Sources */,
 				30DA670225908092008BE5F3 /* AppDelegate.m in Sources */,
 				30CD780925C1678000CEA0F6 /* CMDChangeCodeCommand.swift in Sources */,
 				30DA676D25908194008BE5F3 /* UIImage+Extension.swift in Sources */,
@@ -480,13 +543,18 @@
 				30DA676A25908194008BE5F3 /* MLTestViewController.swift in Sources */,
 				30CD77B825C1454400CEA0F6 /* CommandEntrance.swift in Sources */,
 				30CD77D425C14CCD00CEA0F6 /* CMDCodeGroup.swift in Sources */,
+				30776BC3265E8FE2008AABFC /* YDUserSession.swift in Sources */,
 				30CD780125C15A0E00CEA0F6 /* CMDDeletePageCommand.swift in Sources */,
 				30DA676E25908194008BE5F3 /* YDGlobal.swift in Sources */,
 				30CD77C525C14B0700CEA0F6 /* CMDGroup.swift in Sources */,
-				30DA6743259080B2008BE5F3 /* HomeViewController.swift in Sources */,
+				30776BD9265E941F008AABFC /* YDViewController.swift in Sources */,
 				30DA676925908194008BE5F3 /* MLTestView.swift in Sources */,
+				30776BDE265E983B008AABFC /* YDHomeViewController.swift in Sources */,
+				3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */,
+				30776BBE265E8F40008AABFC /* YDTabBarController.swift in Sources */,
 				30CD77FC25C1596D00CEA0F6 /* CMDAddRequirementCommand.swift in Sources */,
 				30CD77D925C14F8B00CEA0F6 /* CMDInvoker.swift in Sources */,
+				30776BE6265E9855008AABFC /* YDMineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

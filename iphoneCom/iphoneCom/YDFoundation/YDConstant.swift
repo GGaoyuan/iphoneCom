@@ -7,18 +7,18 @@
 
 import UIKit
 
-public struct CBConstant {
+public struct YDConstant {
     public static var isiPhoneX: Bool {
         let result = UIScreen.main.bounds.size.height >= 812
         return result
     }
     
-    public static var topBarHeight: CGFloat {
-        CGFloat(isiPhoneX ? 88 : 64)
-    }
+//    public static var topBarHeight: CGFloat {
+//        CGFloat(isiPhoneX ? 88 : 64)
+//    }
     
     public static var navigationBarHeight: CGFloat {
-        topBarHeight
+        CGFloat(isiPhoneX ? 88 : 64)
     }
     
     public static var iPhoneHomeAreaHeight: CGFloat {
