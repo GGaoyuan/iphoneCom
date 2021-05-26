@@ -13,11 +13,6 @@ public struct CBConstant {
         return result
     }
     
-    public static var isiPhoneX1: Bool {
-        let result = UIScreen.main.bounds.size.height >= 812
-        return result
-    }
-    
     public static var topBarHeight: CGFloat {
         CGFloat(isiPhoneX ? 88 : 64)
     }

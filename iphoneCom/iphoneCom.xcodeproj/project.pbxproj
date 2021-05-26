@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30370AAF25C93382003D72A2 /* KTVRRDThemeStorageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 30370AAE25C93382003D72A2 /* KTVRRDThemeStorageTool.m */; };
+		3078D9052653F394003D5A85 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3078D9042653F394003D5A85 /* Test.swift */; };
 		30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77A825C1423900CEA0F6 /* YDConstant.swift */; };
 		30CD77B825C1454400CEA0F6 /* CommandEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */; };
 		30CD77BD25C1457600CEA0F6 /* DPEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */; };
@@ -59,6 +60,7 @@
 		2215AD3C5554281AFA44C555 /* Pods-iphoneCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.release.xcconfig"; path = "Target Support Files/Pods-iphoneCom/Pods-iphoneCom.release.xcconfig"; sourceTree = "<group>"; };
 		30370AAD25C93382003D72A2 /* KTVRRDThemeStorageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTVRRDThemeStorageTool.h; sourceTree = "<group>"; };
 		30370AAE25C93382003D72A2 /* KTVRRDThemeStorageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTVRRDThemeStorageTool.m; sourceTree = "<group>"; };
+		3078D9042653F394003D5A85 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		30CD77A825C1423900CEA0F6 /* YDConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDConstant.swift; sourceTree = "<group>"; };
 		30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandEntrance.swift; sourceTree = "<group>"; };
 		30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEntrance.swift; sourceTree = "<group>"; };
@@ -184,7 +186,7 @@
 			children = (
 				30DA679825908EE0008BE5F3 /* DesignPatterns */,
 				30DA675825908194008BE5F3 /* TestResource */,
-				30DA675A25908194008BE5F3 /* YD */,
+				30DA675A25908194008BE5F3 /* YDFoundation */,
 				30DA6747259080DC008BE5F3 /* Classes */,
 				30DA670025908092008BE5F3 /* AppDelegate.h */,
 				30DA670125908092008BE5F3 /* AppDelegate.m */,
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				30DA6742259080B2008BE5F3 /* HomeViewController.swift */,
+				3078D9042653F394003D5A85 /* Test.swift */,
 				30370AAD25C93382003D72A2 /* KTVRRDThemeStorageTool.h */,
 				30370AAE25C93382003D72A2 /* KTVRRDThemeStorageTool.m */,
 			);
@@ -233,7 +236,7 @@
 			path = TestResource;
 			sourceTree = "<group>";
 		};
-		30DA675A25908194008BE5F3 /* YD */ = {
+		30DA675A25908194008BE5F3 /* YDFoundation */ = {
 			isa = PBXGroup;
 			children = (
 				30DA676525908194008BE5F3 /* YDGlobal.swift */,
@@ -242,7 +245,7 @@
 				30DA676225908194008BE5F3 /* Extension */,
 				30DA676625908194008BE5F3 /* Tool */,
 			);
-			path = YD;
+			path = YDFoundation;
 			sourceTree = "<group>";
 		};
 		30DA675B25908194008BE5F3 /* Monitor */ = {
@@ -478,6 +481,7 @@
 				30DA676A25908194008BE5F3 /* MLTestViewController.swift in Sources */,
 				30CD77B825C1454400CEA0F6 /* CommandEntrance.swift in Sources */,
 				30CD77D425C14CCD00CEA0F6 /* CMDCodeGroup.swift in Sources */,
+				3078D9052653F394003D5A85 /* Test.swift in Sources */,
 				30CD780125C15A0E00CEA0F6 /* CMDDeletePageCommand.swift in Sources */,
 				30DA676E25908194008BE5F3 /* YDGlobal.swift in Sources */,
 				30CD77C525C14B0700CEA0F6 /* CMDGroup.swift in Sources */,
