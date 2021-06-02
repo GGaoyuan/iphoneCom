@@ -12,15 +12,13 @@ class YDHomeViewController: YDViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let userSession = YDUserSession.session
-        userSession.userInfo.phoneNum = "gao"
-        
-        let userSession2 = YDUserSession.session
-        print(userSession2.userInfo.userName)
-        userSession2.userInfo.phoneNum = "yuan"
-        
-        let userSession3 = YDUserSession.session
-        print(userSession3.userInfo.userName)
+        dpEntrance()
+    }
+}
 
+extension YDHomeViewController {
+    func dpEntrance() {
+//        DPEntrance.commandPattern()
+        DPEntrance.statusPattern()
     }
 }

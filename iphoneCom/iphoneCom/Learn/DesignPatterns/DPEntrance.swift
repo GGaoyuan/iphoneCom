@@ -15,4 +15,8 @@ class DPEntrance: NSObject {
         //复杂版
         CommandEntrance.simpleMain()
     }
+    
+    class func statusPattern() {
+        StatusEntrance.main()
+    }
 }

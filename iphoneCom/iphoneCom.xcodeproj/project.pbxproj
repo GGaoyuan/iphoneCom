@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */; };
+		306A3EED2665DE3B0057CF7B /* StatusEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EEC2665DE3B0057CF7B /* StatusEntrance.swift */; };
+		306A3EF5266619E00057CF7B /* Lift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EF4266619E00057CF7B /* Lift.swift */; };
+		306A3EFA2666391E0057CF7B /* LiftStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EF92666391E0057CF7B /* LiftStatus.swift */; };
+		306A3EFF26663A010057CF7B /* LiftOpeningStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EFE26663A010057CF7B /* LiftOpeningStatus.swift */; };
+		306A3F0426663C3D0057CF7B /* LiftStatusContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3F0326663C3D0057CF7B /* LiftStatusContext.swift */; };
+		306A3F0F26663D080057CF7B /* LiftClosingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3F0E26663D080057CF7B /* LiftClosingStatus.swift */; };
+		306A3F1426663D150057CF7B /* LiftRunningStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3F1326663D150057CF7B /* LiftRunningStatus.swift */; };
+		306A3F1F26663D3F0057CF7B /* LiftStoppingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3F1E26663D3F0057CF7B /* LiftStoppingStatus.swift */; };
 		30776BBE265E8F40008AABFC /* YDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BBD265E8F40008AABFC /* YDTabBarController.swift */; };
 		30776BC3265E8FE2008AABFC /* YDUserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BC2265E8FE2008AABFC /* YDUserSession.swift */; };
 		30776BC8265E92A9008AABFC /* YDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BC7265E92A9008AABFC /* YDNavigationController.swift */; };
@@ -64,6 +72,14 @@
 /* Begin PBXFileReference section */
 		2215AD3C5554281AFA44C555 /* Pods-iphoneCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.release.xcconfig"; path = "Target Support Files/Pods-iphoneCom/Pods-iphoneCom.release.xcconfig"; sourceTree = "<group>"; };
 		3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDUserInfo.swift; sourceTree = "<group>"; };
+		306A3EEC2665DE3B0057CF7B /* StatusEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusEntrance.swift; sourceTree = "<group>"; };
+		306A3EF4266619E00057CF7B /* Lift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lift.swift; sourceTree = "<group>"; };
+		306A3EF92666391E0057CF7B /* LiftStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftStatus.swift; sourceTree = "<group>"; };
+		306A3EFE26663A010057CF7B /* LiftOpeningStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftOpeningStatus.swift; sourceTree = "<group>"; };
+		306A3F0326663C3D0057CF7B /* LiftStatusContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftStatusContext.swift; sourceTree = "<group>"; };
+		306A3F0E26663D080057CF7B /* LiftClosingStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftClosingStatus.swift; sourceTree = "<group>"; };
+		306A3F1326663D150057CF7B /* LiftRunningStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftRunningStatus.swift; sourceTree = "<group>"; };
+		306A3F1E26663D3F0057CF7B /* LiftStoppingStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftStoppingStatus.swift; sourceTree = "<group>"; };
 		30776BBD265E8F40008AABFC /* YDTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDTabBarController.swift; sourceTree = "<group>"; };
 		30776BC2265E8FE2008AABFC /* YDUserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDUserSession.swift; sourceTree = "<group>"; };
 		30776BC7265E92A9008AABFC /* YDNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDNavigationController.swift; sourceTree = "<group>"; };
@@ -143,6 +159,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		306A3EE72665D9D60057CF7B /* 责任链 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "责任链";
+			sourceTree = "<group>";
+		};
+		306A3EEB2665DE210057CF7B /* 状态 */ = {
+			isa = PBXGroup;
+			children = (
+				306A3EEC2665DE3B0057CF7B /* StatusEntrance.swift */,
+				306A3EF4266619E00057CF7B /* Lift.swift */,
+				306A3F0326663C3D0057CF7B /* LiftStatusContext.swift */,
+				306A3EF92666391E0057CF7B /* LiftStatus.swift */,
+				306A3EFE26663A010057CF7B /* LiftOpeningStatus.swift */,
+				306A3F0E26663D080057CF7B /* LiftClosingStatus.swift */,
+				306A3F1326663D150057CF7B /* LiftRunningStatus.swift */,
+				306A3F1E26663D3F0057CF7B /* LiftStoppingStatus.swift */,
+			);
+			path = "状态";
+			sourceTree = "<group>";
+		};
 		30776BA2265E8686008AABFC /* Learn */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,18 +233,18 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		30CD77B325C144A200CEA0F6 /* Command */ = {
+		30CD77B325C144A200CEA0F6 /* 命令 */ = {
 			isa = PBXGroup;
 			children = (
+				30CD77E525C1565600CEA0F6 /* Commands */,
 				30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */,
 				30CD77D825C14F8B00CEA0F6 /* CMDInvoker.swift */,
-				30CD77E525C1565600CEA0F6 /* Commands */,
 				30CD77C425C14B0700CEA0F6 /* CMDGroup.swift */,
 				30CD77C925C14B9800CEA0F6 /* CMDRequirementGroup.swift */,
 				30CD77CE25C14C3800CEA0F6 /* CMDPageGroup.swift */,
 				30CD77D325C14CCD00CEA0F6 /* CMDCodeGroup.swift */,
 			);
-			path = Command;
+			path = "命令";
 			sourceTree = "<group>";
 		};
 		30CD77E525C1565600CEA0F6 /* Commands */ = {
@@ -246,7 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				30776BA2265E8686008AABFC /* Learn */,
-				30DA675A25908194008BE5F3 /* YDFoundation */,
+				30DA675A25908194008BE5F3 /* YD */,
 				30DA6747259080DC008BE5F3 /* Classes */,
 				30DA670025908092008BE5F3 /* AppDelegate.h */,
 				30DA670125908092008BE5F3 /* AppDelegate.m */,
@@ -296,7 +334,7 @@
 			path = TestResource;
 			sourceTree = "<group>";
 		};
-		30DA675A25908194008BE5F3 /* YDFoundation */ = {
+		30DA675A25908194008BE5F3 /* YD */ = {
 			isa = PBXGroup;
 			children = (
 				30DA675B25908194008BE5F3 /* Monitor */,
@@ -306,7 +344,7 @@
 				30DA676225908194008BE5F3 /* Extension */,
 				30DA676625908194008BE5F3 /* Tool */,
 			);
-			path = YDFoundation;
+			path = YD;
 			sourceTree = "<group>";
 		};
 		30DA675B25908194008BE5F3 /* Monitor */ = {
@@ -355,8 +393,10 @@
 		30DA679825908EE0008BE5F3 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				306A3EEB2665DE210057CF7B /* 状态 */,
+				306A3EE72665D9D60057CF7B /* 责任链 */,
+				30CD77B325C144A200CEA0F6 /* 命令 */,
 				30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */,
-				30CD77B325C144A200CEA0F6 /* Command */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -527,12 +567,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306A3EED2665DE3B0057CF7B /* StatusEntrance.swift in Sources */,
+				306A3EFF26663A010057CF7B /* LiftOpeningStatus.swift in Sources */,
 				30CD77E125C1524D00CEA0F6 /* CMDCommand.swift in Sources */,
 				30DA676B25908194008BE5F3 /* YDMemoryMonitor.swift in Sources */,
 				30CD77BD25C1457600CEA0F6 /* DPEntrance.swift in Sources */,
 				30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */,
 				30DA676C25908194008BE5F3 /* UIView+Extension.swift in Sources */,
 				30CD77CF25C14C3800CEA0F6 /* CMDPageGroup.swift in Sources */,
+				306A3F1426663D150057CF7B /* LiftRunningStatus.swift in Sources */,
 				30776BEE265E987C008AABFC /* YDPropertyViewController.swift in Sources */,
 				30CD77CA25C14B9800CEA0F6 /* CMDRequirementGroup.swift in Sources */,
 				30776BC8265E92A9008AABFC /* YDNavigationController.swift in Sources */,
@@ -541,6 +584,7 @@
 				30DA676D25908194008BE5F3 /* UIImage+Extension.swift in Sources */,
 				30DA671325908094008BE5F3 /* main.m in Sources */,
 				30DA676A25908194008BE5F3 /* MLTestViewController.swift in Sources */,
+				306A3F1F26663D3F0057CF7B /* LiftStoppingStatus.swift in Sources */,
 				30CD77B825C1454400CEA0F6 /* CommandEntrance.swift in Sources */,
 				30CD77D425C14CCD00CEA0F6 /* CMDCodeGroup.swift in Sources */,
 				30776BC3265E8FE2008AABFC /* YDUserSession.swift in Sources */,
@@ -549,10 +593,14 @@
 				30CD77C525C14B0700CEA0F6 /* CMDGroup.swift in Sources */,
 				30776BD9265E941F008AABFC /* YDViewController.swift in Sources */,
 				30DA676925908194008BE5F3 /* MLTestView.swift in Sources */,
+				306A3EFA2666391E0057CF7B /* LiftStatus.swift in Sources */,
+				306A3F0F26663D080057CF7B /* LiftClosingStatus.swift in Sources */,
 				30776BDE265E983B008AABFC /* YDHomeViewController.swift in Sources */,
+				306A3EF5266619E00057CF7B /* Lift.swift in Sources */,
 				3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */,
 				30776BBE265E8F40008AABFC /* YDTabBarController.swift in Sources */,
 				30CD77FC25C1596D00CEA0F6 /* CMDAddRequirementCommand.swift in Sources */,
+				306A3F0426663C3D0057CF7B /* LiftStatusContext.swift in Sources */,
 				30CD77D925C14F8B00CEA0F6 /* CMDInvoker.swift in Sources */,
 				30776BE6265E9855008AABFC /* YDMineViewController.swift in Sources */,
 			);
