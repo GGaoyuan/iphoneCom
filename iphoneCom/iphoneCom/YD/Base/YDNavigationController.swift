@@ -8,15 +8,6 @@
 import UIKit
 
 class YDNavigationController: UINavigationController {
-
-    override init(rootViewController: UIViewController) {
-        super.init(rootViewController: rootViewController)
-        
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

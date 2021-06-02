@@ -15,19 +15,19 @@ class LiftStatusContext: NSObject {
     
     private var liftStatus: LiftStatus!
     
-    func open() {
-        liftStatus.open()
-    }
-    
-    func close() {
-        liftStatus.close()
-    }
-    
-    func run() {
-        liftStatus.run()
-    }
-    
-    func stop() {
-        liftStatus.stop()
-    }
+//    func open() {
+//        liftStatus.open()
+//    }
+//    
+//    func close() {
+//        liftStatus.close()
+//    }
+//    
+//    func run() {
+//        liftStatus.run()
+//    }
+//    
+//    func stop() {
+//        liftStatus.stop()
+//    }
 }
