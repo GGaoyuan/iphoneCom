@@ -63,7 +63,6 @@
                     <rect key="frame" x="12" y="218.66666666666666" width="390" height="44.999999999999972"/>
                     <color key="backgroundColor" red="0.66274509800000003" green="0.72549019609999998" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="7lW-Xz-fIG"/>
                         <constraint firstAttribute="height" constant="45" id="sW5-2A-mdM"/>
                     </constraints>
                     <state key="normal" title="下一步">
