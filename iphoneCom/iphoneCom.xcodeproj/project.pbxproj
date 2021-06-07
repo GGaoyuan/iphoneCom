@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30124DB8266E08A50016C1FC /* YDRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124DB7266E08A50016C1FC /* YDRequest.swift */; };
+		30124DC0266E0A5F0016C1FC /* YDRequestConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124DBF266E0A5F0016C1FC /* YDRequestConstant.swift */; };
+		30124DC8266E15630016C1FC /* YDBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124DC7266E15630016C1FC /* YDBaseModel.swift */; };
 		3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */; };
 		306A3EED2665DE3B0057CF7B /* StatusEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EEC2665DE3B0057CF7B /* StatusEntrance.swift */; };
 		306A3EF5266619E00057CF7B /* Lift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EF4266619E00057CF7B /* Lift.swift */; };
@@ -71,6 +74,9 @@
 
 /* Begin PBXFileReference section */
 		2215AD3C5554281AFA44C555 /* Pods-iphoneCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.release.xcconfig"; path = "Target Support Files/Pods-iphoneCom/Pods-iphoneCom.release.xcconfig"; sourceTree = "<group>"; };
+		30124DB7266E08A50016C1FC /* YDRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRequest.swift; sourceTree = "<group>"; };
+		30124DBF266E0A5F0016C1FC /* YDRequestConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRequestConstant.swift; sourceTree = "<group>"; };
+		30124DC7266E15630016C1FC /* YDBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDBaseModel.swift; sourceTree = "<group>"; };
 		3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDUserInfo.swift; sourceTree = "<group>"; };
 		306A3EEC2665DE3B0057CF7B /* StatusEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusEntrance.swift; sourceTree = "<group>"; };
 		306A3EF4266619E00057CF7B /* Lift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lift.swift; sourceTree = "<group>"; };
@@ -159,6 +165,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		30124DB5266E086C0016C1FC /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				30124DBF266E0A5F0016C1FC /* YDRequestConstant.swift */,
+				30124DB7266E08A50016C1FC /* YDRequest.swift */,
+				30124DC7266E15630016C1FC /* YDBaseModel.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		306A3EE72665D9D60057CF7B /* 责任链 */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,14 +239,14 @@
 			path = UserSession;
 			sourceTree = "<group>";
 		};
-		30776BF5265E9892008AABFC /* Base */ = {
+		30776BF5265E9892008AABFC /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
 				30776BC7265E92A9008AABFC /* YDNavigationController.swift */,
 				30776BD8265E941F008AABFC /* YDViewController.swift */,
 				30776BBD265E8F40008AABFC /* YDTabBarController.swift */,
 			);
-			path = Base;
+			path = BaseClass;
 			sourceTree = "<group>";
 		};
 		30CD77B325C144A200CEA0F6 /* 命令 */ = {
@@ -340,8 +356,9 @@
 				30DA675B25908194008BE5F3 /* Monitor */,
 				30DA676525908194008BE5F3 /* YDGlobal.swift */,
 				30CD77A825C1423900CEA0F6 /* YDConstant.swift */,
-				30776BF5265E9892008AABFC /* Base */,
-				30DA676225908194008BE5F3 /* Extension */,
+				30124DB5266E086C0016C1FC /* Request */,
+				30776BF5265E9892008AABFC /* BaseClass */,
+				30DA676225908194008BE5F3 /* Extensions */,
 				30DA676625908194008BE5F3 /* Tool */,
 			);
 			path = YD;
@@ -374,13 +391,13 @@
 			path = MemoryMonitor;
 			sourceTree = "<group>";
 		};
-		30DA676225908194008BE5F3 /* Extension */ = {
+		30DA676225908194008BE5F3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				30DA676325908194008BE5F3 /* UIView+Extension.swift */,
 				30DA676425908194008BE5F3 /* UIImage+Extension.swift */,
 			);
-			path = Extension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		30DA676625908194008BE5F3 /* Tool */ = {
@@ -572,6 +589,7 @@
 				30CD77E125C1524D00CEA0F6 /* CMDCommand.swift in Sources */,
 				30DA676B25908194008BE5F3 /* YDMemoryMonitor.swift in Sources */,
 				30CD77BD25C1457600CEA0F6 /* DPEntrance.swift in Sources */,
+				30124DB8266E08A50016C1FC /* YDRequest.swift in Sources */,
 				30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */,
 				30DA676C25908194008BE5F3 /* UIView+Extension.swift in Sources */,
 				30CD77CF25C14C3800CEA0F6 /* CMDPageGroup.swift in Sources */,
@@ -583,7 +601,9 @@
 				30CD780925C1678000CEA0F6 /* CMDChangeCodeCommand.swift in Sources */,
 				30DA676D25908194008BE5F3 /* UIImage+Extension.swift in Sources */,
 				30DA671325908094008BE5F3 /* main.m in Sources */,
+				30124DC8266E15630016C1FC /* YDBaseModel.swift in Sources */,
 				30DA676A25908194008BE5F3 /* MLTestViewController.swift in Sources */,
+				30124DC0266E0A5F0016C1FC /* YDRequestConstant.swift in Sources */,
 				306A3F1F26663D3F0057CF7B /* LiftStoppingStatus.swift in Sources */,
 				30CD77B825C1454400CEA0F6 /* CommandEntrance.swift in Sources */,
 				30CD77D425C14CCD00CEA0F6 /* CMDCodeGroup.swift in Sources */,
