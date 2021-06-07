@@ -22,17 +22,28 @@ class YDLoginViewController: YDViewController {
         
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: true)
+    }
+    
+    
     @IBAction func showPwdButtonAction(_ sender: Any) {
         print("showPwdButtonAction")
     }
     
     @IBAction func loginButtonAction(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
         print("loginButtonAction")
     }
     
-    
     @IBAction func forgetPwdButtonAction(_ sender: Any) {
-        print("forgetPwdButtonAction")
+        navigationController?.pushViewController(YDRetrievePwdViewController(), animated: true)
     }
     
     @IBAction func registButtonAction(_ sender: Any) {

@@ -30,9 +30,14 @@ class YDHomeViewController: YDViewController {
     }
     
     @objc func loginAtcion() {
-        let loginViewController = YDLoginViewController()
-        loginViewController.modalPresentationStyle = .fullScreen
-        present(loginViewController, animated: true, completion: nil)
+        let loginNav = YDNavigationController()
+        loginNav.modalPresentationStyle = .fullScreen
+        loginNav.addChild(YDLoginViewController())
+        present(loginNav, animated: true, completion: nil)
+        
+//        let loginViewController = YDLoginViewController()
+//        loginViewController.modalPresentationStyle = .fullScreen
+//        present(loginViewController, animated: true, completion: nil)
     }
 }
 
