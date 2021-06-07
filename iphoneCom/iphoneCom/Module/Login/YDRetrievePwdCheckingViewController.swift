@@ -7,36 +7,40 @@
 
 import UIKit
 
-class YDRetrievePwdCheckingViewController: YDBaseSheetViewController {
+class YDRetrievePwdCheckingViewController: YDSheetViewController {
 
-    private var contentView: UIView!
+//    private var contentView: UIView!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        contentView = { () -> UIView in
-            let kView = UIView()
-            kView.backgroundColor = UIColor.red
-            view.addSubview(kView)
-            return kView
-        }()
-    }
-    
-    override func customViewDismissAnimation() {
+}
+
+extension YDRetrievePwdCheckingViewController: YDSheetViewControllerProtocol {
+    func prt_viewDidLoad() {
+//        contentView = { () -> UIView in
+//            let kView = UIView()
+//            kView.backgroundColor = UIColor.red
+//            view.addSubview(kView)
+//            return kView
+//        }()
 //        contentView.snp.remakeConstraints { (m) in
 //            m.left.right.equalToSuperview()
 //            m.height.equalTo(100)
-//            m.top.equalTo(view.snp_bottomMargin)
+//            m.bottom.equalTo(500)
 //        }
-//        contentView.layoutIfNeeded()
     }
     
-    override func customViewShowAnimation() {
+    func customViewsShowAnimation() {
+//        self.contentView.y = 100
+        
+    }
+    
+    func customViewsDismissAnimation() {
+//        self.contentView.y = 500
 //        contentView.snp.remakeConstraints { (m) in
-//            m.left.right.bottom.equalToSuperview()
+//            m.left.right.equalToSuperview()
 //            m.height.equalTo(100)
+//            m.top.equalToSuperview()
 //        }
 //        contentView.layoutIfNeeded()
     }
-
 }
+

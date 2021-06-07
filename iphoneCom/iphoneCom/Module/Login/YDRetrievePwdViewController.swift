@@ -21,7 +21,8 @@ class YDRetrievePwdViewController: YDViewController {
     @IBAction func nextStepButtonAction(_ sender: Any) {
         print("nextStepButtonAction")
         
-        let checkViewController = YDRetrievePwdCheckingViewController.showViewController(from: self)
+        let checkViewController = YDRetrievePwdCheckingViewController.createViewController()
+        checkViewController.showViewController(from: self)
 //        checkViewController.show(from: self)
     }
     

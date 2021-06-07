@@ -33,3 +33,14 @@ let isiOS11: Bool = kSystemVersion >= 11.0
 let isiOS12: Bool = kSystemVersion >= 12.0
 let isiOS13: Bool = kSystemVersion >= 13.0
 let isiOS14: Bool = kSystemVersion >= 14.0
+
+// MARK: - Thread
+func dispatch_after(_ thread: DispatchQueue = DispatchQueue.main, seconds: Double, _ code: @escaping () -> ()) {
+    thread.asyncAfter(deadline: DispatchTime.now() + seconds, execute: code)
+}
+
+func dispatch_main(_ code: @escaping () -> ()) {
+    DispatchQueue.main.async {
+        code()
+    }
+}

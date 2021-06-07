@@ -31,7 +31,7 @@
 		307CBD3D266E796B00E7CD46 /* YDRetrievePwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD3B266E796B00E7CD46 /* YDRetrievePwdViewController.swift */; };
 		307CBD3E266E796B00E7CD46 /* YDRetrievePwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307CBD3C266E796B00E7CD46 /* YDRetrievePwdViewController.xib */; };
 		307CBD43266E7F5B00E7CD46 /* YDRetrievePwdCheckingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD42266E7F5B00E7CD46 /* YDRetrievePwdCheckingViewController.swift */; };
-		307CBD48266E85AE00E7CD46 /* YDBaseSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD47266E85AE00E7CD46 /* YDBaseSheetViewController.swift */; };
+		307CBD48266E85AE00E7CD46 /* YDSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD47266E85AE00E7CD46 /* YDSheetViewController.swift */; };
 		30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77A825C1423900CEA0F6 /* YDConstant.swift */; };
 		30CD77B825C1454400CEA0F6 /* CommandEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */; };
 		30CD77BD25C1457600CEA0F6 /* DPEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */; };
@@ -104,7 +104,7 @@
 		307CBD3B266E796B00E7CD46 /* YDRetrievePwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRetrievePwdViewController.swift; sourceTree = "<group>"; };
 		307CBD3C266E796B00E7CD46 /* YDRetrievePwdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDRetrievePwdViewController.xib; sourceTree = "<group>"; };
 		307CBD42266E7F5B00E7CD46 /* YDRetrievePwdCheckingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRetrievePwdCheckingViewController.swift; sourceTree = "<group>"; };
-		307CBD47266E85AE00E7CD46 /* YDBaseSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDBaseSheetViewController.swift; sourceTree = "<group>"; };
+		307CBD47266E85AE00E7CD46 /* YDSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDSheetViewController.swift; sourceTree = "<group>"; };
 		30CD77A825C1423900CEA0F6 /* YDConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDConstant.swift; sourceTree = "<group>"; };
 		30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandEntrance.swift; sourceTree = "<group>"; };
 		30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEntrance.swift; sourceTree = "<group>"; };
@@ -269,7 +269,7 @@
 				30776BC7265E92A9008AABFC /* YDNavigationController.swift */,
 				30776BD8265E941F008AABFC /* YDViewController.swift */,
 				30776BBD265E8F40008AABFC /* YDTabBarController.swift */,
-				307CBD47266E85AE00E7CD46 /* YDBaseSheetViewController.swift */,
+				307CBD47266E85AE00E7CD46 /* YDSheetViewController.swift */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -613,7 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				306A3EED2665DE3B0057CF7B /* StatusEntrance.swift in Sources */,
-				307CBD48266E85AE00E7CD46 /* YDBaseSheetViewController.swift in Sources */,
+				307CBD48266E85AE00E7CD46 /* YDSheetViewController.swift in Sources */,
 				306A3EFF26663A010057CF7B /* LiftOpeningStatus.swift in Sources */,
 				30CD77E125C1524D00CEA0F6 /* CMDCommand.swift in Sources */,
 				30DA676B25908194008BE5F3 /* YDMemoryMonitor.swift in Sources */,

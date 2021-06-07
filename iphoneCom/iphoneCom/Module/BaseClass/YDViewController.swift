@@ -9,10 +9,9 @@ import UIKit
 
 class YDViewController: UIViewController {
     
-    
-//    required init?(coder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
+    deinit {
+        print("[Released] \(classForCoder)")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
