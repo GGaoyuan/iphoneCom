@@ -26,6 +26,8 @@
 		30776BDE265E983B008AABFC /* YDHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BDD265E983B008AABFC /* YDHomeViewController.swift */; };
 		30776BE6265E9855008AABFC /* YDMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BE5265E9855008AABFC /* YDMineViewController.swift */; };
 		30776BEE265E987C008AABFC /* YDPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BED265E987C008AABFC /* YDPropertyViewController.swift */; };
+		307CBD2D266E6A2000E7CD46 /* YDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD2B266E6A2000E7CD46 /* YDLoginViewController.swift */; };
+		307CBD2E266E6A2000E7CD46 /* YDLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307CBD2C266E6A2000E7CD46 /* YDLoginViewController.xib */; };
 		30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77A825C1423900CEA0F6 /* YDConstant.swift */; };
 		30CD77B825C1454400CEA0F6 /* CommandEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */; };
 		30CD77BD25C1457600CEA0F6 /* DPEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */; };
@@ -93,6 +95,8 @@
 		30776BDD265E983B008AABFC /* YDHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDHomeViewController.swift; sourceTree = "<group>"; };
 		30776BE5265E9855008AABFC /* YDMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDMineViewController.swift; sourceTree = "<group>"; };
 		30776BED265E987C008AABFC /* YDPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDPropertyViewController.swift; sourceTree = "<group>"; };
+		307CBD2B266E6A2000E7CD46 /* YDLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDLoginViewController.swift; sourceTree = "<group>"; };
+		307CBD2C266E6A2000E7CD46 /* YDLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDLoginViewController.xib; sourceTree = "<group>"; };
 		30CD77A825C1423900CEA0F6 /* YDConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDConstant.swift; sourceTree = "<group>"; };
 		30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandEntrance.swift; sourceTree = "<group>"; };
 		30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEntrance.swift; sourceTree = "<group>"; };
@@ -173,6 +177,15 @@
 				30124DB7266E08A50016C1FC /* YDRequest.swift */,
 			);
 			path = Request;
+			sourceTree = "<group>";
+		};
+		30124DF5266E68050016C1FC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				307CBD2B266E6A2000E7CD46 /* YDLoginViewController.swift */,
+				307CBD2C266E6A2000E7CD46 /* YDLoginViewController.xib */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		306A3EE72665D9D60057CF7B /* 责任链 */ = {
@@ -334,6 +347,8 @@
 		30DA6747259080DC008BE5F3 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				30776BF5265E9892008AABFC /* BaseClass */,
+				30124DF5266E68050016C1FC /* Login */,
 				30776BD2265E9356008AABFC /* UserSession */,
 				30776BD1265E933C008AABFC /* Home */,
 				30776BD0265E9332008AABFC /* Mine */,
@@ -357,7 +372,6 @@
 				30DA676525908194008BE5F3 /* YDGlobal.swift */,
 				30CD77A825C1423900CEA0F6 /* YDConstant.swift */,
 				30124DB5266E086C0016C1FC /* Request */,
-				30776BF5265E9892008AABFC /* BaseClass */,
 				30DA676225908194008BE5F3 /* Extensions */,
 				30DA676625908194008BE5F3 /* Tool */,
 			);
@@ -532,6 +546,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30DA671025908094008BE5F3 /* LaunchScreen.storyboard in Resources */,
+				307CBD2E266E6A2000E7CD46 /* YDLoginViewController.xib in Resources */,
 				30DA676825908194008BE5F3 /* MLTestViewController.xib in Resources */,
 				30DA676725908194008BE5F3 /* TestResource_JSON.json in Resources */,
 				30DA670D25908094008BE5F3 /* Assets.xcassets in Resources */,
@@ -590,6 +605,7 @@
 				30DA676B25908194008BE5F3 /* YDMemoryMonitor.swift in Sources */,
 				30CD77BD25C1457600CEA0F6 /* DPEntrance.swift in Sources */,
 				30124DB8266E08A50016C1FC /* YDRequest.swift in Sources */,
+				307CBD2D266E6A2000E7CD46 /* YDLoginViewController.swift in Sources */,
 				30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */,
 				30DA676C25908194008BE5F3 /* UIView+Extension.swift in Sources */,
 				30CD77CF25C14C3800CEA0F6 /* CMDPageGroup.swift in Sources */,
@@ -791,6 +807,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZSW5D827N7;
 				INFOPLIST_FILE = iphoneCom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -814,6 +831,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZSW5D827N7;
 				INFOPLIST_FILE = iphoneCom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
