@@ -1,11 +1,12 @@
 //
-//  YDBaseModel.swift
+//  YDRequestConfig.swift
 //  iphoneCom
 //
 //  Created by gaoyuan on 2021/6/7.
 //
 
 import UIKit
-import HandyJSON
 
-
+class YDRequestConfig: NSObject {
+    
+}

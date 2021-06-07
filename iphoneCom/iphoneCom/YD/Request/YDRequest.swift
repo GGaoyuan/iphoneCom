@@ -45,8 +45,8 @@ class YDRequest: NSObject {
 extension YDRequest {
 //    @discardableResult
     class func request<T: HandyJSON>(_ api: String,
-                                     method: HttpMethod = .get,
                                      params: RequestParams,
+                                     method: HttpMethod = .get,
                                      contentType: ContentType = .json,
                                      success: @escaping ((T) -> ()),
                                      failure: failureBlock? = nil) {
