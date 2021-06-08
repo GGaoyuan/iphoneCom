@@ -68,4 +68,42 @@ extension UIView {
             frame.size = newValue
         }
     }
+    
+    @objc var maxX: CGFloat {
+        return frame.maxX
+    }
+    @objc var maxY: CGFloat {
+        return frame.maxY
+    }
+    
+    @objc var midX: CGFloat {
+        return frame.midX
+    }
+    @objc var midY: CGFloat {
+        return frame.midY
+    }
+    @objc var minX: CGFloat {
+        return frame.minX
+    }
+    @objc var minY: CGFloat {
+        return frame.minY
+    }
+}
+
+
+extension UIView {
+    
+    /// 生成圆角
+    func round(corners: UIRectCorner = [.topLeft, .topRight, .bottomLeft, .bottomRight], radius: CGFloat) {
+        dispatch_main { [weak self] in
+            guard let self = self else {return}
+            let rect = self.bounds
+            let path = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+            let mask = CAShapeLayer()
+            mask.path = path.cgPath
+            self.layer.mask = mask
+        }
+    }
+    
+    /// 生成不同的圆角readtool
 }

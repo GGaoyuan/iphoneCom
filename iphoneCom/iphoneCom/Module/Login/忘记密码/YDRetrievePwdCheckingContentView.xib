@@ -48,6 +48,9 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9XZ-A8-FZD">
                             <rect key="frame" x="0.0" y="197" width="414" height="60"/>
                             <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="igO-pS-Syp"/>
+                            </constraints>
                         </view>
                     </subviews>
                 </stackView>

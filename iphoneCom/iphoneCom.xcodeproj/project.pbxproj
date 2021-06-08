@@ -34,6 +34,7 @@
 		307CBD48266E85AE00E7CD46 /* YDFadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD47266E85AE00E7CD46 /* YDFadeViewController.swift */; };
 		307CBD6D266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD6C266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift */; };
 		307CBD72266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307CBD71266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib */; };
+		30C58F91266F18F2007E5F0B /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C58F90266F18F2007E5F0B /* NSObject+Extension.swift */; };
 		30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77A825C1423900CEA0F6 /* YDConstant.swift */; };
 		30CD77B825C1454400CEA0F6 /* CommandEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */; };
 		30CD77BD25C1457600CEA0F6 /* DPEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */; };
@@ -109,6 +110,7 @@
 		307CBD47266E85AE00E7CD46 /* YDFadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDFadeViewController.swift; sourceTree = "<group>"; };
 		307CBD6C266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRetrievePwdCheckingContentView.swift; sourceTree = "<group>"; };
 		307CBD71266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDRetrievePwdCheckingContentView.xib; sourceTree = "<group>"; };
+		30C58F90266F18F2007E5F0B /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		30CD77A825C1423900CEA0F6 /* YDConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDConstant.swift; sourceTree = "<group>"; };
 		30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandEntrance.swift; sourceTree = "<group>"; };
 		30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEntrance.swift; sourceTree = "<group>"; };
@@ -194,13 +196,8 @@
 		30124DF5266E68050016C1FC /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				307CBD2B266E6A2000E7CD46 /* YDLoginViewController.swift */,
-				307CBD2C266E6A2000E7CD46 /* YDLoginViewController.xib */,
-				307CBD3B266E796B00E7CD46 /* YDRetrievePwdViewController.swift */,
-				307CBD3C266E796B00E7CD46 /* YDRetrievePwdViewController.xib */,
-				307CBD42266E7F5B00E7CD46 /* YDRetrievePwdCheckingViewController.swift */,
-				307CBD6C266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift */,
-				307CBD71266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib */,
+				307CBD83266F12FA00E7CD46 /* 忘记密码 */,
+				307CBD82266F12EB00E7CD46 /* 登录 */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -278,6 +275,27 @@
 				307CBD47266E85AE00E7CD46 /* YDFadeViewController.swift */,
 			);
 			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		307CBD82266F12EB00E7CD46 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				307CBD2B266E6A2000E7CD46 /* YDLoginViewController.swift */,
+				307CBD2C266E6A2000E7CD46 /* YDLoginViewController.xib */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		307CBD83266F12FA00E7CD46 /* 忘记密码 */ = {
+			isa = PBXGroup;
+			children = (
+				307CBD3B266E796B00E7CD46 /* YDRetrievePwdViewController.swift */,
+				307CBD3C266E796B00E7CD46 /* YDRetrievePwdViewController.xib */,
+				307CBD42266E7F5B00E7CD46 /* YDRetrievePwdCheckingViewController.swift */,
+				307CBD6C266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift */,
+				307CBD71266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib */,
+			);
+			path = "忘记密码";
 			sourceTree = "<group>";
 		};
 		30CD77B325C144A200CEA0F6 /* 命令 */ = {
@@ -428,6 +446,7 @@
 			children = (
 				30DA676325908194008BE5F3 /* UIView+Extension.swift */,
 				30DA676425908194008BE5F3 /* UIImage+Extension.swift */,
+				30C58F90266F18F2007E5F0B /* NSObject+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -639,6 +658,7 @@
 				30CD780925C1678000CEA0F6 /* CMDChangeCodeCommand.swift in Sources */,
 				30DA676D25908194008BE5F3 /* UIImage+Extension.swift in Sources */,
 				30DA671325908094008BE5F3 /* main.m in Sources */,
+				30C58F91266F18F2007E5F0B /* NSObject+Extension.swift in Sources */,
 				30DA676A25908194008BE5F3 /* MLTestViewController.swift in Sources */,
 				30124DC0266E0A5F0016C1FC /* YDRequestConstant.swift in Sources */,
 				306A3F1F26663D3F0057CF7B /* LiftStoppingStatus.swift in Sources */,
