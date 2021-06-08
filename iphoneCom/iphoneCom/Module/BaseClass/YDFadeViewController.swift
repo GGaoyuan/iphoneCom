@@ -7,15 +7,14 @@
 
 import UIKit
 
-@objc protocol YDSheetViewControllerProtocol {
+@objc protocol YDFadeViewControllerProtocol {
     @objc func prt_viewDidLoad()
     @objc optional func customViewsShowAnimation()
     @objc optional func customViewsDismissAnimation()
 }
 
-class YDSheetViewController: YDViewController {
-    private var contentView: UIView!
-    private weak var child: YDSheetViewControllerProtocol!
+class YDFadeViewController: YDViewController {
+    private weak var child: YDFadeViewControllerProtocol!
     private var dimmingView: UIView!
     private var animating: Bool!
     
@@ -30,15 +29,14 @@ class YDSheetViewController: YDViewController {
     
     override final func viewDidLoad() {
         super.viewDidLoad()
-        if conforms(to: YDSheetViewControllerProtocol.self) {
-            child = self as? YDSheetViewControllerProtocol
+        if conforms(to: YDFadeViewControllerProtocol.self) {
+            child = self as? YDFadeViewControllerProtocol
         } else {
             assert(false, "子类必须实现 'YDSheetViewControllerProtocol' ")
         }
         
         view.backgroundColor = .clear
         createDimmingView()
-        createContentView()
         child.prt_viewDidLoad()
         showAnimation()
     }
@@ -55,7 +53,7 @@ class YDSheetViewController: YDViewController {
 }
 
 // MARK: - Private
-extension YDSheetViewController {
+extension YDFadeViewController {
     private func createDimmingView() {
         dimmingView = { () -> UIView in
             let kView = UIView()
@@ -66,20 +64,6 @@ extension YDSheetViewController {
         }()
         dimmingView.snp.makeConstraints { (m) in
             m.edges.equalTo(UIEdgeInsets.zero)
-        }
-    }
-    
-    private func createContentView() {
-        contentView = { () -> UIView in
-            let kView = UIView()
-            kView.backgroundColor = UIColor.red
-            view.addSubview(kView)
-            return kView
-        }()
-        contentView.snp.makeConstraints { (m) in
-            m.left.right.equalToSuperview()
-            m.height.equalTo(100)
-            m.bottom.equalTo(300)
         }
     }
     
@@ -94,10 +78,6 @@ extension YDSheetViewController {
         animating = true
         UIView.animate(withDuration: 0.4) {
             self.dimmingView.backgroundColor = UIColor.black.withAlphaComponent(0.8)
-            self.contentView.snp.updateConstraints { (m) in
-                m.bottom.equalTo(0)
-            }
-            self.view.layoutIfNeeded()
             self.child.customViewsShowAnimation?()
         } completion: { (c) in
             self.animating = false
@@ -117,7 +97,7 @@ extension YDSheetViewController {
 }
 
 // MARK: - Public
-extension YDSheetViewController {
+extension YDFadeViewController {
     class func createViewController() -> Self {
         let nav = YDNavigationController()
         nav.modalPresentationStyle = .overCurrentContext

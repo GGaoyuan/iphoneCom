@@ -7,20 +7,21 @@
 
 import UIKit
 
-class YDRetrievePwdCheckingViewController: YDSheetViewController {
+class YDRetrievePwdCheckingViewController: YDFadeViewController {
 
-//    private var contentView: UIView!
+    private var contentView: UIView!
     
 }
 
-extension YDRetrievePwdCheckingViewController: YDSheetViewControllerProtocol {
+extension YDRetrievePwdCheckingViewController: YDFadeViewControllerProtocol {
     func prt_viewDidLoad() {
-//        contentView = { () -> UIView in
-//            let kView = UIView()
-//            kView.backgroundColor = UIColor.red
-//            view.addSubview(kView)
-//            return kView
-//        }()
+        contentView = { () -> UIView in
+            let kView = UIView()
+            kView.frame = CGRect(x: 0, y: kScreenHeight, width: kScreenWidth, height: 100)
+            kView.backgroundColor = UIColor.red
+            view.addSubview(kView)
+            return kView
+        }()
 //        contentView.snp.remakeConstraints { (m) in
 //            m.left.right.equalToSuperview()
 //            m.height.equalTo(100)
@@ -30,11 +31,11 @@ extension YDRetrievePwdCheckingViewController: YDSheetViewControllerProtocol {
     
     func customViewsShowAnimation() {
 //        self.contentView.y = 100
-        
+        self.contentView.y = kScreenHeight - 100
     }
     
     func customViewsDismissAnimation() {
-//        self.contentView.y = 500
+        self.contentView.y = kScreenHeight
 //        contentView.snp.remakeConstraints { (m) in
 //            m.left.right.equalToSuperview()
 //            m.height.equalTo(100)
