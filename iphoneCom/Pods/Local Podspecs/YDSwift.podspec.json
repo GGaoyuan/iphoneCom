@@ -1,0 +1,22 @@
+{
+  "name": "YDSwift",
+  "version": "0.1.0",
+  "summary": "A short description of YDSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/707216098@qq.com/YDSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "707216098@qq.com": "707216098@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/707216098@qq.com/YDSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YDSwift/Classes/**/*"
+}

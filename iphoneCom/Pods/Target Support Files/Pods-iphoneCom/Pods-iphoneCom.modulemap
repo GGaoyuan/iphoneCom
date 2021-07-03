@@ -1,4 +1,4 @@
-module Pods_iphoneCom {
+framework module Pods_iphoneCom {
   umbrella header "Pods-iphoneCom-umbrella.h"
 
   export *

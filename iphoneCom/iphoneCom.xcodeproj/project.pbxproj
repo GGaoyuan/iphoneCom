@@ -12,6 +12,7 @@
 		30124DD6266E1B1C0016C1FC /* YDRequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124DD5266E1B1C0016C1FC /* YDRequestConfig.swift */; };
 		302FF978268EB84100B9E75D /* KingFisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302FF977268EB84100B9E75D /* KingFisher.swift */; };
 		3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */; };
+		305AA54426900B34005304E7 /* UIImageView+KingFisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AA54326900B34005304E7 /* UIImageView+KingFisher.swift */; };
 		306A3EED2665DE3B0057CF7B /* StatusEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EEC2665DE3B0057CF7B /* StatusEntrance.swift */; };
 		306A3EF5266619E00057CF7B /* Lift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EF4266619E00057CF7B /* Lift.swift */; };
 		306A3EFA2666391E0057CF7B /* LiftStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EF92666391E0057CF7B /* LiftStatus.swift */; };
@@ -63,7 +64,7 @@
 		30DA676C25908194008BE5F3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA676325908194008BE5F3 /* UIView+Extension.swift */; };
 		30DA676D25908194008BE5F3 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA676425908194008BE5F3 /* UIImage+Extension.swift */; };
 		30DA676E25908194008BE5F3 /* YDGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA676525908194008BE5F3 /* YDGlobal.swift */; };
-		6F2177959A114154027648A7 /* libPods-iphoneCom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4E955EBD1E88752908910F /* libPods-iphoneCom.a */; };
+		BD6840DD6E4237EDB8F01ED2 /* Pods_iphoneCom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA896AFCC72A36F5DA92636 /* Pods_iphoneCom.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		30124DD5266E1B1C0016C1FC /* YDRequestConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRequestConfig.swift; sourceTree = "<group>"; };
 		302FF977268EB84100B9E75D /* KingFisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFisher.swift; sourceTree = "<group>"; };
 		3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDUserInfo.swift; sourceTree = "<group>"; };
+		305AA54326900B34005304E7 /* UIImageView+KingFisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+KingFisher.swift"; sourceTree = "<group>"; };
 		306A3EEC2665DE3B0057CF7B /* StatusEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusEntrance.swift; sourceTree = "<group>"; };
 		306A3EF4266619E00057CF7B /* Lift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lift.swift; sourceTree = "<group>"; };
 		306A3EF92666391E0057CF7B /* LiftStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftStatus.swift; sourceTree = "<group>"; };
@@ -149,7 +151,7 @@
 		30DA676325908194008BE5F3 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		30DA676425908194008BE5F3 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		30DA676525908194008BE5F3 /* YDGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YDGlobal.swift; sourceTree = "<group>"; };
-		AD4E955EBD1E88752908910F /* libPods-iphoneCom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iphoneCom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA896AFCC72A36F5DA92636 /* Pods_iphoneCom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iphoneCom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9023C3DE798CAF66B089250 /* Pods-iphoneCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.debug.xcconfig"; path = "Target Support Files/Pods-iphoneCom/Pods-iphoneCom.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,7 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F2177959A114154027648A7 /* libPods-iphoneCom.a in Frameworks */,
+				BD6840DD6E4237EDB8F01ED2 /* Pods_iphoneCom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +184,7 @@
 		06152485F25B59308E549A7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AD4E955EBD1E88752908910F /* libPods-iphoneCom.a */,
+				9BA896AFCC72A36F5DA92636 /* Pods_iphoneCom.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				302FF977268EB84100B9E75D /* KingFisher.swift */,
+				305AA54326900B34005304E7 /* UIImageView+KingFisher.swift */,
 			);
 			path = KingFisher;
 			sourceTree = "<group>";
@@ -357,7 +360,7 @@
 			children = (
 				30776BA2265E8686008AABFC /* Learn */,
 				30DA675A25908194008BE5F3 /* YD */,
-				30DA6747259080DC008BE5F3 /* Module */,
+				30DA6747259080DC008BE5F3 /* Classes */,
 				30DA670025908092008BE5F3 /* AppDelegate.h */,
 				30DA670125908092008BE5F3 /* AppDelegate.m */,
 				30DA670C25908094008BE5F3 /* Assets.xcassets */,
@@ -387,7 +390,7 @@
 			path = iphoneComUITests;
 			sourceTree = "<group>";
 		};
-		30DA6747259080DC008BE5F3 /* Module */ = {
+		30DA6747259080DC008BE5F3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				30776BF5265E9892008AABFC /* BaseClass */,
@@ -396,7 +399,7 @@
 				30776BD1265E933C008AABFC /* Home */,
 				30776BD0265E9332008AABFC /* Mine */,
 			);
-			path = Module;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		30DA675825908194008BE5F3 /* TestResource */ = {
@@ -495,6 +498,7 @@
 				30DA66F925908092008BE5F3 /* Sources */,
 				30DA66FA25908092008BE5F3 /* Frameworks */,
 				30DA66FB25908092008BE5F3 /* Resources */,
+				234C2014C30B9CDB771DB298 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -638,6 +642,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		234C2014C30B9CDB771DB298 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iphoneCom/Pods-iphoneCom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iphoneCom/Pods-iphoneCom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iphoneCom/Pods-iphoneCom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -685,6 +706,7 @@
 				30776BDE265E983B008AABFC /* YDHomeViewController.swift in Sources */,
 				306A3EF5266619E00057CF7B /* Lift.swift in Sources */,
 				30124DD6266E1B1C0016C1FC /* YDRequestConfig.swift in Sources */,
+				305AA54426900B34005304E7 /* UIImageView+KingFisher.swift in Sources */,
 				3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */,
 				30776BBE265E8F40008AABFC /* YDTabBarController.swift in Sources */,
 				30CD77FC25C1596D00CEA0F6 /* CMDAddRequirementCommand.swift in Sources */,

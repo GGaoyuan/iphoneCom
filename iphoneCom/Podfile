@@ -1,5 +1,6 @@
 platform :ios, '12.0'
 inhibit_all_warnings!   #去掉pod里的所有警告
+use_frameworks!
 
 
 target 'iphoneCom' do
@@ -22,4 +23,9 @@ target 'iphoneCom' do
   #pod 'FBAllocationTracker'
   #pod 'FBRetainCycleDetector'
   
+  
+  pod 'YDSwift', :path => 'iphoneCom/Module/YDSwift/YDSwift.podspec'
+  pod 'YDLearn', :path => 'iphoneCom/Module/YDLearn/YDLearn.podspec'
+  
 end
+
