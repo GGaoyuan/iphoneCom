@@ -18,8 +18,8 @@ target 'iphoneCom' do
   pod 'KVOController' #安全KVO
   pod 'FMDB'
   
-  pod 'FBMemoryProfiler'
-  pod 'FBAllocationTracker'
-  pod 'FBRetainCycleDetector'
+  #pod 'FBMemoryProfiler'
+  #pod 'FBAllocationTracker'
+  #pod 'FBRetainCycleDetector'
   
 end

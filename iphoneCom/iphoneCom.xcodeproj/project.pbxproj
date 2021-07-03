@@ -10,6 +10,7 @@
 		30124DB8266E08A50016C1FC /* YDRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124DB7266E08A50016C1FC /* YDRequest.swift */; };
 		30124DC0266E0A5F0016C1FC /* YDRequestConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124DBF266E0A5F0016C1FC /* YDRequestConstant.swift */; };
 		30124DD6266E1B1C0016C1FC /* YDRequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30124DD5266E1B1C0016C1FC /* YDRequestConfig.swift */; };
+		302FF978268EB84100B9E75D /* KingFisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302FF977268EB84100B9E75D /* KingFisher.swift */; };
 		3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */; };
 		306A3EED2665DE3B0057CF7B /* StatusEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EEC2665DE3B0057CF7B /* StatusEntrance.swift */; };
 		306A3EF5266619E00057CF7B /* Lift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A3EF4266619E00057CF7B /* Lift.swift */; };
@@ -25,7 +26,6 @@
 		30776BD9265E941F008AABFC /* YDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BD8265E941F008AABFC /* YDViewController.swift */; };
 		30776BDE265E983B008AABFC /* YDHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BDD265E983B008AABFC /* YDHomeViewController.swift */; };
 		30776BE6265E9855008AABFC /* YDMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BE5265E9855008AABFC /* YDMineViewController.swift */; };
-		30776BEE265E987C008AABFC /* YDPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BED265E987C008AABFC /* YDPropertyViewController.swift */; };
 		307CBD2D266E6A2000E7CD46 /* YDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD2B266E6A2000E7CD46 /* YDLoginViewController.swift */; };
 		307CBD2E266E6A2000E7CD46 /* YDLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307CBD2C266E6A2000E7CD46 /* YDLoginViewController.xib */; };
 		307CBD3D266E796B00E7CD46 /* YDRetrievePwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD3B266E796B00E7CD46 /* YDRetrievePwdViewController.swift */; };
@@ -35,6 +35,8 @@
 		307CBD6D266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD6C266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift */; };
 		307CBD72266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307CBD71266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib */; };
 		30C58F91266F18F2007E5F0B /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C58F90266F18F2007E5F0B /* NSObject+Extension.swift */; };
+		30C58FAF266F5346007E5F0B /* YDResetPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C58FAD266F5346007E5F0B /* YDResetPwdViewController.swift */; };
+		30C58FB0266F5347007E5F0B /* YDResetPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30C58FAE266F5346007E5F0B /* YDResetPwdViewController.xib */; };
 		30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77A825C1423900CEA0F6 /* YDConstant.swift */; };
 		30CD77B825C1454400CEA0F6 /* CommandEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */; };
 		30CD77BD25C1457600CEA0F6 /* DPEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */; };
@@ -86,6 +88,7 @@
 		30124DB7266E08A50016C1FC /* YDRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRequest.swift; sourceTree = "<group>"; };
 		30124DBF266E0A5F0016C1FC /* YDRequestConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRequestConstant.swift; sourceTree = "<group>"; };
 		30124DD5266E1B1C0016C1FC /* YDRequestConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRequestConfig.swift; sourceTree = "<group>"; };
+		302FF977268EB84100B9E75D /* KingFisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFisher.swift; sourceTree = "<group>"; };
 		3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDUserInfo.swift; sourceTree = "<group>"; };
 		306A3EEC2665DE3B0057CF7B /* StatusEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusEntrance.swift; sourceTree = "<group>"; };
 		306A3EF4266619E00057CF7B /* Lift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lift.swift; sourceTree = "<group>"; };
@@ -101,7 +104,6 @@
 		30776BD8265E941F008AABFC /* YDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDViewController.swift; sourceTree = "<group>"; };
 		30776BDD265E983B008AABFC /* YDHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDHomeViewController.swift; sourceTree = "<group>"; };
 		30776BE5265E9855008AABFC /* YDMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDMineViewController.swift; sourceTree = "<group>"; };
-		30776BED265E987C008AABFC /* YDPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDPropertyViewController.swift; sourceTree = "<group>"; };
 		307CBD2B266E6A2000E7CD46 /* YDLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDLoginViewController.swift; sourceTree = "<group>"; };
 		307CBD2C266E6A2000E7CD46 /* YDLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDLoginViewController.xib; sourceTree = "<group>"; };
 		307CBD3B266E796B00E7CD46 /* YDRetrievePwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRetrievePwdViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,8 @@
 		307CBD6C266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRetrievePwdCheckingContentView.swift; sourceTree = "<group>"; };
 		307CBD71266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDRetrievePwdCheckingContentView.xib; sourceTree = "<group>"; };
 		30C58F90266F18F2007E5F0B /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		30C58FAD266F5346007E5F0B /* YDResetPwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDResetPwdViewController.swift; sourceTree = "<group>"; };
+		30C58FAE266F5346007E5F0B /* YDResetPwdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDResetPwdViewController.xib; sourceTree = "<group>"; };
 		30CD77A825C1423900CEA0F6 /* YDConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDConstant.swift; sourceTree = "<group>"; };
 		30CD77B725C1454400CEA0F6 /* CommandEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandEntrance.swift; sourceTree = "<group>"; };
 		30CD77BC25C1457600CEA0F6 /* DPEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEntrance.swift; sourceTree = "<group>"; };
@@ -202,6 +206,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		302FF976268EB81900B9E75D /* KingFisher */ = {
+			isa = PBXGroup;
+			children = (
+				302FF977268EB84100B9E75D /* KingFisher.swift */,
+			);
+			path = KingFisher;
+			sourceTree = "<group>";
+		};
 		306A3EE72665D9D60057CF7B /* 责任链 */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,18 +239,11 @@
 		30776BA2265E8686008AABFC /* Learn */ = {
 			isa = PBXGroup;
 			children = (
+				302FF976268EB81900B9E75D /* KingFisher */,
 				30DA679825908EE0008BE5F3 /* DesignPatterns */,
 				30DA675825908194008BE5F3 /* TestResource */,
 			);
 			path = Learn;
-			sourceTree = "<group>";
-		};
-		30776BCF265E9326008AABFC /* Property */ = {
-			isa = PBXGroup;
-			children = (
-				30776BED265E987C008AABFC /* YDPropertyViewController.swift */,
-			);
-			path = Property;
 			sourceTree = "<group>";
 		};
 		30776BD0265E9332008AABFC /* Mine */ = {
@@ -294,6 +299,8 @@
 				307CBD42266E7F5B00E7CD46 /* YDRetrievePwdCheckingViewController.swift */,
 				307CBD6C266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift */,
 				307CBD71266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib */,
+				30C58FAD266F5346007E5F0B /* YDResetPwdViewController.swift */,
+				30C58FAE266F5346007E5F0B /* YDResetPwdViewController.xib */,
 			);
 			path = "忘记密码";
 			sourceTree = "<group>";
@@ -388,7 +395,6 @@
 				30776BD2265E9356008AABFC /* UserSession */,
 				30776BD1265E933C008AABFC /* Home */,
 				30776BD0265E9332008AABFC /* Mine */,
-				30776BCF265E9326008AABFC /* Property */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -589,6 +595,7 @@
 				30DA676725908194008BE5F3 /* TestResource_JSON.json in Resources */,
 				307CBD72266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib in Resources */,
 				30DA670D25908094008BE5F3 /* Assets.xcassets in Resources */,
+				30C58FB0266F5347007E5F0B /* YDResetPwdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,17 +648,18 @@
 				306A3EED2665DE3B0057CF7B /* StatusEntrance.swift in Sources */,
 				307CBD48266E85AE00E7CD46 /* YDFadeViewController.swift in Sources */,
 				306A3EFF26663A010057CF7B /* LiftOpeningStatus.swift in Sources */,
+				302FF978268EB84100B9E75D /* KingFisher.swift in Sources */,
 				30CD77E125C1524D00CEA0F6 /* CMDCommand.swift in Sources */,
 				30DA676B25908194008BE5F3 /* YDMemoryMonitor.swift in Sources */,
 				30CD77BD25C1457600CEA0F6 /* DPEntrance.swift in Sources */,
 				30124DB8266E08A50016C1FC /* YDRequest.swift in Sources */,
+				30C58FAF266F5346007E5F0B /* YDResetPwdViewController.swift in Sources */,
 				307CBD2D266E6A2000E7CD46 /* YDLoginViewController.swift in Sources */,
 				30CD77A925C1423900CEA0F6 /* YDConstant.swift in Sources */,
 				30DA676C25908194008BE5F3 /* UIView+Extension.swift in Sources */,
 				30CD77CF25C14C3800CEA0F6 /* CMDPageGroup.swift in Sources */,
 				307CBD3D266E796B00E7CD46 /* YDRetrievePwdViewController.swift in Sources */,
 				306A3F1426663D150057CF7B /* LiftRunningStatus.swift in Sources */,
-				30776BEE265E987C008AABFC /* YDPropertyViewController.swift in Sources */,
 				30CD77CA25C14B9800CEA0F6 /* CMDRequirementGroup.swift in Sources */,
 				30776BC8265E92A9008AABFC /* YDNavigationController.swift in Sources */,
 				30DA670225908092008BE5F3 /* AppDelegate.m in Sources */,

@@ -19,10 +19,10 @@ import UIKit
         homeViewController.title = "首页"
         let homeNavigationController = YDNavigationController(rootViewController: homeViewController)
         
-        let propertyViewController = YDMineViewController()
-        propertyViewController.tabBarItem = UITabBarItem(title: nil, image:UIImage(named: "tabBarIcon_2_unselected")?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: "tabBarIcon_2_selected")?.withRenderingMode(.alwaysOriginal))
-        propertyViewController.title = "资产"
-        let propertyNavigationController = YDNavigationController(rootViewController: propertyViewController)
+//        let propertyViewController = YDMineViewController()
+//        propertyViewController.tabBarItem = UITabBarItem(title: nil, image:UIImage(named: "tabBarIcon_2_unselected")?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: "tabBarIcon_2_selected")?.withRenderingMode(.alwaysOriginal))
+//        propertyViewController.title = "资产"
+//        let propertyNavigationController = YDNavigationController(rootViewController: propertyViewController)
         
         let mineViewController = YDMineViewController()
         mineViewController.tabBarItem = UITabBarItem(title: nil, image:UIImage(named: "tabBarIcon_1_unselected")?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: "tabBarIcon_1_selected")?.withRenderingMode(.alwaysOriginal))
@@ -30,7 +30,7 @@ import UIKit
         let mineNavigationController = YDNavigationController(rootViewController: mineViewController)
         
         
-        viewControllers = [homeNavigationController, propertyNavigationController, mineNavigationController]
+        viewControllers = [homeNavigationController , mineNavigationController]
         
         tabBar.itemPositioning = .centered
         tabBar.itemWidth = kScreenWidth / 3.0 - 15 * 4 / 3.0

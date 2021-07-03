@@ -20,7 +20,7 @@ extension YDRetrievePwdCheckingViewController: YDFadeViewControllerProtocol {
             m.top.equalTo(view.snp.bottom)
         }
         view.layoutIfNeeded()
-        contentView.round(corners: [.topLeft, .topRight], radius: 10)
+        contentView.round(corners: [.topLeft, .topRight], radius: 18)
     }
     
     func customViewsShowAnimation() {

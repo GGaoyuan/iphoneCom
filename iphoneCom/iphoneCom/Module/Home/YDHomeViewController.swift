@@ -25,25 +25,47 @@ class YDHomeViewController: YDViewController {
             m.size.equalTo(CGSize(width:100, height: 100))
             m.centerY.centerX.equalToSuperview()
         }
-        
-        dpEntrance()
     }
     
     @objc func loginAtcion() {
-        let loginNav = YDNavigationController()
-        loginNav.modalPresentationStyle = .fullScreen
-        loginNav.addChild(YDLoginViewController())
-        present(loginNav, animated: true, completion: nil)
+//        let loginNav = YDNavigationController()
+//        loginNav.modalPresentationStyle = .fullScreen
+//        loginNav.addChild(YDLoginViewController())
+//        present(loginNav, animated: true, completion: nil)
         
-//        let loginViewController = YDLoginViewController()
-//        loginViewController.modalPresentationStyle = .fullScreen
-//        present(loginViewController, animated: true, completion: nil)
+//        dpEntrance()
+        
+        
+        let funVar = printInt
+        funVar(2)
+        
+        let funVar2 = printIntttt
+        funVar2(2, 4)
+        
+        
+        
+        print("")
+    }
+}
+
+extension YDHomeViewController {
+    
+    func useFunction(function:(Int)) {
+        
+    }
+    
+    
+    func printInt(i: Int) {
+        print("You passed \(i).")
+    }
+    
+    func printIntttt(i: Int, j: Int) {
+        print("You passed \(i). \(j)")
     }
 }
 
 extension YDHomeViewController {
     func dpEntrance() {
-//        DPEntrance.commandPattern()
         DPEntrance.statusPattern()
     }
 }

@@ -9,17 +9,17 @@ import UIKit
 
 class YDMemoryMonitor: NSObject {
     
-    static let monitor = YDMemoryMonitor()
-    private var memoryProfiler = FBMemoryProfiler()
-    
-    func startMemoryMonitor() {
-        FBAllocationTrackerManager.shared()?.startTrackingAllocations()
-        FBAllocationTrackerManager.shared()?.enableGenerations()
-        
-        memoryProfiler = FBMemoryProfiler()
-        memoryProfiler.enable()
-    }
-    
+//    static let monitor = YDMemoryMonitor()
+//    private var memoryProfiler = FBMemoryProfiler()
+//
+//    func startMemoryMonitor() {
+//        FBAllocationTrackerManager.shared()?.startTrackingAllocations()
+//        FBAllocationTrackerManager.shared()?.enableGenerations()
+//
+//        memoryProfiler = FBMemoryProfiler()
+//        memoryProfiler.enable()
+//    }
+//
     
     
 }
