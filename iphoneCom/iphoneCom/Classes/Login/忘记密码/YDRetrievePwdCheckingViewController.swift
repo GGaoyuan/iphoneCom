@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import YDSwift
 
 class YDRetrievePwdCheckingViewController: YDFadeViewController {
     private var contentView: YDRetrievePwdCheckingContentView!

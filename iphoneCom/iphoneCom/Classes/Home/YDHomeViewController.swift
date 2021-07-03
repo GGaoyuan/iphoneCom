@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import Kingfisher
 import YDSwift
-
+import YDLearn
 class YDHomeViewController: YDViewController {
 
     override func viewDidLoad() {
@@ -28,8 +28,7 @@ class YDHomeViewController: YDViewController {
 //            m.centerY.centerX.equalToSuperview()
 //        }
         
-        let a = TestClass()
-        a.testFunc()
+        dpEntrance()
         
         let url = URL(string: "https://img0.baidu.com/it/u=2997252132,3407860222&fm=26&fmt=auto&gp=0.jpg")
         
@@ -67,7 +66,7 @@ class YDHomeViewController: YDViewController {
 //        loginNav.addChild(YDLoginViewController())
 //        present(loginNav, animated: true, completion: nil)
         
-//        dpEntrance()
+        
         
         
         let funVar = printInt
