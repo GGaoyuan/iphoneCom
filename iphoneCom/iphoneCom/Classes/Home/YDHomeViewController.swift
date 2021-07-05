@@ -35,7 +35,7 @@ class YDHomeViewController: YDViewController {
         
         let imageViewA = { () -> UIImageView in
             let imageView = UIImageView()
-            imageView.backgroundColor = .gray
+            imageView.backgroundColor = rgba(1, 1, 1, 1)
             self.view.addSubview(imageView)
             return imageView
         }()

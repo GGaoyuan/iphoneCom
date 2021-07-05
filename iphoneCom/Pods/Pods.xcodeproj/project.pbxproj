@@ -84,6 +84,7 @@
 		2C06F2E972444D359754D21AC46BFFE2 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B46A79F3665E4DE00A9E82CE0A54CCA /* ConstraintInsetTarget.swift */; };
 		2DF63C0DA1498BCA7B71C7D706F09875 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5311DA0EBCEA12A6C6382419A2C396F7 /* UIGestureRecognizer+YYAdd.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2FC7FAE6426AFEB1AB3FBB392A640966 /* YYTextMagnifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8B4D24AA2DA20F0FD88C6225A2CF89 /* YYTextMagnifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		301F43F62692BCF30001391F /* WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F43F52692BCF30001391F /* WebImage.swift */; };
 		305AA54826905365005304E7 /* YDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AA54626905364005304E7 /* YDConstant.swift */; };
 		305AA54926905365005304E7 /* YDGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AA54726905365005304E7 /* YDGlobal.swift */; };
 		305AA54E2690541F005304E7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AA54B2690541E005304E7 /* UIView+Extension.swift */; };
@@ -609,6 +610,7 @@
 		2E51335422563425071C9A643F151271 /* TVMonogramView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TVMonogramView+Kingfisher.swift"; path = "Sources/Extensions/TVMonogramView+Kingfisher.swift"; sourceTree = "<group>"; };
 		2F1A342D8B29DDAB6A44C7DFC83BD6FC /* NSTextAttachment+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextAttachment+Kingfisher.swift"; path = "Sources/Extensions/NSTextAttachment+Kingfisher.swift"; sourceTree = "<group>"; };
 		2F89AA3766CDBDB322459847C736F99B /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		301F43F52692BCF30001391F /* WebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImage.swift; sourceTree = "<group>"; };
 		305AA54626905364005304E7 /* YDConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YDConstant.swift; sourceTree = "<group>"; };
 		305AA54726905365005304E7 /* YDGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YDGlobal.swift; sourceTree = "<group>"; };
 		305AA54B2690541E005304E7 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -1261,6 +1263,22 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		301F43F32692BCC40001391F /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				301F43F42692BCDC0001391F /* WebImage */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		301F43F42692BCDC0001391F /* WebImage */ = {
+			isa = PBXGroup;
+			children = (
+				301F43F52692BCF30001391F /* WebImage.swift */,
+			);
+			path = WebImage;
+			sourceTree = "<group>";
+		};
 		305AA54A26905406005304E7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -1634,6 +1652,7 @@
 		B603F93E382635BF0C6976124C840C49 /* YDSwift */ = {
 			isa = PBXGroup;
 			children = (
+				301F43F32692BCC40001391F /* Widget */,
 				305AA54A26905406005304E7 /* Extension */,
 				305AA54726905365005304E7 /* YDGlobal.swift */,
 				305AA54626905364005304E7 /* YDConstant.swift */,
@@ -2552,6 +2571,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301F43F62692BCF30001391F /* WebImage.swift in Sources */,
 				305AA54F2690541F005304E7 /* NSObject+Extension.swift in Sources */,
 				18F549E72B9E973C339AB2BA13C1F1BC /* YDSwift-dummy.m in Sources */,
 				305AA54826905365005304E7 /* YDConstant.swift in Sources */,
