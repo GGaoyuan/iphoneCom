@@ -85,6 +85,7 @@
 		2DF63C0DA1498BCA7B71C7D706F09875 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5311DA0EBCEA12A6C6382419A2C396F7 /* UIGestureRecognizer+YYAdd.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2FC7FAE6426AFEB1AB3FBB392A640966 /* YYTextMagnifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8B4D24AA2DA20F0FD88C6225A2CF89 /* YYTextMagnifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		301F43F62692BCF30001391F /* WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F43F52692BCF30001391F /* WebImage.swift */; };
+		301F43F82692FF550001391F /* UIImageView+WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F43F72692FF550001391F /* UIImageView+WebView.swift */; };
 		305AA54826905365005304E7 /* YDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AA54626905364005304E7 /* YDConstant.swift */; };
 		305AA54926905365005304E7 /* YDGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AA54726905365005304E7 /* YDGlobal.swift */; };
 		305AA54E2690541F005304E7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AA54B2690541E005304E7 /* UIView+Extension.swift */; };
@@ -611,6 +612,7 @@
 		2F1A342D8B29DDAB6A44C7DFC83BD6FC /* NSTextAttachment+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextAttachment+Kingfisher.swift"; path = "Sources/Extensions/NSTextAttachment+Kingfisher.swift"; sourceTree = "<group>"; };
 		2F89AA3766CDBDB322459847C736F99B /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		301F43F52692BCF30001391F /* WebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImage.swift; sourceTree = "<group>"; };
+		301F43F72692FF550001391F /* UIImageView+WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+WebView.swift"; sourceTree = "<group>"; };
 		305AA54626905364005304E7 /* YDConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YDConstant.swift; sourceTree = "<group>"; };
 		305AA54726905365005304E7 /* YDGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YDGlobal.swift; sourceTree = "<group>"; };
 		305AA54B2690541E005304E7 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -1275,6 +1277,7 @@
 			isa = PBXGroup;
 			children = (
 				301F43F52692BCF30001391F /* WebImage.swift */,
+				301F43F72692FF550001391F /* UIImageView+WebView.swift */,
 			);
 			path = WebImage;
 			sourceTree = "<group>";
@@ -2575,6 +2578,7 @@
 				305AA54F2690541F005304E7 /* NSObject+Extension.swift in Sources */,
 				18F549E72B9E973C339AB2BA13C1F1BC /* YDSwift-dummy.m in Sources */,
 				305AA54826905365005304E7 /* YDConstant.swift in Sources */,
+				301F43F82692FF550001391F /* UIImageView+WebView.swift in Sources */,
 				305AA5502690541F005304E7 /* UIImage+Extension.swift in Sources */,
 				305AA54E2690541F005304E7 /* UIView+Extension.swift in Sources */,
 				305AA54926905365005304E7 /* YDGlobal.swift in Sources */,
