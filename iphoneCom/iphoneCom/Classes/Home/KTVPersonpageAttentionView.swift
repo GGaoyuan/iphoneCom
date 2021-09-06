@@ -8,73 +8,18 @@
 import UIKit
 import YDSwift
 
-class KTVPersonpageAttentionGradientView: UIView {
-    private var gradientLayer: CAGradientLayer!
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        isUserInteractionEnabled = true
-        
-        gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [rgba(255,41,89,1).cgColor, rgba(255,60,60,1).cgColor]
-        gradientLayer.locations = [0,1]
-        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
-        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0)
-        layer.insertSublayer(gradientLayer, at: 0)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        gradientLayer.frame = bounds;
-    }
-    
-    func expandAnimation() {
-        let bgColorAni = CABasicAnimation(keyPath: "colors")
-        bgColorAni.duration = 0.45 / k
-        bgColorAni.toValue = [rgba(255,41,89,1).cgColor, rgba(255,60,60,1).cgColor]
-        bgColorAni.fillMode = .both
-        bgColorAni.isRemovedOnCompletion = false
-        gradientLayer.add(bgColorAni, forKey: "bgColorAni")
-    }
-    
-    func shrinkAnimation() {
-        let colors = [rgba(235,235,235,1).cgColor, rgba(235,235,235,1).cgColor]
-        let bgColorAni = CABasicAnimation(keyPath: "colors")
-        bgColorAni.duration = 0.45 / k
-        bgColorAni.toValue = colors
-        bgColorAni.fillMode = .both
-        bgColorAni.isRemovedOnCompletion = false
-        gradientLayer.add(bgColorAni, forKey: "bgColorAni")
-    }
-}
-
-
 class KTVPersonpageAttentionView: UIView {
-    private var gradientView: KTVPersonpageAttentionGradientView!
     //normal
-    private var container: UIView!
-    private var iconImageView: UIImageView!
-    private var textLabel: UILabel!
+    var container: UIView!
+//    var iconImageView: UIImageView!
+//    var textLabel: UILabel!
     //selected
-    private var selectedIconImageView: UIImageView!
+//    var selectedIconImageView: UIImageView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = rgba(235,235,235,1)
-        
-        gradientView = { () -> KTVPersonpageAttentionGradientView in
-            let kView = KTVPersonpageAttentionGradientView()
-            kView.backgroundColor = rgba(235,235,235,1)
-            addSubview(kView)
-            kView.snp.makeConstraints { m in
-                m.edges.equalToSuperview()
-            }
-            return kView
-        }()
+        backgroundColor = rgba(255,41,89,1)
         
         container = { () -> UIView in
             let kView = UIView()
@@ -136,8 +81,8 @@ class KTVPersonpageAttentionView: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        self.layer.cornerRadius = bounds.size.height/2
-        self.layer.masksToBounds = true
+        layer.cornerRadius = bounds.size.height/2
+        layer.masksToBounds = true
     }
     
     func expanded(_ expand: Bool) {
@@ -146,77 +91,80 @@ class KTVPersonpageAttentionView: UIView {
     }
 }
 
-let k: TimeInterval = 0.1
+
+
+
+
+
+
+
+
+
+
 extension KTVPersonpageAttentionView {
     
     func expandAnimation() {
-        gradientView.expandAnimation()
+        self.container.isHidden = false
+        self.container.alpha = 0
+//        selectedIconImageView.transform = CGAffineTransform.identity.scaledBy(x: 0, y: 0)
+        UIView.animateKeyframes(withDuration: 70 / k, delay: 0, options: UIView.KeyframeAnimationOptions.calculationModeLinear) {
+            //关注按钮部分
+            //底部颜色
+            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1) {
+                self.backgroundColor = rgba(255,41,89,1)
+            }
+            //文字与图标渐隐
+            UIView.addKeyframe(withRelativeStartTime: 0.72, relativeDuration: 1) {
+                self.container.alpha = 1
+            }
+//            //shrink图标渐显
+//            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.56) {
+//                self.selectedIconImageView.alpha = 0
+//            }
+//            //shrink图标scale
+//            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.28) {
+//                self.selectedIconImageView.transform = CGAffineTransform.identity.scaledBy(x: 1.2, y: 1.2)
+//            }
+//            UIView.addKeyframe(withRelativeStartTime: 0.28, relativeDuration: 0.56) {
+//                self.selectedIconImageView.transform = CGAffineTransform.identity.scaledBy(x: 0, y: 0)
+//            }
+        } completion: { complete in
+            self.expanded(true)
+        }
         
-//        let bgColorAni = CABasicAnimation(keyPath: "colors")
-//        bgColorAni.duration = 0.045 / k
-////        bgColorAni.fromValue = [rgba(235,235,235,1).cgColor, rgba(235,235,235,1).cgColor]
-//        bgColorAni.toValue = [rgba(255,41,89,1).cgColor, rgba(255,60,60,1).cgColor]
-//        bgColorAni.fillMode = .both
-//        bgColorAni.isRemovedOnCompletion = false
-//        gradientLayer.add(bgColorAni, forKey: "bgColorAni")
-
-        
-        
-//        container.isHidden = false
-//        container.layer.opacity = 0
-//        let containerOpacity = CABasicAnimation(keyPath: "opacity")
-//        containerOpacity.duration = 0.02 / k
-//        containerOpacity.toValue = 1
-//        containerOpacity.fillMode = .forwards
-//        containerOpacity.isRemovedOnCompletion = false
-//        container.layer.add(containerOpacity, forKey: "containerOpacity")
-//
-//        let selectedIconOpacity = CAKeyframeAnimation(keyPath: "opacity")
-//        selectedIconOpacity.values = [1, 0, 0]
-//        selectedIconOpacity.keyTimes = [1, 0.43, 0]
-//        let selectedIconScale = CAKeyframeAnimation(keyPath: "transform.scale")
-//        selectedIconScale.values = [1, 1.2, 0, 0]
-//        selectedIconScale.keyTimes = [0, 0.22, 0.43, 1]
-//        let groupAnimi = CAAnimationGroup()
-//        groupAnimi.duration = 0.07 / k
-//        groupAnimi.fillMode = .forwards
-//        groupAnimi.animations = [selectedIconOpacity, selectedIconScale]
-//        groupAnimi.isRemovedOnCompletion = false
-//        selectedIconImageView.layer.add(groupAnimi, forKey: "groupAnimi")
     }
     
+    
+    /// 一共70ms
     func shrinkAnimation() {
-        gradientView.shrinkAnimation()
-
-//        let colors = [rgba(235,235,235,1).cgColor, rgba(235,235,235,1).cgColor]
-//        let bgColorAni = CABasicAnimation(keyPath: "colors")
-//        bgColorAni.duration = 0.045 / k
-//        bgColorAni.toValue = colors
-//        bgColorAni.fillMode = .both
-//        bgColorAni.isRemovedOnCompletion = false
-//        gradientLayer.add(bgColorAni, forKey: "bgColorAni")
-//
-//        let containerOpacity = CABasicAnimation(keyPath: "opacity")
-//        containerOpacity.duration = 0.02 / k
-//        containerOpacity.toValue = 0
-//        containerOpacity.fillMode = .forwards
-//        containerOpacity.isRemovedOnCompletion = false
-//        container.layer.add(containerOpacity, forKey: "containerOpacity")
-//
-//        selectedIconImageView.isHidden = false
-//        selectedIconImageView.layer.opacity = 0
-//        let selectedIconOpacity = CAKeyframeAnimation(keyPath: "opacity")
-//        selectedIconOpacity.values = [0, 0, 1]
-//        selectedIconOpacity.keyTimes = [0, 0.57, 1]
-//        let selectedIconScale = CAKeyframeAnimation(keyPath: "transform.scale")
-//        selectedIconScale.values = [0, 0, 1.2, 1]
-//        selectedIconScale.keyTimes = [0, 0.57, 0.78, 1]
-//        let groupAnimi = CAAnimationGroup()
-//        groupAnimi.duration = 0.07 / k
-//        groupAnimi.fillMode = .forwards
-//        groupAnimi.animations = [selectedIconOpacity, selectedIconScale]
-//        groupAnimi.isRemovedOnCompletion = false
-//        selectedIconImageView.layer.add(groupAnimi, forKey: "groupAnimi")
+        
+        selectedIconImageView.isHidden = false
+        selectedIconImageView.alpha = 0
+        selectedIconImageView.transform = CGAffineTransform.identity.scaledBy(x: 0, y: 0)
+        UIView.animateKeyframes(withDuration: 70 / k, delay: 0, options: UIView.KeyframeAnimationOptions.calculationModeLinear) {
+            //关注按钮部分
+            //底部颜色
+            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1) {
+                self.backgroundColor = rgba(235,235,235,1)
+            }
+            //文字与图标渐隐
+            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.28) {
+                self.container.alpha = 0
+            }
+            //shrink图标渐显
+            UIView.addKeyframe(withRelativeStartTime: 0.56, relativeDuration: 1) {
+                self.selectedIconImageView.alpha = 1
+            }
+            //shrink图标scale
+            UIView.addKeyframe(withRelativeStartTime: 0.56, relativeDuration: 0.78) {
+                self.selectedIconImageView.transform = CGAffineTransform.identity.scaledBy(x: 1.2, y: 1.2)
+            }
+            UIView.addKeyframe(withRelativeStartTime: 0.78, relativeDuration: 1) {
+                self.selectedIconImageView.transform = CGAffineTransform.identity.scaledBy(x: 1, y: 1)
+            }
+        } completion: { complete in
+            self.expanded(false)
+        }
     }
 }
 

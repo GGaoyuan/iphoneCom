@@ -37,7 +37,7 @@ class WWDCShare: NSObject {
         // [[3, 4, 5], [6, 7, 8]]
 //        var flatRes = numbersCompound.flatMap { $0.map{ $0 + 2 } }
         
-        print("")
+//        print("")
 //        print(resultNormal, resultCompact)
     }
 }

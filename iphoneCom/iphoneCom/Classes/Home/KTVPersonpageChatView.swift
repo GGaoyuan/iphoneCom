@@ -10,7 +10,7 @@ import YDSwift
 
 
 class KTVPersonpageChatView: UIView {
-    let iconSize = CGSize(width: 16, height: 16)
+    let IconSize = CGSize(width: 16, height: 16)
     private var iconImageView: UIImageView!
     private var textLabel: UILabel!
     
@@ -26,7 +26,7 @@ class KTVPersonpageChatView: UIView {
             imageView.snp.makeConstraints { m in
                 m.centerY.equalToSuperview()
                 m.centerX.equalToSuperview().offset(-14)
-                m.size.equalTo(iconSize)
+                m.size.equalTo(IconSize)
             }
             return imageView
         }()
@@ -65,7 +65,7 @@ class KTVPersonpageChatView: UIView {
             } else {
                 m.center.equalToSuperview()
             }
-            m.size.equalTo(iconSize)
+            m.size.equalTo(IconSize)
         }
     }
 }
@@ -76,11 +76,7 @@ extension KTVPersonpageChatView {
         textLabel.isHidden = false
         textLabel.alpha = 0
         textLabel.transform = CGAffineTransform.identity.scaledBy(x: 0, y: 0)
-        UIView.animateKeyframes(withDuration: 0.08/k, delay: 0, options: UIView.KeyframeAnimationOptions.calculationModeLinear) {
-            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.1875) {
-                self.textLabel.alpha = 0
-                self.textLabel.transform = CGAffineTransform.identity.scaledBy(x: 0, y: 0)
-            }
+        UIView.animateKeyframes(withDuration: 80/k, delay: 0, options: UIView.KeyframeAnimationOptions.calculationModeLinear) {
             UIView.addKeyframe(withRelativeStartTime: 0.1875, relativeDuration: 1) {
                 self.textLabel.alpha = 1
                 self.textLabel.transform = CGAffineTransform.identity.scaledBy(x: 1, y: 1)
@@ -89,34 +85,30 @@ extension KTVPersonpageChatView {
                 self.iconImageView.snp.remakeConstraints { m in
                     m.centerY.equalToSuperview()
                     m.centerX.equalToSuperview().offset(-14)
-                    m.size.equalTo(self.iconSize)
+                    m.size.equalTo(self.IconSize)
                 }
             }
             self.layoutIfNeeded()
         } completion: { complete in
-
+            self.expanded(true)
         }
     }
     
     func shrinkAnimation() {
-        UIView.animateKeyframes(withDuration: 0.08/k, delay: 0, options: UIView.KeyframeAnimationOptions.calculationModeLinear) {
-            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.8125) {
-                self.textLabel.alpha = 0
-                self.textLabel.transform = CGAffineTransform.identity.scaledBy(x: 0, y: 0)
-            }
-            UIView.addKeyframe(withRelativeStartTime: 0.8125, relativeDuration: 1) {
+        UIView.animateKeyframes(withDuration: 80/k, delay: 0, options: UIView.KeyframeAnimationOptions.calculationModeLinear) {
+            UIView.addKeyframe(withRelativeStartTime: 0.1875, relativeDuration: 1) {
                 self.textLabel.alpha = 0
                 self.textLabel.transform = CGAffineTransform.identity.scaledBy(x: 0, y: 0)
             }
             UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1) {
                 self.iconImageView.snp.remakeConstraints { m in
                     m.center.equalToSuperview()
-                    m.size.equalTo(self.iconSize)
+                    m.size.equalTo(self.IconSize)
                 }
             }
             self.layoutIfNeeded()
         } completion: { complete in
-
+            self.expanded(false)
         }
     }
 }

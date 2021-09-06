@@ -65,7 +65,6 @@ class YDHomeViewController: YDViewController {
             m.centerY.equalToSuperview()
             m.right.equalTo(-RightMargin)
         }
-        
         attentionBtn = KTVPersonpageAttentionView()
         container.addSubview(attentionBtn)
         attentionBtn.snp.makeConstraints { m in
@@ -74,6 +73,8 @@ class YDHomeViewController: YDViewController {
             m.centerY.equalToSuperview()
             m.height.equalTo(Height)
         }
+        
+        
         attentionBtn.expanded(true)
         chatBtn.expanded(false)
         
@@ -102,56 +103,54 @@ class YDHomeViewController: YDViewController {
         dpEntrance()
     }
     
+    
+}
+
+
+let k: TimeInterval = 10
+extension YDHomeViewController {
     @objc func attentionBtnAction() {
+        //外形改变
+        UIView.animate(withDuration: 55 / k) {
+            self.attentionBtn.snp.remakeConstraints { m in
+                m.left.centerY.equalToSuperview()
+                m.width.height.equalTo(Height)
+            }
+            self.chatBtn.snp.remakeConstraints { m in
+                m.height.equalTo(Height)
+                m.centerY.equalToSuperview()
+                m.right.equalTo(-RightMargin)
+                m.left.equalTo(self.attentionBtn.snp.right).offset(Space)
+            }
+            //其他
+            self.view.layoutIfNeeded()
+        }
         attentionBtn.shrinkAnimation()
         chatBtn.expandAnimation()
-        self.chatBtn.snp.remakeConstraints { m in
-            m.height.equalTo(Height)
-            m.centerY.equalToSuperview()
-            m.right.equalTo(-RightMargin)
-            m.left.equalTo(self.attentionBtn.snp.right).offset(Space)
-        }
-        self.attentionBtn.snp.remakeConstraints { m in
-            m.left.centerY.equalToSuperview()
-            m.width.height.equalTo(Height)
-        }
-        UIView.animate(withDuration: 0.55 / k) {
-            self.view.layoutIfNeeded()
-        } completion: { complete in
-            self.attentionBtn.expanded(false)
-            self.chatBtn.expanded(true)
-        }
         print("attentionBtnAction")
     }
     
     @objc func chatBtnAction() {
-        attentionBtn.expandAnimation()
-        chatBtn.shrinkAnimation()
-        
-        self.chatBtn.snp.remakeConstraints { m in
-            m.width.height.equalTo(Height)
-            m.centerY.equalToSuperview()
-            m.right.equalTo(-RightMargin)
-        }
-        self.attentionBtn.snp.remakeConstraints { m in
-            m.left.equalToSuperview()
-            m.right.equalTo(self.chatBtn.snp.left).offset(-Space)
-            m.centerY.equalToSuperview()
-            m.height.equalTo(Height)
-        }
-        
-        UIView.animate(withDuration: 0.55 / k) {
+        UIView.animate(withDuration: 55 / k) {
+            self.chatBtn.snp.remakeConstraints { m in
+                m.width.height.equalTo(Height)
+                m.centerY.equalToSuperview()
+                m.right.equalTo(-RightMargin)
+            }
+            self.attentionBtn.snp.remakeConstraints { m in
+                m.left.equalToSuperview()
+                m.right.equalTo(self.chatBtn.snp.left).offset(-Space)
+                m.centerY.equalToSuperview()
+                m.height.equalTo(Height)
+            }
             self.view.layoutIfNeeded()
         } completion: { complete in
-            self.attentionBtn.expanded(true)
-            self.chatBtn.expanded(false)
+            
         }
+        attentionBtn.expandAnimation()
+        chatBtn.shrinkAnimation()
         print("chatBtnAction")
     }
-}
-
-extension YDHomeViewController {
-    
 }
 
 extension YDHomeViewController {
