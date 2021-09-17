@@ -13,7 +13,6 @@
 		302FF978268EB84100B9E75D /* KingFisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302FF977268EB84100B9E75D /* KingFisher.swift */; };
 		3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */; };
 		305AA54426900B34005304E7 /* UIImageView+KingFisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AA54326900B34005304E7 /* UIImageView+KingFisher.swift */; };
-		3071EEE9269B06CB008760DC /* WWDCShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3071EEE8269B06CB008760DC /* WWDCShare.swift */; };
 		30776BBE265E8F40008AABFC /* YDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BBD265E8F40008AABFC /* YDTabBarController.swift */; };
 		30776BC3265E8FE2008AABFC /* YDUserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BC2265E8FE2008AABFC /* YDUserSession.swift */; };
 		30776BC8265E92A9008AABFC /* YDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776BC7265E92A9008AABFC /* YDNavigationController.swift */; };
@@ -28,8 +27,6 @@
 		307CBD48266E85AE00E7CD46 /* YDFadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD47266E85AE00E7CD46 /* YDFadeViewController.swift */; };
 		307CBD6D266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CBD6C266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift */; };
 		307CBD72266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307CBD71266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib */; };
-		30C0FBED26D792EE0020B098 /* KTVPersonpageAttentionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0FBEC26D792EE0020B098 /* KTVPersonpageAttentionView.swift */; };
-		30C0FBEF26D793010020B098 /* KTVPersonpageChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0FBEE26D793010020B098 /* KTVPersonpageChatView.swift */; };
 		30C58FAF266F5346007E5F0B /* YDResetPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C58FAD266F5346007E5F0B /* YDResetPwdViewController.swift */; };
 		30C58FB0266F5347007E5F0B /* YDResetPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30C58FAE266F5346007E5F0B /* YDResetPwdViewController.xib */; };
 		30DA670225908092008BE5F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA670125908092008BE5F3 /* AppDelegate.m */; };
@@ -67,7 +64,6 @@
 		302FF977268EB84100B9E75D /* KingFisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFisher.swift; sourceTree = "<group>"; };
 		3041D6AE265EA85F00D03ECD /* YDUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDUserInfo.swift; sourceTree = "<group>"; };
 		305AA54326900B34005304E7 /* UIImageView+KingFisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+KingFisher.swift"; sourceTree = "<group>"; };
-		3071EEE8269B06CB008760DC /* WWDCShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCShare.swift; sourceTree = "<group>"; };
 		30776BBD265E8F40008AABFC /* YDTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDTabBarController.swift; sourceTree = "<group>"; };
 		30776BC2265E8FE2008AABFC /* YDUserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDUserSession.swift; sourceTree = "<group>"; };
 		30776BC7265E92A9008AABFC /* YDNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDNavigationController.swift; sourceTree = "<group>"; };
@@ -82,8 +78,6 @@
 		307CBD47266E85AE00E7CD46 /* YDFadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDFadeViewController.swift; sourceTree = "<group>"; };
 		307CBD6C266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRetrievePwdCheckingContentView.swift; sourceTree = "<group>"; };
 		307CBD71266F0E0000E7CD46 /* YDRetrievePwdCheckingContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDRetrievePwdCheckingContentView.xib; sourceTree = "<group>"; };
-		30C0FBEC26D792EE0020B098 /* KTVPersonpageAttentionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVPersonpageAttentionView.swift; sourceTree = "<group>"; };
-		30C0FBEE26D793010020B098 /* KTVPersonpageChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVPersonpageChatView.swift; sourceTree = "<group>"; };
 		30C58FAD266F5346007E5F0B /* YDResetPwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDResetPwdViewController.swift; sourceTree = "<group>"; };
 		30C58FAE266F5346007E5F0B /* YDResetPwdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDResetPwdViewController.xib; sourceTree = "<group>"; };
 		30DA66FD25908092008BE5F3 /* iphoneCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphoneCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,9 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				30776BDD265E983B008AABFC /* YDHomeViewController.swift */,
-				3071EEE8269B06CB008760DC /* WWDCShare.swift */,
-				30C0FBEC26D792EE0020B098 /* KTVPersonpageAttentionView.swift */,
-				30C0FBEE26D793010020B098 /* KTVPersonpageChatView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -517,13 +508,10 @@
 				30776BD9265E941F008AABFC /* YDViewController.swift in Sources */,
 				307CBD6D266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift in Sources */,
 				30776BDE265E983B008AABFC /* YDHomeViewController.swift in Sources */,
-				3071EEE9269B06CB008760DC /* WWDCShare.swift in Sources */,
 				30124DD6266E1B1C0016C1FC /* YDRequestConfig.swift in Sources */,
 				305AA54426900B34005304E7 /* UIImageView+KingFisher.swift in Sources */,
 				3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */,
 				30776BBE265E8F40008AABFC /* YDTabBarController.swift in Sources */,
-				30C0FBEF26D793010020B098 /* KTVPersonpageChatView.swift in Sources */,
-				30C0FBED26D792EE0020B098 /* KTVPersonpageAttentionView.swift in Sources */,
 				30776BE6265E9855008AABFC /* YDMineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
