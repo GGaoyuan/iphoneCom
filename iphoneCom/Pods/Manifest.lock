@@ -36,8 +36,8 @@ DEPENDENCIES:
   - Kingfisher
   - KVOController
   - SnapKit
-  - YDLearn (from `iphoneCom/Module/YDLearn/YDLearn.podspec`)
-  - YDSwift (from `iphoneCom/Module/YDSwift/YDSwift.podspec`)
+  - YDLearn (from `../Module/YDLearn/YDLearn.podspec`)
+  - YDSwift (from `../Module/YDSwift/YDSwift.podspec`)
   - YYKit
 
 SPEC REPOS:
@@ -53,9 +53,9 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   YDLearn:
-    :path: iphoneCom/Module/YDLearn/YDLearn.podspec
+    :path: "../Module/YDLearn/YDLearn.podspec"
   YDSwift:
-    :path: iphoneCom/Module/YDSwift/YDSwift.podspec
+    :path: "../Module/YDSwift/YDSwift.podspec"
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -69,6 +69,6 @@ SPEC CHECKSUMS:
   YDSwift: 44776e7e735166b50d993b7a00ab68de25a71288
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 39c42cf17545d3f01b355cdd80afb3182f77a1ee
+PODFILE CHECKSUM: 81264c0bfc6dd054360bf0c9f6edd4425a6280a2
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

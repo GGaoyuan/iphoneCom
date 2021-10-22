@@ -24,8 +24,8 @@ target 'iphoneCom' do
   #pod 'FBRetainCycleDetector'
   
   
-  pod 'YDSwift', :path => 'iphoneCom/Module/YDSwift/YDSwift.podspec'
-  pod 'YDLearn', :path => 'iphoneCom/Module/YDLearn/YDLearn.podspec'
+  pod 'YDSwift', :path => '../Module/YDSwift/YDSwift.podspec'
+  pod 'YDLearn', :path => '../Module/YDLearn/YDLearn.podspec'
   
 end
 
