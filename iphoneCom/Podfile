@@ -26,7 +26,7 @@ target 'iphoneCom' do
   
   
   pod 'YDSwift', :path => '../Module/YDSwift/YDSwift.podspec'
-#  pod 'YDLearn', :path => '../Module/YDLearn/YDLearn.podspec'
+  pod 'YDLearn', :path => '../Module/YDLearn/YDLearn.podspec'
   
 end
 
