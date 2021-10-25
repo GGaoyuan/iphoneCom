@@ -22,5 +22,10 @@
   "frameworks": [
     "UIKit",
     "Foundation"
-  ]
+  ],
+  "dependencies": {
+    "YDSwift": [
+
+    ]
+  }
 }

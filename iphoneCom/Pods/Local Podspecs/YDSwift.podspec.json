@@ -1,6 +1,6 @@
 {
   "name": "YDSwift",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of YDSwift.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/707216098@qq.com/YDSwift",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/707216098@qq.com/YDSwift.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

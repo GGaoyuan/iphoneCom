@@ -248,11 +248,18 @@
 			remoteGlobalIDString = 488BE08855B9B19AA8E7A30A9B8A61BF;
 			remoteInfo = YDSwift;
 		};
+		46EB2E00002150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488BE08855B9B19AA8E7A30A9B8A61BF;
+			remoteInfo = YDSwift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		11C10012501E0998B5B60D9DB741E1D7 /* YDLearn */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YDLearn; path = YDLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E00000110 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000110 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E00000120 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		46EB2E00000130 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		46EB2E00000140 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
@@ -416,19 +423,19 @@
 		46EB2E00000B20 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		46EB2E00000B30 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
 		46EB2E00000B40 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
-		46EB2E00000B50 /* DPEntrance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DPEntrance.swift; sourceTree = "<group>"; };
+		46EB2E00000B50 /* DPEntrance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPEntrance.swift; path = YDLearn/Classes/DesignPatterns/DPEntrance.swift; sourceTree = "<group>"; };
 		46EB2E00000B70 /* NSObject+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		46EB2E00000B80 /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		46EB2E00000B90 /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		46EB2E00000BC0 /* WebImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebImage.swift; sourceTree = "<group>"; };
 		46EB2E00000BD0 /* YDConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YDConstant.swift; path = YDSwift/Classes/YDConstant.swift; sourceTree = "<group>"; };
 		46EB2E00000BE0 /* YDGlobal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YDGlobal.swift; path = YDSwift/Classes/YDGlobal.swift; sourceTree = "<group>"; };
-		46EB2E00000C00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		46EB2E00000C10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		46EB2E00000C20 /* YDLearn.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDLearn.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E00000C40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		46EB2E00000C50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		46EB2E00000C60 /* YDSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000C00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46EB2E00000C10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46EB2E00000C20 /* YDLearn.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YDLearn.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000C40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46EB2E00000C50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46EB2E00000C60 /* YDSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YDSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E00000D10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		46EB2E00000F70 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		46EB2E00000F80 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
@@ -557,15 +564,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30399EFE27268EDE00474787 /* DesignPatterns */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000B50 /* DPEntrance.swift */,
-			);
-			name = DesignPatterns;
-			path = YDLearn/Classes/DesignPatterns;
-			sourceTree = "<group>";
-		};
 		46EB2E00000010 = {
 			isa = PBXGroup;
 			children = (
@@ -668,6 +666,7 @@
 				46EB2E00000340 /* Validation.swift */,
 				46EB2E00000F60 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -712,6 +711,7 @@
 				46EB2E00000580 /* URLTransform.swift */,
 				46EB2E000012E0 /* Support Files */,
 			);
+			name = HandyJSON;
 			path = HandyJSON;
 			sourceTree = "<group>";
 		};
@@ -776,6 +776,7 @@
 				46EB2E00000640 /* WKInterfaceImage+Kingfisher.swift */,
 				46EB2E000017A0 /* Support Files */,
 			);
+			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -820,13 +821,14 @@
 				46EB2E00000B40 /* UILayoutSupport+Extensions.swift */,
 				46EB2E00001B20 /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
 		46EB2E000000F0 /* YDLearn */ = {
 			isa = PBXGroup;
 			children = (
-				30399EFE27268EDE00474787 /* DesignPatterns */,
+				46EB2E00000B50 /* DPEntrance.swift */,
 				46EB2E00000BF0 /* Pod */,
 				46EB2E00001C70 /* Support Files */,
 			);
@@ -873,6 +875,7 @@
 			children = (
 				46EB2E00000BC0 /* WebImage.swift */,
 			);
+			name = WebImage;
 			path = WebImage;
 			sourceTree = "<group>";
 		};
@@ -1167,6 +1170,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				46EB2E00002160 /* PBXTargetDependency */,
 			);
 			name = YDLearn;
 			productName = YDLearn;
@@ -1558,6 +1562,12 @@
 			name = YDSwift;
 			target = 488BE08855B9B19AA8E7A30A9B8A61BF /* YDSwift */;
 			targetProxy = 46EB2E00002130 /* PBXContainerItemProxy */;
+		};
+		46EB2E00002160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YDSwift;
+			target = 488BE08855B9B19AA8E7A30A9B8A61BF /* YDSwift */;
+			targetProxy = 46EB2E00002150 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
