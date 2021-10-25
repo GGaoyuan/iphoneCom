@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "488BE08855B9B19AA8E7A30A9B8A61BF"
-               BuildableName = "YDSwift"
+               BuildableName = "YDSwift.framework"
                BlueprintName = "YDSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

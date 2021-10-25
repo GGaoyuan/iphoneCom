@@ -1,3 +1,4 @@
+install! 'cocoapods', :deterministic_uuids => false
 platform :ios, '12.0'
 inhibit_all_warnings!   #去掉pod里的所有警告
 use_frameworks!
@@ -9,15 +10,15 @@ target 'iphoneCom' do
   #pod 'YYCache'
   #pod 'YYWebImage'
   #pod 'YYText'
-  pod 'YYKit'
-  pod "AFNetworking"
+#  pod 'YYKit'
+#  pod "AFNetworking"
   pod 'Alamofire'
   pod 'HandyJSON'
   pod 'Kingfisher' # 图片加载
   pod 'SnapKit'
   
-  pod 'KVOController' #安全KVO
-  pod 'FMDB'
+#  pod 'KVOController' #安全KVO
+#  pod 'FMDB'
   
   #pod 'FBMemoryProfiler'
   #pod 'FBAllocationTracker'
@@ -25,7 +26,7 @@ target 'iphoneCom' do
   
   
   pod 'YDSwift', :path => '../Module/YDSwift/YDSwift.podspec'
-  pod 'YDLearn', :path => '../Module/YDLearn/YDLearn.podspec'
+#  pod 'YDLearn', :path => '../Module/YDLearn/YDLearn.podspec'
   
 end
 

@@ -18,5 +18,9 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "YDSwift/Classes/**/*"
+  "source_files": "YDSwift/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }

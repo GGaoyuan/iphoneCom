@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import Kingfisher
 import YDSwift
-import YDLearn
+//import YDLearn
 
 
 
@@ -43,6 +43,6 @@ class YDHomeViewController: YDViewController {
 
 extension YDHomeViewController {
     func dpEntrance() {
-        DPEntrance.statusPattern()
+//        DPEntrance.statusPattern()
     }
 }

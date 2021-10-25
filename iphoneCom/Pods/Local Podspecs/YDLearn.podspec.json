@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "YDLearn/Classes/**/*"
+  "source_files": [
+    "*.{h,m}",
+    "**/*.{h,m}",
+    "*.swift"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }
