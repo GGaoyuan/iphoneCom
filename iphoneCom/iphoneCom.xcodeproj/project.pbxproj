@@ -161,14 +161,6 @@
 			path = KingFisher;
 			sourceTree = "<group>";
 		};
-		30776BA2265E8686008AABFC /* Learn */ = {
-			isa = PBXGroup;
-			children = (
-				302FF976268EB81900B9E75D /* KingFisher */,
-			);
-			path = Learn;
-			sourceTree = "<group>";
-		};
 		30776BD0265E9332008AABFC /* Mine */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,7 +245,7 @@
 		30DA66FF25908092008BE5F3 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
-				30776BA2265E8686008AABFC /* Learn */,
+				302FF976268EB81900B9E75D /* KingFisher */,
 				30DA675A25908194008BE5F3 /* YD */,
 				30DA6747259080DC008BE5F3 /* Classes */,
 				30DA670025908092008BE5F3 /* AppDelegate.h */,
