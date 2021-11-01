@@ -34,6 +34,7 @@ class YDHomeViewController: YDViewController {
         imageView.kf.setImage(with: URL(string: url))
         
         dpEntrance()
+        ltEntrance()
     }
     
     
@@ -41,8 +42,7 @@ class YDHomeViewController: YDViewController {
 
 extension YDHomeViewController {
     func ltEntrance() {
-        
-//        DPEntrance.statusPattern()
+        LTEntrance.solution()
     }
 }
 
