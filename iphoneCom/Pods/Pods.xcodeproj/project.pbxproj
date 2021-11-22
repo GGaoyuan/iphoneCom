@@ -10,6 +10,7 @@
 		3026B7AB272A816B005B8B17 /* LT_1_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3026B7AA272A816A005B8B17 /* LT_1_TwoSum.swift */; };
 		3026B7AD272A87A6005B8B17 /* LT_2_AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3026B7AC272A87A6005B8B17 /* LT_2_AddTwoNumbers.swift */; };
 		3026B7AF272AB20B005B8B17 /* LT_3_LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3026B7AE272AB20B005B8B17 /* LT_3_LengthOfLongestSubstring.swift */; };
+		3027B143274B725D00C5BC18 /* LT_5_LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3027B142274B725D00C5BC18 /* LT_5_LongestPalindrome.swift */; };
 		30399F062726A82400474787 /* LTEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30399F052726A82400474787 /* LTEntrance.swift */; };
 		46EB2E00000D20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D10 /* Foundation.framework */; };
 		46EB2E00000D30 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* AFError.swift */; };
@@ -266,6 +267,7 @@
 		3026B7AA272A816A005B8B17 /* LT_1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LT_1_TwoSum.swift; sourceTree = "<group>"; };
 		3026B7AC272A87A6005B8B17 /* LT_2_AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LT_2_AddTwoNumbers.swift; sourceTree = "<group>"; };
 		3026B7AE272AB20B005B8B17 /* LT_3_LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LT_3_LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
+		3027B142274B725D00C5BC18 /* LT_5_LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LT_5_LongestPalindrome.swift; sourceTree = "<group>"; };
 		30399F052726A82400474787 /* LTEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTEntrance.swift; sourceTree = "<group>"; };
 		46EB2E00000110 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E00000120 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
@@ -588,6 +590,7 @@
 				3026B7AA272A816A005B8B17 /* LT_1_TwoSum.swift */,
 				3026B7AC272A87A6005B8B17 /* LT_2_AddTwoNumbers.swift */,
 				3026B7AE272AB20B005B8B17 /* LT_3_LengthOfLongestSubstring.swift */,
+				3027B142274B725D00C5BC18 /* LT_5_LongestPalindrome.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -1526,6 +1529,7 @@
 				3026B7AD272A87A6005B8B17 /* LT_2_AddTwoNumbers.swift in Sources */,
 				30399F062726A82400474787 /* LTEntrance.swift in Sources */,
 				3026B7AB272A816B005B8B17 /* LT_1_TwoSum.swift in Sources */,
+				3027B143274B725D00C5BC18 /* LT_5_LongestPalindrome.swift in Sources */,
 				46EB2E00001D00 /* YDLearn-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
