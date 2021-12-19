@@ -33,11 +33,26 @@ class YDHomeViewController: YDViewController {
         }
         imageView.kf.setImage(with: URL(string: url))
         
+        
+        let btn : UIButton = {
+            let button = UIButton()
+            button.backgroundColor = .red
+            button.addTarget(self, action: #selector(btnAction), for: .touchUpInside)
+            view.addSubview(button)
+            return button
+        }()
+        btn.snp.makeConstraints { m in
+            m.size.equalTo(CGSize(width: 50, height: 50))
+            m.left.top.equalTo(200)
+        }
+        
         dpEntrance()
         ltEntrance()
     }
     
-    
+    @objc func btnAction() {
+        print("111")
+    }
 }
 
 extension YDHomeViewController {
