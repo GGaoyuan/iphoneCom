@@ -1,58 +1,28 @@
 PODS:
   - Alamofire (5.4.4)
-  - Flutter (1.0.0)
-  - flutter_module (0.0.1):
-    - Flutter
-  - FlutterPluginRegistrant (0.0.1):
-    - Flutter
   - HandyJSON (5.0.2)
   - Kingfisher (6.3.0)
   - SnapKit (5.0.1)
-  - YDLearn (0.1.0):
-    - YDSwift
-  - YDSwift (0.1.1)
 
 DEPENDENCIES:
   - Alamofire
-  - Flutter (from `iphoneCom/Flutter/flutter_module/.ios/Flutter/engine`)
-  - flutter_module (from `iphoneCom/Flutter/flutter_module/.ios/Flutter`)
-  - FlutterPluginRegistrant (from `iphoneCom/Flutter/flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
   - HandyJSON
   - Kingfisher
   - SnapKit
-  - YDLearn (from `../Module/YDLearn/YDLearn.podspec`)
-  - YDSwift (from `../Module/YDSwift/YDSwift.podspec`)
 
 SPEC REPOS:
-  trunk:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - Alamofire
     - HandyJSON
     - Kingfisher
     - SnapKit
 
-EXTERNAL SOURCES:
-  Flutter:
-    :path: iphoneCom/Flutter/flutter_module/.ios/Flutter/engine
-  flutter_module:
-    :path: iphoneCom/Flutter/flutter_module/.ios/Flutter
-  FlutterPluginRegistrant:
-    :path: iphoneCom/Flutter/flutter_module/.ios/Flutter/FlutterPluginRegistrant
-  YDLearn:
-    :path: "../Module/YDLearn/YDLearn.podspec"
-  YDSwift:
-    :path: "../Module/YDSwift/YDSwift.podspec"
-
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
-  Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
-  flutter_module: d1e1ff44505640bd9aa37f23f63380c646272be4
-  FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
-  YDLearn: 47a19229dfcc46afaacf2375b1cc0fe129c46ce3
-  YDSwift: 8dd3443ccfb871b7d54172ba160082115147c07b
 
-PODFILE CHECKSUM: d0b14a5cca3983f3868c4658ccbf00e80c671875
+PODFILE CHECKSUM: 4f33012d7e821b56714144bdb3e4475d720a1cef
 
 COCOAPODS: 1.11.2

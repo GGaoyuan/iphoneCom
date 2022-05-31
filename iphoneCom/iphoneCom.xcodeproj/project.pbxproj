@@ -36,6 +36,12 @@
 		30DA671D25908094008BE5F3 /* iphoneComTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA671C25908094008BE5F3 /* iphoneComTests.m */; };
 		30DA672825908094008BE5F3 /* iphoneComUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA672725908094008BE5F3 /* iphoneComUITests.m */; };
 		30DA676725908194008BE5F3 /* TestResource_JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 30DA675925908194008BE5F3 /* TestResource_JSON.json */; };
+		3AD39CA32845B87E005CE9B7 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD39CA22845B87E005CE9B7 /* NSObject+Extension.swift */; };
+		3AD39CA52845B8A5005CE9B7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD39CA42845B8A5005CE9B7 /* String+Extension.swift */; };
+		3AD39CA72845B8C6005CE9B7 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD39CA62845B8C6005CE9B7 /* UIImage+Extension.swift */; };
+		3AD39CA92845B8E0005CE9B7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD39CA82845B8E0005CE9B7 /* UIView+Extension.swift */; };
+		3AD39CAC2845B932005CE9B7 /* YDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD39CAB2845B932005CE9B7 /* YDConstant.swift */; };
+		3AD39CAE2845B965005CE9B7 /* YDGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD39CAD2845B965005CE9B7 /* YDGlobal.swift */; };
 		BD6840DD6E4237EDB8F01ED2 /* Pods_iphoneCom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA896AFCC72A36F5DA92636 /* Pods_iphoneCom.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +101,12 @@
 		30DA672925908094008BE5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30DA6741259080B2008BE5F3 /* iphoneCom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iphoneCom-Bridging-Header.h"; sourceTree = "<group>"; };
 		30DA675925908194008BE5F3 /* TestResource_JSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestResource_JSON.json; sourceTree = "<group>"; };
+		3AD39CA22845B87E005CE9B7 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		3AD39CA42845B8A5005CE9B7 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		3AD39CA62845B8C6005CE9B7 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		3AD39CA82845B8E0005CE9B7 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3AD39CAB2845B932005CE9B7 /* YDConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDConstant.swift; sourceTree = "<group>"; };
+		3AD39CAD2845B965005CE9B7 /* YDGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDGlobal.swift; sourceTree = "<group>"; };
 		9BA896AFCC72A36F5DA92636 /* Pods_iphoneCom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iphoneCom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9023C3DE798CAF66B089250 /* Pods-iphoneCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphoneCom.debug.xcconfig"; path = "Target Support Files/Pods-iphoneCom/Pods-iphoneCom.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,13 +162,6 @@
 				307CBD82266F12EB00E7CD46 /* 登录 */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		301CB004276DE9F30045E535 /* Flutter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Flutter;
 			sourceTree = "<group>";
 		};
 		302FF976268EB81900B9E75D /* KingFisher */ = {
@@ -252,12 +257,11 @@
 		30DA66FF25908092008BE5F3 /* iphoneCom */ = {
 			isa = PBXGroup;
 			children = (
-				301CB004276DE9F30045E535 /* Flutter */,
-				30DA675A25908194008BE5F3 /* YD */,
+				3AD39CAF2845BA71005CE9B7 /* Resource */,
+				30DA675A25908194008BE5F3 /* YDFoundation */,
 				30DA6747259080DC008BE5F3 /* Classes */,
 				30DA670025908092008BE5F3 /* AppDelegate.h */,
 				30DA670125908092008BE5F3 /* AppDelegate.m */,
-				30DA675925908194008BE5F3 /* TestResource_JSON.json */,
 				30DA670C25908094008BE5F3 /* Assets.xcassets */,
 				30DA670E25908094008BE5F3 /* LaunchScreen.storyboard */,
 				30DA671125908094008BE5F3 /* Info.plist */,
@@ -297,13 +301,43 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		30DA675A25908194008BE5F3 /* YD */ = {
+		30DA675A25908194008BE5F3 /* YDFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				3AD39CAA2845B910005CE9B7 /* Omi */,
+				3AD39CA12845B843005CE9B7 /* Extension */,
+				30124DB5266E086C0016C1FC /* Request */,
+				3AD39CAB2845B932005CE9B7 /* YDConstant.swift */,
+				3AD39CAD2845B965005CE9B7 /* YDGlobal.swift */,
+			);
+			path = YDFoundation;
+			sourceTree = "<group>";
+		};
+		3AD39CA12845B843005CE9B7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3AD39CA22845B87E005CE9B7 /* NSObject+Extension.swift */,
+				3AD39CA42845B8A5005CE9B7 /* String+Extension.swift */,
+				3AD39CA62845B8C6005CE9B7 /* UIImage+Extension.swift */,
+				3AD39CA82845B8E0005CE9B7 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3AD39CAA2845B910005CE9B7 /* Omi */ = {
 			isa = PBXGroup;
 			children = (
 				302FF976268EB81900B9E75D /* KingFisher */,
-				30124DB5266E086C0016C1FC /* Request */,
 			);
-			path = YD;
+			path = Omi;
+			sourceTree = "<group>";
+		};
+		3AD39CAF2845BA71005CE9B7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				30DA675925908194008BE5F3 /* TestResource_JSON.json */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		DDD32383D545707924576A85 /* Pods */ = {
@@ -323,7 +357,6 @@
 			buildConfigurationList = 30DA672C25908094008BE5F3 /* Build configuration list for PBXNativeTarget "iphoneCom" */;
 			buildPhases = (
 				11ECCA880CCBB62A221CE0C1 /* [CP] Check Pods Manifest.lock */,
-				1AE79FD4EE07AE6BFA3CAB41 /* [CP-User] Run Flutter Build flutter_module Script */,
 				30DA66F925908092008BE5F3 /* Sources */,
 				30DA66FA25908092008BE5F3 /* Frameworks */,
 				30DA66FB25908092008BE5F3 /* Resources */,
@@ -470,16 +503,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1AE79FD4EE07AE6BFA3CAB41 /* [CP-User] Run Flutter Build flutter_module Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Run Flutter Build flutter_module Script";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/iphoneCom/Flutter/flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
-		};
 		234C2014C30B9CDB771DB298 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,17 +536,23 @@
 				30776BC8265E92A9008AABFC /* YDNavigationController.swift in Sources */,
 				30DA670225908092008BE5F3 /* AppDelegate.m in Sources */,
 				30DA671325908094008BE5F3 /* main.m in Sources */,
+				3AD39CA72845B8C6005CE9B7 /* UIImage+Extension.swift in Sources */,
 				30124DC0266E0A5F0016C1FC /* YDRequestConstant.swift in Sources */,
+				3AD39CAE2845B965005CE9B7 /* YDGlobal.swift in Sources */,
+				3AD39CAC2845B932005CE9B7 /* YDConstant.swift in Sources */,
 				30776BC3265E8FE2008AABFC /* YDUserSession.swift in Sources */,
 				307CBD43266E7F5B00E7CD46 /* YDRetrievePwdCheckingViewController.swift in Sources */,
+				3AD39CA52845B8A5005CE9B7 /* String+Extension.swift in Sources */,
 				30776BD9265E941F008AABFC /* YDViewController.swift in Sources */,
 				307CBD6D266F0DF300E7CD46 /* YDRetrievePwdCheckingContentView.swift in Sources */,
 				30776BDE265E983B008AABFC /* YDHomeViewController.swift in Sources */,
 				30124DD6266E1B1C0016C1FC /* YDRequestConfig.swift in Sources */,
+				3AD39CA92845B8E0005CE9B7 /* UIView+Extension.swift in Sources */,
 				305AA54426900B34005304E7 /* UIImageView+KingFisher.swift in Sources */,
 				3041D6AF265EA85F00D03ECD /* YDUserInfo.swift in Sources */,
 				30776BBE265E8F40008AABFC /* YDTabBarController.swift in Sources */,
 				30776BE6265E9855008AABFC /* YDMineViewController.swift in Sources */,
+				3AD39CA32845B87E005CE9B7 /* NSObject+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,7 +721,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZSW5D827N7;
 				INFOPLIST_FILE = iphoneCom/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -716,7 +745,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZSW5D827N7;
 				INFOPLIST_FILE = iphoneCom/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

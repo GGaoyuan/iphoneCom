@@ -1,6 +1,0 @@
-framework module YDSwift {
-  umbrella header "YDSwift-umbrella.h"
-
-  export *
-  module * { export * }
-}

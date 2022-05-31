@@ -8,8 +8,8 @@
 import UIKit
 import SnapKit
 import Kingfisher
-import YDSwift
-import YDLearn
+//import YDSwift
+//import YDLearn
 
 let Height: CGFloat = 36
 let Space: CGFloat = 20
@@ -57,7 +57,7 @@ class YDHomeViewController: YDViewController {
 
 extension YDHomeViewController {
     func ltEntrance() {
-        LTEntrance.solution()
+//        LTEntrance.solution()
     }
 }
 
