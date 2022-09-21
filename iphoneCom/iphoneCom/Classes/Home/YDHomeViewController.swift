@@ -49,6 +49,9 @@ class YDHomeViewController: YDViewController {
          </ul>
          */
         
+        
+        
+        
         let html = "<div style=\"text-align: left;\"><font size=\"20\" style=\"color: rgb(255, 0, 0);\">gggggggggggggggggggggggggggggggggggggggggggg</font></div>"
         //<div style="text-align: center;"><font size="1" style="color: rgb(255, 0, 0);font-family: xxxx;">gg</font></div>
         
