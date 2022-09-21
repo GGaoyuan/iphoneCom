@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E8022D22FAA6690B5E1C379C1BCE1491"
-               BuildableName = "Kingfisher.framework"
-               BlueprintName = "Kingfisher"
+               BlueprintIdentifier = "4CE4300C2EEA140B41D662E299459FEB"
+               BuildableName = "MKNetworkKit.framework"
+               BlueprintName = "MKNetworkKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -2,15 +2,22 @@ PODS:
   - Alamofire (5.4.4)
   - HandyJSON (5.0.2)
   - Kingfisher (6.3.0)
+  - MKNetworkKit (0.87):
+    - Reachability (~> 3.1.0)
+  - Reachability (3.1.1)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - Alamofire
   - HandyJSON
   - Kingfisher
+  - MKNetworkKit
   - SnapKit
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MKNetworkKit
+    - Reachability
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - Alamofire
     - HandyJSON
@@ -21,8 +28,10 @@ SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  MKNetworkKit: 60ad3c83b62183e40ba75ce772c9427c25b520de
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 4f33012d7e821b56714144bdb3e4475d720a1cef
+PODFILE CHECKSUM: c8ee08549cec38f6a7594214ab2f19b5bde72286
 
 COCOAPODS: 1.11.2

@@ -17,6 +17,7 @@ target 'iphoneCom' do
   pod 'HandyJSON'
   pod 'Kingfisher' # 图片加载
   pod 'SnapKit'
+  pod 'MKNetworkKit'
   
 #  pod 'KVOController' #安全KVO
 #  pod 'FMDB'
