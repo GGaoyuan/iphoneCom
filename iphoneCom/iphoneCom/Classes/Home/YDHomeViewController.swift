@@ -25,6 +25,8 @@ class YDHomeViewController: YDViewController {
         super.viewDidLoad()
         
         
+        
+        
 //        let b = UIColor.RGBValue("#FFB400")
         let aaa = ""
         
